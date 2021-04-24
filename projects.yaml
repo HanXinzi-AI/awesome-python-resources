@@ -1,0 +1,4926 @@
+configuration:
+  markdown_header_file: "config/header.md"
+  markdown_footer_file: "config/footer.md"
+  hide_empty_categories: True
+    
+categories:
+  - category: "Admin Panels"
+    title: "Admin Panels"
+    subtitle: "Libraries for administrative interfaces."
+  - category: "Algorithms and Design Patterns"
+    title: "Algorithms and Design Patterns"
+    subtitle: "Python implementation of data structures, algorithms and design patterns."
+  - category: "ASGI Servers"
+    title: "ASGI Servers"
+    subtitle: "compatible web servers."
+  - category: "Asynchronous Programming"
+    title: "Asynchronous Programming"
+    subtitle: "Asynchronous I/O, event loop, coroutines and tasks."
+  - category: "Audio"
+    title: "Audio"
+    subtitle: "Libraries for manipulating audio and its metadata."
+  - category: "Authentication"
+    title: "Authentication"
+    subtitle: "Libraries for implementing authentications schemes."
+  - category: "Build Tools"
+    title: "Build Tools"
+    subtitle: "Compile software from source code."
+  - category: "Built-in Classes Enhancement"
+    title: "Built-in Classes Enhancement"
+    subtitle: "Libraries for enhancing Python built-in classes."
+  - category: "CMS"
+    title: "CMS"
+    subtitle: "Content Management Systems."
+  - category: "Caching"
+    title: "Caching"
+    subtitle: "Libraries for caching data."
+  - category: "ChatOps Tools"
+    title: "ChatOps Tools"
+    subtitle: "Libraries for chatbot development."
+  - category: "Code Analysis"
+    title: "Code Analysis"
+    subtitle: "Tools of static analysis, linters and code quality checkers."
+  - category: "Command-line Interface Development"
+    title: "Command-line Interface Development"
+    subtitle: "Libraries for building command-line applications."
+  - category: "Command-line Tools"
+    title: "Command-line Tools"
+    subtitle: "Useful CLI-based tools for productivity."
+  - category: "Compatibility"
+    title: "Compatibility"
+    subtitle: "Libraries for migrating from Python 2 to 3."
+  - category: "Computer Vision"
+    title: "Computer Vision"
+    subtitle: "Libraries for Computer Vision."
+  - category: "Concurrency and Parallelism"
+    title: "Concurrency and Parallelism"
+    subtitle: "Libraries for concurrent and parallel execution."
+  - category: "Configuration"
+    title: "Configuration"
+    subtitle: "Libraries for storing and parsing configuration options."
+  - category: "Cryptography"
+    title: "Cryptography"
+    subtitle: "Libraries for Cryptography."
+  - category: "Data Analysis"
+    title: "Data Analysis"
+    subtitle: "Libraries for data analyzing."
+  - category: "Data Validation"
+    title: "Data Validation"
+    subtitle: "Libraries for validating data. Used for forms in many cases."
+  - category: "Data Visualization"
+    title: "Data Visualization"
+    subtitle: "Libraries for visualizing data."
+  - category: "Database"
+    title: "Database"
+    subtitle: "Databases implemented in Python."
+  - category: "Database Drivers"
+    title: "Database Drivers"
+    subtitle: "Libraries for connecting and operating databases."
+  - category: "Date and Time"
+    title: "Date and Time"
+    subtitle: "Libraries for working with dates and times."
+  - category: "Debugging Tools"
+    title: "Debugging Tools"
+    subtitle: "Libraries for debugging code."
+  - category: "Deep Learning"
+    title: "Deep Learning"
+    subtitle: "Frameworks for Neural Networks and Deep Learning."
+  - category: "DevOps Tools"
+    title: "DevOps Tools"
+    subtitle: "Software and libraries for DevOps."
+  - category: "Distributed Computing"
+    title: "Distributed Computing"
+    subtitle: "Frameworks and libraries for Distributed Computing."
+  - category: "Distribution"
+    title: "Distribution"
+    subtitle: "Libraries to create packaged executables for release distribution."
+  - category: "Documentation"
+    title: "Documentation"
+    subtitle: "Libraries for generating project documentation."
+  - category: "Downloader"
+    title: "Downloader"
+    subtitle: "Libraries for downloading."
+  - category: "E-commerce"
+    title: "E-commerce"
+    subtitle: "Frameworks and libraries for e-commerce and payments."
+  - category: "Editor Plugins and IDEs"
+    title: "Editor Plugins and IDEs"
+    subtitle: "Editor Plugins and IDEs"
+  - category: "Email"
+    title: "Email"
+    subtitle: "Libraries for sending and parsing email."
+  - category: "Enterprise Application Integrations"
+    title: "Enterprise Application Integrations"
+    subtitle: "Platforms and tools for systems integrations in enterprise environments"
+  - category: "Environment Management"
+    title: "Environment Management"
+    subtitle: "Libraries for Python version and virtual environment management."
+  - category: "Files"
+    title: "Files"
+    subtitle: "Libraries for file manipulation and MIME type detection."
+  - category: "Foreign Function Interface"
+    title: "Foreign Function Interface"
+    subtitle: "Libraries for providing foreign function interface."
+  - category: "Forms"
+    title: "Forms"
+    subtitle: "Libraries for working with forms."
+  - category: "Functional Programming"
+    title: "Functional Programming"
+    subtitle: "Functional Programming with Python."
+  - category: "GUI Development"
+    title: "GUI Development"
+    subtitle: "Libraries for working with graphical user interface applications."
+  - category: "GraphQL"
+    title: "GraphQL"
+    subtitle: "Libraries for working with GraphQL."
+  - category: "Game Development"
+    title: "Game Development"
+    subtitle: "Awesome game development libraries."
+  - category: "Geolocation"
+    title: "Geolocation"
+    subtitle: "Libraries for geocoding addresses and working with latitudes and longitudes."
+  - category: "HTML Manipulation"
+    title: "HTML Manipulation"
+    subtitle: "Libraries for working with HTML and XML."
+  - category: "HTTP Clients"
+    title: "HTTP Clients"
+    subtitle: "Libraries for working with HTTP."
+  - category: "Hardware"
+    title: "Hardware"
+    subtitle: "Libraries for programming with hardware."
+  - category: "Image Processing"
+    title: "Image Processing"
+    subtitle: "Libraries for manipulating images."
+  - category: "Implementations"
+    title: "Implementations"
+    subtitle: "Implementations of Python."
+  - category: "Interactive Interpreter"
+    title: "Interactive Interpreter"
+    subtitle: "Interactive Python interpreters (REPL)."
+  - category: "Internationalization"
+    title: "Internationalization"
+    subtitle: "Libraries for working with i18n."
+  - category: "Job Scheduler"
+    title: "Job Scheduler"
+    subtitle: "Libraries for scheduling jobs."
+  - category: "Logging"
+    title: "Logging"
+    subtitle: "Libraries for generating and working with logs."
+  - category: "Machine Learning"
+    title: "Machine Learning"
+    subtitle: "Libraries for Machine Learning."
+  - category: "Microsoft Windows"
+    title: "Microsoft Windows"
+    subtitle: "Python programming on Microsoft Windows."
+  - category: "Miscellaneous"
+    title: "Miscellaneous"
+    subtitle: "Useful libraries or tools that don't fit in the categories above."
+  - category: "Natural Language Processing"
+    title: "Natural Language Processing"
+    subtitle: "Libraries for working with human languages."
+  - category: "Network Virtualization"
+    title: "Network Virtualization"
+    subtitle: "Tools and libraries for Virtual Networking and SDN (Software Defined Networking)."
+  - category: "News Feed"
+    title: "News Feed"
+    subtitle: "Libraries for building user's activities."
+  - category: "ORM"
+    title: "ORM"
+    subtitle: "Libraries that implement Object-Relational Mapping or data mapping techniques."
+  - category: "Package Management"
+    title: "Package Management"
+    subtitle: "Libraries for package and dependency management."
+  - category: "Package Repositories"
+    title: "Package Repositories"
+    subtitle: "Local PyPI repository server and proxies."
+  - category: "Penetration Testing"
+    title: "Penetration Testing"
+    subtitle: "Frameworks and tools for penetration testing."
+  - category: "Permissions"
+    title: "Permissions"
+    subtitle: "Libraries that allow or deny users access to data or functionality."
+  - category: "Processes"
+    title: "Processes"
+    subtitle: "Libraries for starting and communicating with OS processes."
+  - category: "Recommender Systems"
+    title: "Recommender Systems"
+    subtitle: "Libraries for building recommender systems."
+  - category: "Refactoring"
+    title: "Refactoring"
+    subtitle: "Refactoring tools and libraries for Python"
+  - category: "RESTful API"
+    title: "RESTful API"
+    subtitle: "Libraries for building RESTful APIs."
+  - category: "Robotics"
+    title: "Robotics"
+    subtitle: "Libraries for robotics."
+  - category: "RPC Servers"
+    title: "RPC Servers"
+    subtitle: "RPC-compatible servers."
+  - category: "Science"
+    title: "Science"
+    subtitle: "Libraries for scientific computing."
+  - category: "Search"
+    title: "Search"
+    subtitle: "Libraries and software for indexing and performing search queries on data."
+  - category: "Serialization"
+    title: "Serialization"
+    subtitle: "Libraries for serializing complex data types"
+  - category: "Serverless Frameworks"
+    title: "Serverless Frameworks"
+    subtitle: "Frameworks for developing serverless Python code."
+  - category: "Shell"
+    title: "Shell"
+    subtitle: "Shells based on Python."
+  - category: "Specific Formats Processing"
+    title: "Specific Formats Processing"
+    subtitle: "Libraries for parsing and manipulating specific text formats."
+  - category: "Static Site Generator"
+    title: "Static Site Generator"
+    subtitle: "Static site generator is a software that takes some text + templates as input and produces HTML files on the output."
+  - category: "Tagging"
+    title: "Tagging"
+    subtitle: "Libraries for tagging items."
+  - category: "Task Queues"
+    title: "Task Queues"
+    subtitle: "Libraries for working with task queues."
+  - category: "Template Engine"
+    title: "Template Engine"
+    subtitle: "Libraries and tools for templating and lexing."
+  - category: "Testing"
+    title: "Testing"
+    subtitle: "Libraries for testing codebases and generating test data."
+  - category: "Text Processing"
+    title: "Text Processing"
+    subtitle: "Libraries for parsing and manipulating plain texts."
+  - category: "Third-party APIs"
+    title: "Third-party APIs"
+    subtitle: "Libraries for accessing third party services APIs."
+  - category: "URL Manipulation"
+    title: "URL Manipulation"
+    subtitle: "Libraries for parsing URLs."
+  - category: "Video"
+    title: "Video"
+    subtitle: "Libraries for manipulating video and GIFs."
+  - category: "Web Asset Management"
+    title: "Web Asset Management"
+    subtitle: "Tools for managing, compressing and minifying website assets."
+  - category: "Web Content Extracting"
+    title: "Web Content Extracting"
+    subtitle: "Libraries for extracting web contents."
+  - category: "Web Crawling"
+    title: "Web Crawling"
+    subtitle: "Libraries to automate web scraping."
+  - category: "Web Frameworks"
+    title: "Web Frameworks"
+    subtitle: "Traditional full stack web frameworks."
+  - category: "WebSocket"
+    title: "WebSocket"
+    subtitle: "Libraries for working with WebSocket."
+  - category: "WSGI Servers"
+    title: "WSGI Servers"
+    subtitle: "WSGI-compatible web servers."
+
+projects:
+  - name: "ajenti"
+    description: "The admin panel your servers deserve."
+    category: "Admin Panels"
+    github_id: ajenti/ajenti
+    pypi_id: ajenti
+    conda_id: conda-forge/ajenti
+    show: True
+  - name: "django-grappelli"
+    description: "A jazzy skin for the Django Admin-Interface."
+    category: "Admin Panels"
+    resource: True
+    homepage: https://grappelliproject.com/
+    show: True
+  - name: "django-jet"
+    description: "Modern responsive template for the Django admin interface with improved functionality."
+    category: "Admin Panels"
+    github_id: geex-arts/django-jet
+    pypi_id: django-jet
+    conda_id: conda-forge/django-jet
+    show: True
+  - name: "django-suit"
+    description: "Alternative Django Admin-Interface (free only for Non-commercial use)."
+    category: "Admin Panels"
+    resource: True
+    homepage: https://djangosuit.com/
+    show: True
+  - name: "django-xadmin"
+    description: "Drop-in replacement of Django admin comes with lots of goodies."
+    category: "Admin Panels"
+    github_id: sshwsfc/xadmin
+    pypi_id: xadmin
+    conda_id: conda-forge/xadmin
+    show: True
+  - name: "flask-admin"
+    description: "Simple and extensible administrative interface framework for Flask."
+    category: "Admin Panels"
+    github_id: flask-admin/flask-admin
+    pypi_id: flask-admin
+    conda_id: conda-forge/flask-admin
+    show: True
+  - name: "flower"
+    description: "Real-time monitor and web admin for Celery."
+    category: "Admin Panels"
+    github_id: mher/flower
+    pypi_id: flower
+    conda_id: conda-forge/flower
+    show: True
+  - name: "jet-bridge"
+    description: "Admin panel framework for any application with nice UI (ex Jet Django)"
+    category: "Admin Panels"
+    github_id: jet-admin/jet-bridge
+    pypi_id: jet-bridge
+    conda_id: conda-forge/jet-bridge
+    show: True
+  - name: "wooey"
+    description: "A Django app which creates automatic web UIs for Python scripts."
+    category: "Admin Panels"
+    github_id: wooey/wooey
+    pypi_id: wooey
+    conda_id: conda-forge/wooey
+    show: True
+  - name: "algorithms"
+    description: "Minimal examples of data structures and algorithms."
+    category: "Algorithms and Design Patterns"
+    github_id: keon/algorithms
+    pypi_id: algorithms
+    conda_id: conda-forge/algorithms
+    show: True
+  - name: "python-ds"
+    description: "A collection of data structure and algorithms for coding interviews."
+    category: "Algorithms and Design Patterns"
+    github_id: prabhupant/python-ds
+    pypi_id: python-ds
+    conda_id: conda-forge/python-ds
+    show: True
+  - name: "sortedcontainers"
+    description: "Fast and pure-Python implementation of sorted collections."
+    category: "Algorithms and Design Patterns"
+    github_id: grantjenks/python-sortedcontainers
+    pypi_id: python-sortedcontainers
+    conda_id: conda-forge/python-sortedcontainers
+    show: True
+  - name: "TheAlgorithms"
+    description: "All Algorithms implemented in Python."
+    category: "Algorithms and Design Patterns"
+    github_id: TheAlgorithms/Python
+    pypi_id: Python
+    conda_id: conda-forge/Python
+    show: True
+  - name: "PyPattyrn"
+    description: "A simple yet effective library for implementing common design patterns."
+    category: "Algorithms and Design Patterns"
+    github_id: tylerlaberge/PyPattyrn
+    pypi_id: PyPattyrn
+    conda_id: conda-forge/PyPattyrn
+    show: True
+  - name: "python-patterns"
+    description: "A collection of design patterns in Python."
+    category: "Algorithms and Design Patterns"
+    github_id: faif/python-patterns
+    pypi_id: python-patterns
+    conda_id: conda-forge/python-patterns
+    show: True
+  - name: "transitions"
+    description: "A lightweight, object-oriented finite state machine implementation."
+    category: "Algorithms and Design Patterns"
+    github_id: pytransitions/transitions
+    pypi_id: transitions
+    conda_id: conda-forge/transitions
+    show: True
+  - name: "daphne"
+    description: "A HTTP, HTTP2 and WebSocket protocol server for ASGI and ASGI-HTTP."
+    category: "ASGI Servers"
+    github_id: django/daphne
+    pypi_id: daphne
+    conda_id: conda-forge/daphne
+    show: True
+  - name: "uvicorn"
+    description: "A lightning-fast ASGI server implementation, using uvloop and httptools."
+    category: "ASGI Servers"
+    github_id: encode/uvicorn
+    pypi_id: uvicorn
+    conda_id: conda-forge/uvicorn
+    show: True
+  - name: "awesome-asyncio"
+    category: "Asynchronous Programming"
+    resource: True
+    github_id: timofurrer/awesome-asyncio
+    show: True
+  - name: "trio"
+    description: "A friendly library for async concurrency and I/O."
+    category: "Asynchronous Programming"
+    github_id: python-trio/trio
+    pypi_id: trio
+    conda_id: conda-forge/trio
+    show: True
+  - name: "Twisted"
+    description: "An event-driven networking engine."
+    category: "Asynchronous Programming"
+    resource: True
+    homepage: https://twistedmatrix.com/trac/
+    show: True
+  - name: "uvloop"
+    description: "Ultra fast asyncio event loop."
+    category: "Asynchronous Programming"
+    github_id: MagicStack/uvloop
+    pypi_id: uvloop
+    conda_id: conda-forge/uvloop
+    show: True
+  - name: "audioread"
+    description: "Cross-library (GStreamer + Core Audio + MAD + FFmpeg) audio decoding."
+    category: "Audio"
+    github_id: beetbox/audioread
+    pypi_id: audioread
+    conda_id: conda-forge/audioread
+    show: True
+  - name: "dejavu"
+    description: "Audio fingerprinting and recognition."
+    category: "Audio"
+    github_id: worldveil/dejavu
+    pypi_id: dejavu
+    conda_id: conda-forge/dejavu
+    show: True
+  - name: "kapre"
+    description: "Keras Audio Preprocessors"
+    category: "Audio"
+    github_id: keunwoochoi/kapre
+    pypi_id: kapre
+    conda_id: conda-forge/kapre
+    show: True
+  - name: "librosa"
+    description: "Python library for audio and music analysis"
+    category: "Audio"
+    github_id: librosa/librosa
+    pypi_id: librosa
+    conda_id: conda-forge/librosa
+    show: True
+  - name: "matchering"
+    description: "A library for automated reference audio mastering."
+    category: "Audio"
+    github_id: sergree/matchering
+    pypi_id: matchering
+    conda_id: conda-forge/matchering
+    show: True
+  - name: "mingus"
+    description: "An advanced music theory and notation package with MIDI file and playback support."
+    category: "Audio"
+    resource: True
+    homepage: http://bspaans.github.io/python-mingus/
+    show: True
+  - name: "pyAudioAnalysis"
+    description: "Audio feature extraction, classification, segmentation and applications."
+    category: "Audio"
+    github_id: tyiannak/pyAudioAnalysis
+    pypi_id: pyAudioAnalysis
+    conda_id: conda-forge/pyAudioAnalysis
+    show: True
+  - name: "pydub"
+    description: "Manipulate audio with a simple and easy high level interface."
+    category: "Audio"
+    github_id: jiaaro/pydub
+    pypi_id: pydub
+    conda_id: conda-forge/pydub
+    show: True
+  - name: "TimeSide"
+    description: "Open web audio processing framework."
+    category: "Audio"
+    github_id: Parisson/TimeSide
+    pypi_id: TimeSide
+    conda_id: conda-forge/TimeSide
+    show: True
+  - name: "beets"
+    description: "A music library manager and [MusicBrainz](https://musicbrainz.org/) tagger."
+    category: "Audio"
+    github_id: beetbox/beets
+    pypi_id: beets
+    conda_id: conda-forge/beets
+    show: True
+  - name: "eyeD3"
+    description: "A tool for working with audio files, specifically MP3 files containing ID3 metadata."
+    category: "Audio"
+    github_id: nicfit/eyeD3
+    pypi_id: eyeD3
+    conda_id: conda-forge/eyeD3
+    show: True
+  - name: "mutagen"
+    description: "A Python module to handle audio metadata."
+    category: "Audio"
+    github_id: quodlibet/mutagen
+    pypi_id: mutagen
+    conda_id: conda-forge/mutagen
+    show: True
+  - name: "tinytag"
+    description: "A library for reading music meta data of MP3, OGG, FLAC and Wave files."
+    category: "Audio"
+    github_id: devsnd/tinytag
+    pypi_id: tinytag
+    conda_id: conda-forge/tinytag
+    show: True
+  - name: "authlib"
+    description: "JavaScript Object Signing and Encryption draft implementation."
+    category: "Authentication"
+    github_id: lepture/authlib
+    pypi_id: authlib
+    conda_id: conda-forge/authlib
+    show: True
+  - name: "django-allauth"
+    description: "Authentication app for Django that just works."
+    category: "Authentication"
+    github_id: pennersr/django-allauth
+    pypi_id: django-allauth
+    conda_id: conda-forge/django-allauth
+    show: True
+  - name: "django-oauth-toolkit"
+    description: "OAuth 2 goodies for Django."
+    category: "Authentication"
+    github_id: evonove/django-oauth-toolkit
+    pypi_id: django-oauth-toolkit
+    conda_id: conda-forge/django-oauth-toolkit
+    show: True
+  - name: "oauthlib"
+    description: "A generic and thorough implementation of the OAuth request-signing logic."
+    category: "Authentication"
+    github_id: idan/oauthlib
+    pypi_id: oauthlib
+    conda_id: conda-forge/oauthlib
+    show: True
+  - name: "python-oauth2"
+    description: "A fully tested, abstract interface to creating OAuth clients and servers."
+    category: "Authentication"
+    github_id: joestump/python-oauth2
+    pypi_id: python-oauth2
+    conda_id: conda-forge/python-oauth2
+    show: True
+  - name: "python-social-auth"
+    description: "An easy-to-setup social authentication mechanism."
+    category: "Authentication"
+    github_id: omab/python-social-auth
+    pypi_id: python-social-auth
+    conda_id: conda-forge/python-social-auth
+    show: True
+  - name: "pyjwt"
+    description: "JSON Web Token implementation in Python."
+    category: "Authentication"
+    github_id: jpadilla/pyjwt
+    pypi_id: pyjwt
+    conda_id: conda-forge/pyjwt
+    show: True
+  - name: "python-jose"
+    description: "A JOSE implementation in Python."
+    category: "Authentication"
+    github_id: mpdavis/python-jose/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "python-jwt"
+    description: "A module for generating and verifying JSON Web Tokens."
+    category: "Authentication"
+    github_id: davedoesdev/python-jwt
+    pypi_id: python-jwt
+    conda_id: conda-forge/python-jwt
+    show: True
+  - name: "BitBake"
+    description: "A make-like build tool for embedded Linux."
+    category: "Build Tools"
+    resource: True
+    homepage: http://www.yoctoproject.org/docs/1.6/bitbake-user-manual/bitbake-user-manual.html
+    show: True
+  - name: "buildout"
+    description: "A build system for creating, assembling and deploying applications from multiple parts."
+    category: "Build Tools"
+    resource: True
+    homepage: http://www.buildout.org/en/latest/
+    show: True
+  - name: "PlatformIO"
+    description: "A console tool to build code with different development platforms."
+    category: "Build Tools"
+    github_id: platformio/platformio-core
+    pypi_id: platformio-core
+    conda_id: conda-forge/platformio-core
+    show: True
+  - name: "pybuilder"
+    description: "A continuous build tool written in pure Python."
+    category: "Build Tools"
+    github_id: pybuilder/pybuilder
+    pypi_id: pybuilder
+    conda_id: conda-forge/pybuilder
+    show: True
+  - name: "SCons"
+    description: "A software construction tool."
+    category: "Build Tools"
+    resource: True
+    homepage: http://www.scons.org/
+    show: True
+  - name: "attrs"
+    description: "Replacement for `__init__`, `__eq__`, `__repr__`, etc. boilerplate in class definitions."
+    category: "Built-in Classes Enhancement"
+    github_id: python-attrs/attrs
+    pypi_id: attrs
+    conda_id: conda-forge/attrs
+    show: True
+  - name: "bidict"
+    description: "Efficient, Pythonic bidirectional map data structures and related functionality.."
+    category: "Built-in Classes Enhancement"
+    github_id: jab/bidict
+    pypi_id: bidict
+    conda_id: conda-forge/bidict
+    show: True
+  - name: "Box"
+    description: "Python dictionaries with advanced dot notation access."
+    category: "Built-in Classes Enhancement"
+    github_id: cdgriffith/Box
+    pypi_id: Box
+    conda_id: conda-forge/Box
+    show: True
+  - name: "dataclasses"
+    description: "(Python standard library) Data classes."
+    category: "Built-in Classes Enhancement"
+    resource: True
+    homepage: https://docs.python.org/3/library/dataclasses.html
+    show: True
+  - name: "DottedDict"
+    description: "A library that provides a method of accessing lists and dicts with a dotted path notation."
+    category: "Built-in Classes Enhancement"
+    github_id: carlosescri/DottedDict
+    pypi_id: DottedDict
+    conda_id: conda-forge/DottedDict
+    show: True
+  - name: "django-cms"
+    description: "An Open source enterprise CMS based on the Django."
+    category: "CMS"
+    resource: True
+    homepage: https://www.django-cms.org/en/
+    show: True
+  - name: "feincms"
+    description: "One of the most advanced Content Management Systems built on Django."
+    category: "CMS"
+    github_id: feincms/feincms
+    pypi_id: feincms
+    conda_id: conda-forge/feincms
+    show: True
+  - name: "indico"
+    description: "A feature-rich event management system, made @ [CERN](https://en.wikipedia.org/wiki/CERN)."
+    category: "CMS"
+    github_id: indico/indico
+    pypi_id: indico
+    conda_id: conda-forge/indico
+    show: True
+  - name: "Kotti"
+    description: "A high-level, Pythonic web application framework built on Pyramid."
+    category: "CMS"
+    github_id: Kotti/Kotti
+    pypi_id: Kotti
+    conda_id: conda-forge/Kotti
+    show: True
+  - name: "mezzanine"
+    description: "A powerful, consistent, and flexible content management platform."
+    category: "CMS"
+    github_id: stephenmcd/mezzanine
+    pypi_id: mezzanine
+    conda_id: conda-forge/mezzanine
+    show: True
+  - name: "plone"
+    description: "A CMS built on top of the open source application server Zope."
+    category: "CMS"
+    resource: True
+    homepage: https://plone.org/
+    show: True
+  - name: "quokka"
+    description: "Flexible, extensible, small CMS powered by Flask and MongoDB."
+    category: "CMS"
+    github_id: rochacbruno/quokka
+    pypi_id: quokka
+    conda_id: conda-forge/quokka
+    show: True
+  - name: "wagtail"
+    description: "A Django content management system."
+    category: "CMS"
+    resource: True
+    homepage: https://wagtail.io/
+    show: True
+  - name: "beaker"
+    description: "A WSGI middleware for sessions and caching."
+    category: "Caching"
+    github_id: bbangert/beaker
+    pypi_id: beaker
+    conda_id: conda-forge/beaker
+    show: True
+  - name: "django-cache-machine"
+    description: "Automatic caching and invalidation for Django models."
+    category: "Caching"
+    github_id: django-cache-machine/django-cache-machine
+    pypi_id: django-cache-machine
+    conda_id: conda-forge/django-cache-machine
+    show: True
+  - name: "django-cacheops"
+    description: "A slick ORM cache with automatic granular event-driven invalidation."
+    category: "Caching"
+    github_id: Suor/django-cacheops
+    pypi_id: django-cacheops
+    conda_id: conda-forge/django-cacheops
+    show: True
+  - name: "dogpile.cache"
+    description: "dogpile.cache is next generation replacement for Beaker made by same authors."
+    category: "Caching"
+    resource: True
+    homepage: http://dogpilecache.readthedocs.io/en/latest/
+    show: True
+  - name: "HermesCache"
+    description: "Python caching library with tag-based invalidation and dogpile effect prevention."
+    category: "Caching"
+    resource: True
+    homepage: https://pypi.org/project/HermesCache/
+    show: True
+  - name: "pylibmc"
+    description: "A Python wrapper around the [libmemcached](https://libmemcached.org/libMemcached.html) interface."
+    category: "Caching"
+    github_id: lericson/pylibmc
+    pypi_id: pylibmc
+    conda_id: conda-forge/pylibmc
+    show: True
+  - name: "python-diskcache"
+    description: "SQLite and file backed cache backend with faster lookups than memcached and redis."
+    category: "Caching"
+    resource: True
+    homepage: http://www.grantjenks.com/docs/diskcache/
+    show: True
+  - name: "errbot"
+    description: "The easiest and most popular chatbot to implement ChatOps."
+    category: "ChatOps Tools"
+    github_id: errbotio/errbot/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "coala"
+    description: "Language independent and easily extendable code analysis application."
+    category: "Code Analysis"
+    github_id: coala/coala/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "code2flow"
+    description: "Turn your Python and JavaScript code into DOT flowcharts."
+    category: "Code Analysis"
+    github_id: scottrogowski/code2flow
+    pypi_id: code2flow
+    conda_id: conda-forge/code2flow
+    show: True
+  - name: "prospector"
+    description: "A tool to analyse Python code."
+    category: "Code Analysis"
+    github_id: PyCQA/prospector
+    pypi_id: prospector
+    conda_id: conda-forge/prospector
+    show: True
+  - name: "pycallgraph"
+    description: "A library that visualises the flow (call graph) of your Python application."
+    category: "Code Analysis"
+    github_id: gak/pycallgraph
+    pypi_id: pycallgraph
+    conda_id: conda-forge/pycallgraph
+    show: True
+  - name: "vulture"
+    description: "A tool for finding and analysing dead Python code."
+    category: "Code Analysis"
+    github_id: jendrikseipp/vulture
+    pypi_id: vulture
+    conda_id: conda-forge/vulture
+    show: True
+  - name: "flake8"
+    description: "A wrapper around `pycodestyle`, `pyflakes` and McCabe."
+    category: "Code Analysis"
+    resource: True
+    homepage: https://pypi.org/project/flake8/
+    show: True
+  - name: "awesome-flake8-extensions"
+    category: "Code Analysis"
+    resource: True
+    github_id: DmytroLitvinov/awesome-flake8-extensions
+    show: True
+  - name: "pylama"
+    description: "A code audit tool for Python and JavaScript."
+    category: "Code Analysis"
+    github_id: klen/pylama
+    pypi_id: pylama
+    conda_id: conda-forge/pylama
+    show: True
+  - name: "pylint"
+    description: "A fully customizable source code analyzer."
+    category: "Code Analysis"
+    resource: True
+    homepage: https://www.pylint.org/
+    show: True
+  - name: "wemake-python-styleguide"
+    description: "The strictest and most opinionated python linter ever."
+    category: "Code Analysis"
+    github_id: wemake-services/wemake-python-styleguide
+    pypi_id: wemake-python-styleguide
+    conda_id: conda-forge/wemake-python-styleguide
+    show: True
+  - name: "black"
+    description: "The uncompromising Python code formatter."
+    category: "Code Analysis"
+    github_id: python/black
+    pypi_id: black
+    conda_id: conda-forge/black
+    show: True
+  - name: "isort"
+    description: "A Python utility / library to sort imports."
+    category: "Code Analysis"
+    github_id: timothycrosley/isort
+    pypi_id: isort
+    conda_id: conda-forge/isort
+    show: True
+  - name: "yapf"
+    description: "Yet another Python code formatter from Google."
+    category: "Code Analysis"
+    github_id: google/yapf
+    pypi_id: yapf
+    conda_id: conda-forge/yapf
+    show: True
+  - name: "awesome-python-typing"
+    category: "Code Analysis"
+    resource: True
+    github_id: typeddjango/awesome-python-typing
+    show: True
+  - name: "mypy"
+    description: "Check variable types during compile time."
+    category: "Code Analysis"
+    resource: True
+    homepage: http://mypy-lang.org/
+    show: True
+  - name: "pyre-check"
+    description: "Performant type checking."
+    category: "Code Analysis"
+    github_id: facebook/pyre-check
+    pypi_id: pyre-check
+    conda_id: conda-forge/pyre-check
+    show: True
+  - name: "typeshed"
+    description: "Collection of library stubs for Python, with static types."
+    category: "Code Analysis"
+    github_id: python/typeshed
+    pypi_id: typeshed
+    conda_id: conda-forge/typeshed
+    show: True
+  - name: "MonkeyType"
+    description: "A system for Python that generates static type annotations by collecting runtime types."
+    category: "Code Analysis"
+    github_id: Instagram/MonkeyType
+    pypi_id: MonkeyType
+    conda_id: conda-forge/MonkeyType
+    show: True
+  - name: "pyannotate"
+    description: "Auto-generate PEP-484 annotations."
+    category: "Code Analysis"
+    github_id: dropbox/pyannotate
+    pypi_id: pyannotate
+    conda_id: conda-forge/pyannotate
+    show: True
+  - name: "pytype"
+    description: "Pytype checks and infers types for Python code - without requiring type annotations."
+    category: "Code Analysis"
+    github_id: google/pytype
+    pypi_id: pytype
+    conda_id: conda-forge/pytype
+    show: True
+  - name: "cement"
+    description: "CLI Application Framework for Python."
+    category: "Command-line Interface Development"
+    resource: True
+    homepage: http://builtoncement.com/
+    show: True
+  - name: "click"
+    description: "A package for creating beautiful command line interfaces in a composable way."
+    category: "Command-line Interface Development"
+    resource: True
+    homepage: http://click.pocoo.org/dev/
+    show: True
+  - name: "cliff"
+    description: "A framework for creating command-line programs with multi-level commands."
+    category: "Command-line Interface Development"
+    resource: True
+    homepage: https://docs.openstack.org/developer/cliff/
+    show: True
+  - name: "docopt"
+    description: "Pythonic command line arguments parser."
+    category: "Command-line Interface Development"
+    resource: True
+    homepage: http://docopt.org/
+    show: True
+  - name: "python-fire"
+    description: "A library for creating command line interfaces from absolutely any Python object."
+    category: "Command-line Interface Development"
+    github_id: google/python-fire
+    pypi_id: python-fire
+    conda_id: conda-forge/python-fire
+    show: True
+  - name: "python-prompt-toolkit"
+    description: "A library for building powerful interactive command lines."
+    category: "Command-line Interface Development"
+    github_id: jonathanslenders/python-prompt-toolkit
+    pypi_id: python-prompt-toolkit
+    conda_id: conda-forge/python-prompt-toolkit
+    show: True
+  - name: "alive-progress"
+    description: "A new kind of Progress Bar, with real-time throughput, eta and very cool animations."
+    category: "Command-line Interface Development"
+    github_id: rsalmei/alive-progress
+    pypi_id: alive-progress
+    conda_id: conda-forge/alive-progress
+    show: True
+  - name: "asciimatics"
+    description: "A package to create full-screen text UIs (from interactive forms to ASCII animations)."
+    category: "Command-line Interface Development"
+    github_id: peterbrittain/asciimatics
+    pypi_id: asciimatics
+    conda_id: conda-forge/asciimatics
+    show: True
+  - name: "bashplotlib"
+    description: "Making basic plots in the terminal."
+    category: "Command-line Interface Development"
+    github_id: glamp/bashplotlib
+    pypi_id: bashplotlib
+    conda_id: conda-forge/bashplotlib
+    show: True
+  - name: "colorama"
+    description: "Cross-platform colored terminal text."
+    category: "Command-line Interface Development"
+    resource: True
+    homepage: https://pypi.org/project/colorama/
+    show: True
+  - name: "rich"
+    description: "Python library for rich text and beautiful formatting in the terminal. Also provides a great `RichHandler` log handler."
+    category: "Command-line Interface Development"
+    github_id: willmcgugan/rich
+    pypi_id: rich
+    conda_id: conda-forge/rich
+    show: True
+  - name: "tqdm"
+    description: "Fast, extensible progress bar for loops and CLI."
+    category: "Command-line Interface Development"
+    github_id: tqdm/tqdm
+    pypi_id: tqdm
+    conda_id: conda-forge/tqdm
+    show: True
+  - name: "copier"
+    description: "A library and command-line utility for rendering projects templates."
+    category: "Command-line Tools"
+    github_id: pykong/copier
+    pypi_id: copier
+    conda_id: conda-forge/copier
+    show: True
+  - name: "cookiecutter"
+    description: "A command-line utility that creates projects from cookiecutters (project templates)."
+    category: "Command-line Tools"
+    github_id: audreyr/cookiecutter
+    pypi_id: cookiecutter
+    conda_id: conda-forge/cookiecutter
+    show: True
+  - name: "doitlive"
+    description: "A tool for live presentations in the terminal."
+    category: "Command-line Tools"
+    github_id: sloria/doitlive
+    pypi_id: doitlive
+    conda_id: conda-forge/doitlive
+    show: True
+  - name: "howdoi"
+    description: "Instant coding answers via the command line."
+    category: "Command-line Tools"
+    github_id: gleitz/howdoi
+    pypi_id: howdoi
+    conda_id: conda-forge/howdoi
+    show: True
+  - name: "Invoke"
+    description: "A tool for managing shell-oriented subprocesses and organizing executable Python code into CLI-invokable tasks."
+    category: "Command-line Tools"
+    github_id: pyinvoke/invoke#readme
+    pypi_id: invoke#readme
+    conda_id: conda-forge/invoke#readme
+    show: True
+  - name: "PathPicker"
+    description: "Select files out of bash output."
+    category: "Command-line Tools"
+    github_id: facebook/PathPicker
+    pypi_id: PathPicker
+    conda_id: conda-forge/PathPicker
+    show: True
+  - name: "percol"
+    description: "Adds flavor of interactive selection to the traditional pipe concept on UNIX."
+    category: "Command-line Tools"
+    github_id: mooz/percol
+    pypi_id: percol
+    conda_id: conda-forge/percol
+    show: True
+  - name: "thefuck"
+    description: "Correcting your previous console command."
+    category: "Command-line Tools"
+    github_id: nvbn/thefuck
+    pypi_id: thefuck
+    conda_id: conda-forge/thefuck
+    show: True
+  - name: "tmuxp"
+    description: "A [tmux](https://github.com/tmux/tmux) session manager."
+    category: "Command-line Tools"
+    github_id: tony/tmuxp
+    pypi_id: tmuxp
+    conda_id: conda-forge/tmuxp
+    show: True
+  - name: "try"
+    description: "A dead simple CLI to try out python packages - it's never been easier."
+    category: "Command-line Tools"
+    github_id: timofurrer/try
+    pypi_id: try
+    conda_id: conda-forge/try
+    show: True
+  - name: "httpie"
+    description: "A command line HTTP client, a user-friendly cURL replacement."
+    category: "Command-line Tools"
+    github_id: jakubroztocil/httpie
+    pypi_id: httpie
+    conda_id: conda-forge/httpie
+    show: True
+  - name: "iredis"
+    description: "Redis CLI with autocompletion and syntax highlighting."
+    category: "Command-line Tools"
+    github_id: laixintao/iredis
+    pypi_id: iredis
+    conda_id: conda-forge/iredis
+    show: True
+  - name: "kube-shell"
+    description: "An integrated shell for working with the Kubernetes CLI."
+    category: "Command-line Tools"
+    github_id: cloudnativelabs/kube-shell
+    pypi_id: kube-shell
+    conda_id: conda-forge/kube-shell
+    show: True
+  - name: "litecli"
+    description: "SQLite CLI with autocompletion and syntax highlighting."
+    category: "Command-line Tools"
+    github_id: dbcli/litecli
+    pypi_id: litecli
+    conda_id: conda-forge/litecli
+    show: True
+  - name: "mycli"
+    description: "MySQL CLI with autocompletion and syntax highlighting."
+    category: "Command-line Tools"
+    github_id: dbcli/mycli
+    pypi_id: mycli
+    conda_id: conda-forge/mycli
+    show: True
+  - name: "pgcli"
+    description: "PostgreSQL CLI with autocompletion and syntax highlighting."
+    category: "Command-line Tools"
+    github_id: dbcli/pgcli
+    pypi_id: pgcli
+    conda_id: conda-forge/pgcli
+    show: True
+  - name: "saws"
+    description: "A Supercharged [aws-cli](https://github.com/aws/aws-cli)."
+    category: "Command-line Tools"
+    github_id: donnemartin/saws
+    pypi_id: saws
+    conda_id: conda-forge/saws
+    show: True
+  - name: "python-future"
+    description: "The missing compatibility layer between Python 2 and Python 3."
+    category: "Compatibility"
+    resource: True
+    homepage: http://python-future.org/index.html
+    show: True
+  - name: "modernize"
+    description: "Modernizes Python code for eventual Python 3 migration."
+    category: "Compatibility"
+    github_id: PyCQA/modernize
+    pypi_id: modernize
+    conda_id: conda-forge/modernize
+    show: True
+  - name: "six"
+    description: "Python 2 and 3 compatibility utilities."
+    category: "Compatibility"
+    resource: True
+    homepage: https://pypi.org/project/six/
+    show: True
+  - name: "EasyOCR"
+    description: "Ready-to-use OCR with 40+ languages supported."
+    category: "Computer Vision"
+    github_id: JaidedAI/EasyOCR
+    pypi_id: EasyOCR
+    conda_id: conda-forge/EasyOCR
+    show: True
+  - name: "Face Recognition"
+    description: "Simple facial recognition library."
+    category: "Computer Vision"
+    github_id: ageitgey/face_recognition
+    pypi_id: face_recognition
+    conda_id: conda-forge/face_recognition
+    show: True
+  - name: "Kornia"
+    description: "Open Source Differentiable Computer Vision Library for PyTorch."
+    category: "Computer Vision"
+    github_id: kornia/kornia/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "OpenCV"
+    description: "Open Source Computer Vision Library."
+    category: "Computer Vision"
+    resource: True
+    homepage: https://opencv.org/
+    show: True
+  - name: "pytesseract"
+    description: "A wrapper for [Google Tesseract OCR](https://github.com/tesseract-ocr)."
+    category: "Computer Vision"
+    github_id: madmaze/pytesseract
+    pypi_id: pytesseract
+    conda_id: conda-forge/pytesseract
+    show: True
+  - name: "SimpleCV"
+    description: "An open source framework for building computer vision applications."
+    category: "Computer Vision"
+    github_id: sightmachine/SimpleCV
+    pypi_id: SimpleCV
+    conda_id: conda-forge/SimpleCV
+    show: True
+  - name: "tesserocr"
+    description: "Another simple, Pillow-friendly, wrapper around the `tesseract-ocr` API for OCR."
+    category: "Computer Vision"
+    github_id: sirfz/tesserocr
+    pypi_id: tesserocr
+    conda_id: conda-forge/tesserocr
+    show: True
+  - name: "concurrent.futures"
+    description: "(Python standard library) A high-level interface for asynchronously executing callables."
+    category: "Concurrency and Parallelism"
+    resource: True
+    homepage: https://docs.python.org/3/library/concurrent.futures.html
+    show: True
+  - name: "eventlet"
+    description: "Asynchronous framework with WSGI support."
+    category: "Concurrency and Parallelism"
+    resource: True
+    homepage: http://eventlet.net/
+    show: True
+  - name: "gevent"
+    description: "A coroutine-based Python networking library that uses [greenlet](https://github.com/python-greenlet/greenlet)."
+    category: "Concurrency and Parallelism"
+    resource: True
+    homepage: http://www.gevent.org/
+    show: True
+  - name: "multiprocessing"
+    description: "(Python standard library) Process-based parallelism."
+    category: "Concurrency and Parallelism"
+    resource: True
+    homepage: https://docs.python.org/3/library/multiprocessing.html
+    show: True
+  - name: "scoop"
+    description: "Scalable Concurrent Operations in Python."
+    category: "Concurrency and Parallelism"
+    github_id: soravux/scoop
+    pypi_id: scoop
+    conda_id: conda-forge/scoop
+    show: True
+  - name: "uvloop"
+    description: "Ultra fast implementation of `asyncio` event loop on top of `libuv`."
+    category: "Concurrency and Parallelism"
+    github_id: MagicStack/uvloop
+    pypi_id: uvloop
+    conda_id: conda-forge/uvloop
+    show: True
+  - name: "configobj"
+    description: "INI file parser with validation."
+    category: "Configuration"
+    github_id: DiffSK/configobj
+    pypi_id: configobj
+    conda_id: conda-forge/configobj
+    show: True
+  - name: "configparser"
+    description: "(Python standard library) INI file parser."
+    category: "Configuration"
+    resource: True
+    homepage: https://docs.python.org/3/library/configparser.html
+    show: True
+  - name: "hydra"
+    description: "Hydra is a framework for elegantly configuring complex applications."
+    category: "Configuration"
+    github_id: facebookresearch/hydra
+    pypi_id: hydra
+    conda_id: conda-forge/hydra
+    show: True
+  - name: "profig"
+    description: "Config from multiple formats with value conversion."
+    category: "Configuration"
+    resource: True
+    homepage: https://profig.readthedocs.io/en/latest/
+    show: True
+  - name: "python-decouple"
+    description: "Strict separation of settings from code."
+    category: "Configuration"
+    github_id: henriquebastos/python-decouple
+    pypi_id: python-decouple
+    conda_id: conda-forge/python-decouple
+    show: True
+  - name: "cryptography"
+    description: "A package designed to expose cryptographic primitives and recipes to Python developers."
+    category: "Cryptography"
+    resource: True
+    homepage: https://cryptography.io/en/latest/
+    show: True
+  - name: "paramiko"
+    description: "The leading native Python SSHv2 protocol library."
+    category: "Cryptography"
+    github_id: paramiko/paramiko
+    pypi_id: paramiko
+    conda_id: conda-forge/paramiko
+    show: True
+  - name: "passlib"
+    description: "Secure password storage/hashing library, very high level."
+    category: "Cryptography"
+    resource: True
+    homepage: https://passlib.readthedocs.io/en/stable/
+    show: True
+  - name: "pynacl"
+    description: "Python binding to the Networking and Cryptography (NaCl) library."
+    category: "Cryptography"
+    github_id: pyca/pynacl
+    pypi_id: pynacl
+    conda_id: conda-forge/pynacl
+    show: True
+  - name: "AWS Data Wrangler"
+    description: "Pandas on AWS."
+    category: "Data Analysis"
+    github_id: awslabs/aws-data-wrangler
+    pypi_id: aws-data-wrangler
+    conda_id: conda-forge/aws-data-wrangler
+    show: True
+  - name: "Blaze"
+    description: "NumPy and Pandas interface to Big Data."
+    category: "Data Analysis"
+    github_id: blaze/blaze
+    pypi_id: blaze
+    conda_id: conda-forge/blaze
+    show: True
+  - name: "Open Mining"
+    description: "Business Intelligence (BI) in Pandas interface."
+    category: "Data Analysis"
+    github_id: mining/mining
+    pypi_id: mining
+    conda_id: conda-forge/mining
+    show: True
+  - name: "Optimus"
+    description: "Agile Data Science Workflows made easy with PySpark."
+    category: "Data Analysis"
+    github_id: ironmussa/Optimus
+    pypi_id: Optimus
+    conda_id: conda-forge/Optimus
+    show: True
+  - name: "Orange"
+    description: "Data mining, data visualization, analysis and machine learning through visual programming or scripts."
+    category: "Data Analysis"
+    resource: True
+    homepage: https://orange.biolab.si/
+    show: True
+  - name: "Pandas"
+    description: "A library providing high-performance, easy-to-use data structures and data analysis tools."
+    category: "Data Analysis"
+    resource: True
+    homepage: http://pandas.pydata.org/
+    show: True
+  - name: "Cerberus"
+    description: "A lightweight and extensible data validation library."
+    category: "Data Validation"
+    github_id: pyeve/cerberus
+    pypi_id: cerberus
+    conda_id: conda-forge/cerberus
+    show: True
+  - name: "colander"
+    description: "Validating and deserializing data obtained via XML, JSON, an HTML form post."
+    category: "Data Validation"
+    resource: True
+    homepage: https://docs.pylonsproject.org/projects/colander/en/latest/
+    show: True
+  - name: "jsonschema"
+    description: "An implementation of [JSON Schema](http://json-schema.org/) for Python."
+    category: "Data Validation"
+    github_id: Julian/jsonschema
+    pypi_id: jsonschema
+    conda_id: conda-forge/jsonschema
+    show: True
+  - name: "schema"
+    description: "A library for validating Python data structures."
+    category: "Data Validation"
+    github_id: keleshev/schema
+    pypi_id: schema
+    conda_id: conda-forge/schema
+    show: True
+  - name: "Schematics"
+    description: "Data Structure Validation."
+    category: "Data Validation"
+    github_id: schematics/schematics
+    pypi_id: schematics
+    conda_id: conda-forge/schematics
+    show: True
+  - name: "valideer"
+    description: "Lightweight extensible data validation and adaptation library."
+    category: "Data Validation"
+    github_id: podio/valideer
+    pypi_id: valideer
+    conda_id: conda-forge/valideer
+    show: True
+  - name: "voluptuous"
+    description: "A Python data validation library."
+    category: "Data Validation"
+    github_id: alecthomas/voluptuous
+    pypi_id: voluptuous
+    conda_id: conda-forge/voluptuous
+    show: True
+  - name: "Altair"
+    description: "Declarative statistical visualization library for Python."
+    category: "Data Visualization"
+    github_id: altair-viz/altair
+    pypi_id: altair
+    conda_id: conda-forge/altair
+    show: True
+  - name: "Bokeh"
+    description: "Interactive Web Plotting for Python."
+    category: "Data Visualization"
+    github_id: bokeh/bokeh
+    pypi_id: bokeh
+    conda_id: conda-forge/bokeh
+    show: True
+  - name: "bqplot"
+    description: "Interactive Plotting Library for the Jupyter Notebook"
+    category: "Data Visualization"
+    github_id: bloomberg/bqplot
+    pypi_id: bqplot
+    conda_id: conda-forge/bqplot
+    show: True
+  - name: "Cartopy"
+    description: "A cartographic python library with matplotlib support"
+    category: "Data Visualization"
+    github_id: SciTools/cartopy
+    pypi_id: cartopy
+    conda_id: conda-forge/cartopy
+    show: True
+  - name: "Dash"
+    description: "Built on top of Flask, React and Plotly aimed at analytical web applications."
+    category: "Data Visualization"
+    resource: True
+    homepage: https://plot.ly/products/dash/
+    show: True
+  - name: "awesome-dash"
+    category: "Data Visualization"
+    resource: True
+    github_id: Acrotrend/awesome-dash
+    show: True
+  - name: "diagrams"
+    description: "Diagram as Code."
+    category: "Data Visualization"
+    github_id: mingrammer/diagrams
+    pypi_id: diagrams
+    conda_id: conda-forge/diagrams
+    show: True
+  - name: "Matplotlib"
+    description: "A Python 2D plotting library."
+    category: "Data Visualization"
+    resource: True
+    homepage: http://matplotlib.org/
+    show: True
+  - name: "plotnine"
+    description: "A grammar of graphics for Python based on ggplot2."
+    category: "Data Visualization"
+    github_id: has2k1/plotnine
+    pypi_id: plotnine
+    conda_id: conda-forge/plotnine
+    show: True
+  - name: "Pygal"
+    description: "A Python SVG Charts Creator."
+    category: "Data Visualization"
+    resource: True
+    homepage: http://www.pygal.org/en/latest/
+    show: True
+  - name: "PyGraphviz"
+    description: "Python interface to [Graphviz](http://www.graphviz.org/)."
+    category: "Data Visualization"
+    resource: True
+    homepage: https://pypi.org/project/pygraphviz/
+    show: True
+  - name: "PyQtGraph"
+    description: "Interactive and realtime 2D/3D/Image plotting and science/engineering widgets."
+    category: "Data Visualization"
+    resource: True
+    homepage: http://www.pyqtgraph.org/
+    show: True
+  - name: "Seaborn"
+    description: "Statistical data visualization using Matplotlib."
+    category: "Data Visualization"
+    github_id: mwaskom/seaborn
+    pypi_id: seaborn
+    conda_id: conda-forge/seaborn
+    show: True
+  - name: "VisPy"
+    description: "High-performance scientific visualization based on OpenGL."
+    category: "Data Visualization"
+    github_id: vispy/vispy
+    pypi_id: vispy
+    conda_id: conda-forge/vispy
+    show: True
+  - name: "pickleDB"
+    description: "A simple and lightweight key-value store for Python."
+    category: "Database"
+    github_id: patx/pickledb
+    pypi_id: pickledb
+    conda_id: conda-forge/pickledb
+    show: True
+  - name: "tinydb"
+    description: "A tiny, document-oriented database."
+    category: "Database"
+    github_id: msiemens/tinydb
+    pypi_id: tinydb
+    conda_id: conda-forge/tinydb
+    show: True
+  - name: "ZODB"
+    description: "A native object database for Python. A key-value and object graph database."
+    category: "Database"
+    github_id: zopefoundation/ZODB
+    pypi_id: ZODB
+    conda_id: conda-forge/ZODB
+    show: True
+  - name: "mysqlclient"
+    description: "MySQL connector with Python 3 support ([mysql-python](https://sourceforge.net/projects/mysql-python/) fork)."
+    category: "Database Drivers"
+    github_id: PyMySQL/mysqlclient-python
+    pypi_id: mysqlclient-python
+    conda_id: conda-forge/mysqlclient-python
+    show: True
+  - name: "PyMySQL"
+    description: "A pure Python MySQL driver compatible to mysql-python."
+    category: "Database Drivers"
+    github_id: PyMySQL/PyMySQL
+    pypi_id: PyMySQL
+    conda_id: conda-forge/PyMySQL
+    show: True
+  - name: "awesome-postgres"
+    category: "Database Drivers"
+    resource: True
+    github_id: dhamaniasad/awesome-postgres
+    show: True
+  - name: "psycopg2"
+    description: "The most popular PostgreSQL adapter for Python."
+    category: "Database Drivers"
+    resource: True
+    homepage: http://initd.org/psycopg/
+    show: True
+  - name: "queries"
+    description: "A wrapper of the psycopg2 library for interacting with PostgreSQL."
+    category: "Database Drivers"
+    github_id: gmr/queries
+    pypi_id: queries
+    conda_id: conda-forge/queries
+    show: True
+  - name: "awesome-sqlite"
+    category: "Database Drivers"
+    resource: True
+    github_id: planetopendata/awesome-sqlite
+    show: True
+  - name: "sqlite3"
+    description: "(Python standard library) SQlite interface compliant with DB-API 2.0"
+    category: "Database Drivers"
+    resource: True
+    homepage: https://docs.python.org/3/library/sqlite3.html
+    show: True
+  - name: "SuperSQLite"
+    description: "A supercharged SQLite library built on top of [apsw](https://github.com/rogerbinns/apsw)."
+    category: "Database Drivers"
+    github_id: plasticityai/supersqlite
+    pypi_id: supersqlite
+    conda_id: conda-forge/supersqlite
+    show: True
+  - name: "pymssql"
+    description: "A simple database interface to Microsoft SQL Server."
+    category: "Database Drivers"
+    resource: True
+    homepage: https://pymssql.readthedocs.io/en/latest/
+    show: True
+  - name: "clickhouse-driver"
+    description: "Python driver with native interface for ClickHouse."
+    category: "Database Drivers"
+    github_id: mymarilyn/clickhouse-driver
+    pypi_id: clickhouse-driver
+    conda_id: conda-forge/clickhouse-driver
+    show: True
+  - name: "cassandra-driver"
+    description: "The Python Driver for Apache Cassandra."
+    category: "Database Drivers"
+    github_id: datastax/python-driver
+    pypi_id: python-driver
+    conda_id: conda-forge/python-driver
+    show: True
+  - name: "happybase"
+    description: "A developer-friendly library for Apache HBase."
+    category: "Database Drivers"
+    github_id: wbolster/happybase
+    pypi_id: happybase
+    conda_id: conda-forge/happybase
+    show: True
+  - name: "kafka-python"
+    description: "The Python client for Apache Kafka."
+    category: "Database Drivers"
+    github_id: dpkp/kafka-python
+    pypi_id: kafka-python
+    conda_id: conda-forge/kafka-python
+    show: True
+  - name: "py2neo"
+    description: "A client library and toolkit for working with Neo4j."
+    category: "Database Drivers"
+    resource: True
+    homepage: https://py2neo.org/
+    show: True
+  - name: "pymongo"
+    description: "The official Python client for MongoDB."
+    category: "Database Drivers"
+    github_id: mongodb/mongo-python-driver
+    pypi_id: mongo-python-driver
+    conda_id: conda-forge/mongo-python-driver
+    show: True
+  - name: "redis-py"
+    description: "The Python client for Redis."
+    category: "Database Drivers"
+    github_id: andymccurdy/redis-py
+    pypi_id: redis-py
+    conda_id: conda-forge/redis-py
+    show: True
+  - name: "motor"
+    description: "The async Python driver for MongoDB."
+    category: "Database Drivers"
+    github_id: mongodb/motor
+    pypi_id: motor
+    conda_id: conda-forge/motor
+    show: True
+  - name: "Arrow"
+    description: "A Python library that offers a sensible and human-friendly approach to creating, manipulating, formatting and converting dates, times and timestamps."
+    category: "Date and Time"
+    resource: True
+    homepage: https://arrow.readthedocs.io/en/latest/
+    show: True
+  - name: "Chronyk"
+    description: "A Python 3 library for parsing human-written times and dates."
+    category: "Date and Time"
+    github_id: KoffeinFlummi/Chronyk
+    pypi_id: Chronyk
+    conda_id: conda-forge/Chronyk
+    show: True
+  - name: "dateutil"
+    description: "Extensions to the standard Python [datetime](https://docs.python.org/3/library/datetime.html) module."
+    category: "Date and Time"
+    github_id: dateutil/dateutil
+    pypi_id: dateutil
+    conda_id: conda-forge/dateutil
+    show: True
+  - name: "delorean"
+    description: "A library for clearing up the inconvenient truths that arise dealing with datetimes."
+    category: "Date and Time"
+    github_id: myusuf3/delorean/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "maya"
+    description: "Datetimes for Humans."
+    category: "Date and Time"
+    github_id: timofurrer/maya
+    pypi_id: maya
+    conda_id: conda-forge/maya
+    show: True
+  - name: "moment"
+    description: "A Python library for dealing with dates/times. Inspired by [Moment.js](http://momentjs.com/)."
+    category: "Date and Time"
+    github_id: zachwill/moment
+    pypi_id: moment
+    conda_id: conda-forge/moment
+    show: True
+  - name: "Pendulum"
+    description: "Python datetimes made easy."
+    category: "Date and Time"
+    github_id: sdispater/pendulum
+    pypi_id: pendulum
+    conda_id: conda-forge/pendulum
+    show: True
+  - name: "PyTime"
+    description: "An easy-to-use Python module which aims to operate date/time/datetime by string."
+    category: "Date and Time"
+    github_id: shinux/PyTime
+    pypi_id: PyTime
+    conda_id: conda-forge/PyTime
+    show: True
+  - name: "pytz"
+    description: "World timezone definitions, modern and historical. Brings the [tz database](https://en.wikipedia.org/wiki/Tz_database) into Python."
+    category: "Date and Time"
+    resource: True
+    homepage: https://launchpad.net/pytz
+    show: True
+  - name: "when.py"
+    description: "Providing user-friendly functions to help perform common date and time actions."
+    category: "Date and Time"
+    github_id: dirn/When.py
+    pypi_id: When.py
+    conda_id: conda-forge/When.py
+    show: True
+  - name: "ipdb"
+    description: "IPython-enabled [pdb](https://docs.python.org/3/library/pdb.html)."
+    category: "Debugging Tools"
+    github_id: gotcha/ipdb
+    pypi_id: ipdb
+    conda_id: conda-forge/ipdb
+    show: True
+  - name: "pdb++"
+    description: "Another drop-in replacement for pdb."
+    category: "Debugging Tools"
+    github_id: antocuni/pdb
+    pypi_id: pdb
+    conda_id: conda-forge/pdb
+    show: True
+  - name: "pudb"
+    description: "A full-screen, console-based Python debugger."
+    category: "Debugging Tools"
+    github_id: inducer/pudb
+    pypi_id: pudb
+    conda_id: conda-forge/pudb
+    show: True
+  - name: "wdb"
+    description: "An improbable web debugger through WebSockets."
+    category: "Debugging Tools"
+    github_id: Kozea/wdb
+    pypi_id: wdb
+    conda_id: conda-forge/wdb
+    show: True
+  - name: "lptrace"
+    description: "[strace](http://man7.org/linux/man-pages/man1/strace.1.html) for Python programs."
+    category: "Debugging Tools"
+    github_id: khamidou/lptrace
+    pypi_id: lptrace
+    conda_id: conda-forge/lptrace
+    show: True
+  - name: "manhole"
+    description: "Debugging UNIX socket connections and present the stacktraces for all threads and an interactive prompt."
+    category: "Debugging Tools"
+    github_id: ionelmc/python-manhole
+    pypi_id: python-manhole
+    conda_id: conda-forge/python-manhole
+    show: True
+  - name: "pyringe"
+    description: "Debugger capable of attaching to and injecting code into Python processes."
+    category: "Debugging Tools"
+    github_id: google/pyringe
+    pypi_id: pyringe
+    conda_id: conda-forge/pyringe
+    show: True
+  - name: "python-hunter"
+    description: "A flexible code tracing toolkit."
+    category: "Debugging Tools"
+    github_id: ionelmc/python-hunter
+    pypi_id: python-hunter
+    conda_id: conda-forge/python-hunter
+    show: True
+  - name: "line_profiler"
+    description: "Line-by-line profiling."
+    category: "Debugging Tools"
+    github_id: rkern/line_profiler
+    pypi_id: line_profiler
+    conda_id: conda-forge/line_profiler
+    show: True
+  - name: "memory_profiler"
+    description: "Monitor Memory usage of Python code."
+    category: "Debugging Tools"
+    github_id: fabianp/memory_profiler
+    pypi_id: memory_profiler
+    conda_id: conda-forge/memory_profiler
+    show: True
+  - name: "py-spy"
+    description: "A sampling profiler for Python programs. Written in Rust."
+    category: "Debugging Tools"
+    github_id: benfred/py-spy
+    pypi_id: py-spy
+    conda_id: conda-forge/py-spy
+    show: True
+  - name: "pyflame"
+    description: "A ptracing profiler For Python."
+    category: "Debugging Tools"
+    github_id: uber/pyflame
+    pypi_id: pyflame
+    conda_id: conda-forge/pyflame
+    show: True
+  - name: "vprof"
+    description: "Visual Python profiler."
+    category: "Debugging Tools"
+    github_id: nvdv/vprof
+    pypi_id: vprof
+    conda_id: conda-forge/vprof
+    show: True
+  - name: "django-debug-toolbar"
+    description: "Display various debug information for Django."
+    category: "Debugging Tools"
+    github_id: jazzband/django-debug-toolbar
+    pypi_id: django-debug-toolbar
+    conda_id: conda-forge/django-debug-toolbar
+    show: True
+  - name: "django-devserver"
+    description: "A drop-in replacement for Django's runserver."
+    category: "Debugging Tools"
+    github_id: dcramer/django-devserver
+    pypi_id: django-devserver
+    conda_id: conda-forge/django-devserver
+    show: True
+  - name: "flask-debugtoolbar"
+    description: "A port of the django-debug-toolbar to flask."
+    category: "Debugging Tools"
+    github_id: mgood/flask-debugtoolbar
+    pypi_id: flask-debugtoolbar
+    conda_id: conda-forge/flask-debugtoolbar
+    show: True
+  - name: "icecream"
+    description: "Inspect variables, expressions, and program execution with a single, simple function call."
+    category: "Debugging Tools"
+    github_id: gruns/icecream
+    pypi_id: icecream
+    conda_id: conda-forge/icecream
+    show: True
+  - name: "pyelftools"
+    description: "Parsing and analyzing ELF files and DWARF debugging information."
+    category: "Debugging Tools"
+    github_id: eliben/pyelftools
+    pypi_id: pyelftools
+    conda_id: conda-forge/pyelftools
+    show: True
+  - name: "caffe"
+    description: "A fast open framework for deep learning.."
+    category: "Deep Learning"
+    github_id: BVLC/caffe
+    pypi_id: caffe
+    conda_id: conda-forge/caffe
+    show: True
+  - name: "keras"
+    description: "A high-level neural networks library and capable of running on top of either TensorFlow or Theano."
+    category: "Deep Learning"
+    github_id: keras-team/keras
+    pypi_id: keras
+    conda_id: conda-forge/keras
+    show: True
+  - name: "mxnet"
+    description: "A deep learning framework designed for both efficiency and flexibility."
+    category: "Deep Learning"
+    github_id: dmlc/mxnet
+    pypi_id: mxnet
+    conda_id: conda-forge/mxnet
+    show: True
+  - name: "pytorch"
+    description: "Tensors and Dynamic neural networks in Python with strong GPU acceleration."
+    category: "Deep Learning"
+    github_id: pytorch/pytorch
+    pypi_id: pytorch
+    conda_id: conda-forge/pytorch
+    show: True
+  - name: "SerpentAI"
+    description: "Game agent framework. Use any video game as a deep learning sandbox."
+    category: "Deep Learning"
+    github_id: SerpentAI/SerpentAI
+    pypi_id: SerpentAI
+    conda_id: conda-forge/SerpentAI
+    show: True
+  - name: "tensorflow"
+    description: "The most popular Deep Learning framework created by Google."
+    category: "Deep Learning"
+    github_id: tensorflow/tensorflow
+    pypi_id: tensorflow
+    conda_id: conda-forge/tensorflow
+    show: True
+  - name: "Theano"
+    description: "A library for fast numerical computation."
+    category: "Deep Learning"
+    github_id: Theano/Theano
+    pypi_id: Theano
+    conda_id: conda-forge/Theano
+    show: True
+  - name: "ansible"
+    description: "A radically simple IT automation platform."
+    category: "DevOps Tools"
+    github_id: ansible/ansible
+    pypi_id: ansible
+    conda_id: conda-forge/ansible
+    show: True
+  - name: "cloudinit"
+    description: "A multi-distribution package that handles early initialization of a cloud instance."
+    category: "DevOps Tools"
+    resource: True
+    homepage: https://cloudinit.readthedocs.io/en/latest/
+    show: True
+  - name: "OpenStack"
+    description: "Open source software for building private and public clouds."
+    category: "DevOps Tools"
+    resource: True
+    homepage: https://www.openstack.org/
+    show: True
+  - name: "pyinfra"
+    description: "A versatile CLI tools and python libraries to automate infrastructure."
+    category: "DevOps Tools"
+    github_id: Fizzadar/pyinfra
+    pypi_id: pyinfra
+    conda_id: conda-forge/pyinfra
+    show: True
+  - name: "saltstack"
+    description: "Infrastructure automation and management system."
+    category: "DevOps Tools"
+    github_id: saltstack/salt
+    pypi_id: salt
+    conda_id: conda-forge/salt
+    show: True
+  - name: "cuisine"
+    description: "Chef-like functionality for Fabric."
+    category: "DevOps Tools"
+    github_id: sebastien/cuisine
+    pypi_id: cuisine
+    conda_id: conda-forge/cuisine
+    show: True
+  - name: "fabric"
+    description: "A simple, Pythonic tool for remote execution and deployment."
+    category: "DevOps Tools"
+    github_id: fabric/fabric
+    pypi_id: fabric
+    conda_id: conda-forge/fabric
+    show: True
+  - name: "fabtools"
+    description: "Tools for writing awesome Fabric files."
+    category: "DevOps Tools"
+    github_id: fabtools/fabtools
+    pypi_id: fabtools
+    conda_id: conda-forge/fabtools
+    show: True
+  - name: "honcho"
+    description: "A Python clone of [Foreman](https://github.com/ddollar/foreman), for managing Procfile-based applications."
+    category: "DevOps Tools"
+    github_id: nickstenning/honcho
+    pypi_id: honcho
+    conda_id: conda-forge/honcho
+    show: True
+  - name: "supervisor"
+    description: "Supervisor process control system for UNIX."
+    category: "DevOps Tools"
+    github_id: Supervisor/supervisor
+    pypi_id: supervisor
+    conda_id: conda-forge/supervisor
+    show: True
+  - name: "psutil"
+    description: "A cross-platform process and system utilities module."
+    category: "DevOps Tools"
+    github_id: giampaolo/psutil
+    pypi_id: psutil
+    conda_id: conda-forge/psutil
+    show: True
+  - name: "BorgBackup"
+    description: "A deduplicating archiver with compression and encryption."
+    category: "DevOps Tools"
+    resource: True
+    homepage: https://www.borgbackup.org/
+    show: True
+  - name: "docker-compose"
+    description: "Fast, isolated development environments using [Docker](https://www.docker.com/)."
+    category: "DevOps Tools"
+    resource: True
+    homepage: https://docs.docker.com/compose/
+    show: True
+  - name: "dask"
+    description: "A flexible parallel computing library for analytic computing."
+    category: "Distributed Computing"
+    github_id: dask/dask
+    pypi_id: dask
+    conda_id: conda-forge/dask
+    show: True
+  - name: "luigi"
+    description: "A module that helps you build complex pipelines of batch jobs."
+    category: "Distributed Computing"
+    github_id: spotify/luigi
+    pypi_id: luigi
+    conda_id: conda-forge/luigi
+    show: True
+  - name: "mrjob"
+    description: "Run MapReduce jobs on Hadoop or Amazon Web Services."
+    category: "Distributed Computing"
+    github_id: Yelp/mrjob
+    pypi_id: mrjob
+    conda_id: conda-forge/mrjob
+    show: True
+  - name: "PySpark"
+    description: "[Apache Spark](https://spark.apache.org/) Python API."
+    category: "Distributed Computing"
+    resource: True
+    homepage: https://pypi.org/project/pyspark/
+    show: True
+  - name: "Ray"
+    description: "A system for parallel and distributed Python that unifies the machine learning ecosystem."
+    category: "Distributed Computing"
+    github_id: ray-project/ray/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "faust"
+    description: "A stream processing library, porting the ideas from [Kafka Streams](https://kafka.apache.org/documentation/streams/) to Python."
+    category: "Distributed Computing"
+    github_id: robinhood/faust
+    pypi_id: faust
+    conda_id: conda-forge/faust
+    show: True
+  - name: "streamparse"
+    description: "Run Python code against real-time streams of data via [Apache Storm](http://storm.apache.org/)."
+    category: "Distributed Computing"
+    github_id: Parsely/streamparse
+    pypi_id: streamparse
+    conda_id: conda-forge/streamparse
+    show: True
+  - name: "dh-virtualenv"
+    description: "Build and distribute a virtualenv as a Debian package."
+    category: "Distribution"
+    github_id: spotify/dh-virtualenv
+    pypi_id: dh-virtualenv
+    conda_id: conda-forge/dh-virtualenv
+    show: True
+  - name: "Nuitka"
+    description: "Compile scripts, modules, packages to an executable or extension module."
+    category: "Distribution"
+    resource: True
+    homepage: http://nuitka.net/
+    show: True
+  - name: "py2app"
+    description: "Freezes Python scripts (Mac OS X)."
+    category: "Distribution"
+    resource: True
+    homepage: http://pythonhosted.org/py2app/
+    show: True
+  - name: "py2exe"
+    description: "Freezes Python scripts (Windows)."
+    category: "Distribution"
+    resource: True
+    homepage: http://www.py2exe.org/
+    show: True
+  - name: "pyarmor"
+    description: "A tool used to obfuscate python scripts, bind obfuscated scripts to fixed machine or expire obfuscated scripts."
+    category: "Distribution"
+    github_id: dashingsoft/pyarmor
+    pypi_id: pyarmor
+    conda_id: conda-forge/pyarmor
+    show: True
+  - name: "PyInstaller"
+    description: "Converts Python programs into stand-alone executables (cross-platform)."
+    category: "Distribution"
+    github_id: pyinstaller/pyinstaller
+    pypi_id: pyinstaller
+    conda_id: conda-forge/pyinstaller
+    show: True
+  - name: "pynsist"
+    description: "A tool to build Windows installers, installers bundle Python itself."
+    category: "Distribution"
+    resource: True
+    homepage: http://pynsist.readthedocs.io/en/latest/
+    show: True
+  - name: "shiv"
+    description: "A command line utility for building fully self-contained zipapps (PEP 441), but with all their dependencies included."
+    category: "Distribution"
+    github_id: linkedin/shiv
+    pypi_id: shiv
+    conda_id: conda-forge/shiv
+    show: True
+  - name: "sphinx"
+    description: "Python Documentation generator."
+    category: "Documentation"
+    github_id: sphinx-doc/sphinx/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "awesome-sphinxdoc"
+    category: "Documentation"
+    resource: True
+    github_id: yoloseem/awesome-sphinxdoc
+    show: True
+  - name: "pdoc"
+    description: "Epydoc replacement to auto generate API documentation for Python libraries."
+    category: "Documentation"
+    github_id: mitmproxy/pdoc
+    pypi_id: pdoc
+    conda_id: conda-forge/pdoc
+    show: True
+  - name: "pycco"
+    description: "The literate-programming-style documentation generator."
+    category: "Documentation"
+    github_id: pycco-docs/pycco
+    pypi_id: pycco
+    conda_id: conda-forge/pycco
+    show: True
+  - name: "akshare"
+    description: "A financial data interface library, built for human beings!"
+    category: "Downloader"
+    github_id: jindaxiang/akshare
+    pypi_id: akshare
+    conda_id: conda-forge/akshare
+    show: True
+  - name: "s3cmd"
+    description: "A command line tool for managing Amazon S3 and CloudFront."
+    category: "Downloader"
+    github_id: s3tools/s3cmd
+    pypi_id: s3cmd
+    conda_id: conda-forge/s3cmd
+    show: True
+  - name: "s4cmd"
+    description: "Super S3 command line tool, good for higher performance."
+    category: "Downloader"
+    github_id: bloomreach/s4cmd
+    pypi_id: s4cmd
+    conda_id: conda-forge/s4cmd
+    show: True
+  - name: "you-get"
+    description: "A YouTube/Youku/Niconico video downloader written in Python 3."
+    category: "Downloader"
+    resource: True
+    homepage: https://you-get.org/
+    show: True
+  - name: "youtube-dl"
+    description: "A small command-line program to download videos from YouTube."
+    category: "Downloader"
+    resource: True
+    homepage: https://rg3.github.io/youtube-dl/
+    show: True
+  - name: "alipay"
+    description: "Unofficial Alipay API for Python."
+    category: "E-commerce"
+    github_id: lxneng/alipay
+    pypi_id: alipay
+    conda_id: conda-forge/alipay
+    show: True
+  - name: "Cartridge"
+    description: "A shopping cart app built using the Mezzanine."
+    category: "E-commerce"
+    github_id: stephenmcd/cartridge
+    pypi_id: cartridge
+    conda_id: conda-forge/cartridge
+    show: True
+  - name: "django-oscar"
+    description: "An open-source e-commerce framework for Django."
+    category: "E-commerce"
+    resource: True
+    homepage: http://oscarcommerce.com/
+    show: True
+  - name: "django-shop"
+    description: "A Django based shop system."
+    category: "E-commerce"
+    github_id: awesto/django-shop
+    pypi_id: django-shop
+    conda_id: conda-forge/django-shop
+    show: True
+  - name: "forex-python"
+    description: "Foreign exchange rates, Bitcoin price index and currency conversion."
+    category: "E-commerce"
+    github_id: MicroPyramid/forex-python
+    pypi_id: forex-python
+    conda_id: conda-forge/forex-python
+    show: True
+  - name: "merchant"
+    description: "A Django app to accept payments from various payment processors."
+    category: "E-commerce"
+    github_id: agiliq/merchant
+    pypi_id: merchant
+    conda_id: conda-forge/merchant
+    show: True
+  - name: "money"
+    description: "`Money` class with optional CLDR-backed locale-aware formatting and an extensible currency exchange."
+    category: "E-commerce"
+    github_id: carlospalol/money
+    pypi_id: money
+    conda_id: conda-forge/money
+    show: True
+  - name: "python-currencies"
+    description: "Display money format and its filthy currencies."
+    category: "E-commerce"
+    github_id: Alir3z4/python-currencies
+    pypi_id: python-currencies
+    conda_id: conda-forge/python-currencies
+    show: True
+  - name: "saleor"
+    description: "An e-commerce storefront for Django."
+    category: "E-commerce"
+    resource: True
+    homepage: http://getsaleor.com/
+    show: True
+  - name: "shoop"
+    description: "An open source E-Commerce platform based on Django."
+    category: "E-commerce"
+    resource: True
+    homepage: https://www.shuup.com/en/
+    show: True
+  - name: "elpy"
+    description: "Emacs Python Development Environment."
+    category: "Editor Plugins and IDEs"
+    github_id: jorgenschaefer/elpy
+    pypi_id: elpy
+    conda_id: conda-forge/elpy
+    show: True
+  - name: "anaconda"
+    description: "Anaconda turns your Sublime Text 3 in a full featured Python development IDE."
+    category: "Editor Plugins and IDEs"
+    github_id: DamnWidget/anaconda
+    pypi_id: anaconda
+    conda_id: conda-forge/anaconda
+    show: True
+  - name: "SublimeJEDI"
+    description: "A Sublime Text plugin to the awesome auto-complete library Jedi."
+    category: "Editor Plugins and IDEs"
+    github_id: srusskih/SublimeJEDI
+    pypi_id: SublimeJEDI
+    conda_id: conda-forge/SublimeJEDI
+    show: True
+  - name: "jedi-vim"
+    description: "Vim bindings for the Jedi auto-completion library for Python."
+    category: "Editor Plugins and IDEs"
+    github_id: davidhalter/jedi-vim
+    pypi_id: jedi-vim
+    conda_id: conda-forge/jedi-vim
+    show: True
+  - name: "python-mode"
+    description: "An all in one plugin for turning Vim into a Python IDE."
+    category: "Editor Plugins and IDEs"
+    github_id: python-mode/python-mode
+    pypi_id: python-mode
+    conda_id: conda-forge/python-mode
+    show: True
+  - name: "YouCompleteMe"
+    description: "Includes [Jedi](https://github.com/davidhalter/jedi)-based completion engine for Python."
+    category: "Editor Plugins and IDEs"
+    github_id: Valloric/YouCompleteMe
+    pypi_id: YouCompleteMe
+    conda_id: conda-forge/YouCompleteMe
+    show: True
+  - name: "PTVS"
+    description: "Python Tools for Visual Studio."
+    category: "Editor Plugins and IDEs"
+    github_id: Microsoft/PTVS
+    pypi_id: PTVS
+    conda_id: conda-forge/PTVS
+    show: True
+  - name: "Python"
+    description: "The official VSCode extension with rich support for Python."
+    category: "Editor Plugins and IDEs"
+    resource: True
+    homepage: https://marketplace.visualstudio.com/items?itemName=ms-python.python
+    show: True
+  - name: "PyCharm"
+    description: "Commercial Python IDE by JetBrains. Has free community edition available."
+    category: "Editor Plugins and IDEs"
+    resource: True
+    homepage: https://www.jetbrains.com/pycharm/
+    show: True
+  - name: "spyder"
+    description: "Open Source Python IDE."
+    category: "Editor Plugins and IDEs"
+    github_id: spyder-ide/spyder
+    pypi_id: spyder
+    conda_id: conda-forge/spyder
+    show: True
+  - name: "modoboa"
+    description: "A mail hosting and management platform including a modern Web UI."
+    category: "Email"
+    github_id: modoboa/modoboa
+    pypi_id: modoboa
+    conda_id: conda-forge/modoboa
+    show: True
+  - name: "salmon"
+    description: "A Python Mail Server."
+    category: "Email"
+    github_id: moggers87/salmon
+    pypi_id: salmon
+    conda_id: conda-forge/salmon
+    show: True
+  - name: "imbox"
+    description: "Python IMAP for Humans."
+    category: "Email"
+    github_id: martinrusev/imbox
+    pypi_id: imbox
+    conda_id: conda-forge/imbox
+    show: True
+  - name: "yagmail"
+    description: "Yet another Gmail/SMTP client."
+    category: "Email"
+    github_id: kootenpv/yagmail
+    pypi_id: yagmail
+    conda_id: conda-forge/yagmail
+    show: True
+  - name: "flanker"
+    description: "An email address and Mime parsing library."
+    category: "Email"
+    github_id: mailgun/flanker
+    pypi_id: flanker
+    conda_id: conda-forge/flanker
+    show: True
+  - name: "mailer"
+    description: "High-performance extensible mail delivery framework."
+    category: "Email"
+    github_id: marrow/mailer
+    pypi_id: mailer
+    conda_id: conda-forge/mailer
+    show: True
+  - name: "Zato"
+    description: "ESB, SOA, REST, APIs and Cloud Integrations in Python."
+    category: "Enterprise Application Integrations"
+    resource: True
+    homepage: https://zato.io
+    show: True
+  - name: "pyenv"
+    description: "Simple Python version management."
+    category: "Environment Management"
+    github_id: pyenv/pyenv
+    pypi_id: pyenv
+    conda_id: conda-forge/pyenv
+    show: True
+  - name: "virtualenv"
+    description: "A tool to create isolated Python environments."
+    category: "Environment Management"
+    github_id: pypa/virtualenv
+    pypi_id: virtualenv
+    conda_id: conda-forge/virtualenv
+    show: True
+  - name: "mimetypes"
+    description: "(Python standard library) Map filenames to MIME types."
+    category: "Files"
+    resource: True
+    homepage: https://docs.python.org/3/library/mimetypes.html
+    show: True
+  - name: "path.py"
+    description: "A module wrapper for [os.path](https://docs.python.org/3/library/os.path.html)."
+    category: "Files"
+    github_id: jaraco/path.py
+    pypi_id: path.py
+    conda_id: conda-forge/path.py
+    show: True
+  - name: "pathlib"
+    description: "(Python standard library) An cross-platform, object-oriented path library."
+    category: "Files"
+    resource: True
+    homepage: https://docs.python.org/3/library/pathlib.html
+    show: True
+  - name: "PyFilesystem2"
+    description: "Python's filesystem abstraction layer."
+    category: "Files"
+    github_id: pyfilesystem/pyfilesystem2
+    pypi_id: pyfilesystem2
+    conda_id: conda-forge/pyfilesystem2
+    show: True
+  - name: "python-magic"
+    description: "A Python interface to the libmagic file type identification library."
+    category: "Files"
+    github_id: ahupp/python-magic
+    pypi_id: python-magic
+    conda_id: conda-forge/python-magic
+    show: True
+  - name: "Unipath"
+    description: "An object-oriented approach to file/directory operations."
+    category: "Files"
+    github_id: mikeorr/Unipath
+    pypi_id: Unipath
+    conda_id: conda-forge/Unipath
+    show: True
+  - name: "watchdog"
+    description: "API and shell utilities to monitor file system events."
+    category: "Files"
+    github_id: gorakhargosh/watchdog
+    pypi_id: watchdog
+    conda_id: conda-forge/watchdog
+    show: True
+  - name: "cffi"
+    description: "Foreign Function Interface for Python calling C code."
+    category: "Foreign Function Interface"
+    resource: True
+    homepage: https://pypi.org/project/cffi/
+    show: True
+  - name: "ctypes"
+    description: "(Python standard library) Foreign Function Interface for Python calling C code."
+    category: "Foreign Function Interface"
+    resource: True
+    homepage: https://docs.python.org/3/library/ctypes.html
+    show: True
+  - name: "PyCUDA"
+    description: "A Python wrapper for Nvidia's CUDA API."
+    category: "Foreign Function Interface"
+    resource: True
+    homepage: https://mathema.tician.de/software/pycuda/
+    show: True
+  - name: "SWIG"
+    description: "Simplified Wrapper and Interface Generator."
+    category: "Foreign Function Interface"
+    resource: True
+    homepage: http://www.swig.org/Doc1.3/Python.html
+    show: True
+  - name: "Deform"
+    description: "Python HTML form generation library influenced by the formish form generation library."
+    category: "Forms"
+    github_id: Pylons/deform
+    pypi_id: deform
+    conda_id: conda-forge/deform
+    show: True
+  - name: "django-bootstrap3"
+    description: "Bootstrap 3 integration with Django."
+    category: "Forms"
+    github_id: dyve/django-bootstrap3
+    pypi_id: django-bootstrap3
+    conda_id: conda-forge/django-bootstrap3
+    show: True
+  - name: "django-bootstrap4"
+    description: "Bootstrap 4 integration with Django."
+    category: "Forms"
+    github_id: zostera/django-bootstrap4
+    pypi_id: django-bootstrap4
+    conda_id: conda-forge/django-bootstrap4
+    show: True
+  - name: "django-crispy-forms"
+    description: "A Django app which lets you create beautiful forms in a very elegant and DRY way."
+    category: "Forms"
+    github_id: django-crispy-forms/django-crispy-forms
+    pypi_id: django-crispy-forms
+    conda_id: conda-forge/django-crispy-forms
+    show: True
+  - name: "django-remote-forms"
+    description: "A platform independent Django form serializer."
+    category: "Forms"
+    github_id: WiserTogether/django-remote-forms
+    pypi_id: django-remote-forms
+    conda_id: conda-forge/django-remote-forms
+    show: True
+  - name: "WTForms"
+    description: "A flexible forms validation and rendering library."
+    category: "Forms"
+    github_id: wtforms/wtforms
+    pypi_id: wtforms
+    conda_id: conda-forge/wtforms
+    show: True
+  - name: "Coconut"
+    description: "A variant of Python built for simple, elegant, Pythonic functional programming."
+    category: "Functional Programming"
+    github_id: evhub/coconut
+    pypi_id: coconut
+    conda_id: conda-forge/coconut
+    show: True
+  - name: "CyToolz"
+    description: "Cython implementation of `Toolz`: High performance functional utilities."
+    category: "Functional Programming"
+    github_id: pytoolz/cytoolz/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "fn.py"
+    description: "Functional programming in Python: implementation of missing features to enjoy FP."
+    category: "Functional Programming"
+    github_id: kachayev/fn.py
+    pypi_id: fn.py
+    conda_id: conda-forge/fn.py
+    show: True
+  - name: "funcy"
+    description: "A fancy and practical functional tools."
+    category: "Functional Programming"
+    github_id: Suor/funcy
+    pypi_id: funcy
+    conda_id: conda-forge/funcy
+    show: True
+  - name: "more-itertools"
+    description: "More routines for operating on iterables, beyond `itertools`."
+    category: "Functional Programming"
+    github_id: erikrose/more-itertools
+    pypi_id: more-itertools
+    conda_id: conda-forge/more-itertools
+    show: True
+  - name: "returns"
+    description: "A set of type-safe monads, transformers, and composition utilities."
+    category: "Functional Programming"
+    github_id: dry-python/returns
+    pypi_id: returns
+    conda_id: conda-forge/returns
+    show: True
+  - name: "Toolz"
+    description: "A collection of functional utilities for iterators, functions, and dictionaries."
+    category: "Functional Programming"
+    github_id: pytoolz/toolz
+    pypi_id: toolz
+    conda_id: conda-forge/toolz
+    show: True
+  - name: "curses"
+    description: "Built-in wrapper for [ncurses](http://www.gnu.org/software/ncurses/) used to create terminal GUI applications."
+    category: "GUI Development"
+    resource: True
+    homepage: https://docs.python.org/3/library/curses.html
+    show: True
+  - name: "Eel"
+    description: "A library for making simple Electron-like offline HTML/JS GUI apps."
+    category: "GUI Development"
+    github_id: ChrisKnott/Eel
+    pypi_id: Eel
+    conda_id: conda-forge/Eel
+    show: True
+  - name: "enaml"
+    description: "Creating beautiful user-interfaces with Declarative Syntax like QML."
+    category: "GUI Development"
+    github_id: nucleic/enaml
+    pypi_id: enaml
+    conda_id: conda-forge/enaml
+    show: True
+  - name: "Flexx"
+    description: "Flexx is a pure Python toolkit for creating GUI's, that uses web technology for its rendering."
+    category: "GUI Development"
+    github_id: zoofIO/flexx
+    pypi_id: flexx
+    conda_id: conda-forge/flexx
+    show: True
+  - name: "Gooey"
+    description: "Turn command line programs into a full GUI application with one line."
+    category: "GUI Development"
+    github_id: chriskiehl/Gooey
+    pypi_id: Gooey
+    conda_id: conda-forge/Gooey
+    show: True
+  - name: "kivy"
+    description: "A library for creating NUI applications, running on Windows, Linux, Mac OS X, Android and iOS."
+    category: "GUI Development"
+    resource: True
+    homepage: https://kivy.org/
+    show: True
+  - name: "pyglet"
+    description: "A cross-platform windowing and multimedia library for Python."
+    category: "GUI Development"
+    github_id: pyglet/pyglet
+    pypi_id: pyglet
+    conda_id: conda-forge/pyglet
+    show: True
+  - name: "PyGObject"
+    description: "Python Bindings for GLib/GObject/GIO/GTK+ (GTK+3)."
+    category: "GUI Development"
+    resource: True
+    homepage: https://wiki.gnome.org/Projects/PyGObject
+    show: True
+  - name: "PyQt"
+    description: "Python bindings for the [Qt](https://www.qt.io/) cross-platform application and UI framework."
+    category: "GUI Development"
+    resource: True
+    homepage: https://riverbankcomputing.com/software/pyqt/intro
+    show: True
+  - name: "PySimpleGUI"
+    description: "Wrapper for tkinter, Qt, WxPython and Remi."
+    category: "GUI Development"
+    github_id: PySimpleGUI/PySimpleGUI
+    pypi_id: PySimpleGUI
+    conda_id: conda-forge/PySimpleGUI
+    show: True
+  - name: "pywebview"
+    description: "A lightweight cross-platform native wrapper around a webview component."
+    category: "GUI Development"
+    github_id: r0x0r/pywebview/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "Tkinter"
+    description: "Tkinter is Python's de-facto standard GUI package."
+    category: "GUI Development"
+    resource: True
+    homepage: https://wiki.python.org/moin/TkInter
+    show: True
+  - name: "Toga"
+    description: "A Python native, OS native GUI toolkit."
+    category: "GUI Development"
+    github_id: pybee/toga
+    pypi_id: toga
+    conda_id: conda-forge/toga
+    show: True
+  - name: "urwid"
+    description: "A library for creating terminal GUI applications with strong support for widgets, events, rich colors, etc."
+    category: "GUI Development"
+    resource: True
+    homepage: http://urwid.org/
+    show: True
+  - name: "wxPython"
+    description: "A blending of the wxWidgets C++ class library with the Python."
+    category: "GUI Development"
+    resource: True
+    homepage: https://wxpython.org/
+    show: True
+  - name: "DearPyGui"
+    description: "A Simple GPU accelerated Python GUI framework"
+    category: "GUI Development"
+    github_id: RaylockLLC/DearPyGui/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "graphene"
+    description: "GraphQL framework for Python."
+    category: "GraphQL"
+    github_id: graphql-python/graphene/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "tartiflette-aiohttp"
+    description: "An `aiohttp`-based wrapper for Tartiflette to expose GraphQL APIs over HTTP."
+    category: "GraphQL"
+    github_id: tartiflette/tartiflette-aiohttp/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "tartiflette-asgi"
+    description: "ASGI support for the Tartiflette GraphQL engine."
+    category: "GraphQL"
+    github_id: tartiflette/tartiflette-asgi/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "tartiflette"
+    description: "SDL-first GraphQL engine implementation for Python 3.6+ and asyncio."
+    category: "GraphQL"
+    resource: True
+    homepage: https://tartiflette.io
+    show: True
+  - name: "Arcade"
+    description: "Arcade is a modern Python framework for crafting games with compelling graphics and sound."
+    category: "Game Development"
+    resource: True
+    homepage: https://arcade.academy/index.html
+    show: True
+  - name: "Cocos2d"
+    description: "cocos2d is a framework for building 2D games, demos, and other graphical/interactive applications."
+    category: "Game Development"
+    resource: True
+    homepage: http://cocos2d.org/
+    show: True
+  - name: "Harfang3D"
+    description: "Python framework for 3D, VR and game development."
+    category: "Game Development"
+    resource: True
+    homepage: http://www.harfang3d.com
+    show: True
+  - name: "Panda3D"
+    description: "3D game engine developed by Disney."
+    category: "Game Development"
+    resource: True
+    homepage: https://www.panda3d.org/
+    show: True
+  - name: "Pygame"
+    description: "Pygame is a set of Python modules designed for writing games."
+    category: "Game Development"
+    resource: True
+    homepage: http://www.pygame.org/news.html
+    show: True
+  - name: "PyOgre"
+    description: "Python bindings for the Ogre 3D render engine, can be used for games, simulations, anything 3D."
+    category: "Game Development"
+    resource: True
+    homepage: http://www.ogre3d.org/tikiwiki/PyOgre
+    show: True
+  - name: "PyOpenGL"
+    description: "Python ctypes bindings for OpenGL and it's related APIs."
+    category: "Game Development"
+    resource: True
+    homepage: http://pyopengl.sourceforge.net/
+    show: True
+  - name: "PySDL2"
+    description: "A ctypes based wrapper for the SDL2 library."
+    category: "Game Development"
+    resource: True
+    homepage: https://pysdl2.readthedocs.io
+    show: True
+  - name: "RenPy"
+    description: "A Visual Novel engine."
+    category: "Game Development"
+    resource: True
+    homepage: https://www.renpy.org/
+    show: True
+  - name: "django-countries"
+    description: "A Django app that provides a country field for models and forms."
+    category: "Geolocation"
+    github_id: SmileyChris/django-countries
+    pypi_id: django-countries
+    conda_id: conda-forge/django-countries
+    show: True
+  - name: "GeoDjango"
+    description: "A world-class geographic web framework."
+    category: "Geolocation"
+    resource: True
+    homepage: https://docs.djangoproject.com/en/dev/ref/contrib/gis/
+    show: True
+  - name: "GeoIP"
+    description: "Python API for MaxMind GeoIP Legacy Database."
+    category: "Geolocation"
+    github_id: maxmind/geoip-api-python
+    pypi_id: geoip-api-python
+    conda_id: conda-forge/geoip-api-python
+    show: True
+  - name: "geojson"
+    description: "Python bindings and utilities for GeoJSON."
+    category: "Geolocation"
+    github_id: frewsxcv/python-geojson
+    pypi_id: python-geojson
+    conda_id: conda-forge/python-geojson
+    show: True
+  - name: "geopy"
+    description: "Python Geocoding Toolbox."
+    category: "Geolocation"
+    github_id: geopy/geopy
+    pypi_id: geopy
+    conda_id: conda-forge/geopy
+    show: True
+  - name: "BeautifulSoup"
+    description: "Providing Pythonic idioms for iterating, searching, and modifying HTML or XML."
+    category: "HTML Manipulation"
+    resource: True
+    homepage: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+    show: True
+  - name: "bleach"
+    description: "A whitelist-based HTML sanitization and text linkification library."
+    category: "HTML Manipulation"
+    github_id: mozilla/bleach
+    pypi_id: bleach
+    conda_id: conda-forge/bleach
+    show: True
+  - name: "cssutils"
+    description: "A CSS library for Python."
+    category: "HTML Manipulation"
+    resource: True
+    homepage: https://pypi.org/project/cssutils/
+    show: True
+  - name: "html5lib"
+    description: "A standards-compliant library for parsing and serializing HTML documents and fragments."
+    category: "HTML Manipulation"
+    github_id: html5lib/html5lib-python
+    pypi_id: html5lib-python
+    conda_id: conda-forge/html5lib-python
+    show: True
+  - name: "lxml"
+    description: "A very fast, easy-to-use and versatile library for handling HTML and XML."
+    category: "HTML Manipulation"
+    resource: True
+    homepage: http://lxml.de/
+    show: True
+  - name: "MarkupSafe"
+    description: "Implements a XML/HTML/XHTML Markup safe string for Python."
+    category: "HTML Manipulation"
+    github_id: pallets/markupsafe
+    pypi_id: markupsafe
+    conda_id: conda-forge/markupsafe
+    show: True
+  - name: "pyquery"
+    description: "A jQuery-like library for parsing HTML."
+    category: "HTML Manipulation"
+    github_id: gawel/pyquery
+    pypi_id: pyquery
+    conda_id: conda-forge/pyquery
+    show: True
+  - name: "untangle"
+    description: "Converts XML documents to Python objects for easy access."
+    category: "HTML Manipulation"
+    github_id: stchris/untangle
+    pypi_id: untangle
+    conda_id: conda-forge/untangle
+    show: True
+  - name: "WeasyPrint"
+    description: "A visual rendering engine for HTML and CSS that can export to PDF."
+    category: "HTML Manipulation"
+    resource: True
+    homepage: http://weasyprint.org
+    show: True
+  - name: "xmldataset"
+    description: "Simple XML Parsing."
+    category: "HTML Manipulation"
+    resource: True
+    homepage: https://xmldataset.readthedocs.io/en/latest/
+    show: True
+  - name: "xmltodict"
+    description: "Working with XML feel like you are working with JSON."
+    category: "HTML Manipulation"
+    github_id: martinblech/xmltodict
+    pypi_id: xmltodict
+    conda_id: conda-forge/xmltodict
+    show: True
+  - name: "grequests"
+    description: "requests + gevent for asynchronous HTTP requests."
+    category: "HTTP Clients"
+    github_id: spyoungtech/grequests
+    pypi_id: grequests
+    conda_id: conda-forge/grequests
+    show: True
+  - name: "httplib2"
+    description: "Comprehensive HTTP client library."
+    category: "HTTP Clients"
+    github_id: httplib2/httplib2
+    pypi_id: httplib2
+    conda_id: conda-forge/httplib2
+    show: True
+  - name: "httpx"
+    description: "A next generation HTTP client for Python."
+    category: "HTTP Clients"
+    github_id: encode/httpx
+    pypi_id: httpx
+    conda_id: conda-forge/httpx
+    show: True
+  - name: "requests"
+    description: "HTTP Requests for Humans."
+    category: "HTTP Clients"
+    github_id: psf/requests
+    pypi_id: requests
+    conda_id: conda-forge/requests
+    show: True
+  - name: "treq"
+    description: "Python requests like API built on top of Twisted's HTTP client."
+    category: "HTTP Clients"
+    github_id: twisted/treq
+    pypi_id: treq
+    conda_id: conda-forge/treq
+    show: True
+  - name: "urllib3"
+    description: "A HTTP library with thread-safe connection pooling, file post support, sanity friendly."
+    category: "HTTP Clients"
+    github_id: shazow/urllib3
+    pypi_id: urllib3
+    conda_id: conda-forge/urllib3
+    show: True
+  - name: "ino"
+    description: "Command line toolkit for working with Arduino."
+    category: "Hardware"
+    resource: True
+    homepage: http://inotool.org/
+    show: True
+  - name: "keyboard"
+    description: "Hook and simulate global keyboard events on Windows and Linux."
+    category: "Hardware"
+    github_id: boppreh/keyboard
+    pypi_id: keyboard
+    conda_id: conda-forge/keyboard
+    show: True
+  - name: "mouse"
+    description: "Hook and simulate global mouse events on Windows and Linux."
+    category: "Hardware"
+    github_id: boppreh/mouse
+    pypi_id: mouse
+    conda_id: conda-forge/mouse
+    show: True
+  - name: "Pingo"
+    description: "Pingo provides a uniform API to program devices like the Raspberry Pi, pcDuino, Intel Galileo, etc."
+    category: "Hardware"
+    resource: True
+    homepage: http://www.pingo.io/
+    show: True
+  - name: "PyUserInput"
+    description: "A module for cross-platform control of the mouse and keyboard."
+    category: "Hardware"
+    github_id: SavinaRoja/PyUserInput
+    pypi_id: PyUserInput
+    conda_id: conda-forge/PyUserInput
+    show: True
+  - name: "scapy"
+    description: "A brilliant packet manipulation library."
+    category: "Hardware"
+    github_id: secdev/scapy
+    pypi_id: scapy
+    conda_id: conda-forge/scapy
+    show: True
+  - name: "wifi"
+    description: "A Python library and command line tool for working with WiFi on Linux."
+    category: "Hardware"
+    github_id: rockymeza/wifi
+    pypi_id: wifi
+    conda_id: conda-forge/wifi
+    show: True
+  - name: "hmap"
+    description: "Image histogram remapping."
+    category: "Image Processing"
+    github_id: rossgoodwin/hmap
+    pypi_id: hmap
+    conda_id: conda-forge/hmap
+    show: True
+  - name: "imgSeek"
+    description: "A project for searching a collection of images using visual similarity."
+    category: "Image Processing"
+    resource: True
+    homepage: https://sourceforge.net/projects/imgseek/
+    show: True
+  - name: "nude.py"
+    description: "Nudity detection."
+    category: "Image Processing"
+    github_id: hhatto/nude.py
+    pypi_id: nude.py
+    conda_id: conda-forge/nude.py
+    show: True
+  - name: "pagan"
+    description: "Retro identicon (Avatar) generation based on input string and hash."
+    category: "Image Processing"
+    github_id: daboth/pagan
+    pypi_id: pagan
+    conda_id: conda-forge/pagan
+    show: True
+  - name: "pillow"
+    description: "Pillow is the friendly [PIL](http://www.pythonware.com/products/pil/) fork."
+    category: "Image Processing"
+    github_id: python-pillow/Pillow
+    pypi_id: Pillow
+    conda_id: conda-forge/Pillow
+    show: True
+  - name: "python-barcode"
+    description: "Create barcodes in Python with no extra dependencies."
+    category: "Image Processing"
+    github_id: WhyNotHugo/python-barcode
+    pypi_id: python-barcode
+    conda_id: conda-forge/python-barcode
+    show: True
+  - name: "pygram"
+    description: "Instagram-like image filters."
+    category: "Image Processing"
+    github_id: ajkumar25/pygram
+    pypi_id: pygram
+    conda_id: conda-forge/pygram
+    show: True
+  - name: "PyMatting"
+    description: "A library for alpha matting."
+    category: "Image Processing"
+    resource: True
+    homepage: http://github.com/pymatting/pymatting
+    show: True
+  - name: "python-qrcode"
+    description: "A pure Python QR Code generator."
+    category: "Image Processing"
+    github_id: lincolnloop/python-qrcode
+    pypi_id: python-qrcode
+    conda_id: conda-forge/python-qrcode
+    show: True
+  - name: "pywal"
+    description: "A tool that generates color schemes from images."
+    category: "Image Processing"
+    github_id: dylanaraps/pywal
+    pypi_id: pywal
+    conda_id: conda-forge/pywal
+    show: True
+  - name: "pyvips"
+    description: "A fast image processing library with low memory needs."
+    category: "Image Processing"
+    github_id: libvips/pyvips
+    pypi_id: pyvips
+    conda_id: conda-forge/pyvips
+    show: True
+  - name: "Quads"
+    description: "Computer art based on quadtrees."
+    category: "Image Processing"
+    github_id: fogleman/Quads
+    pypi_id: Quads
+    conda_id: conda-forge/Quads
+    show: True
+  - name: "scikit-image"
+    description: "A Python library for (scientific) image processing."
+    category: "Image Processing"
+    resource: True
+    homepage: http://scikit-image.org/
+    show: True
+  - name: "thumbor"
+    description: "A smart imaging service. It enables on-demand crop, re-sizing and flipping of images."
+    category: "Image Processing"
+    github_id: thumbor/thumbor
+    pypi_id: thumbor
+    conda_id: conda-forge/thumbor
+    show: True
+  - name: "wand"
+    description: "Python bindings for [MagickWand](http://www.imagemagick.org/script/magick-wand.php), C API for ImageMagick."
+    category: "Image Processing"
+    github_id: dahlia/wand
+    pypi_id: wand
+    conda_id: conda-forge/wand
+    show: True
+  - name: "CLPython"
+    description: "Implementation of the Python programming language written in Common Lisp."
+    category: "Implementations"
+    github_id: metawilm/cl-python
+    pypi_id: cl-python
+    conda_id: conda-forge/cl-python
+    show: True
+  - name: "CPython"
+    description: "**Default, most widely used implementation of the Python programming language written in C.**"
+    category: "Implementations"
+    github_id: python/cpython
+    pypi_id: cpython
+    conda_id: conda-forge/cpython
+    show: True
+  - name: "Cython"
+    description: "Optimizing Static Compiler for Python."
+    category: "Implementations"
+    resource: True
+    homepage: http://cython.org/
+    show: True
+  - name: "Grumpy"
+    description: "More compiler than interpreter as more powerful CPython2.7 replacement (alpha)."
+    category: "Implementations"
+    github_id: google/grumpy
+    pypi_id: grumpy
+    conda_id: conda-forge/grumpy
+    show: True
+  - name: "IronPython"
+    description: "Implementation of the Python programming language written in C#."
+    category: "Implementations"
+    github_id: IronLanguages/ironpython3
+    pypi_id: ironpython3
+    conda_id: conda-forge/ironpython3
+    show: True
+  - name: "Jython"
+    description: "Implementation of Python programming language written in Java for the JVM."
+    category: "Implementations"
+    resource: True
+    homepage: https://hg.python.org/jython
+    show: True
+  - name: "MicroPython"
+    description: "A lean and efficient Python programming language implementation."
+    category: "Implementations"
+    github_id: micropython/micropython
+    pypi_id: micropython
+    conda_id: conda-forge/micropython
+    show: True
+  - name: "Numba"
+    description: "Python JIT compiler to LLVM aimed at scientific Python."
+    category: "Implementations"
+    resource: True
+    homepage: http://numba.pydata.org/
+    show: True
+  - name: "PeachPy"
+    description: "x86-64 assembler embedded in Python."
+    category: "Implementations"
+    github_id: Maratyszcza/PeachPy
+    pypi_id: PeachPy
+    conda_id: conda-forge/PeachPy
+    show: True
+  - name: "Pyjion"
+    description: "A JIT for Python based upon CoreCLR."
+    category: "Implementations"
+    github_id: Microsoft/Pyjion
+    pypi_id: Pyjion
+    conda_id: conda-forge/Pyjion
+    show: True
+  - name: "PyPy"
+    description: "A very fast and compliant implementation of the Python language."
+    category: "Implementations"
+    resource: True
+    homepage: https://foss.heptapod.net/pypy/pypy
+    show: True
+  - name: "Pyston"
+    description: "A Python implementation using JIT techniques."
+    category: "Implementations"
+    github_id: dropbox/pyston
+    pypi_id: pyston
+    conda_id: conda-forge/pyston
+    show: True
+  - name: "Stackless Python"
+    description: "An enhanced version of the Python programming language."
+    category: "Implementations"
+    github_id: stackless-dev/stackless
+    pypi_id: stackless
+    conda_id: conda-forge/stackless
+    show: True
+  - name: "bpython"
+    description: "A fancy interface to the Python interpreter."
+    category: "Interactive Interpreter"
+    github_id: bpython/bpython
+    pypi_id: bpython
+    conda_id: conda-forge/bpython
+    show: True
+  - name: "Jupyter Notebook (IPython)"
+    description: "A rich toolkit to help you make the most out of using Python interactively."
+    category: "Interactive Interpreter"
+    resource: True
+    homepage: https://jupyter.org
+    show: True
+  - name: "awesome-jupyter"
+    category: "Interactive Interpreter"
+    resource: True
+    github_id: markusschanta/awesome-jupyter
+    show: True
+  - name: "ptpython"
+    description: "Advanced Python REPL built on top of the [python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit)."
+    category: "Interactive Interpreter"
+    github_id: jonathanslenders/ptpython
+    pypi_id: ptpython
+    conda_id: conda-forge/ptpython
+    show: True
+  - name: "Babel"
+    description: "An internationalization library for Python."
+    category: "Internationalization"
+    resource: True
+    homepage: http://babel.pocoo.org/en/latest/
+    show: True
+  - name: "PyICU"
+    description: "A wrapper of International Components for Unicode C++ library ([ICU](http://site.icu-project.org/))."
+    category: "Internationalization"
+    github_id: ovalhub/pyicu
+    pypi_id: pyicu
+    conda_id: conda-forge/pyicu
+    show: True
+  - name: "Airflow"
+    description: "Airflow is a platform to programmatically author, schedule and monitor workflows."
+    category: "Job Scheduler"
+    resource: True
+    homepage: https://airflow.apache.org/
+    show: True
+  - name: "APScheduler"
+    description: "A light but powerful in-process task scheduler that lets you schedule functions."
+    category: "Job Scheduler"
+    resource: True
+    homepage: http://apscheduler.readthedocs.io/en/latest/
+    show: True
+  - name: "django-schedule"
+    description: "A calendaring app for Django."
+    category: "Job Scheduler"
+    github_id: thauber/django-schedule
+    pypi_id: django-schedule
+    conda_id: conda-forge/django-schedule
+    show: True
+  - name: "doit"
+    description: "A task runner and build tool."
+    category: "Job Scheduler"
+    resource: True
+    homepage: http://pydoit.org/
+    show: True
+  - name: "gunnery"
+    description: "Multipurpose task execution tool for distributed systems with web-based interface."
+    category: "Job Scheduler"
+    github_id: gunnery/gunnery
+    pypi_id: gunnery
+    conda_id: conda-forge/gunnery
+    show: True
+  - name: "Joblib"
+    description: "A set of tools to provide lightweight pipelining in Python."
+    category: "Job Scheduler"
+    resource: True
+    homepage: https://joblib.readthedocs.io/
+    show: True
+  - name: "Plan"
+    description: "Writing crontab file in Python like a charm."
+    category: "Job Scheduler"
+    github_id: fengsp/plan
+    pypi_id: plan
+    conda_id: conda-forge/plan
+    show: True
+  - name: "Prefect"
+    description: "A modern workflow orchestration framework that makes it easy to build, schedule and monitor robust data pipelines."
+    category: "Job Scheduler"
+    github_id: PrefectHQ/prefect
+    pypi_id: prefect
+    conda_id: conda-forge/prefect
+    show: True
+  - name: "schedule"
+    description: "Python job scheduling for humans."
+    category: "Job Scheduler"
+    github_id: dbader/schedule
+    pypi_id: schedule
+    conda_id: conda-forge/schedule
+    show: True
+  - name: "Spiff"
+    description: "A powerful workflow engine implemented in pure Python."
+    category: "Job Scheduler"
+    github_id: knipknap/SpiffWorkflow
+    pypi_id: SpiffWorkflow
+    conda_id: conda-forge/SpiffWorkflow
+    show: True
+  - name: "TaskFlow"
+    description: "A Python library that helps to make task execution easy, consistent and reliable."
+    category: "Job Scheduler"
+    resource: True
+    homepage: https://docs.openstack.org/developer/taskflow/
+    show: True
+  - name: "logbook"
+    description: "Logging replacement for Python."
+    category: "Logging"
+    resource: True
+    homepage: http://logbook.readthedocs.io/en/stable/
+    show: True
+  - name: "logging"
+    description: "(Python standard library) Logging facility for Python."
+    category: "Logging"
+    resource: True
+    homepage: https://docs.python.org/3/library/logging.html
+    show: True
+  - name: "loguru"
+    description: "Library which aims to bring enjoyable logging in Python."
+    category: "Logging"
+    github_id: Delgan/loguru
+    pypi_id: loguru
+    conda_id: conda-forge/loguru
+    show: True
+  - name: "sentry-python"
+    description: "Sentry SDK for Python."
+    category: "Logging"
+    github_id: getsentry/sentry-python
+    pypi_id: sentry-python
+    conda_id: conda-forge/sentry-python
+    show: True
+  - name: "structlog"
+    description: "Structured logging made easy."
+    category: "Logging"
+    resource: True
+    homepage: https://www.structlog.org/en/stable/
+    show: True
+  - name: "gym"
+    description: "A toolkit for developing and comparing reinforcement learning algorithms."
+    category: "Machine Learning"
+    github_id: openai/gym
+    pypi_id: gym
+    conda_id: conda-forge/gym
+    show: True
+  - name: "H2O"
+    description: "Open Source Fast Scalable Machine Learning Platform."
+    category: "Machine Learning"
+    github_id: h2oai/h2o-3
+    pypi_id: h2o-3
+    conda_id: conda-forge/h2o-3
+    show: True
+  - name: "Metrics"
+    description: "Machine learning evaluation metrics."
+    category: "Machine Learning"
+    github_id: benhamner/Metrics
+    pypi_id: Metrics
+    conda_id: conda-forge/Metrics
+    show: True
+  - name: "NuPIC"
+    description: "Numenta Platform for Intelligent Computing."
+    category: "Machine Learning"
+    github_id: numenta/nupic
+    pypi_id: nupic
+    conda_id: conda-forge/nupic
+    show: True
+  - name: "scikit-learn"
+    description: "The most popular Python library for Machine Learning."
+    category: "Machine Learning"
+    resource: True
+    homepage: http://scikit-learn.org/
+    show: True
+  - name: "Spark ML"
+    description: "[Apache Spark](http://spark.apache.org/)'s scalable Machine Learning library."
+    category: "Machine Learning"
+    resource: True
+    homepage: http://spark.apache.org/docs/latest/ml-guide.html
+    show: True
+  - name: "vowpal_porpoise"
+    description: "A lightweight Python wrapper for [Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit/)."
+    category: "Machine Learning"
+    github_id: josephreisinger/vowpal_porpoise
+    pypi_id: vowpal_porpoise
+    conda_id: conda-forge/vowpal_porpoise
+    show: True
+  - name: "xgboost"
+    description: "A scalable, portable, and distributed gradient boosting library."
+    category: "Machine Learning"
+    github_id: dmlc/xgboost
+    pypi_id: xgboost
+    conda_id: conda-forge/xgboost
+    show: True
+  - name: "MindsDB"
+    description: "MindsDB is an open source AI layer for existing databases that allows you to effortlessly develop, train and deploy state-of-the-art machine learning models using standard queries."
+    category: "Machine Learning"
+    github_id: mindsdb/mindsdb
+    pypi_id: mindsdb
+    conda_id: conda-forge/mindsdb
+    show: True
+  - name: "Python(x,y)"
+    description: "Scientific-applications-oriented Python Distribution based on Qt and Spyder."
+    category: "Microsoft Windows"
+    resource: True
+    homepage: http://python-xy.github.io/
+    show: True
+  - name: "pythonlibs"
+    description: "Unofficial Windows binaries for Python extension packages."
+    category: "Microsoft Windows"
+    resource: True
+    homepage: http://www.lfd.uci.edu/~gohlke/pythonlibs/
+    show: True
+  - name: "PythonNet"
+    description: "Python Integration with the .NET Common Language Runtime (CLR)."
+    category: "Microsoft Windows"
+    github_id: pythonnet/pythonnet
+    pypi_id: pythonnet
+    conda_id: conda-forge/pythonnet
+    show: True
+  - name: "PyWin32"
+    description: "Python Extensions for Windows."
+    category: "Microsoft Windows"
+    github_id: mhammond/pywin32
+    pypi_id: pywin32
+    conda_id: conda-forge/pywin32
+    show: True
+  - name: "WinPython"
+    description: "Portable development environment for Windows 7/8."
+    category: "Microsoft Windows"
+    resource: True
+    homepage: https://winpython.github.io/
+    show: True
+  - name: "blinker"
+    description: "A fast Python in-process signal/event dispatching system."
+    category: "Miscellaneous"
+    github_id: jek/blinker
+    pypi_id: blinker
+    conda_id: conda-forge/blinker
+    show: True
+  - name: "boltons"
+    description: "A set of pure-Python utilities."
+    category: "Miscellaneous"
+    github_id: mahmoud/boltons
+    pypi_id: boltons
+    conda_id: conda-forge/boltons
+    show: True
+  - name: "itsdangerous"
+    description: "Various helpers to pass trusted data to untrusted environments."
+    category: "Miscellaneous"
+    github_id: pallets/itsdangerous
+    pypi_id: itsdangerous
+    conda_id: conda-forge/itsdangerous
+    show: True
+  - name: "magenta"
+    description: "A tool to generate music and art using artificial intelligence."
+    category: "Miscellaneous"
+    github_id: magenta/magenta
+    pypi_id: magenta
+    conda_id: conda-forge/magenta
+    show: True
+  - name: "pluginbase"
+    description: "A simple but flexible plugin system for Python."
+    category: "Miscellaneous"
+    github_id: mitsuhiko/pluginbase
+    pypi_id: pluginbase
+    conda_id: conda-forge/pluginbase
+    show: True
+  - name: "tryton"
+    description: "A general purpose business framework."
+    category: "Miscellaneous"
+    resource: True
+    homepage: http://www.tryton.org/
+    show: True
+  - name: "gensim"
+    description: "Topic Modeling for Humans."
+    category: "Natural Language Processing"
+    github_id: RaRe-Technologies/gensim
+    pypi_id: gensim
+    conda_id: conda-forge/gensim
+    show: True
+  - name: "langid.py"
+    description: "Stand-alone language identification system."
+    category: "Natural Language Processing"
+    github_id: saffsd/langid.py
+    pypi_id: langid.py
+    conda_id: conda-forge/langid.py
+    show: True
+  - name: "nltk"
+    description: "A leading platform for building Python programs to work with human language data."
+    category: "Natural Language Processing"
+    resource: True
+    homepage: http://www.nltk.org/
+    show: True
+  - name: "pattern"
+    description: "A web mining module."
+    category: "Natural Language Processing"
+    github_id: clips/pattern
+    pypi_id: pattern
+    conda_id: conda-forge/pattern
+    show: True
+  - name: "polyglot"
+    description: "Natural language pipeline supporting hundreds of languages."
+    category: "Natural Language Processing"
+    github_id: aboSamoor/polyglot
+    pypi_id: polyglot
+    conda_id: conda-forge/polyglot
+    show: True
+  - name: "pytext"
+    description: "A natural language modeling framework based on PyTorch."
+    category: "Natural Language Processing"
+    github_id: facebookresearch/pytext
+    pypi_id: pytext
+    conda_id: conda-forge/pytext
+    show: True
+  - name: "PyTorch-NLP"
+    description: "A toolkit enabling rapid deep learning NLP prototyping for research."
+    category: "Natural Language Processing"
+    github_id: PetrochukM/PyTorch-NLP
+    pypi_id: PyTorch-NLP
+    conda_id: conda-forge/PyTorch-NLP
+    show: True
+  - name: "spacy"
+    description: "A library for industrial-strength natural language processing in Python and Cython."
+    category: "Natural Language Processing"
+    resource: True
+    homepage: https://spacy.io/
+    show: True
+  - name: "Stanza"
+    description: "The Stanford NLP Group's official Python library, supporting 60+ languages."
+    category: "Natural Language Processing"
+    github_id: stanfordnlp/stanza
+    pypi_id: stanza
+    conda_id: conda-forge/stanza
+    show: True
+  - name: "funNLP"
+    description: "A collection of tools and datasets for Chinese NLP."
+    category: "Natural Language Processing"
+    github_id: fighting41love/funNLP
+    pypi_id: funNLP
+    conda_id: conda-forge/funNLP
+    show: True
+  - name: "jieba"
+    description: "The most popular Chinese text segmentation library."
+    category: "Natural Language Processing"
+    github_id: fxsjy/jieba
+    pypi_id: jieba
+    conda_id: conda-forge/jieba
+    show: True
+  - name: "pkuseg-python"
+    description: "A toolkit for Chinese word segmentation in various domains."
+    category: "Natural Language Processing"
+    github_id: lancopku/pkuseg-python
+    pypi_id: pkuseg-python
+    conda_id: conda-forge/pkuseg-python
+    show: True
+  - name: "snownlp"
+    description: "A library for processing Chinese text."
+    category: "Natural Language Processing"
+    github_id: isnowfy/snownlp
+    pypi_id: snownlp
+    conda_id: conda-forge/snownlp
+    show: True
+  - name: "mininet"
+    description: "A popular network emulator and API written in Python."
+    category: "Network Virtualization"
+    github_id: mininet/mininet
+    pypi_id: mininet
+    conda_id: conda-forge/mininet
+    show: True
+  - name: "napalm"
+    description: "Cross-vendor API to manipulate network devices."
+    category: "Network Virtualization"
+    github_id: napalm-automation/napalm
+    pypi_id: napalm
+    conda_id: conda-forge/napalm
+    show: True
+  - name: "pox"
+    description: "A Python-based SDN control applications, such as OpenFlow SDN controllers."
+    category: "Network Virtualization"
+    github_id: noxrepo/pox
+    pypi_id: pox
+    conda_id: conda-forge/pox
+    show: True
+  - name: "django-activity-stream"
+    description: "Generating generic activity streams from the actions on your site."
+    category: "News Feed"
+    github_id: justquick/django-activity-stream
+    pypi_id: django-activity-stream
+    conda_id: conda-forge/django-activity-stream
+    show: True
+  - name: "Stream Framework"
+    description: "Building news feed and notification systems using Cassandra and Redis."
+    category: "News Feed"
+    github_id: tschellenbach/Stream-Framework
+    pypi_id: Stream-Framework
+    conda_id: conda-forge/Stream-Framework
+    show: True
+  - name: "Django Models"
+    description: "The Django ORM."
+    category: "ORM"
+    resource: True
+    homepage: https://docs.djangoproject.com/en/dev/topics/db/models/
+    show: True
+  - name: "SQLAlchemy"
+    description: "The Python SQL Toolkit and Object Relational Mapper."
+    category: "ORM"
+    resource: True
+    homepage: https://www.sqlalchemy.org/
+    show: True
+  - name: "awesome-sqlalchemy"
+    category: "ORM"
+    resource: True
+    github_id: dahlia/awesome-sqlalchemy
+    show: True
+  - name: "dataset"
+    description: "Store Python dicts in a database - works with SQLite, MySQL, and PostgreSQL."
+    category: "ORM"
+    github_id: pudo/dataset
+    pypi_id: dataset
+    conda_id: conda-forge/dataset
+    show: True
+  - name: "orator"
+    description: " The Orator ORM provides a simple yet beautiful ActiveRecord implementation."
+    category: "ORM"
+    github_id: sdispater/orator
+    pypi_id: orator
+    conda_id: conda-forge/orator
+    show: True
+  - name: "orm"
+    description: "An async ORM."
+    category: "ORM"
+    github_id: encode/orm
+    pypi_id: orm
+    conda_id: conda-forge/orm
+    show: True
+  - name: "peewee"
+    description: "A small, expressive ORM."
+    category: "ORM"
+    github_id: coleifer/peewee
+    pypi_id: peewee
+    conda_id: conda-forge/peewee
+    show: True
+  - name: "pony"
+    description: "ORM that provides a generator-oriented interface to SQL."
+    category: "ORM"
+    github_id: ponyorm/pony/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "pydal"
+    description: "A pure Python Database Abstraction Layer."
+    category: "ORM"
+    github_id: web2py/pydal/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "hot-redis"
+    description: "Rich Python data types for Redis."
+    category: "ORM"
+    github_id: stephenmcd/hot-redis
+    pypi_id: hot-redis
+    conda_id: conda-forge/hot-redis
+    show: True
+  - name: "mongoengine"
+    description: "A Python Object-Document-Mapper for working with MongoDB."
+    category: "ORM"
+    github_id: MongoEngine/mongoengine
+    pypi_id: mongoengine
+    conda_id: conda-forge/mongoengine
+    show: True
+  - name: "PynamoDB"
+    description: "A Pythonic interface for [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)."
+    category: "ORM"
+    github_id: pynamodb/PynamoDB
+    pypi_id: PynamoDB
+    conda_id: conda-forge/PynamoDB
+    show: True
+  - name: "redisco"
+    description: "A Python Library for Simple Models and Containers Persisted in Redis."
+    category: "ORM"
+    github_id: kiddouk/redisco
+    pypi_id: redisco
+    conda_id: conda-forge/redisco
+    show: True
+  - name: "pip"
+    description: "The package installer for Python."
+    category: "Package Management"
+    resource: True
+    homepage: https://pip.pypa.io/en/stable/
+    show: True
+  - name: "pip-tools"
+    description: "A set of tools to keep your pinned Python dependencies fresh."
+    category: "Package Management"
+    github_id: jazzband/pip-tools
+    pypi_id: pip-tools
+    conda_id: conda-forge/pip-tools
+    show: True
+  - name: "PyPI"
+    category: "Package Management"
+    resource: True
+    homepage: https://pypi.org/
+    show: True
+  - name: "conda"
+    description: "Cross-platform, Python-agnostic binary package manager."
+    category: "Package Management"
+    github_id: conda/conda/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "poetry"
+    description: "Python dependency management and packaging made easy."
+    category: "Package Management"
+    github_id: sdispater/poetry
+    pypi_id: poetry
+    conda_id: conda-forge/poetry
+    show: True
+  - name: "bandersnatch"
+    description: "PyPI mirroring tool provided by Python Packaging Authority (PyPA)."
+    category: "Package Repositories"
+    github_id: pypa/bandersnatch/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "devpi"
+    description: "PyPI server and packaging/testing/release tool."
+    category: "Package Repositories"
+    github_id: devpi/devpi
+    pypi_id: devpi
+    conda_id: conda-forge/devpi
+    show: True
+  - name: "localshop"
+    description: "Local PyPI server (custom packages and auto-mirroring of pypi)."
+    category: "Package Repositories"
+    github_id: jazzband/localshop
+    pypi_id: localshop
+    conda_id: conda-forge/localshop
+    show: True
+  - name: "warehouse"
+    description: "Next generation Python Package Repository (PyPI)."
+    category: "Package Repositories"
+    github_id: pypa/warehouse
+    pypi_id: warehouse
+    conda_id: conda-forge/warehouse
+    show: True
+  - name: "fsociety"
+    description: "A Penetration testing framework."
+    category: "Penetration Testing"
+    github_id: Manisso/fsociety
+    pypi_id: fsociety
+    conda_id: conda-forge/fsociety
+    show: True
+  - name: "setoolkit"
+    description: "A toolkit for social engineering."
+    category: "Penetration Testing"
+    github_id: trustedsec/social-engineer-toolkit
+    pypi_id: social-engineer-toolkit
+    conda_id: conda-forge/social-engineer-toolkit
+    show: True
+  - name: "sqlmap"
+    description: "Automatic SQL injection and database takeover tool."
+    category: "Penetration Testing"
+    github_id: sqlmapproject/sqlmap
+    pypi_id: sqlmap
+    conda_id: conda-forge/sqlmap
+    show: True
+  - name: "django-guardian"
+    description: "Implementation of per object permissions for Django 1.2+"
+    category: "Permissions"
+    github_id: django-guardian/django-guardian
+    pypi_id: django-guardian
+    conda_id: conda-forge/django-guardian
+    show: True
+  - name: "django-rules"
+    description: "A tiny but powerful app providing object-level permissions to Django, without requiring a database."
+    category: "Permissions"
+    github_id: dfunckt/django-rules
+    pypi_id: django-rules
+    conda_id: conda-forge/django-rules
+    show: True
+  - name: "delegator.py"
+    description: "[Subprocesses](https://docs.python.org/3/library/subprocess.html) for Humans 2.0."
+    category: "Processes"
+    github_id: amitt001/delegator.py
+    pypi_id: delegator.py
+    conda_id: conda-forge/delegator.py
+    show: True
+  - name: "sarge"
+    description: "Yet another wrapper for subprocess."
+    category: "Processes"
+    resource: True
+    homepage: https://sarge.readthedocs.io/en/latest/
+    show: True
+  - name: "sh"
+    description: "A full-fledged subprocess replacement for Python."
+    category: "Processes"
+    github_id: amoffat/sh
+    pypi_id: sh
+    conda_id: conda-forge/sh
+    show: True
+  - name: "annoy"
+    description: "Approximate Nearest Neighbors in C++/Python optimized for memory usage."
+    category: "Recommender Systems"
+    github_id: spotify/annoy
+    pypi_id: annoy
+    conda_id: conda-forge/annoy
+    show: True
+  - name: "fastFM"
+    description: "A library for Factorization Machines."
+    category: "Recommender Systems"
+    github_id: ibayer/fastFM
+    pypi_id: fastFM
+    conda_id: conda-forge/fastFM
+    show: True
+  - name: "implicit"
+    description: "A fast Python implementation of collaborative filtering for implicit datasets."
+    category: "Recommender Systems"
+    github_id: benfred/implicit
+    pypi_id: implicit
+    conda_id: conda-forge/implicit
+    show: True
+  - name: "libffm"
+    description: "A library for Field-aware Factorization Machine (FFM)."
+    category: "Recommender Systems"
+    github_id: guestwalk/libffm
+    pypi_id: libffm
+    conda_id: conda-forge/libffm
+    show: True
+  - name: "lightfm"
+    description: "A Python implementation of a number of popular recommendation algorithms."
+    category: "Recommender Systems"
+    github_id: lyst/lightfm
+    pypi_id: lightfm
+    conda_id: conda-forge/lightfm
+    show: True
+  - name: "spotlight"
+    description: "Deep recommender models using PyTorch."
+    category: "Recommender Systems"
+    github_id: maciejkula/spotlight
+    pypi_id: spotlight
+    conda_id: conda-forge/spotlight
+    show: True
+  - name: "Surprise"
+    description: "A scikit for building and analyzing recommender systems."
+    category: "Recommender Systems"
+    github_id: NicolasHug/Surprise
+    pypi_id: Surprise
+    conda_id: conda-forge/Surprise
+    show: True
+  - name: "tensorrec"
+    description: "A Recommendation Engine Framework in TensorFlow."
+    category: "Recommender Systems"
+    github_id: jfkirk/tensorrec
+    pypi_id: tensorrec
+    conda_id: conda-forge/tensorrec
+    show: True
+  - name: "Bicycle Repair Man"
+    description: "Bicycle Repair Man, a refactoring tool for Python."
+    category: "Refactoring"
+    resource: True
+    homepage: http://bicyclerepair.sourceforge.net/
+    show: True
+  - name: "Bowler"
+    description: "Safe code refactoring for modern Python."
+    category: "Refactoring"
+    resource: True
+    homepage: https://pybowler.io/
+    show: True
+  - name: "Rope"
+    description: " Rope is a python refactoring library."
+    category: "Refactoring"
+    github_id: python-rope/rope
+    pypi_id: rope
+    conda_id: conda-forge/rope
+    show: True
+  - name: "django-rest-framework"
+    description: "A powerful and flexible toolkit to build web APIs."
+    category: "RESTful API"
+    resource: True
+    homepage: http://www.django-rest-framework.org/
+    show: True
+  - name: "django-tastypie"
+    description: "Creating delicious APIs for Django apps."
+    category: "RESTful API"
+    resource: True
+    homepage: http://tastypieapi.org/
+    show: True
+  - name: "eve"
+    description: "REST API framework powered by Flask, MongoDB and good intentions."
+    category: "RESTful API"
+    github_id: pyeve/eve
+    pypi_id: eve
+    conda_id: conda-forge/eve
+    show: True
+  - name: "flask-api"
+    description: "Browsable Web APIs for Flask."
+    category: "RESTful API"
+    github_id: flask-api/flask-api
+    pypi_id: flask-api
+    conda_id: conda-forge/flask-api
+    show: True
+  - name: "flask-restful"
+    description: "Quickly building REST APIs for Flask."
+    category: "RESTful API"
+    github_id: flask-restful/flask-restful
+    pypi_id: flask-restful
+    conda_id: conda-forge/flask-restful
+    show: True
+  - name: "cornice"
+    description: "A RESTful framework for Pyramid."
+    category: "RESTful API"
+    github_id: Cornices/cornice
+    pypi_id: cornice
+    conda_id: conda-forge/cornice
+    show: True
+  - name: "apistar"
+    description: "A smart Web API framework, designed for Python 3."
+    category: "RESTful API"
+    github_id: encode/apistar
+    pypi_id: apistar
+    conda_id: conda-forge/apistar
+    show: True
+  - name: "falcon"
+    description: "A high-performance framework for building cloud APIs and web app backends."
+    category: "RESTful API"
+    github_id: falconry/falcon
+    pypi_id: falcon
+    conda_id: conda-forge/falcon
+    show: True
+  - name: "fastapi"
+    description: "A modern, fast, web framework for building APIs with Python 3.6+ based on standard Python type hints."
+    category: "RESTful API"
+    github_id: tiangolo/fastapi
+    pypi_id: fastapi
+    conda_id: conda-forge/fastapi
+    show: True
+  - name: "hug"
+    description: "A Python 3 framework for cleanly exposing APIs."
+    category: "RESTful API"
+    github_id: hugapi/hug
+    pypi_id: hug
+    conda_id: conda-forge/hug
+    show: True
+  - name: "sandman2"
+    description: "Automated REST APIs for existing database-driven systems."
+    category: "RESTful API"
+    github_id: jeffknupp/sandman2
+    pypi_id: sandman2
+    conda_id: conda-forge/sandman2
+    show: True
+  - name: "sanic"
+    description: "A Python 3.6+ web server and web framework that's written to go fast."
+    category: "RESTful API"
+    github_id: huge-success/sanic
+    pypi_id: sanic
+    conda_id: conda-forge/sanic
+    show: True
+  - name: "vibora"
+    description: "Fast, efficient and asynchronous Web framework inspired by Flask."
+    category: "RESTful API"
+    resource: True
+    homepage: https://vibora.io/
+    show: True
+  - name: "PythonRobotics"
+    description: "This is a compilation of various robotics algorithms with visualizations."
+    category: "Robotics"
+    github_id: AtsushiSakai/PythonRobotics
+    pypi_id: PythonRobotics
+    conda_id: conda-forge/PythonRobotics
+    show: True
+  - name: "rospy"
+    description: "This is a library for ROS (Robot Operating System)."
+    category: "Robotics"
+    resource: True
+    homepage: http://wiki.ros.org/rospy
+    show: True
+  - name: "RPyC"
+    description: "A transparent and symmetric RPC library for Python"
+    category: "RPC Servers"
+    github_id: tomerfiliba/rpyc) (Remote Python Call
+    pypi_id: rpyc) (Remote Python Call
+    conda_id: conda-forge/rpyc) (Remote Python Call
+    show: True
+  - name: "zeroRPC"
+    description: "zerorpc is a flexible RPC implementation based on [ZeroMQ](http://zeromq.org/) and [MessagePack](http://msgpack.org/)."
+    category: "RPC Servers"
+    github_id: 0rpc/zerorpc-python
+    pypi_id: zerorpc-python
+    conda_id: conda-forge/zerorpc-python
+    show: True
+  - name: "astropy"
+    description: "A community Python library for Astronomy."
+    category: "Science"
+    resource: True
+    homepage: http://www.astropy.org/
+    show: True
+  - name: "bcbio-nextgen"
+    description: "Providing best-practice pipelines for fully automated high throughput sequencing analysis."
+    category: "Science"
+    github_id: chapmanb/bcbio-nextgen
+    pypi_id: bcbio-nextgen
+    conda_id: conda-forge/bcbio-nextgen
+    show: True
+  - name: "bccb"
+    description: "Collection of useful code related to biological analysis."
+    category: "Science"
+    github_id: chapmanb/bcbb
+    pypi_id: bcbb
+    conda_id: conda-forge/bcbb
+    show: True
+  - name: "Biopython"
+    description: "Biopython is a set of freely available tools for biological computation."
+    category: "Science"
+    resource: True
+    homepage: http://biopython.org/wiki/Main_Page
+    show: True
+  - name: "cclib"
+    description: "A library for parsing and interpreting the results of computational chemistry packages."
+    category: "Science"
+    resource: True
+    homepage: http://cclib.github.io/
+    show: True
+  - name: "Colour"
+    description: "Implementing a comprehensive number of colour theory transformations and algorithms."
+    category: "Science"
+    resource: True
+    homepage: http://colour-science.org/
+    show: True
+  - name: "Karate Club"
+    description: "Unsupervised machine learning toolbox for graph structured data."
+    category: "Science"
+    github_id: benedekrozemberczki/karateclub
+    pypi_id: karateclub
+    conda_id: conda-forge/karateclub
+    show: True
+  - name: "NetworkX"
+    description: "A high-productivity software for complex networks."
+    category: "Science"
+    resource: True
+    homepage: https://networkx.github.io/
+    show: True
+  - name: "NIPY"
+    description: "A collection of neuroimaging toolkits."
+    category: "Science"
+    resource: True
+    homepage: http://nipy.org
+    show: True
+  - name: "NumPy"
+    description: "A fundamental package for scientific computing with Python."
+    category: "Science"
+    resource: True
+    homepage: http://www.numpy.org/
+    show: True
+  - name: "ObsPy"
+    description: "A Python toolbox for seismology."
+    category: "Science"
+    github_id: obspy/obspy/wiki/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "Open Babel"
+    description: "A chemical toolbox designed to speak the many languages of chemical data."
+    category: "Science"
+    resource: True
+    homepage: http://openbabel.org/wiki/Main_Page
+    show: True
+  - name: "PyDy"
+    description: "Short for Python Dynamics, used to assist with workflow in the modeling of dynamic motion."
+    category: "Science"
+    resource: True
+    homepage: http://www.pydy.org/
+    show: True
+  - name: "PyMC"
+    description: "Markov Chain Monte Carlo sampling toolkit."
+    category: "Science"
+    github_id: pymc-devs/pymc3
+    pypi_id: pymc3
+    conda_id: conda-forge/pymc3
+    show: True
+  - name: "QuTiP"
+    description: "Quantum Toolbox in Python."
+    category: "Science"
+    resource: True
+    homepage: http://qutip.org/
+    show: True
+  - name: "RDKit"
+    description: "Cheminformatics and Machine Learning Software."
+    category: "Science"
+    resource: True
+    homepage: http://www.rdkit.org/
+    show: True
+  - name: "SciPy"
+    description: "A Python-based ecosystem of open-source software for mathematics, science, and engineering."
+    category: "Science"
+    resource: True
+    homepage: https://www.scipy.org/
+    show: True
+  - name: "SimPy"
+    description: " A process-based discrete-event simulation framework."
+    category: "Science"
+    resource: True
+    homepage: https://gitlab.com/team-simpy/simpy
+    show: True
+  - name: "statsmodels"
+    description: "Statistical modeling and econometrics in Python."
+    category: "Science"
+    github_id: statsmodels/statsmodels
+    pypi_id: statsmodels
+    conda_id: conda-forge/statsmodels
+    show: True
+  - name: "SymPy"
+    description: "A Python library for symbolic mathematics."
+    category: "Science"
+    github_id: sympy/sympy
+    pypi_id: sympy
+    conda_id: conda-forge/sympy
+    show: True
+  - name: "Zipline"
+    description: "A Pythonic algorithmic trading library."
+    category: "Science"
+    github_id: quantopian/zipline
+    pypi_id: zipline
+    conda_id: conda-forge/zipline
+    show: True
+  - name: "django-haystack"
+    description: "Modular search for Django."
+    category: "Search"
+    github_id: django-haystack/django-haystack
+    pypi_id: django-haystack
+    conda_id: conda-forge/django-haystack
+    show: True
+  - name: "elasticsearch-dsl-py"
+    description: "The official high-level Python client for Elasticsearch."
+    category: "Search"
+    github_id: elastic/elasticsearch-dsl-py
+    pypi_id: elasticsearch-dsl-py
+    conda_id: conda-forge/elasticsearch-dsl-py
+    show: True
+  - name: "elasticsearch-py"
+    description: "The official low-level Python client for [Elasticsearch](https://www.elastic.co/products/elasticsearch)."
+    category: "Search"
+    resource: True
+    homepage: https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/index.html
+    show: True
+  - name: "pysolr"
+    description: "A lightweight Python wrapper for [Apache Solr](https://lucene.apache.org/solr/)."
+    category: "Search"
+    github_id: django-haystack/pysolr
+    pypi_id: pysolr
+    conda_id: conda-forge/pysolr
+    show: True
+  - name: "whoosh"
+    description: "A fast, pure Python search engine library."
+    category: "Search"
+    resource: True
+    homepage: http://whoosh.readthedocs.io/en/latest/
+    show: True
+  - name: "marshmallow"
+    description: "A lightweight library for converting complex objects to and from simple Python datatypes."
+    category: "Serialization"
+    github_id: marshmallow-code/marshmallow
+    pypi_id: marshmallow
+    conda_id: conda-forge/marshmallow
+    show: True
+  - name: "pysimdjson"
+    description: "A Python bindings for [simdjson](https://github.com/lemire/simdjson)."
+    category: "Serialization"
+    github_id: TkTech/pysimdjson
+    pypi_id: pysimdjson
+    conda_id: conda-forge/pysimdjson
+    show: True
+  - name: "python-rapidjson"
+    description: "A Python wrapper around [RapidJSON](https://github.com/Tencent/rapidjson)."
+    category: "Serialization"
+    github_id: python-rapidjson/python-rapidjson
+    pypi_id: python-rapidjson
+    conda_id: conda-forge/python-rapidjson
+    show: True
+  - name: "ultrajson"
+    description: "A fast JSON decoder and encoder written in C with Python bindings."
+    category: "Serialization"
+    github_id: esnme/ultrajson
+    pypi_id: ultrajson
+    conda_id: conda-forge/ultrajson
+    show: True
+  - name: "python-lambda"
+    description: "A toolkit for developing and deploying Python code in AWS Lambda."
+    category: "Serverless Frameworks"
+    github_id: nficano/python-lambda
+    pypi_id: python-lambda
+    conda_id: conda-forge/python-lambda
+    show: True
+  - name: "Zappa"
+    description: "A tool for deploying WSGI applications on AWS Lambda and API Gateway."
+    category: "Serverless Frameworks"
+    github_id: Miserlou/Zappa
+    pypi_id: Zappa
+    conda_id: conda-forge/Zappa
+    show: True
+  - name: "xonsh"
+    description: "A Python-powered, cross-platform, Unix-gazing shell language and command prompt."
+    category: "Shell"
+    github_id: xonsh/xonsh/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "tablib"
+    description: "A module for Tabular Datasets in XLS, CSV, JSON, YAML."
+    category: "Specific Formats Processing"
+    github_id: jazzband/tablib
+    pypi_id: tablib
+    conda_id: conda-forge/tablib
+    show: True
+  - name: "docxtpl"
+    description: "Editing a docx document by jinja2 template"
+    category: "Specific Formats Processing"
+    github_id: elapouya/python-docx-template
+    pypi_id: python-docx-template
+    conda_id: conda-forge/python-docx-template
+    show: True
+  - name: "openpyxl"
+    description: "A library for reading and writing Excel 2010 xlsx/xlsm/xltx/xltm files."
+    category: "Specific Formats Processing"
+    resource: True
+    homepage: https://openpyxl.readthedocs.io/en/stable/
+    show: True
+  - name: "pyexcel"
+    description: "Providing one API for reading, manipulating and writing csv, ods, xls, xlsx and xlsm files."
+    category: "Specific Formats Processing"
+    github_id: pyexcel/pyexcel
+    pypi_id: pyexcel
+    conda_id: conda-forge/pyexcel
+    show: True
+  - name: "python-docx"
+    description: "Reads, queries and modifies Microsoft Word 2007/2008 docx files."
+    category: "Specific Formats Processing"
+    github_id: python-openxml/python-docx
+    pypi_id: python-docx
+    conda_id: conda-forge/python-docx
+    show: True
+  - name: "python-pptx"
+    description: "Python library for creating and updating PowerPoint (.pptx) files."
+    category: "Specific Formats Processing"
+    github_id: scanny/python-pptx
+    pypi_id: python-pptx
+    conda_id: conda-forge/python-pptx
+    show: True
+  - name: "unoconv"
+    description: "Convert between any document format supported by LibreOffice/OpenOffice."
+    category: "Specific Formats Processing"
+    github_id: unoconv/unoconv
+    pypi_id: unoconv
+    conda_id: conda-forge/unoconv
+    show: True
+  - name: "XlsxWriter"
+    description: "A Python module for creating Excel .xlsx files."
+    category: "Specific Formats Processing"
+    github_id: jmcnamara/XlsxWriter
+    pypi_id: XlsxWriter
+    conda_id: conda-forge/XlsxWriter
+    show: True
+  - name: "xlwings"
+    description: "A BSD-licensed library that makes it easy to call Python from Excel and vice versa."
+    category: "Specific Formats Processing"
+    github_id: ZoomerAnalytics/xlwings
+    pypi_id: xlwings
+    conda_id: conda-forge/xlwings
+    show: True
+  - name: "xlwt"
+    description: "Writing and reading data and formatting information from Excel files."
+    category: "Specific Formats Processing"
+    github_id: python-excel/xlwt) / [xlrd](python-excel/xlrd
+    pypi_id: xlrd
+    conda_id: conda-forge/xlrd
+    show: True
+  - name: "PDFMiner"
+    description: "A tool for extracting information from PDF documents."
+    category: "Specific Formats Processing"
+    github_id: euske/pdfminer
+    pypi_id: pdfminer
+    conda_id: conda-forge/pdfminer
+    show: True
+  - name: "PyPDF2"
+    description: "A library capable of splitting, merging and transforming PDF pages."
+    category: "Specific Formats Processing"
+    github_id: mstamy2/PyPDF2
+    pypi_id: PyPDF2
+    conda_id: conda-forge/PyPDF2
+    show: True
+  - name: "ReportLab"
+    description: "Allowing Rapid creation of rich PDF documents."
+    category: "Specific Formats Processing"
+    resource: True
+    homepage: https://www.reportlab.com/opensource/
+    show: True
+  - name: "Mistune"
+    description: "Fastest and full featured pure Python parsers of Markdown."
+    category: "Specific Formats Processing"
+    github_id: lepture/mistune
+    pypi_id: mistune
+    conda_id: conda-forge/mistune
+    show: True
+  - name: "Python-Markdown"
+    description: "A Python implementation of John Gruber’s Markdown."
+    category: "Specific Formats Processing"
+    github_id: waylan/Python-Markdown
+    pypi_id: Python-Markdown
+    conda_id: conda-forge/Python-Markdown
+    show: True
+  - name: "PyYAML"
+    description: "YAML implementations for Python."
+    category: "Specific Formats Processing"
+    resource: True
+    homepage: http://pyyaml.org/
+    show: True
+  - name: "csvkit"
+    description: "Utilities for converting to and working with CSV."
+    category: "Specific Formats Processing"
+    github_id: wireservice/csvkit
+    pypi_id: csvkit
+    conda_id: conda-forge/csvkit
+    show: True
+  - name: "unp"
+    description: "A command line tool that can unpack archives easily."
+    category: "Specific Formats Processing"
+    github_id: mitsuhiko/unp
+    pypi_id: unp
+    conda_id: conda-forge/unp
+    show: True
+  - name: "lektor"
+    description: "An easy to use static CMS and blog engine."
+    category: "Static Site Generator"
+    github_id: lektor/lektor
+    pypi_id: lektor
+    conda_id: conda-forge/lektor
+    show: True
+  - name: "mkdocs"
+    description: "Markdown friendly documentation generator."
+    category: "Static Site Generator"
+    github_id: mkdocs/mkdocs/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "makesite"
+    description: "Simple, lightweight, and magic-free static site/blog generator (< 130 lines)."
+    category: "Static Site Generator"
+    github_id: sunainapai/makesite
+    pypi_id: makesite
+    conda_id: conda-forge/makesite
+    show: True
+  - name: "nikola"
+    description: "A static website and blog generator."
+    category: "Static Site Generator"
+    github_id: getnikola/nikola
+    pypi_id: nikola
+    conda_id: conda-forge/nikola
+    show: True
+  - name: "pelican"
+    description: "Static site generator that supports Markdown and reST syntax."
+    category: "Static Site Generator"
+    github_id: getpelican/pelican
+    pypi_id: pelican
+    conda_id: conda-forge/pelican
+    show: True
+  - name: "django-taggit"
+    description: "Simple tagging for Django."
+    category: "Tagging"
+    github_id: jazzband/django-taggit
+    pypi_id: django-taggit
+    conda_id: conda-forge/django-taggit
+    show: True
+  - name: "celery"
+    description: "An asynchronous task queue/job queue based on distributed message passing."
+    category: "Task Queues"
+    resource: True
+    homepage: https://docs.celeryproject.org/en/stable/
+    show: True
+  - name: "dramatiq"
+    description: "A fast and reliable background task processing library for Python 3."
+    category: "Task Queues"
+    github_id: Bogdanp/dramatiq
+    pypi_id: dramatiq
+    conda_id: conda-forge/dramatiq
+    show: True
+  - name: "huey"
+    description: "Little multi-threaded task queue."
+    category: "Task Queues"
+    github_id: coleifer/huey
+    pypi_id: huey
+    conda_id: conda-forge/huey
+    show: True
+  - name: "mrq"
+    description: "A distributed worker task queue in Python using Redis & gevent."
+    category: "Task Queues"
+    github_id: pricingassistant/mrq
+    pypi_id: mrq
+    conda_id: conda-forge/mrq
+    show: True
+  - name: "rq"
+    description: "Simple job queues for Python."
+    category: "Task Queues"
+    github_id: rq/rq
+    pypi_id: rq
+    conda_id: conda-forge/rq
+    show: True
+  - name: "Genshi"
+    description: "Python templating toolkit for generation of web-aware output."
+    category: "Template Engine"
+    resource: True
+    homepage: https://genshi.edgewall.org/
+    show: True
+  - name: "Jinja2"
+    description: "A modern and designer friendly templating language."
+    category: "Template Engine"
+    github_id: pallets/jinja
+    pypi_id: jinja
+    conda_id: conda-forge/jinja
+    show: True
+  - name: "Mako"
+    description: "Hyperfast and lightweight templating for the Python platform."
+    category: "Template Engine"
+    resource: True
+    homepage: http://www.makotemplates.org/
+    show: True
+  - name: "hypothesis"
+    description: "Hypothesis is an advanced Quickcheck style property based testing library."
+    category: "Testing"
+    github_id: HypothesisWorks/hypothesis
+    pypi_id: hypothesis
+    conda_id: conda-forge/hypothesis
+    show: True
+  - name: "nose2"
+    description: "The successor to `nose`, based on `unittest2`."
+    category: "Testing"
+    github_id: nose-devs/nose2
+    pypi_id: nose2
+    conda_id: conda-forge/nose2
+    show: True
+  - name: "pytest"
+    description: "A mature full-featured Python testing tool."
+    category: "Testing"
+    resource: True
+    homepage: https://docs.pytest.org/en/latest/
+    show: True
+  - name: "Robot Framework"
+    description: "A generic test automation framework."
+    category: "Testing"
+    github_id: robotframework/robotframework
+    pypi_id: robotframework
+    conda_id: conda-forge/robotframework
+    show: True
+  - name: "unittest"
+    description: "(Python standard library) Unit testing framework."
+    category: "Testing"
+    resource: True
+    homepage: https://docs.python.org/3/library/unittest.html
+    show: True
+  - name: "green"
+    description: "A clean, colorful test runner."
+    category: "Testing"
+    github_id: CleanCut/green
+    pypi_id: green
+    conda_id: conda-forge/green
+    show: True
+  - name: "mamba"
+    description: "The definitive testing tool for Python. Born under the banner of BDD."
+    category: "Testing"
+    resource: True
+    homepage: http://nestorsalceda.github.io/mamba/
+    show: True
+  - name: "tox"
+    description: "Auto builds and tests distributions in multiple Python versions"
+    category: "Testing"
+    resource: True
+    homepage: https://tox.readthedocs.io/en/latest/
+    show: True
+  - name: "locust"
+    description: "Scalable user load testing tool written in Python."
+    category: "Testing"
+    github_id: locustio/locust
+    pypi_id: locust
+    conda_id: conda-forge/locust
+    show: True
+  - name: "PyAutoGUI"
+    description: "PyAutoGUI is a cross-platform GUI automation Python module for human beings."
+    category: "Testing"
+    github_id: asweigart/pyautogui
+    pypi_id: pyautogui
+    conda_id: conda-forge/pyautogui
+    show: True
+  - name: "Schemathesis"
+    description: "A tool for automatic property-based testing of web applications built with Open API / Swagger specifications."
+    category: "Testing"
+    github_id: kiwicom/schemathesis
+    pypi_id: schemathesis
+    conda_id: conda-forge/schemathesis
+    show: True
+  - name: "Selenium"
+    description: "Python bindings for [Selenium](http://www.seleniumhq.org/) WebDriver."
+    category: "Testing"
+    resource: True
+    homepage: https://pypi.org/project/selenium/
+    show: True
+  - name: "sixpack"
+    description: "A language-agnostic A/B Testing framework."
+    category: "Testing"
+    github_id: seatgeek/sixpack
+    pypi_id: sixpack
+    conda_id: conda-forge/sixpack
+    show: True
+  - name: "splinter"
+    description: "Open source tool for testing web applications."
+    category: "Testing"
+    github_id: cobrateam/splinter
+    pypi_id: splinter
+    conda_id: conda-forge/splinter
+    show: True
+  - name: "doublex"
+    description: "Powerful test doubles framework for Python."
+    category: "Testing"
+    resource: True
+    homepage: https://pypi.org/project/doublex/
+    show: True
+  - name: "freezegun"
+    description: "Travel through time by mocking the datetime module."
+    category: "Testing"
+    github_id: spulec/freezegun
+    pypi_id: freezegun
+    conda_id: conda-forge/freezegun
+    show: True
+  - name: "httmock"
+    description: "A mocking library for requests for Python 2.6+ and 3.2+."
+    category: "Testing"
+    github_id: patrys/httmock
+    pypi_id: httmock
+    conda_id: conda-forge/httmock
+    show: True
+  - name: "httpretty"
+    description: "HTTP request mock tool for Python."
+    category: "Testing"
+    github_id: gabrielfalcao/HTTPretty
+    pypi_id: HTTPretty
+    conda_id: conda-forge/HTTPretty
+    show: True
+  - name: "mock"
+    description: "(Python standard library) A mocking and patching library."
+    category: "Testing"
+    resource: True
+    homepage: https://docs.python.org/3/library/unittest.mock.html
+    show: True
+  - name: "mocket"
+    description: "A socket mock framework with gevent/asyncio/SSL support."
+    category: "Testing"
+    github_id: mindflayer/python-mocket
+    pypi_id: python-mocket
+    conda_id: conda-forge/python-mocket
+    show: True
+  - name: "responses"
+    description: "A utility library for mocking out the requests Python library."
+    category: "Testing"
+    github_id: getsentry/responses
+    pypi_id: responses
+    conda_id: conda-forge/responses
+    show: True
+  - name: "VCR.py"
+    description: "Record and replay HTTP interactions on your tests."
+    category: "Testing"
+    github_id: kevin1024/vcrpy
+    pypi_id: vcrpy
+    conda_id: conda-forge/vcrpy
+    show: True
+  - name: "factory_boy"
+    description: "A test fixtures replacement for Python."
+    category: "Testing"
+    github_id: FactoryBoy/factory_boy
+    pypi_id: factory_boy
+    conda_id: conda-forge/factory_boy
+    show: True
+  - name: "mixer"
+    description: "Another fixtures replacement. Supports Django, Flask, SQLAlchemy, Peewee and etc."
+    category: "Testing"
+    github_id: klen/mixer
+    pypi_id: mixer
+    conda_id: conda-forge/mixer
+    show: True
+  - name: "model_mommy"
+    description: "Creating random fixtures for testing in Django."
+    category: "Testing"
+    github_id: vandersonmota/model_mommy
+    pypi_id: model_mommy
+    conda_id: conda-forge/model_mommy
+    show: True
+  - name: "coverage"
+    description: "Code coverage measurement."
+    category: "Testing"
+    resource: True
+    homepage: https://pypi.org/project/coverage/
+    show: True
+  - name: "fake2db"
+    description: "Fake database generator."
+    category: "Testing"
+    github_id: emirozer/fake2db
+    pypi_id: fake2db
+    conda_id: conda-forge/fake2db
+    show: True
+  - name: "faker"
+    description: "A Python package that generates fake data."
+    category: "Testing"
+    github_id: joke2k/faker
+    pypi_id: faker
+    conda_id: conda-forge/faker
+    show: True
+  - name: "mimesis"
+    description: "is a Python library that help you generate fake data."
+    category: "Testing"
+    github_id: lk-geimfari/mimesis
+    pypi_id: mimesis
+    conda_id: conda-forge/mimesis
+    show: True
+  - name: "radar"
+    description: "Generate random datetime / time."
+    category: "Testing"
+    resource: True
+    homepage: https://pypi.org/project/radar/
+    show: True
+  - name: "chardet"
+    description: "Python 2/3 compatible character encoding detector."
+    category: "Text Processing"
+    github_id: chardet/chardet
+    pypi_id: chardet
+    conda_id: conda-forge/chardet
+    show: True
+  - name: "difflib"
+    description: "(Python standard library) Helpers for computing deltas."
+    category: "Text Processing"
+    resource: True
+    homepage: https://docs.python.org/3/library/difflib.html
+    show: True
+  - name: "ftfy"
+    description: "Makes Unicode text less broken and more consistent automagically."
+    category: "Text Processing"
+    github_id: LuminosoInsight/python-ftfy
+    pypi_id: python-ftfy
+    conda_id: conda-forge/python-ftfy
+    show: True
+  - name: "fuzzywuzzy"
+    description: "Fuzzy String Matching."
+    category: "Text Processing"
+    github_id: seatgeek/fuzzywuzzy
+    pypi_id: fuzzywuzzy
+    conda_id: conda-forge/fuzzywuzzy
+    show: True
+  - name: "Levenshtein"
+    description: "Fast computation of Levenshtein distance and string similarity."
+    category: "Text Processing"
+    github_id: ztane/python-Levenshtein/
+    pypi_id: 
+    conda_id: conda-forge/
+    show: True
+  - name: "pangu.py"
+    description: "Paranoid text spacing."
+    category: "Text Processing"
+    github_id: vinta/pangu.py
+    pypi_id: pangu.py
+    conda_id: conda-forge/pangu.py
+    show: True
+  - name: "pyfiglet"
+    description: "An implementation of figlet written in Python."
+    category: "Text Processing"
+    github_id: pwaller/pyfiglet
+    pypi_id: pyfiglet
+    conda_id: conda-forge/pyfiglet
+    show: True
+  - name: "pypinyin"
+    description: "Convert Chinese hanzi (漢字) to pinyin (拼音)."
+    category: "Text Processing"
+    github_id: mozillazg/python-pinyin
+    pypi_id: python-pinyin
+    conda_id: conda-forge/python-pinyin
+    show: True
+  - name: "textdistance"
+    description: "Compute distance between sequences with 30+ algorithms."
+    category: "Text Processing"
+    github_id: orsinium/textdistance
+    pypi_id: textdistance
+    conda_id: conda-forge/textdistance
+    show: True
+  - name: "unidecode"
+    description: "ASCII transliterations of Unicode text."
+    category: "Text Processing"
+    resource: True
+    homepage: https://pypi.org/project/Unidecode/
+    show: True
+  - name: "awesome-slugify"
+    description: "A Python slugify library that can preserve unicode."
+    category: "Text Processing"
+    github_id: dimka665/awesome-slugify
+    pypi_id: awesome-slugify
+    conda_id: conda-forge/awesome-slugify
+    show: True
+  - name: "python-slugify"
+    description: "A Python slugify library that translates unicode to ASCII."
+    category: "Text Processing"
+    github_id: un33k/python-slugify
+    pypi_id: python-slugify
+    conda_id: conda-forge/python-slugify
+    show: True
+  - name: "unicode-slugify"
+    description: "A slugifier that generates unicode slugs with Django as a dependency."
+    category: "Text Processing"
+    github_id: mozilla/unicode-slugify
+    pypi_id: unicode-slugify
+    conda_id: conda-forge/unicode-slugify
+    show: True
+  - name: "hashids"
+    description: "Implementation of [hashids](http://hashids.org) in Python."
+    category: "Text Processing"
+    github_id: davidaurelio/hashids-python
+    pypi_id: hashids-python
+    conda_id: conda-forge/hashids-python
+    show: True
+  - name: "shortuuid"
+    description: "A generator library for concise, unambiguous and URL-safe UUIDs."
+    category: "Text Processing"
+    github_id: skorokithakis/shortuuid
+    pypi_id: shortuuid
+    conda_id: conda-forge/shortuuid
+    show: True
+  - name: "ply"
+    description: "Implementation of lex and yacc parsing tools for Python."
+    category: "Text Processing"
+    github_id: dabeaz/ply
+    pypi_id: ply
+    conda_id: conda-forge/ply
+    show: True
+  - name: "pygments"
+    description: "A generic syntax highlighter."
+    category: "Text Processing"
+    resource: True
+    homepage: http://pygments.org/
+    show: True
+  - name: "pyparsing"
+    description: "A general purpose framework for generating parsers."
+    category: "Text Processing"
+    github_id: pyparsing/pyparsing
+    pypi_id: pyparsing
+    conda_id: conda-forge/pyparsing
+    show: True
+  - name: "python-nameparser"
+    description: "Parsing human names into their individual components."
+    category: "Text Processing"
+    github_id: derek73/python-nameparser
+    pypi_id: python-nameparser
+    conda_id: conda-forge/python-nameparser
+    show: True
+  - name: "python-phonenumbers"
+    description: "Parsing, formatting, storing and validating international phone numbers."
+    category: "Text Processing"
+    github_id: daviddrysdale/python-phonenumbers
+    pypi_id: python-phonenumbers
+    conda_id: conda-forge/python-phonenumbers
+    show: True
+  - name: "python-user-agents"
+    description: "Browser user agent parser."
+    category: "Text Processing"
+    github_id: selwin/python-user-agents
+    pypi_id: python-user-agents
+    conda_id: conda-forge/python-user-agents
+    show: True
+  - name: "sqlparse"
+    description: "A non-validating SQL parser."
+    category: "Text Processing"
+    github_id: andialbrecht/sqlparse
+    pypi_id: sqlparse
+    conda_id: conda-forge/sqlparse
+    show: True
+  - name: "apache-libcloud"
+    description: "One Python library for all clouds."
+    category: "Third-party APIs"
+    resource: True
+    homepage: https://libcloud.apache.org/
+    show: True
+  - name: "boto3"
+    description: "Python interface to Amazon Web Services."
+    category: "Third-party APIs"
+    github_id: boto/boto3
+    pypi_id: boto3
+    conda_id: conda-forge/boto3
+    show: True
+  - name: "django-wordpress"
+    description: "WordPress models and views for Django."
+    category: "Third-party APIs"
+    github_id: istrategylabs/django-wordpress
+    pypi_id: django-wordpress
+    conda_id: conda-forge/django-wordpress
+    show: True
+  - name: "facebook-sdk"
+    description: "Facebook Platform Python SDK."
+    category: "Third-party APIs"
+    github_id: mobolic/facebook-sdk
+    pypi_id: facebook-sdk
+    conda_id: conda-forge/facebook-sdk
+    show: True
+  - name: "google-api-python-client"
+    description: "Google APIs Client Library for Python."
+    category: "Third-party APIs"
+    github_id: google/google-api-python-client
+    pypi_id: google-api-python-client
+    conda_id: conda-forge/google-api-python-client
+    show: True
+  - name: "gspread"
+    description: "Google Spreadsheets Python API."
+    category: "Third-party APIs"
+    github_id: burnash/gspread
+    pypi_id: gspread
+    conda_id: conda-forge/gspread
+    show: True
+  - name: "twython"
+    description: "A Python wrapper for the Twitter API."
+    category: "Third-party APIs"
+    github_id: ryanmcgrath/twython
+    pypi_id: twython
+    conda_id: conda-forge/twython
+    show: True
+  - name: "furl"
+    description: "A small Python library that makes parsing and manipulating URLs easy."
+    category: "URL Manipulation"
+    github_id: gruns/furl
+    pypi_id: furl
+    conda_id: conda-forge/furl
+    show: True
+  - name: "purl"
+    description: "A simple, immutable URL class with a clean API for interrogation and manipulation."
+    category: "URL Manipulation"
+    github_id: codeinthehole/purl
+    pypi_id: purl
+    conda_id: conda-forge/purl
+    show: True
+  - name: "pyshorteners"
+    description: "A pure Python URL shortening lib."
+    category: "URL Manipulation"
+    github_id: ellisonleao/pyshorteners
+    pypi_id: pyshorteners
+    conda_id: conda-forge/pyshorteners
+    show: True
+  - name: "webargs"
+    description: "A friendly library for parsing HTTP request arguments with built-in support for popular web frameworks."
+    category: "URL Manipulation"
+    github_id: marshmallow-code/webargs
+    pypi_id: webargs
+    conda_id: conda-forge/webargs
+    show: True
+  - name: "moviepy"
+    description: "A module for script-based movie editing with many formats, including animated GIFs."
+    category: "Video"
+    resource: True
+    homepage: https://zulko.github.io/moviepy/
+    show: True
+  - name: "scikit-video"
+    description: "Video processing routines for SciPy."
+    category: "Video"
+    github_id: aizvorski/scikit-video
+    pypi_id: scikit-video
+    conda_id: conda-forge/scikit-video
+    show: True
+  - name: "vidgear"
+    description: "Most Powerful multi-threaded Video Processing framework."
+    category: "Video"
+    github_id: abhiTronix/vidgear
+    pypi_id: vidgear
+    conda_id: conda-forge/vidgear
+    show: True
+  - name: "django-compressor"
+    description: "Compresses linked and inline JavaScript or CSS into a single cached file."
+    category: "Web Asset Management"
+    github_id: django-compressor/django-compressor
+    pypi_id: django-compressor
+    conda_id: conda-forge/django-compressor
+    show: True
+  - name: "django-pipeline"
+    description: "An asset packaging library for Django."
+    category: "Web Asset Management"
+    github_id: jazzband/django-pipeline
+    pypi_id: django-pipeline
+    conda_id: conda-forge/django-pipeline
+    show: True
+  - name: "django-storages"
+    description: "A collection of custom storage back ends for Django."
+    category: "Web Asset Management"
+    github_id: jschneier/django-storages
+    pypi_id: django-storages
+    conda_id: conda-forge/django-storages
+    show: True
+  - name: "fanstatic"
+    description: "Packages, optimizes, and serves static file dependencies as Python packages."
+    category: "Web Asset Management"
+    resource: True
+    homepage: http://www.fanstatic.org/en/latest/
+    show: True
+  - name: "fileconveyor"
+    description: "A daemon to detect and sync files to CDNs, S3 and FTP."
+    category: "Web Asset Management"
+    resource: True
+    homepage: http://wimleers.com/fileconveyor
+    show: True
+  - name: "flask-assets"
+    description: "Helps you integrate webassets into your Flask app."
+    category: "Web Asset Management"
+    github_id: miracle2k/flask-assets
+    pypi_id: flask-assets
+    conda_id: conda-forge/flask-assets
+    show: True
+  - name: "webassets"
+    description: "Bundles, optimizes, and manages unique cache-busting URLs for static resources."
+    category: "Web Asset Management"
+    github_id: miracle2k/webassets
+    pypi_id: webassets
+    conda_id: conda-forge/webassets
+    show: True
+  - name: "html2text"
+    description: "Convert HTML to Markdown-formatted text."
+    category: "Web Content Extracting"
+    github_id: Alir3z4/html2text
+    pypi_id: html2text
+    conda_id: conda-forge/html2text
+    show: True
+  - name: "lassie"
+    description: "Web Content Retrieval for Humans."
+    category: "Web Content Extracting"
+    github_id: michaelhelmick/lassie
+    pypi_id: lassie
+    conda_id: conda-forge/lassie
+    show: True
+  - name: "micawber"
+    description: "A small library for extracting rich content from URLs."
+    category: "Web Content Extracting"
+    github_id: coleifer/micawber
+    pypi_id: micawber
+    conda_id: conda-forge/micawber
+    show: True
+  - name: "newspaper"
+    description: "News extraction, article extraction and content curation in Python."
+    category: "Web Content Extracting"
+    github_id: codelucas/newspaper
+    pypi_id: newspaper
+    conda_id: conda-forge/newspaper
+    show: True
+  - name: "python-readability"
+    description: "Fast Python port of arc90's readability tool."
+    category: "Web Content Extracting"
+    github_id: buriy/python-readability
+    pypi_id: python-readability
+    conda_id: conda-forge/python-readability
+    show: True
+  - name: "requests-html"
+    description: "Pythonic HTML Parsing for Humans."
+    category: "Web Content Extracting"
+    github_id: psf/requests-html
+    pypi_id: requests-html
+    conda_id: conda-forge/requests-html
+    show: True
+  - name: "sumy"
+    description: "A module for automatic summarization of text documents and HTML pages."
+    category: "Web Content Extracting"
+    github_id: miso-belica/sumy
+    pypi_id: sumy
+    conda_id: conda-forge/sumy
+    show: True
+  - name: "textract"
+    description: "Extract text from any document, Word, PowerPoint, PDFs, etc."
+    category: "Web Content Extracting"
+    github_id: deanmalmgren/textract
+    pypi_id: textract
+    conda_id: conda-forge/textract
+    show: True
+  - name: "toapi"
+    description: "Every web site provides APIs."
+    category: "Web Content Extracting"
+    github_id: gaojiuli/toapi
+    pypi_id: toapi
+    conda_id: conda-forge/toapi
+    show: True
+  - name: "cola"
+    description: "A distributed crawling framework."
+    category: "Web Crawling"
+    github_id: chineking/cola
+    pypi_id: cola
+    conda_id: conda-forge/cola
+    show: True
+  - name: "feedparser"
+    description: "Universal feed parser."
+    category: "Web Crawling"
+    resource: True
+    homepage: https://pythonhosted.org/feedparser/
+    show: True
+  - name: "grab"
+    description: "Site scraping framework."
+    category: "Web Crawling"
+    github_id: lorien/grab
+    pypi_id: grab
+    conda_id: conda-forge/grab
+    show: True
+  - name: "MechanicalSoup"
+    description: "A Python library for automating interaction with websites."
+    category: "Web Crawling"
+    github_id: MechanicalSoup/MechanicalSoup
+    pypi_id: MechanicalSoup
+    conda_id: conda-forge/MechanicalSoup
+    show: True
+  - name: "portia"
+    description: "Visual scraping for Scrapy."
+    category: "Web Crawling"
+    github_id: scrapinghub/portia
+    pypi_id: portia
+    conda_id: conda-forge/portia
+    show: True
+  - name: "pyspider"
+    description: "A powerful spider system."
+    category: "Web Crawling"
+    github_id: binux/pyspider
+    pypi_id: pyspider
+    conda_id: conda-forge/pyspider
+    show: True
+  - name: "robobrowser"
+    description: "A simple, Pythonic library for browsing the web without a standalone web browser."
+    category: "Web Crawling"
+    github_id: jmcarp/robobrowser
+    pypi_id: robobrowser
+    conda_id: conda-forge/robobrowser
+    show: True
+  - name: "scrapy"
+    description: "A fast high-level screen scraping and web crawling framework."
+    category: "Web Crawling"
+    resource: True
+    homepage: https://scrapy.org/
+    show: True
+  - name: "Django"
+    description: "The most popular web framework in Python."
+    category: "Web Frameworks"
+    resource: True
+    homepage: https://www.djangoproject.com/
+    show: True
+  - name: "awesome-django"
+    category: "Web Frameworks"
+    resource: True
+    github_id: shahraizali/awesome-django
+    show: True
+  - name: "awesome-django"
+    category: "Web Frameworks"
+    resource: True
+    github_id: wsvincent/awesome-django
+    show: True
+  - name: "Flask"
+    description: "A microframework for Python."
+    category: "Web Frameworks"
+    resource: True
+    homepage: http://flask.pocoo.org/
+    show: True
+  - name: "awesome-flask"
+    category: "Web Frameworks"
+    resource: True
+    github_id: humiaozuzu/awesome-flask
+    show: True
+  - name: "Pyramid"
+    description: "A small, fast, down-to-earth, open source Python web framework."
+    category: "Web Frameworks"
+    resource: True
+    homepage: https://pylonsproject.org/
+    show: True
+  - name: "awesome-pyramid"
+    category: "Web Frameworks"
+    resource: True
+    github_id: uralbash/awesome-pyramid
+    show: True
+  - name: "Masonite"
+    description: "The modern and developer centric Python web framework."
+    category: "Web Frameworks"
+    github_id: MasoniteFramework/masonite
+    pypi_id: masonite
+    conda_id: conda-forge/masonite
+    show: True
+  - name: "Tornado"
+    description: "A web framework and asynchronous networking library."
+    category: "Web Frameworks"
+    resource: True
+    homepage: http://www.tornadoweb.org/en/latest/
+    show: True
+  - name: "autobahn-python"
+    description: "WebSocket & WAMP for Python on Twisted and [asyncio](https://docs.python.org/3/library/asyncio.html)."
+    category: "WebSocket"
+    github_id: crossbario/autobahn-python
+    pypi_id: autobahn-python
+    conda_id: conda-forge/autobahn-python
+    show: True
+  - name: "channels"
+    description: "Developer-friendly asynchrony for Django."
+    category: "WebSocket"
+    github_id: django/channels
+    pypi_id: channels
+    conda_id: conda-forge/channels
+    show: True
+  - name: "websockets"
+    description: "A library for building WebSocket servers and clients with a focus on correctness and simplicity."
+    category: "WebSocket"
+    github_id: aaugustin/websockets
+    pypi_id: websockets
+    conda_id: conda-forge/websockets
+    show: True
+  - name: "bjoern"
+    description: "Asynchronous, very fast and written in C."
+    category: "WSGI Servers"
+    github_id: jonashaag/bjoern
+    pypi_id: bjoern
+    conda_id: conda-forge/bjoern
+    show: True
+  - name: "gunicorn"
+    description: "Pre-forked, ported from Ruby's Unicorn project."
+    category: "WSGI Servers"
+    github_id: benoitc/gunicorn
+    pypi_id: gunicorn
+    conda_id: conda-forge/gunicorn
+    show: True
+  - name: "uWSGI"
+    description: "A project aims at developing a full stack for building hosting services, written in C."
+    category: "WSGI Servers"
+    resource: True
+    homepage: https://uwsgi-docs.readthedocs.io/en/latest/
+    show: True
+  - name: "waitress"
+    description: "Multi-threaded, powers Pyramid."
+    category: "WSGI Servers"
+    github_id: Pylons/waitress
+    pypi_id: waitress
+    conda_id: conda-forge/waitress
+    show: True
+  - name: "werkzeug"
+    description: "A WSGI utility library for Python that powers Flask and can easily be embedded into your own projects."
+    category: "WSGI Servers"
+    github_id: pallets/werkzeug
+    pypi_id: werkzeug
+    conda_id: conda-forge/werkzeug
+    show: True
