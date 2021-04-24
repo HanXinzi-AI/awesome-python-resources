@@ -17,98 +17,98 @@
 本资源清单包含690个python相关的开源工具资源，这些热门工具总共分成91个不同的应用领域，目前在github上已经收到2.3M个点赞。所有的工具(github项目)每周会自动从GitHub和工具维护平台采集信息，并更新排行展示。本清单参考[best-of模板](https://github.com/best-of-lists/best-of)完成，内容参考了[awesome-python](https://github.com/vinta/awesome-python)，欢迎大家提PR丰富本清单。
 ## 目录
 
-- [管理面板](#admin-panels) _9 个项目_
-- [算法和设计模式](#algorithms-and-design-patterns) _7 个项目_
-- [ASGI 服务器](#asgi-servers) _2 个项目_
-- [网络](#asynchronous-programming) _4 个项目_
-- [音频](#audio) _13 个项目_
-- [验证](#authentication) _9 个项目_
-- [构建工具](#build-tools) _5 个项目_
-- [内置类的增强版实现](#built-in-classes-enhancement) _5 个项目_
-- [CMS](#cms) _8 个项目_
-- [缓存](#caching) _7 个项目_
-- [聊天工具](#chatops-tools) _1 个项目_
-- [代码分析和 Lint 工具](#code-analysis) _20 个项目_
-- [命令行工具](#command-line-interface-development) _12 个项目_
-- [命令行工具](#command-line-tools) _16 个项目_
-- [兼容性](#compatibility) _3 个项目_
-- [计算机视觉](#computer-vision) _7 个项目_
-- [并发和并行](#concurrency-and-parallelism) _5 个项目_
-- [配置](#configuration) _5 个项目_
-- [密码学](#cryptography) _4 个项目_
-- [科学计算和数据分析](#data-analysis) _6 个项目_
-- [数据验证](#data-validation) _7 个项目_
-- [数据可视化](#data-visualization) _14 个项目_
-- [数据库](#database) _3 个项目_
-- [数据库驱动](#database-drivers) _17 个项目_
-- [日期和时间](#date-and-time) _10 个项目_
-- [调试工具](#debugging-tools) _18 个项目_
-- [深度学习](#deep-learning) _6 个项目_
-- [DevOps 工具](#devops-tools) _13 个项目_
-- [分布式计算](#distributed-computing) _7 个项目_
-- [分发](#distribution) _8 个项目_
-- [文档](#documentation) _4 个项目_
-- [下载器](#downloader) _5 个项目_
-- [电子商务](#e-commerce) _10 个项目_
-- [ Emacs [elpy](https://github.com/jorgenschaefer/elpy)：Emacs Python 开发环境。](#editor-plugins-and-ides) _10 个项目_
-- [电子邮件](#email) _6 个项目_
-- [企业级应用集成](#enterprise-application-integrations) _1 个项目_
-- [环境管理](#environment-management) _2 个项目_
-- [文件](#files) _7 个项目_
-- [外来函数接口](#foreign-function-interface) _4 个项目_
-- [表单](#forms) _6 个项目_
-- [函数式编程](#functional-programming) _7 个项目_
-- [图形用户界面](#gui-development) _16 个项目_
-- [GraphQL](#graphql) _4 个项目_
-- [游戏开发](#game-development) _9 个项目_
-- [地理位置](#geolocation) _5 个项目_
-- [HTML 处理](#html-manipulation) _11 个项目_
-- [HTTP](#http-clients) _6 个项目_
-- [硬件](#hardware) _7 个项目_
-- [图像处理](#image-processing) _15 个项目_
-- [高性能](#implementations) _13 个项目_
-- [交互式解析器](#interactive-interpreter) _4 个项目_
-- [国际化](#internationalization) _2 个项目_
-- [任务调度](#job-scheduler) _11 个项目_
-- [日志](#logging) _5 个项目_
-- [机器学习](#machine-learning) _9 个项目_
-- [微软的 Windows 平台](#microsoft-windows) _5 个项目_
-- [杂项](#miscellaneous) _6 个项目_
-- [自然语言处理](#natural-language-processing) _13 个项目_
-- [网络可视化和 SDN](#network-virtualization) _3 个项目_
-- [动态消息](#news-feed) _2 个项目_
-- [ORM](#orm) _13 个项目_
-- [包管理](#package-management) _5 个项目_
-- [包仓库](#package-repositories) _4 个项目_
-- [渗透测试](#penetration-testing) _3 个项目_
-- [权限](#permissions) _2 个项目_
-- [进程](#processes) _3 个项目_
-- [推荐系统](#recommender-systems) _8 个项目_
-- [重构](#refactoring) _3 个项目_
-- [RESTful API](#restful-api) _13 个项目_
-- [机器人](#robotics) _2 个项目_
-- [RPC 服务器](#rpc-servers) _1 个项目_
-- [科学计算和数据分析](#science) _21 个项目_
-- [搜索](#search) _5 个项目_
-- [序列化](#serialization) _4 个项目_
-- [Serverless 框架](#serverless-frameworks) _2 个项目_
-- [命令行工具](#shell) _1 个项目_
-- [特殊文本格式处理](#specific-formats-processing) _17 个项目_
-- [静态站点生成器](#static-site-generator) _5 个项目_
-- [标记](#tagging) _1 个项目_
-- [队列](#task-queues) _5 个项目_
-- [模板引擎](#template-engine) _3 个项目_
-- [测试](#testing) _30 个项目_
-- [文本处理](#text-processing) _22 个项目_
-- [第三方 API](#third-party-apis) _7 个项目_
-- [URL 处理](#url-manipulation) _4 个项目_
-- [Video](#video) _3 个项目_
-- [Web 资源管理](#web-asset-management) _7 个项目_
-- [网络](#web-content-extracting) _9 个项目_
-- [HTML 处理](#web-crawling) _8 个项目_
-- [Web 框架](#web-frameworks) _8 个项目_
-- [WebSocket](#websocket) _3 个项目_
-- [WSGI 服务器](#wsgi-servers) _5 个项目_
+- [管理面板](#管理面板) _9 个项目_
+- [算法和设计模式](#算法和设计模式) _7 个项目_
+- [ASGI 服务器](#ASGI 服务器) _2 个项目_
+- [网络](#网络) _4 个项目_
+- [音频](#音频) _13 个项目_
+- [验证](#验证) _9 个项目_
+- [构建工具](#构建工具) _5 个项目_
+- [内置类的增强版实现](#内置类的增强版实现) _5 个项目_
+- [CMS](#CMS) _8 个项目_
+- [缓存](#缓存) _7 个项目_
+- [聊天工具](#聊天工具) _1 个项目_
+- [代码分析和 Lint 工具](#代码分析和 Lint 工具) _20 个项目_
+- [命令行工具](#命令行工具) _12 个项目_
+- [命令行工具](#命令行工具) _16 个项目_
+- [兼容性](#兼容性) _3 个项目_
+- [计算机视觉](#计算机视觉) _7 个项目_
+- [并发和并行](#并发和并行) _5 个项目_
+- [配置](#配置) _5 个项目_
+- [密码学](#密码学) _4 个项目_
+- [科学计算和数据分析](#科学计算和数据分析) _6 个项目_
+- [数据验证](#数据验证) _7 个项目_
+- [数据可视化](#数据可视化) _14 个项目_
+- [数据库](#数据库) _3 个项目_
+- [数据库驱动](#数据库驱动) _17 个项目_
+- [日期和时间](#日期和时间) _10 个项目_
+- [调试工具](#调试工具) _18 个项目_
+- [深度学习](#深度学习) _6 个项目_
+- [DevOps 工具](#DevOps 工具) _13 个项目_
+- [分布式计算](#分布式计算) _7 个项目_
+- [分发](#分发) _8 个项目_
+- [文档](#文档) _4 个项目_
+- [下载器](#下载器) _5 个项目_
+- [电子商务](#电子商务) _10 个项目_
+- [ Emacs [elpy](https://github.com/jorgenschaefer/elpy)：Emacs Python 开发环境。](# Emacs [elpy](https://github.com/jorgenschaefer/elpy)：Emacs Python 开发环境。) _10 个项目_
+- [电子邮件](#电子邮件) _6 个项目_
+- [企业级应用集成](#企业级应用集成) _1 个项目_
+- [环境管理](#环境管理) _2 个项目_
+- [文件](#文件) _7 个项目_
+- [外来函数接口](#外来函数接口) _4 个项目_
+- [表单](#表单) _6 个项目_
+- [函数式编程](#函数式编程) _7 个项目_
+- [图形用户界面](#图形用户界面) _16 个项目_
+- [GraphQL](#GraphQL) _4 个项目_
+- [游戏开发](#游戏开发) _9 个项目_
+- [地理位置](#地理位置) _5 个项目_
+- [HTML 处理](#HTML 处理) _11 个项目_
+- [HTTP](#HTTP) _6 个项目_
+- [硬件](#硬件) _7 个项目_
+- [图像处理](#图像处理) _15 个项目_
+- [高性能](#高性能) _13 个项目_
+- [交互式解析器](#交互式解析器) _4 个项目_
+- [国际化](#国际化) _2 个项目_
+- [任务调度](#任务调度) _11 个项目_
+- [日志](#日志) _5 个项目_
+- [机器学习](#机器学习) _9 个项目_
+- [微软的 Windows 平台](#微软的 Windows 平台) _5 个项目_
+- [杂项](#杂项) _6 个项目_
+- [自然语言处理](#自然语言处理) _13 个项目_
+- [网络可视化和 SDN](#网络可视化和 SDN) _3 个项目_
+- [动态消息](#动态消息) _2 个项目_
+- [ORM](#ORM) _13 个项目_
+- [包管理](#包管理) _5 个项目_
+- [包仓库](#包仓库) _4 个项目_
+- [渗透测试](#渗透测试) _3 个项目_
+- [权限](#权限) _2 个项目_
+- [进程](#进程) _3 个项目_
+- [推荐系统](#推荐系统) _8 个项目_
+- [重构](#重构) _3 个项目_
+- [RESTful API](#RESTful API) _13 个项目_
+- [机器人](#机器人) _2 个项目_
+- [RPC 服务器](#RPC 服务器) _1 个项目_
+- [科学计算和数据分析](#科学计算和数据分析) _21 个项目_
+- [搜索](#搜索) _5 个项目_
+- [序列化](#序列化) _4 个项目_
+- [Serverless 框架](#Serverless 框架) _2 个项目_
+- [命令行工具](#命令行工具) _1 个项目_
+- [特殊文本格式处理](#特殊文本格式处理) _17 个项目_
+- [静态站点生成器](#静态站点生成器) _5 个项目_
+- [标记](#标记) _1 个项目_
+- [队列](#队列) _5 个项目_
+- [模板引擎](#模板引擎) _3 个项目_
+- [测试](#测试) _30 个项目_
+- [文本处理](#文本处理) _22 个项目_
+- [第三方 API](#第三方 API) _7 个项目_
+- [URL 处理](#URL 处理) _4 个项目_
+- [Video](#Video) _3 个项目_
+- [Web 资源管理](#Web 资源管理) _7 个项目_
+- [网络](#网络) _9 个项目_
+- [HTML 处理](#HTML 处理) _8 个项目_
+- [Web 框架](#Web 框架) _8 个项目_
+- [WebSocket](#WebSocket) _3 个项目_
+- [WSGI 服务器](#WSGI 服务器) _5 个项目_
 
 ## 图标解释
 - 🥇🥈🥉&nbsp; 综合项目质量分
@@ -130,7 +130,7 @@
 
 ## 管理面板
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _管理界面库。_
 
@@ -254,7 +254,7 @@ _管理界面库。_
 
 ## 算法和设计模式
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _数据结构、算法和设计模式的 Python 实现。也可以参考 [awesome-algorithms](https://github.com/tayllan/awesome-algorithms) 。_
 
@@ -374,7 +374,7 @@ _数据结构、算法和设计模式的 Python 实现。也可以参考 [awesom
 
 ## ASGI 服务器
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _兼容 ASGI 的 web 服务器。_
 
@@ -414,7 +414,7 @@ _兼容 ASGI 的 web 服务器。_
 
 ## 网络
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用于网络编程的库。_
 
@@ -458,7 +458,7 @@ _用于网络编程的库。_
 
 ## 音频
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用来操作音频的库_
 
@@ -660,7 +660,7 @@ _用来操作音频的库_
 
 ## 验证
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _实现验证方案的库。_
 
@@ -808,7 +808,7 @@ _实现验证方案的库。_
 
 ## 构建工具
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _将源码编译成软件。_
 
@@ -854,7 +854,7 @@ _将源码编译成软件。_
 
 ## 内置类的增强版实现
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _一些 Python 内置类的增强版实现库。_
 
@@ -928,7 +928,7 @@ _一些 Python 内置类的增强版实现库。_
 
 ## CMS
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _内容管理系统。_
 
@@ -1022,7 +1022,7 @@ _内容管理系统。_
 
 ## 缓存
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _缓存数据的库。_
 
@@ -1100,7 +1100,7 @@ _缓存数据的库。_
 
 ## 聊天工具
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _聊天机器人开发相关的库。_
 
@@ -1120,7 +1120,7 @@ _聊天机器人开发相关的库。_
 
 ## 代码分析和 Lint 工具
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _进行代码分析、解析和操作代码库的库和工具。_
 
@@ -1374,7 +1374,7 @@ _进行代码分析、解析和操作代码库的库和工具。_
 
 ## 命令行工具
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用于创建命令行程序的库。_
 
@@ -1504,7 +1504,7 @@ _用于创建命令行程序的库。_
 
 ## 命令行工具
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用于创建命令行程序的库。_
 
@@ -1768,7 +1768,7 @@ _用于创建命令行程序的库。_
 
 ## 兼容性
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _帮助从 Python 2 向 Python 3 迁移的库。_
 
@@ -1796,7 +1796,7 @@ _帮助从 Python 2 向 Python 3 迁移的库。_
 
 ## 计算机视觉
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _计算机视觉相关库。_
 
@@ -1898,7 +1898,7 @@ _计算机视觉相关库。_
 
 ## 并发和并行
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用以进行并发和并行操作的库。_
 
@@ -1930,7 +1930,7 @@ _用以进行并发和并行操作的库。_
 
 ## 配置
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用来保存和解析配置的库。_
 
@@ -1990,7 +1990,7 @@ _用来保存和解析配置的库。_
 
 ## 密码学
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _ [cryptography](https://cryptography.io/en/latest/)：这个软件包意在提供密码学基本内容和方法提供给 Python 开发者。 [hashids](https://github.com/davidaurelio/hashids-python)：在 Python 中实现 [hashids](http://hashids.org/) 。_
 
@@ -2034,7 +2034,7 @@ _ [cryptography](https://cryptography.io/en/latest/)：这个软件包意在提�
 
 ## 科学计算和数据分析
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用来进行科学计算和数据分析的库。_
 
@@ -2110,7 +2110,7 @@ _用来进行科学计算和数据分析的库。_
 
 ## 数据验证
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _数据验证库。多用于表单验证。_
 
@@ -2216,7 +2216,7 @@ _数据验证库。多用于表单验证。_
 
 ## 数据可视化
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _进行数据可视化的库。 参见：[awesome-javascript](https://github.com/sorrycc/awesome-javascript#data-visualization)。_
 
@@ -2364,7 +2364,7 @@ _进行数据可视化的库。 参见：[awesome-javascript](https://github.com
 
 ## 数据库
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _Python 实现的数据库。_
 
@@ -2420,7 +2420,7 @@ _Python 实现的数据库。_
 
 ## 数据库 Drivers
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用来连接和操作数据库的库。_
 
@@ -2616,7 +2616,7 @@ _用来连接和操作数据库的库。_
 
 ## 日期和时间
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _操作日期和时间的类库。_
 
@@ -2752,7 +2752,7 @@ _操作日期和时间的类库。_
 
 ## 调试工具
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用来进行代码调试的库。_
 
@@ -3048,7 +3048,7 @@ _用来进行代码调试的库。_
 
 ## 深度学习
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _神经网络和深度学习相关框架。 也可以参考 [awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning)。_
 
@@ -3152,7 +3152,7 @@ _神经网络和深度学习相关框架。 也可以参考 [awesome-deep-learni
 
 ## DevOps 工具
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用于 DevOps 的软件和库。_
 
@@ -3312,7 +3312,7 @@ _用于 DevOps 的软件和库。_
 
 ## 分布式计算
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _分布式计算相关的框架和库。_
 
@@ -3414,7 +3414,7 @@ _分布式计算相关的框架和库。_
 
 ## 分发
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _打包为可执行文件以便分发。_
 
@@ -3494,7 +3494,7 @@ _打包为可执行文件以便分发。_
 
 ## 文档
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用以生成项目文档的库。_
 
@@ -3548,7 +3548,7 @@ _用以生成项目文档的库。_
 
 ## 下载器
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用来进行下载的库._
 
@@ -3608,7 +3608,7 @@ _用来进行下载的库._
 
 ## 电子商务
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用于电子商务以及支付的框架和库。_
 
@@ -3734,7 +3734,7 @@ _用于电子商务以及支付的框架和库。_
 
 ##  Emacs [elpy](https://github.com/jorgenschaefer/elpy)：Emacs Python 开发环境。
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _ Emacs [elpy](https://github.com/jorgenschaefer/elpy)：Emacs Python 开发环境。_
 
@@ -3874,7 +3874,7 @@ _ Emacs [elpy](https://github.com/jorgenschaefer/elpy)：Emacs Python 开发环�
 
 ## 电子邮件
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用来发送和解析电子邮件的库。_
 
@@ -3978,7 +3978,7 @@ _用来发送和解析电子邮件的库。_
 
 ## 企业级应用集成
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _企业级环境中用于集成的平台与工具。_
 
@@ -3988,7 +3988,7 @@ _企业级环境中用于集成的平台与工具。_
 
 ## 环境管理
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _管理 Python 版本和环境的工具_
 
@@ -4028,7 +4028,7 @@ _管理 Python 版本和环境的工具_
 
 ## 文件
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _文件管理和 MIME（多用途的网际邮件扩充协议）类型检测。_
 
@@ -4120,7 +4120,7 @@ _文件管理和 MIME（多用途的网际邮件扩充协议）类型检测。_
 
 ## 外来函数接口
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _使用外来函数接口的库。_
 
@@ -4136,7 +4136,7 @@ _使用外来函数接口的库。_
 
 ## 表单
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _进行表单操作的库。_
 
@@ -4240,7 +4240,7 @@ _进行表单操作的库。_
 
 ## 函数式编程
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _使用 Python 进行函数式编程。_
 
@@ -4356,7 +4356,7 @@ _使用 Python 进行函数式编程。_
 
 ## 图形用户界面
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用来创建图形用户界面程序的库。_
 
@@ -4514,7 +4514,7 @@ _用来创建图形用户界面程序的库。_
 
 ## GraphQL
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _GraphQL 相关库。_
 
@@ -4560,7 +4560,7 @@ _GraphQL 相关库。_
 
 ## 游戏开发
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _超赞的游戏开发库。_
 
@@ -4586,7 +4586,7 @@ _超赞的游戏开发库。_
 
 ## 地理位置
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _地理编码地址以及用来处理经纬度的库。_
 
@@ -4660,7 +4660,7 @@ _地理编码地址以及用来处理经纬度的库。_
 
 ## HTML 处理
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _处理 HTML 和 XML 的库。_
 
@@ -4774,7 +4774,7 @@ _处理 HTML 和 XML 的库。_
 
 ## HTTP
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _使用 HTTP 的库。_
 
@@ -4878,7 +4878,7 @@ _使用 HTTP 的库。_
 
 ## 硬件
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用来对硬件进行编程的库。_
 
@@ -4970,7 +4970,7 @@ _用来对硬件进行编程的库。_
 
 ## 图像处理
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用来操作图像的库._
 
@@ -5176,7 +5176,7 @@ _用来操作图像的库._
 
 ## 高性能
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _让 Python 更快的库。_
 
@@ -5336,7 +5336,7 @@ _让 Python 更快的库。_
 
 ## 交互式解析器
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _交互式 Python 解析器。_
 
@@ -5380,7 +5380,7 @@ _交互式 Python 解析器。_
 
 ## 国际化
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用来进行国际化的库。_
 
@@ -5406,7 +5406,7 @@ _用来进行国际化的库。_
 
 ## 任务调度
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _任务调度库。_
 
@@ -5520,7 +5520,7 @@ _任务调度库。_
 
 ## 日志
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用来生成和操作日志的库。_
 
@@ -5566,7 +5566,7 @@ _用来生成和操作日志的库。_
 
 ## 机器学习
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _机器学习相关库，也可以参考 [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning#python)。_
 
@@ -5690,7 +5690,7 @@ _机器学习相关库，也可以参考 [awesome-machine-learning](https://gith
 
 ## 微软的 Windows 平台
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _在 Windows 平台上进行 Python 编程。_
 
@@ -5736,7 +5736,7 @@ _在 Windows 平台上进行 Python 编程。_
 
 ## 杂项
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _不属于上面任何一个类别，但是非常有用的库。_
 
@@ -5826,7 +5826,7 @@ _不属于上面任何一个类别，但是非常有用的库。_
 
 ## 自然语言处理
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用来处理人类语言的库。_
 
@@ -6014,7 +6014,7 @@ _用来处理人类语言的库。_
 
 ## 网络可视化和 SDN
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用来进行网络可视化和 SDN(软件定义网络)的工具和库。_
 
@@ -6070,7 +6070,7 @@ _用来进行网络可视化和 SDN(软件定义网络)的工具和库。_
 
 ## 动态消息
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用来创建用户活动的库。_
 
@@ -6110,7 +6110,7 @@ _用来创建用户活动的库。_
 
 ## ORM
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _实现对象关系映射或数据映射技术的库。_
 
@@ -6276,7 +6276,7 @@ _实现对象关系映射或数据映射技术的库。_
 
 ## 包管理
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _管理包和依赖的工具。_
 
@@ -6332,7 +6332,7 @@ _管理包和依赖的工具。_
 
 ## 包仓库
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _本地 PyPI 仓库服务和代理。_
 
@@ -6400,7 +6400,7 @@ _本地 PyPI 仓库服务和代理。_
 
 ## 渗透测试
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _渗透测试相关框架和工具。_
 
@@ -6456,7 +6456,7 @@ _渗透测试相关框架和工具。_
 
 ## 权限
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _允许或拒绝用户访问数据或功能的库。_
 
@@ -6496,7 +6496,7 @@ _允许或拒绝用户访问数据或功能的库。_
 
 ## 进程
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _操作系统进程启动及通信库。_
 
@@ -6538,7 +6538,7 @@ _操作系统进程启动及通信库。_
 
 ## 推荐系统
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用于构建推荐系统的相关库。_
 
@@ -6674,7 +6674,7 @@ _用于构建推荐系统的相关库。_
 
 ## 重构
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _Python 重构相关库和工具。_
 
@@ -6702,7 +6702,7 @@ _Python 重构相关库和工具。_
 
 ## RESTful API
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用来开发 RESTful APIs 的库_
 
@@ -6876,7 +6876,7 @@ _用来开发 RESTful APIs 的库_
 
 ## 机器人
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _机器人相关库。_
 
@@ -6902,7 +6902,7 @@ _机器人相关库。_
 
 ## RPC 服务器
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _兼容 RPC 的服务器。_
 
@@ -6926,7 +6926,7 @@ _兼容 RPC 的服务器。_
 
 ## 科学计算和数据分析
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用来进行科学计算和数据分析的库。_
 
@@ -7084,7 +7084,7 @@ _用来进行科学计算和数据分析的库。_
 
 ## 搜索
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _对数据进行索引和执行搜索查询的库和软件。_
 
@@ -7144,7 +7144,7 @@ _对数据进行索引和执行搜索查询的库和软件。_
 
 ## 序列化
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _复杂数据类型序列化相关库。_
 
@@ -7216,7 +7216,7 @@ _复杂数据类型序列化相关库。_
 
 ## Serverless 框架
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _使用 Python 开发 Serverless 模型相关的库。_
 
@@ -7256,7 +7256,7 @@ _使用 Python 开发 Serverless 模型相关的库。_
 
 ## 命令行工具
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用于创建命令行程序的库。_
 
@@ -7276,7 +7276,7 @@ _用于创建命令行程序的库。_
 
 ## 特殊文本格式处理
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _一些用来解析和操作特殊文本格式的库。_
 
@@ -7514,7 +7514,7 @@ _一些用来解析和操作特殊文本格式的库。_
 
 ## 静态站点生成器
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _静态站点生成器是一个软件，它把文本和模板作为输入，然后输出 HTML 文件。_
 
@@ -7598,7 +7598,7 @@ _静态站点生成器是一个软件，它把文本和模板作为输入，然�
 
 ## 标记
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用来进行标记的库。_
 
@@ -7622,7 +7622,7 @@ _用来进行标记的库。_
 
 ## 队列
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _处理事件以及任务队列的库。_
 
@@ -7696,7 +7696,7 @@ _处理事件以及任务队列的库。_
 
 ## 模板引擎
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _模板生成和词法解析的库和工具。_
 
@@ -7724,7 +7724,7 @@ _模板生成和词法解析的库和工具。_
 
 ## 测试
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _进行代码库测试和生成测试数据的库。_
 
@@ -8086,7 +8086,7 @@ _进行代码库测试和生成测试数据的库。_
 
 ## 文本处理
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用于解析和操作文本的库。_
 
@@ -8400,7 +8400,7 @@ _用于解析和操作文本的库。_
 
 ## 第三方 API
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用来访问第三方 API 的库。 参见： [List of Python API Wrappers and Libraries](https://github.com/realpython/list-of-python-api-wrappers)。_
 
@@ -8506,7 +8506,7 @@ _用来访问第三方 API 的库。 参见： [List of Python API Wrappers and 
 
 ## URL 处理
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _解析 URLs 的库_
 
@@ -8578,7 +8578,7 @@ _解析 URLs 的库_
 
 ## Video
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用来操作视频和 GIF 的库。_
 
@@ -8620,7 +8620,7 @@ _用来操作视频和 GIF 的库。_
 
 ## Web 资源管理
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _管理、压缩、缩小网站资源的工具。_
 
@@ -8712,7 +8712,7 @@ _管理、压缩、缩小网站资源的工具。_
 
 ## 网络
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _用于网络编程的库。_
 
@@ -8864,7 +8864,7 @@ _用于网络编程的库。_
 
 ## HTML 处理
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _处理 HTML 和 XML 的库。_
 
@@ -8972,7 +8972,7 @@ _处理 HTML 和 XML 的库。_
 
 ## Web 框架
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _全栈 Web 框架。_
 
@@ -9010,7 +9010,7 @@ _全栈 Web 框架。_
 
 ## WebSocket
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _Web socket 相关库。_
 
@@ -9066,7 +9066,7 @@ _Web socket 相关库。_
 
 ## WSGI 服务器
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _兼容 WSGI 的 web 服务器_
 
