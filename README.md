@@ -15,130 +15,130 @@
 </p>
 
 本资源清单包含690个python相关的开源工具资源，这些热门工具总共分成91个不同的应用领域，目前在github上已经收到2.8M个点赞。所有的工具(github项目)每周会自动从GitHub和工具维护平台采集信息，并更新排行展示。本清单参考[best-of模板](https://github.com/best-of-lists/best-of)完成，内容参考了[awesome-python](https://github.com/vinta/awesome-python)，欢迎大家提PR丰富本清单。
-## Contents
+## 目录
 
-- [Admin Panels](#admin-panels) _9 projects_
-- [Algorithms and Design Patterns](#algorithms-and-design-patterns) _7 projects_
-- [ASGI Servers](#asgi-servers) _2 projects_
-- [Asynchronous Programming](#asynchronous-programming) _4 projects_
-- [Audio](#audio) _13 projects_
-- [Authentication](#authentication) _9 projects_
-- [Build Tools](#build-tools) _5 projects_
-- [Built-in Classes Enhancement](#built-in-classes-enhancement) _5 projects_
-- [CMS](#cms) _8 projects_
-- [Caching](#caching) _7 projects_
-- [ChatOps Tools](#chatops-tools) _1 projects_
-- [Code Analysis](#code-analysis) _20 projects_
-- [Command-line Interface Development](#command-line-interface-development) _12 projects_
-- [Command-line Tools](#command-line-tools) _16 projects_
-- [Compatibility](#compatibility) _3 projects_
-- [Computer Vision](#computer-vision) _7 projects_
-- [Concurrency and Parallelism](#concurrency-and-parallelism) _5 projects_
-- [Configuration](#configuration) _5 projects_
-- [Cryptography](#cryptography) _4 projects_
-- [Data Analysis](#data-analysis) _6 projects_
-- [Data Validation](#data-validation) _7 projects_
-- [Data Visualization](#data-visualization) _14 projects_
-- [Database](#database) _3 projects_
-- [Database Drivers](#database-drivers) _17 projects_
-- [Date and Time](#date-and-time) _10 projects_
-- [Debugging Tools](#debugging-tools) _18 projects_
-- [Deep Learning](#deep-learning) _7 projects_
-- [DevOps Tools](#devops-tools) _13 projects_
-- [Distributed Computing](#distributed-computing) _7 projects_
-- [Distribution](#distribution) _8 projects_
-- [Documentation](#documentation) _4 projects_
-- [Downloader](#downloader) _5 projects_
-- [E-commerce](#e-commerce) _10 projects_
-- [Editor Plugins and IDEs](#editor-plugins-and-ides) _10 projects_
-- [Email](#email) _6 projects_
-- [Enterprise Application Integrations](#enterprise-application-integrations) _1 projects_
-- [Environment Management](#environment-management) _2 projects_
-- [Files](#files) _7 projects_
-- [Foreign Function Interface](#foreign-function-interface) _4 projects_
-- [Forms](#forms) _6 projects_
-- [Functional Programming](#functional-programming) _7 projects_
-- [GUI Development](#gui-development) _16 projects_
-- [GraphQL](#graphql) _4 projects_
-- [Game Development](#game-development) _9 projects_
-- [Geolocation](#geolocation) _5 projects_
-- [HTML Manipulation](#html-manipulation) _11 projects_
-- [HTTP Clients](#http-clients) _6 projects_
-- [Hardware](#hardware) _7 projects_
-- [Image Processing](#image-processing) _15 projects_
-- [Implementations](#implementations) _13 projects_
-- [Interactive Interpreter](#interactive-interpreter) _4 projects_
-- [Internationalization](#internationalization) _2 projects_
-- [Job Scheduler](#job-scheduler) _11 projects_
-- [Logging](#logging) _5 projects_
-- [Machine Learning](#machine-learning) _9 projects_
-- [Microsoft Windows](#microsoft-windows) _5 projects_
-- [Miscellaneous](#miscellaneous) _6 projects_
-- [Natural Language Processing](#natural-language-processing) _13 projects_
-- [Network Virtualization](#network-virtualization) _3 projects_
-- [News Feed](#news-feed) _2 projects_
-- [ORM](#orm) _13 projects_
-- [Package Management](#package-management) _5 projects_
-- [Package Repositories](#package-repositories) _4 projects_
-- [Penetration Testing](#penetration-testing) _3 projects_
-- [Permissions](#permissions) _2 projects_
-- [Processes](#processes) _3 projects_
-- [Recommender Systems](#recommender-systems) _8 projects_
-- [Refactoring](#refactoring) _3 projects_
-- [RESTful API](#restful-api) _13 projects_
-- [Robotics](#robotics) _2 projects_
-- [RPC Servers](#rpc-servers) _1 projects_
-- [Science](#science) _21 projects_
-- [Search](#search) _5 projects_
-- [Serialization](#serialization) _4 projects_
-- [Serverless Frameworks](#serverless-frameworks) _2 projects_
-- [Shell](#shell) _1 projects_
-- [Specific Formats Processing](#specific-formats-processing) _17 projects_
-- [Static Site Generator](#static-site-generator) _5 projects_
-- [Tagging](#tagging) _1 projects_
-- [Task Queues](#task-queues) _5 projects_
-- [Template Engine](#template-engine) _3 projects_
-- [Testing](#testing) _30 projects_
-- [Text Processing](#text-processing) _22 projects_
-- [Third-party APIs](#third-party-apis) _7 projects_
-- [URL Manipulation](#url-manipulation) _4 projects_
-- [Video](#video) _3 projects_
-- [Web Asset Management](#web-asset-management) _7 projects_
-- [Web Content Extracting](#web-content-extracting) _9 projects_
-- [Web Crawling](#web-crawling) _8 projects_
-- [Web Frameworks](#web-frameworks) _8 projects_
-- [WebSocket](#websocket) _3 projects_
-- [WSGI Servers](#wsgi-servers) _5 projects_
+- [管理面板](#管理面板) _9 个项目_
+- [算法和设计模式](#算法和设计模式) _7 个项目_
+- [ASGI服务器](#ASGI服务器) _2 个项目_
+- [网络](#网络) _4 个项目_
+- [音频](#音频) _13 个项目_
+- [验证](#验证) _9 个项目_
+- [构建工具](#构建工具) _5 个项目_
+- [内置类的增强版实现](#内置类的增强版实现) _5 个项目_
+- [CMS](#CMS) _8 个项目_
+- [缓存](#缓存) _7 个项目_
+- [聊天工具](#聊天工具) _1 个项目_
+- [代码分析和Lint工具](#代码分析和Lint工具) _20 个项目_
+- [命令行工具](#命令行工具) _12 个项目_
+- [命令行工具](#命令行工具) _16 个项目_
+- [兼容性](#兼容性) _3 个项目_
+- [计算机视觉](#计算机视觉) _7 个项目_
+- [并发和并行](#并发和并行) _5 个项目_
+- [配置](#配置) _5 个项目_
+- [密码学](#密码学) _4 个项目_
+- [科学计算和数据分析](#科学计算和数据分析) _6 个项目_
+- [数据验证](#数据验证) _7 个项目_
+- [数据可视化](#数据可视化) _14 个项目_
+- [数据库](#数据库) _3 个项目_
+- [数据库驱动](#数据库驱动) _17 个项目_
+- [日期和时间](#日期和时间) _10 个项目_
+- [调试工具](#调试工具) _18 个项目_
+- [深度学习](#深度学习) _7 个项目_
+- [DevOps工具](#DevOps工具) _13 个项目_
+- [分布式计算](#分布式计算) _7 个项目_
+- [分发](#分发) _8 个项目_
+- [文档](#文档) _4 个项目_
+- [下载器](#下载器) _5 个项目_
+- [电子商务](#电子商务) _10 个项目_
+- [Emacs-Python开发环境](#Emacs-Python开发环境) _10 个项目_
+- [电子邮件](#电子邮件) _6 个项目_
+- [企业级应用集成](#企业级应用集成) _1 个项目_
+- [环境管理](#环境管理) _2 个项目_
+- [文件](#文件) _7 个项目_
+- [外来函数接口](#外来函数接口) _4 个项目_
+- [表单](#表单) _6 个项目_
+- [函数式编程](#函数式编程) _7 个项目_
+- [图形用户界面](#图形用户界面) _16 个项目_
+- [GraphQL](#GraphQL) _4 个项目_
+- [游戏开发](#游戏开发) _9 个项目_
+- [地理位置](#地理位置) _5 个项目_
+- [HTML处理](#HTML处理) _11 个项目_
+- [HTTP](#HTTP) _6 个项目_
+- [硬件](#硬件) _7 个项目_
+- [图像处理](#图像处理) _15 个项目_
+- [高性能](#高性能) _13 个项目_
+- [交互式解析器](#交互式解析器) _4 个项目_
+- [国际化](#国际化) _2 个项目_
+- [任务调度](#任务调度) _11 个项目_
+- [日志](#日志) _5 个项目_
+- [机器学习](#机器学习) _9 个项目_
+- [微软的Windows平台](#微软的Windows平台) _5 个项目_
+- [杂项](#杂项) _6 个项目_
+- [自然语言处理](#自然语言处理) _13 个项目_
+- [网络可视化和SDN](#网络可视化和SDN) _3 个项目_
+- [动态消息](#动态消息) _2 个项目_
+- [ORM](#ORM) _13 个项目_
+- [包管理](#包管理) _5 个项目_
+- [包仓库](#包仓库) _4 个项目_
+- [渗透测试](#渗透测试) _3 个项目_
+- [权限](#权限) _2 个项目_
+- [进程](#进程) _3 个项目_
+- [推荐系统](#推荐系统) _8 个项目_
+- [重构](#重构) _3 个项目_
+- [RESTfulAPI](#RESTfulAPI) _13 个项目_
+- [机器人](#机器人) _2 个项目_
+- [RPC服务器](#RPC服务器) _1 个项目_
+- [科学计算和数据分析](#科学计算和数据分析) _21 个项目_
+- [搜索](#搜索) _5 个项目_
+- [序列化](#序列化) _4 个项目_
+- [Serverless框架](#Serverless框架) _2 个项目_
+- [命令行工具](#命令行工具) _1 个项目_
+- [特殊文本格式处理](#特殊文本格式处理) _17 个项目_
+- [静态站点生成器](#静态站点生成器) _5 个项目_
+- [标记](#标记) _1 个项目_
+- [队列](#队列) _5 个项目_
+- [模板引擎](#模板引擎) _3 个项目_
+- [测试](#测试) _30 个项目_
+- [文本处理](#文本处理) _22 个项目_
+- [第三方API](#第三方API) _7 个项目_
+- [URL处理](#URL处理) _4 个项目_
+- [Video](#Video) _3 个项目_
+- [Web资源管理](#Web资源管理) _7 个项目_
+- [网络](#网络) _9 个项目_
+- [HTML处理](#HTML处理) _8 个项目_
+- [Web框架](#Web框架) _8 个项目_
+- [WebSocket](#WebSocket) _3 个项目_
+- [WSGI服务器](#WSGI服务器) _5 个项目_
 
-## Explanation
-- 🥇🥈🥉&nbsp; Combined project-quality score
-- ⭐️&nbsp; Star count from GitHub
-- 🐣&nbsp; New project _(less than 6 months old)_
-- 💤&nbsp; Inactive project _(6 months no activity)_
-- 💀&nbsp; Dead project _(12 months no activity)_
-- 📈📉&nbsp; Project is trending up or down
-- ➕&nbsp; Project was recently added
-- ❗️&nbsp; Warning _(e.g. missing/risky license)_
-- 👨‍💻&nbsp; Contributors count from GitHub
-- 🔀&nbsp; Fork count from GitHub
-- 📋&nbsp; Issue count from GitHub
-- ⏱️&nbsp; Last update timestamp on package manager
-- 📥&nbsp; Download count from package manager
-- 📦&nbsp; Number of dependent projects
+## 图标解释
+- 🥇🥈🥉&nbsp; 综合项目质量分
+- ⭐️&nbsp; github上star的数量
+- 🐣&nbsp; 小于6个月的新项目
+- 💤&nbsp; 非活跃项目(6个月未更新)
+- 💀&nbsp; 沉寂项目(12个月未更新)
+- 📈📉&nbsp; 项目趋势(向上or向下)
+- ➕&nbsp; 最近添加的项目
+- ❗️&nbsp; 警告(例如 项目没有license)
+- 👨‍💻&nbsp; 项目的开发贡献者数量
+- 🔀&nbsp; 项目被fork的数量
+- 📋&nbsp; 项目issue的数量
+- ⏱️&nbsp; 项目包上次更新时间
+- 📥&nbsp; 工具库被下载次数
+- 📦&nbsp; 项目依赖的工具库数量
 
 <br>
 
-## Admin Panels
+## 管理面板
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for administrative interfaces._
+_管理界面库。_
 
-🔗&nbsp;<b><a href="https://grappelliproject.com/">django-grappelli</a></b>  - A jazzy skin for the Django Admin-Interface.
+🔗&nbsp;<b><a href="https://grappelliproject.com/">django-grappelli</a></b>  - 拥有绚丽外观的 Django Admin 界面。
 
-🔗&nbsp;<b><a href="https://djangosuit.com/">django-suit</a></b>  - Alternative Django Admin-Interface (free only for Non-commercial use).
+🔗&nbsp;<b><a href="https://djangosuit.com/">django-suit</a></b>  - Django 管理界面的一个替代品 (仅对于非商业用途是免费的)。
 
-<details><summary><b><a href="https://github.com/flask-admin/flask-admin">flask-admin</a></b> (🥇33 ·  ⭐ 4.9K) - Simple and extensible administrative interface framework for Flask. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/flask-admin/flask-admin">flask-admin</a></b> (🥇33 ·  ⭐ 4.9K) - 一个用于 Flask 的简单可扩展的管理界面框架。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/flask-admin/flask-admin) (👨‍💻 340 · 🔀 1.4K · 📦 13K · 📋 1.3K - 26% open · ⏱️ 10.12.2021):
 
@@ -154,7 +154,7 @@ _Libraries for administrative interfaces._
 	conda install -c conda-forge flask-admin
 	```
 </details>
-<details><summary><b><a href="https://github.com/mher/flower">flower</a></b> (🥈29 ·  ⭐ 5K) - Real-time monitor and web admin for Celery. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/mher/flower">flower</a></b> (🥈29 ·  ⭐ 5K) - 一个对 Celery 集群进行实时监控和提供 web 管理界面的工具。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/mher/flower) (👨‍💻 180 · 🔀 840 · 📦 7.2K · 📋 800 - 8% open · ⏱️ 25.11.2021):
 
@@ -170,7 +170,7 @@ _Libraries for administrative interfaces._
 	conda install -c conda-forge flower
 	```
 </details>
-<details><summary><b><a href="https://github.com/geex-arts/django-jet">django-jet</a></b> (🥈26 ·  ⭐ 3.2K · 💀) - Modern responsive template for the Django admin interface.. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/geex-arts/django-jet">django-jet</a></b> (🥈26 ·  ⭐ 3.2K · 💀) - 具有改进功能的现代响应式 Django 管理界面模板。<code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/geex-arts/django-jet) (👨‍💻 29 · 🔀 640 · 📦 2.5K · 📋 330 - 63% open · ⏱️ 21.05.2019):
 
@@ -186,7 +186,7 @@ _Libraries for administrative interfaces._
 	conda install -c conda-forge django-jet
 	```
 </details>
-<details><summary><b><a href="https://github.com/ajenti/ajenti">ajenti</a></b> (🥉22 ·  ⭐ 6.6K) - The admin panel your servers deserve. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/ajenti/ajenti">ajenti</a></b> (🥉22 ·  ⭐ 6.6K) - 一个你的服务器值得拥有的管理面板。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/ajenti/ajenti) (👨‍💻 18 · 🔀 740 · 📦 23 · 📋 1.1K - 1% open · ⏱️ 17.12.2021):
 
@@ -202,7 +202,7 @@ _Libraries for administrative interfaces._
 	conda install -c conda-forge ajenti
 	```
 </details>
-<details><summary><b><a href="https://github.com/sshwsfc/xadmin">django-xadmin</a></b> (🥉21 ·  ⭐ 4.6K · 💀) - Drop-in replacement of Django admin comes with lots.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/sshwsfc/xadmin">django-xadmin</a></b> (🥉21 ·  ⭐ 4.6K · 💀) - Django admin 的一个替代品，具有很多不错的功能。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/sshwsfc/xadmin) (👨‍💻 51 · 🔀 1.4K · 📦 760 · 📋 560 - 65% open · ⏱️ 03.04.2019):
 
@@ -218,7 +218,7 @@ _Libraries for administrative interfaces._
 	conda install -c conda-forge xadmin
 	```
 </details>
-<details><summary><b><a href="https://github.com/wooey/Wooey">wooey</a></b> (🥉20 ·  ⭐ 1.7K) - A Django app which creates automatic web UIs for Python scripts. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/wooey/Wooey">wooey</a></b> (🥉20 ·  ⭐ 1.7K) - 一个 Django 应用，可以为 Python 脚本创建 web 用户界面。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/wooey/Wooey) (👨‍💻 22 · 🔀 170 · 📦 31 · 📋 200 - 27% open · ⏱️ 09.08.2021):
 
@@ -234,7 +234,7 @@ _Libraries for administrative interfaces._
 	conda install -c conda-forge wooey
 	```
 </details>
-<details><summary><b><a href="https://github.com/jet-admin/jet-bridge">jet-bridge</a></b> (🥉15 ·  ⭐ 1.1K) - Admin panel framework for any application with nice UI (ex Jet Django). <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/jet-admin/jet-bridge">jet-bridge</a></b> (🥉15 ·  ⭐ 1.1K) - 管理面板框架，适用于任何具有良好 UI 的应用（例如 Django）。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/jet-admin/jet-bridge) (👨‍💻 4 · 🔀 100 · 📋 11 - 63% open · ⏱️ 23.12.2021):
 
@@ -252,13 +252,13 @@ _Libraries for administrative interfaces._
 </details>
 <br>
 
-## Algorithms and Design Patterns
+## 算法和设计模式
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Python implementation of data structures, algorithms and design patterns._
+_数据结构、算法和设计模式的 Python 实现。也可以参考 [awesome-algorithms](https://github.com/tayllan/awesome-algorithms) 。_
 
-<details><summary><b><a href="https://github.com/TheAlgorithms/Python">TheAlgorithms</a></b> (🥇29 ·  ⭐ 130K) - All Algorithms implemented in Python. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/TheAlgorithms/Python">TheAlgorithms</a></b> (🥇29 ·  ⭐ 130K) - 所有算法的 Python 实现。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/TheAlgorithms/Python) (👨‍💻 820 · 🔀 33K · 📋 880 - 1% open · ⏱️ 16.12.2021):
 
@@ -274,7 +274,7 @@ _Python implementation of data structures, algorithms and design patterns._
 	conda install -c conda-forge Python
 	```
 </details>
-<details><summary><b><a href="https://github.com/pytransitions/transitions">transitions</a></b> (🥈27 ·  ⭐ 4.1K) - A lightweight, object-oriented finite state machine implementation. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/pytransitions/transitions">transitions</a></b> (🥈27 ·  ⭐ 4.1K) - 轻量级的，面向对象的有限状态机实现。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/pytransitions/transitions) (👨‍💻 70 · 🔀 460 · 📦 2K · 📋 390 - 2% open · ⏱️ 13.12.2021):
 
@@ -290,7 +290,7 @@ _Python implementation of data structures, algorithms and design patterns._
 	conda install -c conda-forge transitions
 	```
 </details>
-<details><summary><b><a href="https://github.com/keon/algorithms">algorithms</a></b> (🥈24 ·  ⭐ 20K) - Minimal examples of data structures and algorithms. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/keon/algorithms">algorithms</a></b> (🥈24 ·  ⭐ 20K) - 数据结构和算法的简单示例。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/keon/algorithms) (👨‍💻 180 · 🔀 3.8K · 📦 55 · 📋 140 - 35% open · ⏱️ 16.12.2021):
 
@@ -306,7 +306,7 @@ _Python implementation of data structures, algorithms and design patterns._
 	conda install -c conda-forge algorithms
 	```
 </details>
-<details><summary><b><a href="https://github.com/faif/python-patterns">python-patterns</a></b> (🥉16 ·  ⭐ 30K) - A collection of design patterns in Python. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/faif/python-patterns">python-patterns</a></b> (🥉16 ·  ⭐ 30K) - 一个 Python 设计模式集合。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/faif/python-patterns) (👨‍💻 120 · 🔀 5.8K · 📋 74 - 16% open · ⏱️ 07.12.2021):
 
@@ -322,7 +322,7 @@ _Python implementation of data structures, algorithms and design patterns._
 	conda install -c conda-forge python-patterns
 	```
 </details>
-<details><summary><b><a href="https://github.com/prabhupant/python-ds">python-ds</a></b> (🥉16 ·  ⭐ 1.5K) - A collection of data structure and algorithms for coding interviews. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/prabhupant/python-ds">python-ds</a></b> (🥉16 ·  ⭐ 1.5K) - 用于面试的数据结构和算法的集合。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/prabhupant/python-ds) (👨‍💻 100 · 🔀 450 · 📋 84 - 21% open · ⏱️ 24.10.2021):
 
@@ -338,7 +338,7 @@ _Python implementation of data structures, algorithms and design patterns._
 	conda install -c conda-forge python-ds
 	```
 </details>
-<details><summary><b><a href="https://github.com/tylerlaberge/PyPattyrn">PyPattyrn</a></b> (🥉15 ·  ⭐ 1.4K · 💀) - A simple yet effective library for implementing common design.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/tylerlaberge/PyPattyrn">PyPattyrn</a></b> (🥉15 ·  ⭐ 1.4K · 💀) - 一个简单而有效的库，用于实现常见的设计模式。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/tylerlaberge/PyPattyrn) (👨‍💻 4 · 🔀 110 · 📦 17 · ⏱️ 09.02.2020):
 
@@ -354,7 +354,7 @@ _Python implementation of data structures, algorithms and design patterns._
 	conda install -c conda-forge PyPattyrn
 	```
 </details>
-<details><summary><b><a href="https://github.com/grantjenks/python-sortedcontainers">sortedcontainers</a></b> (🥉14 ·  ⭐ 2.4K) - Fast and pure-Python implementation of sorted.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/grantjenks/python-sortedcontainers">sortedcontainers</a></b> (🥉14 ·  ⭐ 2.4K) - 排序集合的快速的纯 Python 实现。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/grantjenks/python-sortedcontainers) (👨‍💻 20 · 🔀 160 · 📋 140 - 11% open · ⏱️ 13.10.2021):
 
@@ -372,13 +372,13 @@ _Python implementation of data structures, algorithms and design patterns._
 </details>
 <br>
 
-## ASGI Servers
+## ASGI 服务器
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_compatible web servers._
+_兼容 ASGI 的 web 服务器。_
 
-<details><summary><b><a href="https://github.com/encode/uvicorn">uvicorn</a></b> (🥇30 ·  ⭐ 4.7K) - A lightning-fast ASGI server implementation, using uvloop and httptools. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/encode/uvicorn">uvicorn</a></b> (🥇30 ·  ⭐ 4.7K) - 使用 uvloop 和 httptools 实现的闪电般快速的 ASGI 服务器。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/encode/uvicorn) (👨‍💻 120 · 🔀 370 · 📦 46K · 📋 550 - 12% open · ⏱️ 08.12.2021):
 
@@ -394,7 +394,7 @@ _compatible web servers._
 	conda install -c conda-forge uvicorn
 	```
 </details>
-<details><summary><b><a href="https://github.com/django/daphne">daphne</a></b> (🥉24 ·  ⭐ 1.7K) - A HTTP, HTTP2 and WebSocket protocol server for ASGI and ASGI-HTTP. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/django/daphne">daphne</a></b> (🥉24 ·  ⭐ 1.7K) - 用于 ASGI 和 ASGI-HTTP 的，支持 HTTP，HTTP2 和 WebSocket 协议的服务器。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/django/daphne) (👨‍💻 57 · 🔀 200 · 📦 12K · 📋 270 - 13% open · ⏱️ 09.11.2021):
 
@@ -412,15 +412,15 @@ _compatible web servers._
 </details>
 <br>
 
-## Asynchronous Programming
+## 网络
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Asynchronous I/O, event loop, coroutines and tasks._
+_用于网络编程的库。_
 
 🔗&nbsp;<b><a href="https://github.com/timofurrer/awesome-asyncio">awesome-asyncio</a></b> ( ⭐ 3.3K)  - A curated list of awesome Python asyncio frameworks, libraries, software..
 
-🔗&nbsp;<b><a href="https://twistedmatrix.com/trac/">Twisted</a></b>  - An event-driven networking engine.
+🔗&nbsp;<b><a href="https://twistedmatrix.com/trac/">Twisted</a></b>  - 一个事件驱动的网络引擎。
 
 <details><summary><b><a href="https://github.com/MagicStack/uvloop">uvloop</a></b> (🥇32 ·  ⭐ 8.3K) - Ultra fast asyncio event loop. <code>❗Unlicensed</code></summary>
 
@@ -438,7 +438,7 @@ _Asynchronous I/O, event loop, coroutines and tasks._
 	conda install -c conda-forge uvloop
 	```
 </details>
-<details><summary><b><a href="https://github.com/python-trio/trio">trio</a></b> (🥉27 ·  ⭐ 4.4K) - A friendly library for async concurrency and I/O. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/python-trio/trio">trio</a></b> (🥉27 ·  ⭐ 4.4K) - 异步并发和 I/O 友好的库。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/python-trio/trio) (👨‍💻 130 · 🔀 250 · 📦 3.5K · 📋 650 - 39% open · ⏱️ 02.11.2021):
 
@@ -456,15 +456,15 @@ _Asynchronous I/O, event loop, coroutines and tasks._
 </details>
 <br>
 
-## Audio
+## 音频
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for manipulating audio and its metadata._
+_用来操作音频的库_
 
-🔗&nbsp;<b><a href="http://bspaans.github.io/python-mingus/">mingus</a></b>  - An advanced music theory and notation package with MIDI file and playback support.
+🔗&nbsp;<b><a href="http://bspaans.github.io/python-mingus/">mingus</a></b>  - 一个高级音乐理论和曲谱包，支持 MIDI 文件和回放功能。
 
-<details><summary><b><a href="https://github.com/jiaaro/pydub">pydub</a></b> (🥇30 ·  ⭐ 5.8K) - Manipulate audio with a simple and easy high level interface. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/jiaaro/pydub">pydub</a></b> (🥇30 ·  ⭐ 5.8K) - 通过简单、简洁的高层接口来操作音频文件。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/jiaaro/pydub) (👨‍💻 90 · 🔀 770 · 📦 10K · 📋 450 - 43% open · ⏱️ 08.06.2021):
 
@@ -480,7 +480,7 @@ _Libraries for manipulating audio and its metadata._
 	conda install -c conda-forge pydub
 	```
 </details>
-<details><summary><b><a href="https://github.com/beetbox/beets">beets</a></b> (🥇29 ·  ⭐ 11K) - A music library manager and [MusicBrainz](https://musicbrainz.org/) tagger. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/beetbox/beets">beets</a></b> (🥇29 ·  ⭐ 11K) - 一个音乐库管理器和 <a href="https://musicbrainz.org/">MusicBrainz</a> 标记器。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/beetbox/beets) (👨‍💻 480 · 🔀 1.6K · 📥 7K · 📦 230 · 📋 2.4K - 18% open · ⏱️ 22.12.2021):
 
@@ -496,7 +496,7 @@ _Libraries for manipulating audio and its metadata._
 	conda install -c conda-forge beets
 	```
 </details>
-<details><summary><b><a href="https://github.com/beetbox/audioread">audioread</a></b> (🥈27 ·  ⭐ 380) - Cross-library (GStreamer + Core Audio + MAD + FFmpeg) audio decoding. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/beetbox/audioread">audioread</a></b> (🥈27 ·  ⭐ 380) - 交叉库 (GStreamer + Core Audio + MAD + FFmpeg) 音频解码。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/beetbox/audioread) (👨‍💻 21 · 🔀 89 · 📦 6.9K · 📋 75 - 38% open · ⏱️ 03.12.2021):
 
@@ -512,7 +512,7 @@ _Libraries for manipulating audio and its metadata._
 	conda install -c conda-forge audioread
 	```
 </details>
-<details><summary><b><a href="https://github.com/nicfit/eyeD3">eyeD3</a></b> (🥈25 ·  ⭐ 340) - A tool for working with audio files, specifically MP3 files containing.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/nicfit/eyeD3">eyeD3</a></b> (🥈25 ·  ⭐ 340) - 一个用来操作音频文件的工具，具体来讲就是包含 ID3 元信息的 MP3 文件。<code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/nicfit/eyeD3) (👨‍💻 22 · 🔀 47 · 📥 2.1K · 📦 1.6K · 📋 170 - 24% open · ⏱️ 14.09.2021):
 
@@ -528,7 +528,7 @@ _Libraries for manipulating audio and its metadata._
 	conda install -c conda-forge eyeD3
 	```
 </details>
-<details><summary><b><a href="https://github.com/quodlibet/mutagen">mutagen</a></b> (🥈24 ·  ⭐ 910) - A Python module to handle audio metadata. <code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
+<details><summary><b><a href="https://github.com/quodlibet/mutagen">mutagen</a></b> (🥈24 ·  ⭐ 910) - 一个用来处理音频元数据的 Python 模块。<code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
 
 - [GitHub](https://github.com/quodlibet/mutagen) (👨‍💻 35 · 🔀 120 · 📥 49K · 📦 5.9K · 📋 460 - 18% open · ⏱️ 31.10.2021):
 
@@ -544,7 +544,7 @@ _Libraries for manipulating audio and its metadata._
 	conda install -c conda-forge mutagen
 	```
 </details>
-<details><summary><b><a href="https://github.com/tyiannak/pyAudioAnalysis">pyAudioAnalysis</a></b> (🥉20 ·  ⭐ 4.5K) - Audio feature extraction, classification, segmentation and.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/tyiannak/pyAudioAnalysis">pyAudioAnalysis</a></b> (🥉20 ·  ⭐ 4.5K) - 音频特征提取，分类，分段和应用。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/tyiannak/pyAudioAnalysis) (👨‍💻 25 · 🔀 1K · 📦 250 · 📋 280 - 58% open · ⏱️ 12.11.2021):
 
@@ -560,7 +560,7 @@ _Libraries for manipulating audio and its metadata._
 	conda install -c conda-forge pyAudioAnalysis
 	```
 </details>
-<details><summary><b><a href="https://github.com/keunwoochoi/kapre">kapre</a></b> (🥉20 ·  ⭐ 800) - Keras Audio Preprocessors. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/keunwoochoi/kapre">kapre</a></b> (🥉20 ·  ⭐ 800) - Keras 音频处理器。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/keunwoochoi/kapre) (👨‍💻 13 · 🔀 140 · 📥 19 · 📦 1.3K · 📋 93 - 11% open · ⏱️ 14.11.2021):
 
@@ -576,7 +576,7 @@ _Libraries for manipulating audio and its metadata._
 	conda install -c conda-forge kapre
 	```
 </details>
-<details><summary><b><a href="https://github.com/librosa/librosa">librosa</a></b> (🥉19 ·  ⭐ 4.9K) - Python library for audio and music analysis. <code><a href="http://bit.ly/3hkKRql">ISC</a></code></summary>
+<details><summary><b><a href="https://github.com/librosa/librosa">librosa</a></b> (🥉19 ·  ⭐ 4.9K) - 音频音乐分析 Python 库。<code><a href="http://bit.ly/3hkKRql">ISC</a></code></summary>
 
 - [GitHub](https://github.com/librosa/librosa) (👨‍💻 92 · 🔀 760 · 📋 920 - 3% open · ⏱️ 16.12.2021):
 
@@ -592,7 +592,7 @@ _Libraries for manipulating audio and its metadata._
 	conda install -c conda-forge librosa
 	```
 </details>
-<details><summary><b><a href="https://github.com/worldveil/dejavu">dejavu</a></b> (🥉18 ·  ⭐ 5.6K · 💀) - Audio fingerprinting and recognition. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/worldveil/dejavu">dejavu</a></b> (🥉18 ·  ⭐ 5.6K · 💀) - 音频指纹提取和识别。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/worldveil/dejavu) (👨‍💻 23 · 🔀 1.2K · 📦 19 · 📋 200 - 36% open · ⏱️ 03.06.2020):
 
@@ -608,7 +608,7 @@ _Libraries for manipulating audio and its metadata._
 	conda install -c conda-forge dejavu
 	```
 </details>
-<details><summary><b><a href="https://github.com/devsnd/tinytag">tinytag</a></b> (🥉18 ·  ⭐ 500) - A library for reading music meta data of MP3, OGG, FLAC and Wave files. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/devsnd/tinytag">tinytag</a></b> (🥉18 ·  ⭐ 500) - 一个用来读取 MP3, OGG, FLAC 以及 Wave 文件音乐元数据的库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/devsnd/tinytag) (👨‍💻 21 · 🔀 82 · 📦 450 · 📋 85 - 11% open · ⏱️ 17.12.2021):
 
@@ -624,7 +624,7 @@ _Libraries for manipulating audio and its metadata._
 	conda install -c conda-forge tinytag
 	```
 </details>
-<details><summary><b><a href="https://github.com/Parisson/TimeSide">TimeSide</a></b> (🥉18 ·  ⭐ 310 · 💤) - Open web audio processing framework. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/Parisson/TimeSide">TimeSide</a></b> (🥉18 ·  ⭐ 310 · 💤) - 开源 web 音频处理框架。<code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/Parisson/TimeSide) (👨‍💻 19 · 🔀 53 · 📦 15 · 📋 200 - 26% open · ⏱️ 20.04.2021):
 
@@ -640,7 +640,7 @@ _Libraries for manipulating audio and its metadata._
 	conda install -c conda-forge TimeSide
 	```
 </details>
-<details><summary><b><a href="https://github.com/sergree/matchering">matchering</a></b> (🥉15 ·  ⭐ 530) - A library for automated reference audio mastering. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/sergree/matchering">matchering</a></b> (🥉15 ·  ⭐ 530) - 用于音频母带制作的库。<code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/sergree/matchering) (👨‍💻 3 · 🔀 64 · 📦 4 · 📋 32 - 34% open · ⏱️ 27.11.2021):
 
@@ -658,13 +658,13 @@ _Libraries for manipulating audio and its metadata._
 </details>
 <br>
 
-## Authentication
+## 验证
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for implementing authentications schemes._
+_实现验证方案的库。_
 
-<details><summary><b><a href="https://github.com/oauthlib/oauthlib">oauthlib</a></b> (🥇36 ·  ⭐ 2.3K) - A generic and thorough implementation of the OAuth request-signing.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/oauthlib/oauthlib">oauthlib</a></b> (🥇36 ·  ⭐ 2.3K) - 一个 OAuth 请求-签名逻辑通用、 完整的实现。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/oauthlib/oauthlib) (👨‍💻 180 · 🔀 420 · 📦 190K · 📋 340 - 21% open · ⏱️ 13.12.2021):
 
@@ -680,7 +680,7 @@ _Libraries for implementing authentications schemes._
 	conda install -c conda-forge oauthlib
 	```
 </details>
-<details><summary><b><a href="https://github.com/jpadilla/pyjwt">pyjwt</a></b> (🥈35 ·  ⭐ 4.1K) - JSON Web Token implementation in Python. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/jpadilla/pyjwt">pyjwt</a></b> (🥈35 ·  ⭐ 4.1K) - JSON Web 令牌草案 01。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/jpadilla/pyjwt) (👨‍💻 110 · 🔀 520 · 📦 170K · 📋 330 - 21% open · ⏱️ 12.12.2021):
 
@@ -696,7 +696,7 @@ _Libraries for implementing authentications schemes._
 	conda install -c conda-forge pyjwt
 	```
 </details>
-<details><summary><b><a href="https://github.com/pennersr/django-allauth">django-allauth</a></b> (🥈31 ·  ⭐ 6.9K) - Authentication app for Django that just works. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/pennersr/django-allauth">django-allauth</a></b> (🥈31 ·  ⭐ 6.9K) - Django 的验证应用。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/pennersr/django-allauth) (👨‍💻 570 · 🔀 2.4K · 📦 79K · 📋 1.8K - 13% open · ⏱️ 18.12.2021):
 
@@ -712,7 +712,7 @@ _Libraries for implementing authentications schemes._
 	conda install -c conda-forge django-allauth
 	```
 </details>
-<details><summary><b><a href="https://github.com/joestump/python-oauth2">python-oauth2</a></b> (🥈26 ·  ⭐ 2.9K · 💀) - A fully tested, abstract interface to creating OAuth clients.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/joestump/python-oauth2">python-oauth2</a></b> (🥈26 ·  ⭐ 2.9K · 💀) - 一个完全测试的抽象接口。用来创建 OAuth 客户端和服务端。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/joestump/python-oauth2) (👨‍💻 42 · 🔀 800 · 📦 8.9K · 📋 130 - 37% open · ⏱️ 12.02.2018):
 
@@ -728,7 +728,7 @@ _Libraries for implementing authentications schemes._
 	conda install -c conda-forge python-oauth2
 	```
 </details>
-<details><summary><b><a href="https://github.com/lepture/authlib">authlib</a></b> (🥉25 ·  ⭐ 2.9K) - JavaScript Object Signing and Encryption draft implementation. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/lepture/authlib">authlib</a></b> (🥉25 ·  ⭐ 2.9K) - 一个强大的Python库，用来构建 OAuth 和 OpenID 服务端。包括：JWS, JWK, JWA, JWT。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/lepture/authlib) (👨‍💻 70 · 🔀 280 · 📋 290 - 9% open · ⏱️ 13.12.2021):
 
@@ -744,7 +744,7 @@ _Libraries for implementing authentications schemes._
 	conda install -c conda-forge authlib
 	```
 </details>
-<details><summary><b><a href="https://github.com/omab/python-social-auth">python-social-auth</a></b> (🥉25 ·  ⭐ 2.8K · 💀) - An easy-to-setup social authentication mechanism. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/omab/python-social-auth">python-social-auth</a></b> (🥉25 ·  ⭐ 2.8K · 💀) - 一个设置简单的社会化验证方式。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/omab/python-social-auth) (👨‍💻 280 · 🔀 1.1K · 📦 5.2K · 📋 660 - 2% open · ⏱️ 04.02.2017):
 
@@ -760,7 +760,7 @@ _Libraries for implementing authentications schemes._
 	conda install -c conda-forge python-social-auth
 	```
 </details>
-<details><summary><b><a href="https://github.com/jazzband/django-oauth-toolkit">django-oauth-toolkit</a></b> (🥉24 ·  ⭐ 2.4K · 📈) - OAuth 2 goodies for Django. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/jazzband/django-oauth-toolkit">django-oauth-toolkit</a></b> (🥉24 ·  ⭐ 2.4K · 📈) - 为 Django 用户准备的 OAuth2。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/jazzband/django-oauth-toolkit) (👨‍💻 190 · 🔀 610 · 📋 650 - 18% open · ⏱️ 22.12.2021):
 
@@ -776,7 +776,7 @@ _Libraries for implementing authentications schemes._
 	conda install -c conda-forge django-oauth-toolkit
 	```
 </details>
-<details><summary><b><a href="https://github.com/davedoesdev/python-jwt">python-jwt</a></b> (🥉18 ·  ⭐ 190) - A module for generating and verifying JSON Web Tokens. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/davedoesdev/python-jwt">python-jwt</a></b> (🥉18 ·  ⭐ 190) - 一个用来生成和验证 JSON Web 令牌的模块。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/davedoesdev/python-jwt) (👨‍💻 5 · 🔀 23 · ⏱️ 16.11.2021):
 
@@ -792,7 +792,7 @@ _Libraries for implementing authentications schemes._
 	conda install -c conda-forge python-jwt
 	```
 </details>
-<details><summary><b><a href="https://github.com/mpdavis/python-jose">python-jose</a></b> (🥉16 ·  ⭐ 990) - A JOSE implementation in Python. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/mpdavis/python-jose">python-jose</a></b> (🥉16 ·  ⭐ 990) - python 版 JOSE 实现。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/mpdavis/python-jose) (🔀 180 · 📋 120 - 39% open · ⏱️ 07.12.2021):
 
@@ -806,19 +806,19 @@ _Libraries for implementing authentications schemes._
 </details>
 <br>
 
-## Build Tools
+## 构建工具
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Compile software from source code._
+_将源码编译成软件。_
 
-🔗&nbsp;<b><a href="http://www.yoctoproject.org/docs/1.6/bitbake-user-manual/bitbake-user-manual.html">BitBake</a></b>  - A make-like build tool for embedded Linux.
+🔗&nbsp;<b><a href="http://www.yoctoproject.org/docs/1.6/bitbake-user-manual/bitbake-user-manual.html">BitBake</a></b>  - 针对嵌入式 Linux 的类似 make 的构建工具。
 
-🔗&nbsp;<b><a href="http://www.buildout.org/en/latest/">buildout</a></b>  - A build system for creating, assembling and deploying applications from multiple parts.
+🔗&nbsp;<b><a href="http://www.buildout.org/en/latest/">buildout</a></b>  - 一个构建系统，从多个组件来创建，组装和部署应用。
 
-🔗&nbsp;<b><a href="http://www.scons.org/">SCons</a></b>  - A software construction tool.
+🔗&nbsp;<b><a href="http://www.scons.org/">SCons</a></b>  - 软件构建工具。
 
-<details><summary><b><a href="https://github.com/pybuilder/pybuilder">pybuilder</a></b> (🥇22 ·  ⭐ 1.3K) - A continuous build tool written in pure Python. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/pybuilder/pybuilder">pybuilder</a></b> (🥇22 ·  ⭐ 1.3K) - 纯 Python 实现的持续化构建工具。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/pybuilder/pybuilder) (👨‍💻 36 · 🔀 220 · 📋 490 - 16% open · ⏱️ 08.11.2021):
 
@@ -834,7 +834,7 @@ _Compile software from source code._
 	conda install -c conda-forge pybuilder
 	```
 </details>
-<details><summary><b><a href="https://github.com/platformio/platformio-core">PlatformIO</a></b> (🥉20 ·  ⭐ 5.6K) - A console tool to build code with different development platforms. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/platformio/platformio-core">PlatformIO</a></b> (🥉20 ·  ⭐ 5.6K) - 多平台命令行构建工具。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/platformio/platformio-core) (👨‍💻 55 · 🔀 590 · 📋 3.6K - 4% open · ⏱️ 22.12.2021):
 
@@ -852,15 +852,15 @@ _Compile software from source code._
 </details>
 <br>
 
-## Built-in Classes Enhancement
+## 内置类的增强版实现
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for enhancing Python built-in classes._
+_一些 Python 内置类的增强版实现库。_
 
-🔗&nbsp;<b><a href="https://docs.python.org/3/library/dataclasses.html">dataclasses</a></b>  - (Python standard library) Data classes.
+🔗&nbsp;<b><a href="https://docs.python.org/3/library/dataclasses.html">dataclasses</a></b>  - （Python 标准库）将文件名映射为 MIME 类型。
 
-<details><summary><b><a href="https://github.com/python-attrs/attrs">attrs</a></b> (🥇29 ·  ⭐ 3.8K) - Replacement for `__init__`, `__eq__`, `__repr__`, etc. boilerplate in class.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/python-attrs/attrs">attrs</a></b> (🥇29 ·  ⭐ 3.8K) - 一个在类定义时可替换 `__init__`, `__eq__`, `__repr__`等方法的样板。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/python-attrs/attrs) (👨‍💻 110 · 🔀 280 · 📦 320K · 📋 510 - 18% open · ⏱️ 16.12.2021):
 
@@ -876,7 +876,7 @@ _Libraries for enhancing Python built-in classes._
 	conda install -c conda-forge attrs
 	```
 </details>
-<details><summary><b><a href="https://github.com/jab/bidict">bidict</a></b> (🥈23 ·  ⭐ 960) - Efficient, Pythonic bidirectional map data structures and related.. <code><a href="http://bit.ly/3postzC">MPL-2.0</a></code></summary>
+<details><summary><b><a href="https://github.com/jab/bidict">bidict</a></b> (🥈23 ·  ⭐ 960) - 高效的 Pythonic 的双向映射数据结构和相关功能。<code><a href="http://bit.ly/3postzC">MPL-2.0</a></code></summary>
 
 - [GitHub](https://github.com/jab/bidict) (👨‍💻 11 · 🔀 43 · 📦 5.5K · 📋 47 - 6% open · ⏱️ 22.12.2021):
 
@@ -892,7 +892,7 @@ _Libraries for enhancing Python built-in classes._
 	conda install -c conda-forge bidict
 	```
 </details>
-<details><summary><b><a href="https://github.com/cdgriffith/Box">Box</a></b> (🥉16 ·  ⭐ 1.8K) - Python dictionaries with advanced dot notation access. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/cdgriffith/Box">Box</a></b> (🥉16 ·  ⭐ 1.8K) - 具有高级点符号访问权限的 Python 字典。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/cdgriffith/Box) (🔀 73 · 📥 30 · 📋 130 - 15% open · ⏱️ 22.08.2021):
 
@@ -908,7 +908,7 @@ _Libraries for enhancing Python built-in classes._
 	conda install -c conda-forge Box
 	```
 </details>
-<details><summary><b><a href="https://github.com/carlosescri/DottedDict">DottedDict</a></b> (🥉14 ·  ⭐ 130 · 💀) - A library that provides a method of accessing lists and dicts with.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/carlosescri/DottedDict">DottedDict</a></b> (🥉14 ·  ⭐ 130 · 💀) - 提供一种使用点路径符号访问列表和字典的方法的库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/carlosescri/DottedDict) (👨‍💻 3 · 🔀 14 · 📥 60 · 📦 49 · 📋 9 - 77% open · ⏱️ 30.10.2015):
 
@@ -928,17 +928,17 @@ _Libraries for enhancing Python built-in classes._
 
 ## CMS
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Content Management Systems._
+_内容管理系统。_
 
-🔗&nbsp;<b><a href="https://www.django-cms.org/en/">django-cms</a></b>  - An Open source enterprise CMS based on the Django.
+🔗&nbsp;<b><a href="https://www.django-cms.org/en/">django-cms</a></b>  - 一个开源的，企业级 CMS，基于 Django。
 
-🔗&nbsp;<b><a href="https://plone.org/">plone</a></b>  - A CMS built on top of the open source application server Zope.
+🔗&nbsp;<b><a href="https://plone.org/">plone</a></b>  - 一个构建于开源应用服务器 Zope 之上的 CMS。
 
-🔗&nbsp;<b><a href="https://wagtail.io/">wagtail</a></b>  - A Django content management system.
+🔗&nbsp;<b><a href="https://wagtail.io/">wagtail</a></b>  - 一个 Django 内容管理系统。
 
-<details><summary><b><a href="https://github.com/indico/indico">indico</a></b> (🥇23 ·  ⭐ 1.3K) - A feature-rich event management system, made @.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/indico/indico">indico</a></b> (🥇23 ·  ⭐ 1.3K) - 一个功能丰富的事件管理系统，由 @[CERN](https://en.wikipedia.org/wiki/CERN) 开发。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/indico/indico) (👨‍💻 120 · 🔀 310 · 📥 2.9K · 📋 3.2K - 18% open · ⏱️ 21.12.2021):
 
@@ -954,7 +954,7 @@ _Content Management Systems._
 	conda install -c conda-forge indico
 	```
 </details>
-<details><summary><b><a href="https://github.com/stephenmcd/mezzanine">mezzanine</a></b> (🥈22 ·  ⭐ 4.4K) - A powerful, consistent, and flexible content management platform. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/stephenmcd/mezzanine">mezzanine</a></b> (🥈22 ·  ⭐ 4.4K) - 一个强大的，持续的，灵活的内容管理平台。<code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
 - [GitHub](https://github.com/stephenmcd/mezzanine) (👨‍💻 320 · 🔀 1.5K · 📋 1K - 3% open · ⏱️ 23.11.2021):
 
@@ -970,7 +970,7 @@ _Content Management Systems._
 	conda install -c conda-forge mezzanine
 	```
 </details>
-<details><summary><b><a href="https://github.com/Kotti/Kotti">Kotti</a></b> (🥉16 ·  ⭐ 370) - A high-level, Pythonic web application framework built on Pyramid. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/Kotti/Kotti">Kotti</a></b> (🥉16 ·  ⭐ 370) - 一个高级的，Python 范的 web 应用框架，基于 Pyramid 构建。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/Kotti/Kotti) (👨‍💻 64 · 🔀 110 · 📦 220 · 📋 210 - 19% open · ⏱️ 02.09.2021):
 
@@ -986,7 +986,7 @@ _Content Management Systems._
 	conda install -c conda-forge Kotti
 	```
 </details>
-<details><summary><b><a href="https://github.com/quokkaproject/quokka">quokka</a></b> (🥉14 ·  ⭐ 2.2K · 💀) - Flexible, extensible, small CMS powered by Flask and MongoDB. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/quokkaproject/quokka">quokka</a></b> (🥉14 ·  ⭐ 2.2K · 💀) - 灵活，可扩展的小型 CMS，基于 Flask 和 MongoDB。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/quokkaproject/quokka) (👨‍💻 9 · 🔀 440 · 📋 420 - 15% open · ⏱️ 06.03.2019):
 
@@ -1002,7 +1002,7 @@ _Content Management Systems._
 	conda install -c conda-forge quokka
 	```
 </details>
-<details><summary><b><a href="https://github.com/feincms/feincms">feincms</a></b> (🥉12 ·  ⭐ 820) - One of the most advanced Content Management Systems built on Django. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/feincms/feincms">feincms</a></b> (🥉12 ·  ⭐ 820) - 基于 Django 构建的最先进的内容管理系统之一。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/feincms/feincms) (👨‍💻 140 · 🔀 220 · 📋 440 - 8% open · ⏱️ 09.09.2021):
 
@@ -1020,19 +1020,19 @@ _Content Management Systems._
 </details>
 <br>
 
-## Caching
+## 缓存
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for caching data._
+_缓存数据的库。_
 
-🔗&nbsp;<b><a href="http://dogpilecache.readthedocs.io/en/latest/">dogpile.cache</a></b>  - dogpile.cache is next generation replacement for Beaker made by same authors.
+🔗&nbsp;<b><a href="http://dogpilecache.readthedocs.io/en/latest/">dogpile.cache</a></b>  - dogpile.cache 是 Beaker 的下一代替代品，由同一作者开发。
 
-🔗&nbsp;<b><a href="https://pypi.org/project/HermesCache/">HermesCache</a></b>  - Python caching library with tag-based invalidation and dogpile effect prevention.
+🔗&nbsp;<b><a href="https://pypi.org/project/HermesCache/">HermesCache</a></b>  - Python 缓存库，具有基于标签的失效和 dogpile effect 保护功能。
 
-🔗&nbsp;<b><a href="http://www.grantjenks.com/docs/diskcache/">python-diskcache</a></b>  - SQLite and file backed cache backend with faster lookups than memcached and redis.
+🔗&nbsp;<b><a href="http://www.grantjenks.com/docs/diskcache/">python-diskcache</a></b>  - SQLite 和文件支持的缓存后端，具有比 memcached 和 redis 更快的查找速度。
 
-<details><summary><b><a href="https://github.com/Suor/django-cacheops">django-cacheops</a></b> (🥇26 ·  ⭐ 1.5K) - A slick ORM cache with automatic granular event-driven.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/Suor/django-cacheops">django-cacheops</a></b> (🥇26 ·  ⭐ 1.5K) - 具有自动颗粒化事件驱动失效功能的 ORM。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/Suor/django-cacheops) (👨‍💻 59 · 🔀 180 · 📦 620 · 📋 290 - 6% open · ⏱️ 06.11.2021):
 
@@ -1048,7 +1048,7 @@ _Libraries for caching data._
 	conda install -c conda-forge django-cacheops
 	```
 </details>
-<details><summary><b><a href="https://github.com/lericson/pylibmc">pylibmc</a></b> (🥈25 ·  ⭐ 450) - A Python wrapper around the.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/lericson/pylibmc">pylibmc</a></b> (🥈25 ·  ⭐ 450) - <a href="http://libmemcached.org/libMemcached.html">libmemcached</a> 接口的 Python 封装。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/lericson/pylibmc) (👨‍💻 49 · 🔀 120 · 📦 3.7K · 📋 190 - 12% open · ⏱️ 26.10.2021):
 
@@ -1064,7 +1064,7 @@ _Libraries for caching data._
 	conda install -c conda-forge pylibmc
 	```
 </details>
-<details><summary><b><a href="https://github.com/bbangert/beaker">beaker</a></b> (🥉24 ·  ⭐ 480) - A WSGI middleware for sessions and caching. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/bbangert/beaker">beaker</a></b> (🥉24 ·  ⭐ 480) - 一个缓存和会话库，可以用在 web 应用和独立 Python 脚本和应用上。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/bbangert/beaker) (👨‍💻 86 · 🔀 130 · 📦 3.2K · 📋 120 - 54% open · ⏱️ 07.12.2021):
 
@@ -1080,7 +1080,7 @@ _Libraries for caching data._
 	conda install -c conda-forge beaker
 	```
 </details>
-<details><summary><b><a href="https://github.com/django-cache-machine/django-cache-machine">django-cache-machine</a></b> (🥉22 ·  ⭐ 820 · 💀) - Automatic caching and invalidation for Django models. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/django-cache-machine/django-cache-machine">django-cache-machine</a></b> (🥉22 ·  ⭐ 820 · 💀) - Django 模型的自动缓存和失效。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/django-cache-machine/django-cache-machine) (👨‍💻 26 · 🔀 150 · 📦 220 · 📋 71 - 21% open · ⏱️ 25.11.2019):
 
@@ -1098,13 +1098,13 @@ _Libraries for caching data._
 </details>
 <br>
 
-## ChatOps Tools
+## 聊天工具
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for chatbot development._
+_聊天机器人开发相关的库。_
 
-<details><summary><b><a href="https://github.com/errbotio/errbot">errbot</a></b> (🥇19 ·  ⭐ 2.6K) - The easiest and most popular chatbot to implement ChatOps. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/errbotio/errbot">errbot</a></b> (🥇19 ·  ⭐ 2.6K) - 实现 ChatOps 的最简单最受欢迎的聊天机器人。<code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/errbotio/errbot) (🔀 540 · 📦 240 · 📋 740 - 8% open · ⏱️ 20.12.2021):
 
@@ -1118,23 +1118,23 @@ _Libraries for chatbot development._
 </details>
 <br>
 
-## Code Analysis
+## 代码分析和 Lint 工具
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Tools of static analysis, linters and code quality checkers._
+_进行代码分析、解析和操作代码库的库和工具。_
 
-🔗&nbsp;<b><a href="https://pypi.org/project/flake8/">flake8</a></b>  - A wrapper around `pycodestyle`, `pyflakes` and McCabe.
+🔗&nbsp;<b><a href="https://pypi.org/project/flake8/">flake8</a></b>  - 模块化源码检查工具，提供与 `pycodestyle`、`pyflakes` 、McCabe 相关的装饰器。
 
 🔗&nbsp;<b><a href="https://github.com/DmytroLitvinov/awesome-flake8-extensions">awesome-flake8-extensions</a></b> ( ⭐ 690)  - A curated awesome list of flake8 extensions. Feel free to..
 
-🔗&nbsp;<b><a href="https://www.pylint.org/">pylint</a></b>  - A fully customizable source code analyzer.
+🔗&nbsp;<b><a href="https://www.pylint.org/">pylint</a></b>  - 一个完全可定制的源码分析器。
 
 🔗&nbsp;<b><a href="https://github.com/typeddjango/awesome-python-typing">awesome-python-typing</a></b> ( ⭐ 920)  - Collection of awesome Python types, stubs, plugins, and tools to..
 
-🔗&nbsp;<b><a href="http://mypy-lang.org/">mypy</a></b>  - Check variable types during compile time.
+🔗&nbsp;<b><a href="http://mypy-lang.org/">mypy</a></b>  - 在编译期间检查变量类型。
 
-<details><summary><b><a href="https://github.com/psf/black">black</a></b> (🥇34 ·  ⭐ 24K) - The uncompromising Python code formatter. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/psf/black">black</a></b> (🥇34 ·  ⭐ 24K) - 一个坚定的 Python 代码格式化工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/psf/black) (👨‍💻 290 · 🔀 1.5K · 📥 19K · 📦 100K · 📋 1.8K - 19% open · ⏱️ 21.12.2021):
 
@@ -1150,7 +1150,7 @@ _Tools of static analysis, linters and code quality checkers._
 	conda install -c conda-forge black
 	```
 </details>
-<details><summary><b><a href="https://github.com/PyCQA/isort">isort</a></b> (🥇33 ·  ⭐ 4.4K) - A Python utility / library to sort imports. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/PyCQA/isort">isort</a></b> (🥇33 ·  ⭐ 4.4K) - 用于纠正包导入顺序的 Python 库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/PyCQA/isort) (👨‍💻 250 · 🔀 420 · 📦 210K · 📋 1K - 3% open · ⏱️ 06.12.2021):
 
@@ -1166,7 +1166,7 @@ _Tools of static analysis, linters and code quality checkers._
 	conda install -c conda-forge isort
 	```
 </details>
-<details><summary><b><a href="https://github.com/wemake-services/wemake-python-styleguide">wemake-python-styleguide</a></b> (🥈31 ·  ⭐ 1.7K) - The strictest and most opinionated python linter ever. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/wemake-services/wemake-python-styleguide">wemake-python-styleguide</a></b> (🥈31 ·  ⭐ 1.7K) - 有史以来最严格的 Python 代码审查工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/wemake-services/wemake-python-styleguide) (👨‍💻 160 · 🔀 310 · 📦 880 · 📋 990 - 7% open · ⏱️ 23.12.2021):
 
@@ -1182,7 +1182,7 @@ _Tools of static analysis, linters and code quality checkers._
 	conda install -c conda-forge wemake-python-styleguide
 	```
 </details>
-<details><summary><b><a href="https://github.com/google/yapf">yapf</a></b> (🥈29 ·  ⭐ 12K) - Yet another Python code formatter from Google. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/google/yapf">yapf</a></b> (🥈29 ·  ⭐ 12K) - Google 的 Python 代码格式化工具。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/google/yapf) (👨‍💻 130 · 🔀 800 · 📦 27K · 📋 720 - 46% open · ⏱️ 08.11.2021):
 
@@ -1198,7 +1198,7 @@ _Tools of static analysis, linters and code quality checkers._
 	conda install -c conda-forge yapf
 	```
 </details>
-<details><summary><b><a href="https://github.com/jendrikseipp/vulture">vulture</a></b> (🥈26 ·  ⭐ 2K) - A tool for finding and analysing dead Python code. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/jendrikseipp/vulture">vulture</a></b> (🥈26 ·  ⭐ 2K) - 用于发现和分析无效 Python 代码的工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/jendrikseipp/vulture) (👨‍💻 29 · 🔀 92 · 📦 1.3K · 📋 150 - 9% open · ⏱️ 27.10.2021):
 
@@ -1214,7 +1214,7 @@ _Tools of static analysis, linters and code quality checkers._
 	conda install -c conda-forge vulture
 	```
 </details>
-<details><summary><b><a href="https://github.com/klen/pylama">pylama</a></b> (🥈25 ·  ⭐ 840) - A code audit tool for Python and JavaScript. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/klen/pylama">pylama</a></b> (🥈25 ·  ⭐ 840) - Python 和 JavaScript 的代码审查工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/klen/pylama) (👨‍💻 42 · 🔀 81 · 📦 3.1K · 📋 120 - 27% open · ⏱️ 15.12.2021):
 
@@ -1230,7 +1230,7 @@ _Tools of static analysis, linters and code quality checkers._
 	conda install -c conda-forge pylama
 	```
 </details>
-<details><summary><b><a href="https://github.com/facebook/pyre-check">pyre-check</a></b> (🥉22 ·  ⭐ 5.7K) - Performant type checking. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/facebook/pyre-check">pyre-check</a></b> (🥉22 ·  ⭐ 5.7K) - 性能类型检查。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/facebook/pyre-check) (👨‍💻 190 · 🔀 350 · 📋 280 - 25% open · ⏱️ 23.12.2021):
 
@@ -1246,7 +1246,7 @@ _Tools of static analysis, linters and code quality checkers._
 	conda install -c conda-forge pyre-check
 	```
 </details>
-<details><summary><b><a href="https://github.com/gak/pycallgraph">pycallgraph</a></b> (🥉22 ·  ⭐ 1.6K · 💀) - A library that visualises the flow (call graph) of your.. <code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
+<details><summary><b><a href="https://github.com/gak/pycallgraph">pycallgraph</a></b> (🥉22 ·  ⭐ 1.6K · 💀) - 这个库可以把你的 Python 应用的流程(调用图)进行可视化。<code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
 
 - [GitHub](https://github.com/gak/pycallgraph) (👨‍💻 23 · 🔀 260 · 📦 330 · 📋 160 - 30% open · ⏱️ 28.02.2018):
 
@@ -1262,7 +1262,7 @@ _Tools of static analysis, linters and code quality checkers._
 	conda install -c conda-forge pycallgraph
 	```
 </details>
-<details><summary><b><a href="https://github.com/PyCQA/prospector">prospector</a></b> (🥉22 ·  ⭐ 1.6K) - A tool to analyse Python code. <code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
+<details><summary><b><a href="https://github.com/PyCQA/prospector">prospector</a></b> (🥉22 ·  ⭐ 1.6K) - 分析 Python 代码的工具。<code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
 
 - [GitHub](https://github.com/PyCQA/prospector) (👨‍💻 78 · 🔀 140 · 📋 290 - 18% open · ⏱️ 08.12.2021):
 
@@ -1278,7 +1278,7 @@ _Tools of static analysis, linters and code quality checkers._
 	conda install -c conda-forge prospector
 	```
 </details>
-<details><summary><b><a href="https://github.com/Instagram/MonkeyType">MonkeyType</a></b> (🥉19 ·  ⭐ 3.6K) - A system for Python that generates static type annotations.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/Instagram/MonkeyType">MonkeyType</a></b> (🥉19 ·  ⭐ 3.6K) - 通过收集运行时的类型来为 Python 生成静态类型注释的系统。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/Instagram/MonkeyType) (👨‍💻 37 · 🔀 130 · 📦 160 · 📋 150 - 23% open · ⏱️ 15.09.2021):
 
@@ -1294,7 +1294,7 @@ _Tools of static analysis, linters and code quality checkers._
 	conda install -c conda-forge MonkeyType
 	```
 </details>
-<details><summary><b><a href="https://github.com/coala/coala">coala</a></b> (🥉19 ·  ⭐ 3.3K) - Language independent and easily extendable code analysis application. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/coala/coala">coala</a></b> (🥉19 ·  ⭐ 3.3K) - 语言独立和易于扩展的代码分析应用程序。<code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/coala/coala) (🔀 1.3K · 📥 150 · 📦 10 · 📋 3K - 21% open · ⏱️ 11.06.2021):
 
@@ -1306,7 +1306,7 @@ _Tools of static analysis, linters and code quality checkers._
 	conda install -c conda-forge 
 	```
 </details>
-<details><summary><b><a href="https://github.com/python/typeshed">typeshed</a></b> (🥉19 ·  ⭐ 2.5K) - Collection of library stubs for Python, with static types. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/python/typeshed">typeshed</a></b> (🥉19 ·  ⭐ 2.5K) - 带有静态类型的Python库存根的集合。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/python/typeshed) (👨‍💻 1K · 🔀 1.2K · 📋 1.5K - 9% open · ⏱️ 23.12.2021):
 
@@ -1322,7 +1322,7 @@ _Tools of static analysis, linters and code quality checkers._
 	conda install -c conda-forge typeshed
 	```
 </details>
-<details><summary><b><a href="https://github.com/google/pytype">pytype</a></b> (🥉18 ·  ⭐ 3.5K) - Pytype checks and infers types for Python code - without.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/google/pytype">pytype</a></b> (🥉18 ·  ⭐ 3.5K) - 检查和推断 Python 代码中的类型，无需添加注解。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/google/pytype) (👨‍💻 71 · 🔀 210 · 📋 470 - 20% open · ⏱️ 21.12.2021):
 
@@ -1338,7 +1338,7 @@ _Tools of static analysis, linters and code quality checkers._
 	conda install -c conda-forge pytype
 	```
 </details>
-<details><summary><b><a href="https://github.com/scottrogowski/code2flow">code2flow</a></b> (🥉17 ·  ⭐ 1.6K) - Turn your Python and JavaScript code into DOT flowcharts. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/scottrogowski/code2flow">code2flow</a></b> (🥉17 ·  ⭐ 1.6K) - 把你的 Python 和 JavaScript 代码转换为流程图。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/scottrogowski/code2flow) (👨‍💻 7 · 🔀 160 · 📦 5 · 📋 27 - 11% open · ⏱️ 17.12.2021):
 
@@ -1354,7 +1354,7 @@ _Tools of static analysis, linters and code quality checkers._
 	conda install -c conda-forge code2flow
 	```
 </details>
-<details><summary><b><a href="https://github.com/dropbox/pyannotate">pyannotate</a></b> (🥉16 ·  ⭐ 1.3K) - Auto-generate PEP-484 annotations. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/dropbox/pyannotate">pyannotate</a></b> (🥉16 ·  ⭐ 1.3K) - 自动生成符合 PEP-484 的注解。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/dropbox/pyannotate) (👨‍💻 17 · 🔀 54 · 📦 66 · 📋 59 - 44% open · ⏱️ 12.10.2021):
 
@@ -1372,23 +1372,23 @@ _Tools of static analysis, linters and code quality checkers._
 </details>
 <br>
 
-## Command-line Interface Development
+## 命令行工具
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for building command-line applications._
+_用于创建命令行程序的库。_
 
-🔗&nbsp;<b><a href="http://builtoncement.com/">cement</a></b>  - CLI Application Framework for Python.
+🔗&nbsp;<b><a href="http://builtoncement.com/">cement</a></b>  - Python 的命令行程序框架。
 
-🔗&nbsp;<b><a href="http://click.pocoo.org/dev/">click</a></b>  - A package for creating beautiful command line interfaces in a composable way.
+🔗&nbsp;<b><a href="http://click.pocoo.org/dev/">click</a></b>  - 一个通过组合的方式来创建精美命令行界面的包。
 
-🔗&nbsp;<b><a href="https://docs.openstack.org/developer/cliff/">cliff</a></b>  - A framework for creating command-line programs with multi-level commands.
+🔗&nbsp;<b><a href="https://docs.openstack.org/developer/cliff/">cliff</a></b>  - 一个用于创建命令行程序的框架，可以创建具有多层命令的命令行程序。
 
-🔗&nbsp;<b><a href="http://docopt.org/">docopt</a></b>  - Pythonic command line arguments parser.
+🔗&nbsp;<b><a href="http://docopt.org/">docopt</a></b>  - Python 风格的命令行参数解析器。
 
-🔗&nbsp;<b><a href="https://pypi.org/project/colorama/">colorama</a></b>  - Cross-platform colored terminal text.
+🔗&nbsp;<b><a href="https://pypi.org/project/colorama/">colorama</a></b>  - 跨平台彩色终端文本。
 
-<details><summary><b><a href="https://github.com/tqdm/tqdm">tqdm</a></b> (🥇32 ·  ⭐ 21K) - Fast, extensible progress bar for loops and CLI. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/tqdm/tqdm">tqdm</a></b> (🥇32 ·  ⭐ 21K) - 一个可在循环和命令行中使用的快速、可扩展的进度条。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/tqdm/tqdm) (👨‍💻 110 · 🔀 1K · 📥 8.1K · 📦 230K · 📋 800 - 32% open · ⏱️ 20.09.2021):
 
@@ -1404,7 +1404,7 @@ _Libraries for building command-line applications._
 	conda install -c conda-forge tqdm
 	```
 </details>
-<details><summary><b><a href="https://github.com/willmcgugan/rich">rich</a></b> (🥈31 ·  ⭐ 32K) - Python library for rich text and beautiful formatting in the terminal. Also.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/willmcgugan/rich">rich</a></b> (🥈31 ·  ⭐ 32K) - 一个在终端中支持富文本和格式美化的 Python 库， 同时提供了`RichHandler`日志处理程序。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/willmcgugan/rich) (👨‍💻 140 · 🔀 1K · 📦 9.6K · 📋 620 - 3% open · ⏱️ 16.12.2021):
 
@@ -1420,7 +1420,7 @@ _Libraries for building command-line applications._
 	conda install -c conda-forge rich
 	```
 </details>
-<details><summary><b><a href="https://github.com/google/python-fire">python-fire</a></b> (🥈26 ·  ⭐ 21K) - A library for creating command line interfaces from.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/google/python-fire">python-fire</a></b> (🥈26 ·  ⭐ 21K) - Google 出品的一个基于 Python 类的构建命令行界面的库。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/google/python-fire) (👨‍💻 46 · 🔀 1.2K · 📦 10K · 📋 240 - 40% open · ⏱️ 17.06.2021):
 
@@ -1436,7 +1436,7 @@ _Libraries for building command-line applications._
 	conda install -c conda-forge python-fire
 	```
 </details>
-<details><summary><b><a href="https://github.com/peterbrittain/asciimatics">asciimatics</a></b> (🥉25 ·  ⭐ 2.9K) - A package to create full-screen text UIs (from interactive.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/peterbrittain/asciimatics">asciimatics</a></b> (🥉25 ·  ⭐ 2.9K) - 跨平台，全屏终端包（即鼠标/键盘输入和彩色，定位文本输出），完整的复杂动画和特殊效果的高级 API。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/peterbrittain/asciimatics) (👨‍💻 37 · 🔀 210 · 📦 570 · 📋 260 - 6% open · ⏱️ 18.12.2021):
 
@@ -1452,7 +1452,7 @@ _Libraries for building command-line applications._
 	conda install -c conda-forge asciimatics
 	```
 </details>
-<details><summary><b><a href="https://github.com/rsalmei/alive-progress">alive-progress</a></b> (🥉21 ·  ⭐ 2.9K) - A new kind of Progress Bar, with real-time throughput, eta and.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/rsalmei/alive-progress">alive-progress</a></b> (🥉21 ·  ⭐ 2.9K) - 一款新的进度条，具有实时吞吐量信息以及非常酷的动画。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/rsalmei/alive-progress) (🔀 130 · 📦 510 · 📋 90 - 26% open · ⏱️ 06.11.2021):
 
@@ -1468,7 +1468,7 @@ _Libraries for building command-line applications._
 	conda install -c conda-forge alive-progress
 	```
 </details>
-<details><summary><b><a href="https://github.com/prompt-toolkit/python-prompt-toolkit">python-prompt-toolkit</a></b> (🥉18 ·  ⭐ 7.4K) - A library for building powerful interactive command.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/prompt-toolkit/python-prompt-toolkit">python-prompt-toolkit</a></b> (🥉18 ·  ⭐ 7.4K) - 一个用于构建强大的交互式命令行程序的库。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/prompt-toolkit/python-prompt-toolkit) (👨‍💻 200 · 🔀 580 · 📋 930 - 45% open · ⏱️ 09.12.2021):
 
@@ -1484,7 +1484,7 @@ _Libraries for building command-line applications._
 	conda install -c conda-forge python-prompt-toolkit
 	```
 </details>
-<details><summary><b><a href="https://github.com/glamp/bashplotlib">bashplotlib</a></b> (🥉17 ·  ⭐ 1.6K · 💤) - Making basic plots in the terminal. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/glamp/bashplotlib">bashplotlib</a></b> (🥉17 ·  ⭐ 1.6K · 💤) - 在终端中进行基本绘图。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/glamp/bashplotlib) (👨‍💻 20 · 🔀 84 · 📦 140 · 📋 28 - 60% open · ⏱️ 31.03.2021):
 
@@ -1502,13 +1502,13 @@ _Libraries for building command-line applications._
 </details>
 <br>
 
-## Command-line Tools
+## 命令行工具
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Useful CLI-based tools for productivity._
+_用于创建命令行程序的库。_
 
-<details><summary><b><a href="https://github.com/httpie/httpie">httpie</a></b> (🥇33 ·  ⭐ 53K) - A command line HTTP client, a user-friendly cURL replacement. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/httpie/httpie">httpie</a></b> (🥇33 ·  ⭐ 53K) - 一个命令行 HTTP 客户端，cURL 的替代品，易用性更好。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/httpie/httpie) (👨‍💻 140 · 🔀 3.2K · 📦 9.7K · 📋 720 - 15% open · ⏱️ 21.12.2021):
 
@@ -1524,7 +1524,7 @@ _Useful CLI-based tools for productivity._
 	conda install -c conda-forge httpie
 	```
 </details>
-<details><summary><b><a href="https://github.com/nvbn/thefuck">thefuck</a></b> (🥇29 ·  ⭐ 65K) - Correcting your previous console command. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/nvbn/thefuck">thefuck</a></b> (🥇29 ·  ⭐ 65K) - 修正你之前的命令行指令。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/nvbn/thefuck) (👨‍💻 180 · 🔀 2.9K · 📦 310 · 📋 620 - 30% open · ⏱️ 19.12.2021):
 
@@ -1540,7 +1540,7 @@ _Useful CLI-based tools for productivity._
 	conda install -c conda-forge thefuck
 	```
 </details>
-<details><summary><b><a href="https://github.com/dbcli/pgcli">pgcli</a></b> (🥇29 ·  ⭐ 10K) - PostgreSQL CLI with autocompletion and syntax highlighting. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/dbcli/pgcli">pgcli</a></b> (🥇29 ·  ⭐ 10K) - 支持自动补全和语法高亮的 Postgres 命令行工具。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/dbcli/pgcli) (👨‍💻 160 · 🔀 440 · 📦 370 · 📋 610 - 20% open · ⏱️ 18.11.2021):
 
@@ -1556,7 +1556,7 @@ _Useful CLI-based tools for productivity._
 	conda install -c conda-forge pgcli
 	```
 </details>
-<details><summary><b><a href="https://github.com/cookiecutter/cookiecutter">cookiecutter</a></b> (🥈25 ·  ⭐ 16K) - A command-line utility that creates projects from cookiecutters.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/cookiecutter/cookiecutter">cookiecutter</a></b> (🥈25 ·  ⭐ 16K) - 从 cookiecutters（项目模板）创建项目的一个命令行工具。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/cookiecutter/cookiecutter) (👨‍💻 260 · 🔀 1.5K · 📋 680 - 26% open · ⏱️ 18.12.2021):
 
@@ -1572,7 +1572,7 @@ _Useful CLI-based tools for productivity._
 	conda install -c conda-forge cookiecutter
 	```
 </details>
-<details><summary><b><a href="https://github.com/dbcli/mycli">mycli</a></b> (🥈25 ·  ⭐ 10K · 💤) - MySQL CLI with autocompletion and syntax highlighting. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/dbcli/mycli">mycli</a></b> (🥈25 ·  ⭐ 10K · 💤) - 支持自动补全和语法高亮的 MySQL 命令行客户端<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/dbcli/mycli) (👨‍💻 95 · 🔀 600 · 📦 220 · 📋 570 - 28% open · ⏱️ 09.05.2021):
 
@@ -1588,7 +1588,7 @@ _Useful CLI-based tools for productivity._
 	conda install -c conda-forge mycli
 	```
 </details>
-<details><summary><b><a href="https://github.com/laixintao/iredis">iredis</a></b> (🥈22 ·  ⭐ 1.7K) - Redis CLI with autocompletion and syntax highlighting. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/laixintao/iredis">iredis</a></b> (🥈22 ·  ⭐ 1.7K) - 支持自动补全和高亮显示的 redis 命令行工具。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/laixintao/iredis) (👨‍💻 25 · 🔀 76 · 📥 7.5K · 📋 190 - 30% open · ⏱️ 20.12.2021):
 
@@ -1604,7 +1604,7 @@ _Useful CLI-based tools for productivity._
 	conda install -c conda-forge iredis
 	```
 </details>
-<details><summary><b><a href="https://github.com/gleitz/howdoi">howdoi</a></b> (🥈21 ·  ⭐ 9.2K) - Instant coding answers via the command line. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/gleitz/howdoi">howdoi</a></b> (🥈21 ·  ⭐ 9.2K) - 通过命令行获取即时的编程问题解答。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/gleitz/howdoi) (👨‍💻 79 · 🔀 810 · 📦 380 · 📋 240 - 7% open · ⏱️ 26.10.2021):
 
@@ -1620,7 +1620,7 @@ _Useful CLI-based tools for productivity._
 	conda install -c conda-forge howdoi
 	```
 </details>
-<details><summary><b><a href="https://github.com/tmux-python/tmuxp">tmuxp</a></b> (🥉20 ·  ⭐ 3.3K) - A [tmux](https://github.com/tmux/tmux) session manager. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/tmux-python/tmuxp">tmuxp</a></b> (🥉20 ·  ⭐ 3.3K) -  <a href="https://github.com/tmux/tmux">tmux</a> 会话管理器。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/tmux-python/tmuxp) (👨‍💻 61 · 🔀 200 · 📋 280 - 20% open · ⏱️ 30.10.2021):
 
@@ -1636,7 +1636,7 @@ _Useful CLI-based tools for productivity._
 	conda install -c conda-forge tmuxp
 	```
 </details>
-<details><summary><b><a href="https://github.com/donnemartin/saws">saws</a></b> (🥉19 ·  ⭐ 4.9K) - A Supercharged [aws-cli](https://github.com/aws/aws-cli). <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/donnemartin/saws">saws</a></b> (🥉19 ·  ⭐ 4.9K) - 一个加强版的 AWS 命令行。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/donnemartin/saws) (👨‍💻 8 · 🔀 260 · 📦 36 · 📋 91 - 31% open · ⏱️ 13.12.2021):
 
@@ -1652,7 +1652,7 @@ _Useful CLI-based tools for productivity._
 	conda install -c conda-forge saws
 	```
 </details>
-<details><summary><b><a href="https://github.com/dbcli/litecli">litecli</a></b> (🥉19 ·  ⭐ 1.5K) - SQLite CLI with autocompletion and syntax highlighting. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/dbcli/litecli">litecli</a></b> (🥉19 ·  ⭐ 1.5K) - 支持自动补全和语法高亮的 SQLite 命令行工具。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/dbcli/litecli) (👨‍💻 20 · 🔀 51 · 📦 130 · 📋 71 - 32% open · ⏱️ 11.09.2021):
 
@@ -1668,7 +1668,7 @@ _Useful CLI-based tools for productivity._
 	conda install -c conda-forge litecli
 	```
 </details>
-<details><summary><b><a href="https://github.com/mooz/percol">percol</a></b> (🥉18 ·  ⭐ 3.1K · 💀) - Adds flavor of interactive selection to the traditional pipe.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/mooz/percol">percol</a></b> (🥉18 ·  ⭐ 3.1K · 💀) - 向 UNIX shell 传统管道概念中加入交互式选择功能。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/mooz/percol) (👨‍💻 36 · 🔀 140 · 📦 29 · 📋 65 - 55% open · ⏱️ 23.07.2019):
 
@@ -1684,7 +1684,7 @@ _Useful CLI-based tools for productivity._
 	conda install -c conda-forge percol
 	```
 </details>
-<details><summary><b><a href="https://github.com/cloudnativelabs/kube-shell">kube-shell</a></b> (🥉18 ·  ⭐ 2K · 💀) - An integrated shell for working with the Kubernetes CLI. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/cloudnativelabs/kube-shell">kube-shell</a></b> (🥉18 ·  ⭐ 2K · 💀) - K8S 命令行集成的 shell 工具。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/cloudnativelabs/kube-shell) (👨‍💻 6 · 🔀 160 · 📥 520 · 📦 13 · 📋 69 - 82% open · ⏱️ 19.09.2018):
 
@@ -1700,7 +1700,7 @@ _Useful CLI-based tools for productivity._
 	conda install -c conda-forge kube-shell
 	```
 </details>
-<details><summary><b><a href="https://github.com/copier-org/copier">copier</a></b> (🥉18 ·  ⭐ 460) - A library and command-line utility for rendering projects templates. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/copier-org/copier">copier</a></b> (🥉18 ·  ⭐ 460) - 用于呈现项目模板的库和命令行实用程序。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/copier-org/copier) (👨‍💻 24 · 🔀 44 · 📦 34 · 📋 220 - 13% open · ⏱️ 22.12.2021):
 
@@ -1716,7 +1716,7 @@ _Useful CLI-based tools for productivity._
 	conda install -c conda-forge copier
 	```
 </details>
-<details><summary><b><a href="https://github.com/facebook/PathPicker">PathPicker</a></b> (🥉17 ·  ⭐ 4.7K) - Select files out of bash output. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/facebook/PathPicker">PathPicker</a></b> (🥉17 ·  ⭐ 4.7K) - 从 bash 输出中选出文件。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/facebook/PathPicker) (👨‍💻 74 · 🔀 260 · 📥 44K · 📋 160 - 9% open · ⏱️ 05.07.2021):
 
@@ -1732,7 +1732,7 @@ _Useful CLI-based tools for productivity._
 	conda install -c conda-forge PathPicker
 	```
 </details>
-<details><summary><b><a href="https://github.com/sloria/doitlive">doitlive</a></b> (🥉13 ·  ⭐ 3.1K · 💤) - A tool for live presentations in the terminal. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/sloria/doitlive">doitlive</a></b> (🥉13 ·  ⭐ 3.1K · 💤) - 一个用来在终端中进行现场演示的工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/sloria/doitlive) (👨‍💻 16 · 🔀 90 · 📦 16 · 📋 47 - 27% open · ⏱️ 24.05.2021):
 
@@ -1748,7 +1748,7 @@ _Useful CLI-based tools for productivity._
 	conda install -c conda-forge doitlive
 	```
 </details>
-<details><summary><b><a href="https://github.com/timofurrer/try">try</a></b> (🥉13 ·  ⭐ 610 · 💀) - A dead simple CLI to try out python packages - it's never been easier. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/timofurrer/try">try</a></b> (🥉13 ·  ⭐ 610 · 💀) - 一个极其简单的命令行工具，用来试用 python 库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/timofurrer/try) (👨‍💻 3 · 🔀 29 · 📦 4 · 📋 12 - 25% open · ⏱️ 04.12.2019):
 
@@ -1766,17 +1766,17 @@ _Useful CLI-based tools for productivity._
 </details>
 <br>
 
-## Compatibility
+## 兼容性
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for migrating from Python 2 to 3._
+_帮助从 Python 2 向 Python 3 迁移的库。_
 
-🔗&nbsp;<b><a href="http://python-future.org/index.html">python-future</a></b>  - The missing compatibility layer between Python 2 and Python 3.
+🔗&nbsp;<b><a href="http://python-future.org/index.html">python-future</a></b>  - 这就是 Python 2 和 Python 3 之间丢失的那个兼容性层。
 
-🔗&nbsp;<b><a href="https://pypi.org/project/six/">six</a></b>  - Python 2 and 3 compatibility utilities.
+🔗&nbsp;<b><a href="https://pypi.org/project/six/">six</a></b>  - Python 2 和 3 的兼容性工具。
 
-<details><summary><b><a href="https://github.com/PyCQA/modernize">modernize</a></b> (🥇17 ·  ⭐ 270 · 💤) - Modernizes Python code for eventual Python 3 migration. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/PyCQA/modernize">modernize</a></b> (🥇17 ·  ⭐ 270 · 💤) - 使 Python 代码更加现代化以便最终迁移到 Python 3。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/PyCQA/modernize) (👨‍💻 32 · 🔀 44 · 📋 130 - 34% open · ⏱️ 11.01.2021):
 
@@ -1794,15 +1794,15 @@ _Libraries for migrating from Python 2 to 3._
 </details>
 <br>
 
-## Computer Vision
+## 计算机视觉
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for Computer Vision._
+_计算机视觉相关库。_
 
-🔗&nbsp;<b><a href="https://opencv.org/">OpenCV</a></b>  - Open Source Computer Vision Library.
+🔗&nbsp;<b><a href="https://opencv.org/">OpenCV</a></b>  - 开源计算机视觉库。
 
-<details><summary><b><a href="https://github.com/JaidedAI/EasyOCR">EasyOCR</a></b> (🥇30 ·  ⭐ 13K) - Ready-to-use OCR with 40+ languages supported. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/JaidedAI/EasyOCR">EasyOCR</a></b> (🥇30 ·  ⭐ 13K) - 支持40多种语言的即用型 OCR。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/JaidedAI/EasyOCR) (👨‍💻 90 · 🔀 1.7K · 📥 900K · 📦 760 · 📋 470 - 30% open · ⏱️ 15.10.2021):
 
@@ -1818,7 +1818,7 @@ _Libraries for Computer Vision._
 	conda install -c conda-forge EasyOCR
 	```
 </details>
-<details><summary><b><a href="https://github.com/ageitgey/face_recognition">Face Recognition</a></b> (🥈25 ·  ⭐ 43K) - Simple facial recognition library. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/ageitgey/face_recognition">Face Recognition</a></b> (🥈25 ·  ⭐ 43K) - 简单的面部识别库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/ageitgey/face_recognition) (👨‍💻 47 · 🔀 12K · 📥 450 · 📋 1.2K - 53% open · ⏱️ 14.06.2021):
 
@@ -1834,7 +1834,7 @@ _Libraries for Computer Vision._
 	conda install -c conda-forge face_recognition
 	```
 </details>
-<details><summary><b><a href="https://github.com/sirfz/tesserocr">tesserocr</a></b> (🥈25 ·  ⭐ 1.6K) - Another simple, Pillow-friendly, wrapper around the `tesseract-ocr`.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/sirfz/tesserocr">tesserocr</a></b> (🥈25 ·  ⭐ 1.6K) - 另一个简单的，兼容 Pillow 的 `tesseract-ocr` API 装饰器，可用于 OCR。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/sirfz/tesserocr) (👨‍💻 26 · 🔀 200 · 📦 580 · 📋 230 - 31% open · ⏱️ 09.11.2021):
 
@@ -1850,7 +1850,7 @@ _Libraries for Computer Vision._
 	conda install -c conda-forge tesserocr
 	```
 </details>
-<details><summary><b><a href="https://github.com/madmaze/pytesseract">pytesseract</a></b> (🥉24 ·  ⭐ 3.9K) - A wrapper for [Google Tesseract.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/madmaze/pytesseract">pytesseract</a></b> (🥉24 ·  ⭐ 3.9K) - <a href="https://github.com/tesseract-ocr">Google Tesseract OCR</a> 的另一包装库。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/madmaze/pytesseract) (👨‍💻 38 · 🔀 560 · 📋 280 - 3% open · ⏱️ 08.12.2021):
 
@@ -1866,7 +1866,7 @@ _Libraries for Computer Vision._
 	conda install -c conda-forge pytesseract
 	```
 </details>
-<details><summary><b><a href="https://github.com/sightmachine/SimpleCV">SimpleCV</a></b> (🥉23 ·  ⭐ 2.5K · 💀) - An open source framework for building computer vision applications. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/sightmachine/SimpleCV">SimpleCV</a></b> (🥉23 ·  ⭐ 2.5K · 💀) - 一个用来创建计算机视觉应用的开源框架。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/sightmachine/SimpleCV) (👨‍💻 100 · 🔀 750 · 📦 340 · 📋 330 - 22% open · ⏱️ 07.04.2015):
 
@@ -1882,7 +1882,7 @@ _Libraries for Computer Vision._
 	conda install -c conda-forge SimpleCV
 	```
 </details>
-<details><summary><b><a href="https://github.com/kornia/kornia">Kornia</a></b> (🥉22 ·  ⭐ 5.6K) - Open Source Differentiable Computer Vision Library for PyTorch. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/kornia/kornia">Kornia</a></b> (🥉22 ·  ⭐ 5.6K) - PyTorch 的开源差异化计算机视觉库。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/kornia/kornia) (🔀 540 · 📥 170 · 📦 860 · 📋 500 - 22% open · ⏱️ 12.12.2021):
 
@@ -1896,21 +1896,21 @@ _Libraries for Computer Vision._
 </details>
 <br>
 
-## Concurrency and Parallelism
+## 并发和并行
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for concurrent and parallel execution._
+_用以进行并发和并行操作的库。_
 
-🔗&nbsp;<b><a href="https://docs.python.org/3/library/concurrent.futures.html">concurrent.futures</a></b>  - (Python standard library) A high-level interface for asynchronously executing..
+🔗&nbsp;<b><a href="https://docs.python.org/3/library/concurrent.futures.html">concurrent.futures</a></b>  - （Python 标准库）将文件名映射为 MIME 类型。
 
-🔗&nbsp;<b><a href="http://eventlet.net/">eventlet</a></b>  - Asynchronous framework with WSGI support.
+🔗&nbsp;<b><a href="http://eventlet.net/">eventlet</a></b>  - 支持 WSGI 的异步框架。
 
-🔗&nbsp;<b><a href="http://www.gevent.org/">gevent</a></b>  - A coroutine-based Python networking library that uses [greenlet](https://github.com/python-..
+🔗&nbsp;<b><a href="http://www.gevent.org/">gevent</a></b>  - 使用 <a href="https://github.com/python-greenlet/greenlet">greenlet</a> 且基于协程的 Python 网络库。
 
-🔗&nbsp;<b><a href="https://docs.python.org/3/library/multiprocessing.html">multiprocessing</a></b>  - (Python standard library) Process-based parallelism.
+🔗&nbsp;<b><a href="https://docs.python.org/3/library/multiprocessing.html">multiprocessing</a></b>  - （Python 标准库）将文件名映射为 MIME 类型。
 
-<details><summary><b><a href="https://github.com/soravux/scoop">scoop</a></b> (🥇15 ·  ⭐ 530 · 💀) - Scalable Concurrent Operations in Python. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/soravux/scoop">scoop</a></b> (🥇15 ·  ⭐ 530 · 💀) - 支持在 Python 中进行可伸缩并行操作。<code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/soravux/scoop) (👨‍💻 18 · 🔀 81 · 📦 210 · 📋 72 - 43% open · ⏱️ 07.12.2019):
 
@@ -1928,17 +1928,17 @@ _Libraries for concurrent and parallel execution._
 </details>
 <br>
 
-## Configuration
+## 配置
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for storing and parsing configuration options._
+_用来保存和解析配置的库。_
 
-🔗&nbsp;<b><a href="https://docs.python.org/3/library/configparser.html">configparser</a></b>  - (Python standard library) INI file parser.
+🔗&nbsp;<b><a href="https://docs.python.org/3/library/configparser.html">configparser</a></b>  - （Python 标准库）将文件名映射为 MIME 类型。
 
-🔗&nbsp;<b><a href="https://profig.readthedocs.io/en/latest/">profig</a></b>  - Config from multiple formats with value conversion.
+🔗&nbsp;<b><a href="https://profig.readthedocs.io/en/latest/">profig</a></b>  - 通过多种格式进行配置，具有数值转换功能。
 
-<details><summary><b><a href="https://github.com/henriquebastos/python-decouple">python-decouple</a></b> (🥇30 ·  ⭐ 2K) - Strict separation of settings from code. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/henriquebastos/python-decouple">python-decouple</a></b> (🥇30 ·  ⭐ 2K) - 将设置和代码完全隔离。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/henriquebastos/python-decouple) (👨‍💻 29 · 🔀 140 · 📥 5 · 📦 54K · 📋 72 - 9% open · ⏱️ 11.12.2021):
 
@@ -1954,7 +1954,7 @@ _Libraries for storing and parsing configuration options._
 	conda install -c conda-forge python-decouple
 	```
 </details>
-<details><summary><b><a href="https://github.com/DiffSK/configobj">configobj</a></b> (🥉25 ·  ⭐ 260 · 💀) - INI file parser with validation. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/DiffSK/configobj">configobj</a></b> (🥉25 ·  ⭐ 260 · 💀) - INI 文件解析器，带验证功能。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/DiffSK/configobj) (👨‍💻 22 · 🔀 63 · 📦 17K · 📋 140 - 48% open · ⏱️ 14.10.2020):
 
@@ -1970,7 +1970,7 @@ _Libraries for storing and parsing configuration options._
 	conda install -c conda-forge configobj
 	```
 </details>
-<details><summary><b><a href="https://github.com/facebookresearch/hydra">hydra</a></b> (🥉22 ·  ⭐ 5.2K) - Hydra is a framework for elegantly configuring complex applications. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/facebookresearch/hydra">hydra</a></b> (🥉22 ·  ⭐ 5.2K) - 一个优雅地配置复杂应用程序的框架。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/facebookresearch/hydra) (👨‍💻 83 · 🔀 380 · 📦 5 · 📋 950 - 10% open · ⏱️ 16.12.2021):
 
@@ -1988,17 +1988,17 @@ _Libraries for storing and parsing configuration options._
 </details>
 <br>
 
-## Cryptography
+## 密码学
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for Cryptography._
+_ [cryptography](https://cryptography.io/en/latest/)：这个软件包意在提供密码学基本内容和方法提供给 Python 开发者。 [hashids](https://github.com/davidaurelio/hashids-python)：在 Python 中实现 [hashids](http://hashids.org/) 。_
 
 🔗&nbsp;<b><a href="https://cryptography.io/en/latest/">cryptography</a></b>  - A package designed to expose cryptographic primitives and recipes to Python developers.
 
-🔗&nbsp;<b><a href="https://passlib.readthedocs.io/en/stable/">passlib</a></b>  - Secure password storage/hashing library, very high level.
+🔗&nbsp;<b><a href="https://passlib.readthedocs.io/en/stable/">passlib</a></b>  - 安全密码存储／哈希库。
 
-<details><summary><b><a href="https://github.com/paramiko/paramiko">paramiko</a></b> (🥇30 ·  ⭐ 7.4K) - The leading native Python SSHv2 protocol library. <code><a href="https://tldrlegal.com/search?q=LGPL-2.1">❗️LGPL-2.1</a></code></summary>
+<details><summary><b><a href="https://github.com/paramiko/paramiko">paramiko</a></b> (🥇30 ·  ⭐ 7.4K) - SSHv2 协议的 Python (2.6+, 3.3+) ，提供客户端和服务端的功能。<code><a href="https://tldrlegal.com/search?q=LGPL-2.1">❗️LGPL-2.1</a></code></summary>
 
 - [GitHub](https://github.com/paramiko/paramiko) (👨‍💻 160 · 🔀 1.7K · 📦 51K · 📋 1.3K - 53% open · ⏱️ 29.11.2021):
 
@@ -2014,7 +2014,7 @@ _Libraries for Cryptography._
 	conda install -c conda-forge paramiko
 	```
 </details>
-<details><summary><b><a href="https://github.com/pyca/pynacl">pynacl</a></b> (🥉21 ·  ⭐ 830) - Python binding to the Networking and Cryptography (NaCl) library. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/pyca/pynacl">pynacl</a></b> (🥉21 ·  ⭐ 830) - 网络和密码学(NaCl) 库的 Python 绑定。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/pyca/pynacl) (👨‍💻 62 · 🔀 190 · 📋 270 - 16% open · ⏱️ 23.12.2021):
 
@@ -2032,17 +2032,17 @@ _Libraries for Cryptography._
 </details>
 <br>
 
-## Data Analysis
+## 科学计算和数据分析
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for data analyzing._
+_用来进行科学计算和数据分析的库。_
 
-🔗&nbsp;<b><a href="https://orange.biolab.si/">Orange</a></b>  - Data mining, data visualization, analysis and machine learning through visual programming or..
+🔗&nbsp;<b><a href="https://orange.biolab.si/">Orange</a></b>  - 通过可视化编程或 Python 脚本进行数据挖掘，数据可视化，分析和机器学习。
 
-🔗&nbsp;<b><a href="http://pandas.pydata.org/">Pandas</a></b>  - A library providing high-performance, easy-to-use data structures and data analysis tools.
+🔗&nbsp;<b><a href="http://pandas.pydata.org/">Pandas</a></b>  - 提供高性能，易用的数据结构和数据分析工具。
 
-<details><summary><b><a href="https://github.com/blaze/blaze">Blaze</a></b> (🥇26 ·  ⭐ 3K · 💀) - NumPy and Pandas interface to Big Data. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/blaze/blaze">Blaze</a></b> (🥇26 ·  ⭐ 3K · 💀) - NumPy 和 Pandas 的大数据接口。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/blaze/blaze) (👨‍💻 64 · 🔀 350 · 📦 8K · 📋 750 - 33% open · ⏱️ 15.08.2019):
 
@@ -2058,7 +2058,7 @@ _Libraries for data analyzing._
 	conda install -c conda-forge blaze
 	```
 </details>
-<details><summary><b><a href="https://github.com/awslabs/aws-data-wrangler">AWS Data Wrangler</a></b> (🥈20 ·  ⭐ 2.4K) - Pandas on AWS. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/awslabs/aws-data-wrangler">AWS Data Wrangler</a></b> (🥈20 ·  ⭐ 2.4K) - AWS 平台上使用的 Pandas。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/awslabs/aws-data-wrangler) (👨‍💻 87 · 🔀 380 · 📥 110K · 📋 560 - 5% open · ⏱️ 15.12.2021):
 
@@ -2074,7 +2074,7 @@ _Libraries for data analyzing._
 	conda install -c conda-forge aws-data-wrangler
 	```
 </details>
-<details><summary><b><a href="https://github.com/mining/mining">Open Mining</a></b> (🥉19 ·  ⭐ 1.2K · 💀) - Business Intelligence (BI) in Pandas interface. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/mining/mining">Open Mining</a></b> (🥉19 ·  ⭐ 1.2K · 💀) - 使用 Python 挖掘商业情报 (BI) (Pandas web 接口)。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/mining/mining) (👨‍💻 14 · 🔀 220 · 📦 7 · 📋 180 - 36% open · ⏱️ 02.12.2016):
 
@@ -2090,7 +2090,7 @@ _Libraries for data analyzing._
 	conda install -c conda-forge mining
 	```
 </details>
-<details><summary><b><a href="https://github.com/hi-primus/optimus">Optimus</a></b> (🥉15 ·  ⭐ 1.2K) - Agile Data Science Workflows made easy with PySpark. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/hi-primus/optimus">Optimus</a></b> (🥉15 ·  ⭐ 1.2K) - 在使用 PySpark 时，让敏捷数据科学工作流程变得简单。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/hi-primus/optimus) (👨‍💻 23 · 🔀 200 · 📋 220 - 13% open · ⏱️ 09.12.2021):
 
@@ -2108,15 +2108,15 @@ _Libraries for data analyzing._
 </details>
 <br>
 
-## Data Validation
+## 数据验证
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for validating data. Used for forms in many cases._
+_数据验证库。多用于表单验证。_
 
-🔗&nbsp;<b><a href="https://docs.pylonsproject.org/projects/colander/en/latest/">colander</a></b>  - Validating and deserializing data obtained via XML, JSON, an HTML form post.
+🔗&nbsp;<b><a href="https://docs.pylonsproject.org/projects/colander/en/latest/">colander</a></b>  - 一个用于对从 XML, JSON，HTML 表单获取的数据或其他同样简单的序列化数据进行验证和反序列化的系统。
 
-<details><summary><b><a href="https://github.com/Julian/jsonschema">jsonschema</a></b> (🥇30 ·  ⭐ 3.5K) - An implementation of [JSON Schema](http://json-schema.org/) for Python. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/Julian/jsonschema">jsonschema</a></b> (🥇30 ·  ⭐ 3.5K) - <a href="http://json-schema.org/">JSON Schema</a> 的 python 实现，用于 JSON 数据的验证。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/Julian/jsonschema) (👨‍💻 96 · 🔀 480 · 📦 190K · 📋 620 - 9% open · ⏱️ 20.12.2021):
 
@@ -2132,7 +2132,7 @@ _Libraries for validating data. Used for forms in many cases._
 	conda install -c conda-forge jsonschema
 	```
 </details>
-<details><summary><b><a href="https://github.com/alecthomas/voluptuous">voluptuous</a></b> (🥇30 ·  ⭐ 1.7K) - A Python data validation library. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/alecthomas/voluptuous">voluptuous</a></b> (🥇30 ·  ⭐ 1.7K) - 一个 Python 数据验证库。主要是为了验证传入 Python 的 JSON，YAML 等数据。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/alecthomas/voluptuous) (👨‍💻 87 · 🔀 190 · 📦 4.1K · 📋 230 - 16% open · ⏱️ 20.09.2021):
 
@@ -2148,7 +2148,7 @@ _Libraries for validating data. Used for forms in many cases._
 	conda install -c conda-forge voluptuous
 	```
 </details>
-<details><summary><b><a href="https://github.com/pyeve/cerberus">Cerberus</a></b> (🥈27 ·  ⭐ 2.6K · 💤) - A lightweight and extensible data validation library. <code><a href="http://bit.ly/3hkKRql">ISC</a></code></summary>
+<details><summary><b><a href="https://github.com/pyeve/cerberus">Cerberus</a></b> (🥈27 ·  ⭐ 2.6K · 💤) - 一个映射验证器（mappings-validator）。支持多种规则，提供归一化功能，可以方便地定制为 Python 风格的 schema 定义。<code><a href="http://bit.ly/3hkKRql">ISC</a></code></summary>
 
 - [GitHub](https://github.com/pyeve/cerberus) (👨‍💻 62 · 🔀 210 · 📦 10K · 📋 320 - 10% open · ⏱️ 05.05.2021):
 
@@ -2164,7 +2164,7 @@ _Libraries for validating data. Used for forms in many cases._
 	conda install -c conda-forge cerberus
 	```
 </details>
-<details><summary><b><a href="https://github.com/keleshev/schema">schema</a></b> (🥈27 ·  ⭐ 2.5K) - A library for validating Python data structures. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/keleshev/schema">schema</a></b> (🥈27 ·  ⭐ 2.5K) - 一个用于对 Python 数据结构进行验证的库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/keleshev/schema) (👨‍💻 62 · 🔀 170 · 📦 3.4K · 📋 130 - 49% open · ⏱️ 01.12.2021):
 
@@ -2180,7 +2180,7 @@ _Libraries for validating data. Used for forms in many cases._
 	conda install -c conda-forge schema
 	```
 </details>
-<details><summary><b><a href="https://github.com/schematics/schematics">Schematics</a></b> (🥉24 ·  ⭐ 2.5K) - Data Structure Validation. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/schematics/schematics">Schematics</a></b> (🥉24 ·  ⭐ 2.5K) - 数据结构验证。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/schematics/schematics) (👨‍💻 120 · 🔀 280 · 📦 1K · 📋 320 - 27% open · ⏱️ 17.08.2021):
 
@@ -2196,7 +2196,7 @@ _Libraries for validating data. Used for forms in many cases._
 	conda install -c conda-forge schematics
 	```
 </details>
-<details><summary><b><a href="https://github.com/podio/valideer">valideer</a></b> (🥉18 ·  ⭐ 250 · 💀) - Lightweight extensible data validation and adaptation library. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/podio/valideer">valideer</a></b> (🥉18 ·  ⭐ 250 · 💀) - 轻量级可扩展的数据验证和适配库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/podio/valideer) (👨‍💻 7 · 🔀 20 · 📦 50 · 📋 15 - 26% open · ⏱️ 07.03.2018):
 
@@ -2214,25 +2214,25 @@ _Libraries for validating data. Used for forms in many cases._
 </details>
 <br>
 
-## Data Visualization
+## 数据可视化
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for visualizing data._
+_进行数据可视化的库。 参见：[awesome-javascript](https://github.com/sorrycc/awesome-javascript#data-visualization)。_
 
-🔗&nbsp;<b><a href="https://plot.ly/products/dash/">Dash</a></b>  - Built on top of Flask, React and Plotly aimed at analytical web applications.
+🔗&nbsp;<b><a href="https://plot.ly/products/dash/">Dash</a></b>  - 构建在 Flask、React 和 Plotly之上，旨在用于分析 Web 应用程序。
 
 🔗&nbsp;<b><a href="https://github.com/ucg8j/awesome-dash">awesome-dash</a></b> ( ⭐ 1.4K)  - A curated list of awesome Dash (plotly) resources.
 
-🔗&nbsp;<b><a href="http://matplotlib.org/">Matplotlib</a></b>  - A Python 2D plotting library.
+🔗&nbsp;<b><a href="http://matplotlib.org/">Matplotlib</a></b>  - 一个 Python 2D 绘图库。
 
-🔗&nbsp;<b><a href="http://www.pygal.org/en/latest/">Pygal</a></b>  - A Python SVG Charts Creator.
+🔗&nbsp;<b><a href="http://www.pygal.org/en/latest/">Pygal</a></b>  - 一个 Python SVG 图表创建工具。
 
-🔗&nbsp;<b><a href="https://pypi.org/project/pygraphviz/">PyGraphviz</a></b>  - Python interface to [Graphviz](http://www.graphviz.org/).
+🔗&nbsp;<b><a href="https://pypi.org/project/pygraphviz/">PyGraphviz</a></b>  -  <a href="http://www.graphviz.org/">Graphviz</a> 的 Python 接口。
 
-🔗&nbsp;<b><a href="http://www.pyqtgraph.org/">PyQtGraph</a></b>  - Interactive and realtime 2D/3D/Image plotting and science/engineering widgets.
+🔗&nbsp;<b><a href="http://www.pyqtgraph.org/">PyQtGraph</a></b>  - 交互式实时 2D/3D/ 图像绘制及科学/工程学组件。
 
-<details><summary><b><a href="https://github.com/mwaskom/seaborn">Seaborn</a></b> (🥇38 ·  ⭐ 9K) - Statistical data visualization using Matplotlib. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/mwaskom/seaborn">Seaborn</a></b> (🥇38 ·  ⭐ 9K) - 使用 Matplotlib 进行统计数据可视化。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/mwaskom/seaborn) (👨‍💻 160 · 🔀 1.5K · 📥 210 · 📦 130K · 📋 1.9K - 4% open · ⏱️ 27.11.2021):
 
@@ -2248,7 +2248,7 @@ _Libraries for visualizing data._
 	conda install -c conda-forge seaborn
 	```
 </details>
-<details><summary><b><a href="https://github.com/altair-viz/altair">Altair</a></b> (🥈33 ·  ⭐ 7.1K) - Declarative statistical visualization library for Python. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/altair-viz/altair">Altair</a></b> (🥈33 ·  ⭐ 7.1K) - 用于 Python 的声明式统计可视化库。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/altair-viz/altair) (👨‍💻 130 · 🔀 600 · 📦 20K · 📋 1.6K - 14% open · ⏱️ 20.12.2021):
 
@@ -2264,7 +2264,7 @@ _Libraries for visualizing data._
 	conda install -c conda-forge altair
 	```
 </details>
-<details><summary><b><a href="https://github.com/bokeh/bokeh">Bokeh</a></b> (🥈30 ·  ⭐ 16K) - Interactive Web Plotting for Python. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/bokeh/bokeh">Bokeh</a></b> (🥈30 ·  ⭐ 16K) - 用 Python 进行交互式 web 绘图。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/bokeh/bokeh) (👨‍💻 590 · 🔀 3.8K · 📦 42K · 📋 6.8K - 10% open · ⏱️ 22.12.2021):
 
@@ -2280,7 +2280,7 @@ _Libraries for visualizing data._
 	conda install -c conda-forge bokeh
 	```
 </details>
-<details><summary><b><a href="https://github.com/SciTools/cartopy">Cartopy</a></b> (🥉28 ·  ⭐ 980) - A cartographic python library with matplotlib support. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/SciTools/cartopy">Cartopy</a></b> (🥉28 ·  ⭐ 980) - 具有 matplotlib 支持的 python 制图库。<code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/SciTools/cartopy) (👨‍💻 110 · 🔀 300 · 📦 2.1K · 📋 1K - 26% open · ⏱️ 13.12.2021):
 
@@ -2296,7 +2296,7 @@ _Libraries for visualizing data._
 	conda install -c conda-forge cartopy
 	```
 </details>
-<details><summary><b><a href="https://github.com/has2k1/plotnine">plotnine</a></b> (🥉27 ·  ⭐ 2.9K) - A grammar of graphics for Python based on ggplot2. <code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
+<details><summary><b><a href="https://github.com/has2k1/plotnine">plotnine</a></b> (🥉27 ·  ⭐ 2.9K) - 基于ggplot2的Python图形语法。<code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
 
 - [GitHub](https://github.com/has2k1/plotnine) (👨‍💻 89 · 🔀 150 · 📦 2.8K · 📋 460 - 17% open · ⏱️ 14.12.2021):
 
@@ -2312,7 +2312,7 @@ _Libraries for visualizing data._
 	conda install -c conda-forge plotnine
 	```
 </details>
-<details><summary><b><a href="https://github.com/bqplot/bqplot">bqplot</a></b> (🥉26 ·  ⭐ 3.2K) - Interactive Plotting Library for the Jupyter Notebook. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/bqplot/bqplot">bqplot</a></b> (🥉26 ·  ⭐ 3.2K) - Jupyter Notebook的交互式绘图库。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/bqplot/bqplot) (👨‍💻 55 · 🔀 430 · 📦 28 · 📋 550 - 35% open · ⏱️ 20.12.2021):
 
@@ -2328,7 +2328,7 @@ _Libraries for visualizing data._
 	conda install -c conda-forge bqplot
 	```
 </details>
-<details><summary><b><a href="https://github.com/mingrammer/diagrams">diagrams</a></b> (🥉24 ·  ⭐ 16K) - Diagram as Code. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/mingrammer/diagrams">diagrams</a></b> (🥉24 ·  ⭐ 16K) - 用图表作为代码。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/mingrammer/diagrams) (👨‍💻 97 · 🔀 870 · 📋 310 - 56% open · ⏱️ 21.08.2021):
 
@@ -2344,7 +2344,7 @@ _Libraries for visualizing data._
 	conda install -c conda-forge diagrams
 	```
 </details>
-<details><summary><b><a href="https://github.com/vispy/vispy">VisPy</a></b> (🥉24 ·  ⭐ 2.8K) - High-performance scientific visualization based on OpenGL. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/vispy/vispy">VisPy</a></b> (🥉24 ·  ⭐ 2.8K) - 基于 OpenGL 的高性能科学可视化工具。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/vispy/vispy) (👨‍💻 170 · 🔀 570 · 📦 650 · 📋 1.3K - 20% open · ⏱️ 10.12.2021):
 
@@ -2362,13 +2362,13 @@ _Libraries for visualizing data._
 </details>
 <br>
 
-## Database
+## 数据库
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Databases implemented in Python._
+_Python 实现的数据库。_
 
-<details><summary><b><a href="https://github.com/msiemens/tinydb">tinydb</a></b> (🥇24 ·  ⭐ 4.7K) - A tiny, document-oriented database. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/msiemens/tinydb">tinydb</a></b> (🥇24 ·  ⭐ 4.7K) - 一个微型的，面向文档型数据库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/msiemens/tinydb) (👨‍💻 71 · 🔀 410 · 📋 270 - 2% open · ⏱️ 20.12.2021):
 
@@ -2384,7 +2384,7 @@ _Databases implemented in Python._
 	conda install -c conda-forge tinydb
 	```
 </details>
-<details><summary><b><a href="https://github.com/zopefoundation/ZODB">ZODB</a></b> (🥉22 ·  ⭐ 510) - A native object database for Python. A key-value and object graph.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/zopefoundation/ZODB">ZODB</a></b> (🥉22 ·  ⭐ 510) - 一个 Python 原生对象数据库。一个键值和对象图数据库。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/zopefoundation/ZODB) (👨‍💻 120 · 🔀 70 · 📦 780 · 📋 140 - 37% open · ⏱️ 09.11.2021):
 
@@ -2400,7 +2400,7 @@ _Databases implemented in Python._
 	conda install -c conda-forge ZODB
 	```
 </details>
-<details><summary><b><a href="https://github.com/patx/pickledb">pickleDB</a></b> (🥉20 ·  ⭐ 620 · 💀) - A simple and lightweight key-value store for Python. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/patx/pickledb">pickleDB</a></b> (🥉20 ·  ⭐ 620 · 💀) - 一个简单，轻量级键值储存数据库。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/patx/pickledb) (👨‍💻 12 · 🔀 100 · 📦 790 · 📋 54 - 27% open · ⏱️ 15.11.2019):
 
@@ -2418,25 +2418,25 @@ _Databases implemented in Python._
 </details>
 <br>
 
-## Database Drivers
+## 数据库 Drivers
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for connecting and operating databases._
+_用来连接和操作数据库的库。_
 
 🔗&nbsp;<b><a href="https://github.com/dhamaniasad/awesome-postgres">awesome-postgres</a></b> ( ⭐ 7.5K)  - A curated list of awesome PostgreSQL software, libraries, tools and..
 
-🔗&nbsp;<b><a href="http://initd.org/psycopg/">psycopg2</a></b>  - The most popular PostgreSQL adapter for Python.
+🔗&nbsp;<b><a href="http://initd.org/psycopg/">psycopg2</a></b>  - Python 中最流行的 PostgreSQL 适配器。
 
 🔗&nbsp;<b><a href="https://github.com/planetopendata/awesome-sqlite">awesome-sqlite</a></b> ( ⭐ 160)  - A collection of awesome sqlite tools, scripts, books, etc.
 
-🔗&nbsp;<b><a href="https://docs.python.org/3/library/sqlite3.html">sqlite3</a></b>  - (Python standard library) SQlite interface compliant with DB-API 2.0.
+🔗&nbsp;<b><a href="https://docs.python.org/3/library/sqlite3.html">sqlite3</a></b>  - （Python 标准库）将文件名映射为 MIME 类型。
 
-🔗&nbsp;<b><a href="https://pymssql.readthedocs.io/en/latest/">pymssql</a></b>  - A simple database interface to Microsoft SQL Server.
+🔗&nbsp;<b><a href="https://pymssql.readthedocs.io/en/latest/">pymssql</a></b>  - 一个简单的 Microsoft SQL Server 数据库接口。
 
-🔗&nbsp;<b><a href="https://py2neo.org/">py2neo</a></b>  - A client library and toolkit for working with Neo4j.
+🔗&nbsp;<b><a href="https://py2neo.org/">py2neo</a></b>  - Neo4j restful 接口的 Python 封装客户端。
 
-<details><summary><b><a href="https://github.com/redis/redis-py">redis-py</a></b> (🥇35 ·  ⭐ 9.9K · 📈) - The Python client for Redis. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/redis/redis-py">redis-py</a></b> (🥇35 ·  ⭐ 9.9K · 📈) - Redis 的 Python 客户端。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/redis/redis-py) (👨‍💻 290 · 🔀 2K · 📦 130K · 📋 1K - 6% open · ⏱️ 23.12.2021):
 
@@ -2452,7 +2452,7 @@ _Libraries for connecting and operating databases._
 	conda install -c conda-forge redis-py
 	```
 </details>
-<details><summary><b><a href="https://github.com/PyMySQL/PyMySQL">PyMySQL</a></b> (🥇31 ·  ⭐ 6.7K) - A pure Python MySQL driver compatible to mysql-python. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/PyMySQL/PyMySQL">PyMySQL</a></b> (🥇31 ·  ⭐ 6.7K) - 纯 Python MySQL 驱动，兼容 mysql-python。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/PyMySQL/PyMySQL) (👨‍💻 110 · 🔀 1.3K · 📦 100K · 📋 590 - 3% open · ⏱️ 02.10.2021):
 
@@ -2468,7 +2468,7 @@ _Libraries for connecting and operating databases._
 	conda install -c conda-forge PyMySQL
 	```
 </details>
-<details><summary><b><a href="https://github.com/dpkp/kafka-python">kafka-python</a></b> (🥈30 ·  ⭐ 4.7K) - The Python client for Apache Kafka. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/dpkp/kafka-python">kafka-python</a></b> (🥈30 ·  ⭐ 4.7K) - Apache Kafka Python 客户端。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/dpkp/kafka-python) (👨‍💻 210 · 🔀 1.2K · 📥 1.7K · 📦 8.7K · 📋 1.4K - 14% open · ⏱️ 03.08.2021):
 
@@ -2484,7 +2484,7 @@ _Libraries for connecting and operating databases._
 	conda install -c conda-forge kafka-python
 	```
 </details>
-<details><summary><b><a href="https://github.com/mongodb/motor">motor</a></b> (🥈28 ·  ⭐ 1.8K) - The async Python driver for MongoDB. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/mongodb/motor">motor</a></b> (🥈28 ·  ⭐ 1.8K) - 支持 MongoDB 的异步 Python 驱动程序。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/mongodb/motor) (👨‍💻 35 · 🔀 160 · 📦 16K · ⏱️ 09.11.2021):
 
@@ -2532,7 +2532,7 @@ _Libraries for connecting and operating databases._
 	conda install -c conda-forge clickhouse-driver
 	```
 </details>
-<details><summary><b><a href="https://github.com/mongodb/mongo-python-driver">pymongo</a></b> (🥉21 ·  ⭐ 3.5K) - The official Python client for MongoDB. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/mongodb/mongo-python-driver">pymongo</a></b> (🥉21 ·  ⭐ 3.5K) - MongoDB 的官方 Python 客户端。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/mongodb/mongo-python-driver) (👨‍💻 190 · 🔀 920 · ⏱️ 20.12.2021):
 
@@ -2548,7 +2548,7 @@ _Libraries for connecting and operating databases._
 	conda install -c conda-forge mongo-python-driver
 	```
 </details>
-<details><summary><b><a href="https://github.com/gmr/queries">queries</a></b> (🥉20 ·  ⭐ 240) - A wrapper of the psycopg2 library for interacting with PostgreSQL. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/gmr/queries">queries</a></b> (🥉20 ·  ⭐ 240) - psycopg2 库的封装，用来和 PostgreSQL 进行交互。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/gmr/queries) (👨‍💻 11 · 🔀 29 · 📦 100 · 📋 18 - 27% open · ⏱️ 16.11.2021):
 
@@ -2564,7 +2564,7 @@ _Libraries for connecting and operating databases._
 	conda install -c conda-forge queries
 	```
 </details>
-<details><summary><b><a href="https://github.com/python-happybase/happybase">happybase</a></b> (🥉18 ·  ⭐ 580 · 💤) - A developer-friendly library for Apache HBase. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/python-happybase/happybase">happybase</a></b> (🥉18 ·  ⭐ 580 · 💤) - 一个为 Apache HBase 设计的，对开发者友好的库。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/python-happybase/happybase) (👨‍💻 19 · 🔀 150 · 📦 570 · 📋 200 - 10% open · ⏱️ 08.02.2021):
 
@@ -2614,17 +2614,17 @@ _Libraries for connecting and operating databases._
 </details>
 <br>
 
-## Date and Time
+## 日期和时间
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for working with dates and times._
+_操作日期和时间的类库。_
 
-🔗&nbsp;<b><a href="https://arrow.readthedocs.io/en/latest/">Arrow</a></b>  - A Python library that offers a sensible and human-friendly approach to creating, manipulating,..
+🔗&nbsp;<b><a href="https://arrow.readthedocs.io/en/latest/">Arrow</a></b>  - 更好的 Python 日期时间操作类库。
 
-🔗&nbsp;<b><a href="https://launchpad.net/pytz">pytz</a></b>  - World timezone definitions, modern and historical. Brings the [tz..
+🔗&nbsp;<b><a href="https://launchpad.net/pytz">pytz</a></b>  - 支持跨平台时区计算，并将 <a href="https://en.wikipedia.org/wiki/Tz_database">tz database</a> 引入 Python。
 
-<details><summary><b><a href="https://github.com/dateutil/dateutil">dateutil</a></b> (🥇29 ·  ⭐ 1.7K) - Extensions to the standard Python.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/dateutil/dateutil">dateutil</a></b> (🥇29 ·  ⭐ 1.7K) - Python 标准包 <a href="https://docs.python.org/3/library/datetime.html">datetime</a> 的扩展。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/dateutil/dateutil) (👨‍💻 130 · 🔀 380 · 📥 35K · 📦 620K · 📋 590 - 37% open · ⏱️ 12.10.2021):
 
@@ -2640,7 +2640,7 @@ _Libraries for working with dates and times._
 	conda install -c conda-forge dateutil
 	```
 </details>
-<details><summary><b><a href="https://github.com/sdispater/pendulum">Pendulum</a></b> (🥈25 ·  ⭐ 4.6K) - Python datetimes made easy. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/sdispater/pendulum">Pendulum</a></b> (🥈25 ·  ⭐ 4.6K) - 一个比 arrow 更具有明确的，可预测的行为的时间操作库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/sdispater/pendulum) (👨‍💻 70 · 🔀 260 · 📋 410 - 43% open · ⏱️ 22.12.2021):
 
@@ -2656,7 +2656,7 @@ _Libraries for working with dates and times._
 	conda install -c conda-forge pendulum
 	```
 </details>
-<details><summary><b><a href="https://github.com/timofurrer/maya">maya</a></b> (🥈24 ·  ⭐ 3.3K) - Datetimes for Humans. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/timofurrer/maya">maya</a></b> (🥈24 ·  ⭐ 3.3K) - 人性化的时间处理库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/timofurrer/maya) (👨‍💻 47 · 🔀 190 · 📦 850 · 📋 88 - 15% open · ⏱️ 05.11.2021):
 
@@ -2672,7 +2672,7 @@ _Libraries for working with dates and times._
 	conda install -c conda-forge maya
 	```
 </details>
-<details><summary><b><a href="https://github.com/myusuf3/delorean">delorean</a></b> (🥉20 ·  ⭐ 1.8K · 💤) - A library for clearing up the inconvenient truths that arise dealing.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/myusuf3/delorean">delorean</a></b> (🥉20 ·  ⭐ 1.8K · 💤) - 解决 Python 中有关日期处理的棘手问题的库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/myusuf3/delorean) (🔀 120 · 📦 680 · 📋 61 - 40% open · ⏱️ 06.12.2020):
 
@@ -2684,7 +2684,7 @@ _Libraries for working with dates and times._
 	conda install -c conda-forge 
 	```
 </details>
-<details><summary><b><a href="https://github.com/zachwill/moment">moment</a></b> (🥉17 ·  ⭐ 690 · 💀) - A Python library for dealing with dates/times. Inspired by.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/zachwill/moment">moment</a></b> (🥉17 ·  ⭐ 690 · 💀) - 一个处理日期/时间的库，灵感来自 <a href="http://momentjs.com/">Moment.js</a>。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/zachwill/moment) (👨‍💻 4 · 🔀 38 · 📦 610 · 📋 35 - 8% open · ⏱️ 27.11.2020):
 
@@ -2700,7 +2700,7 @@ _Libraries for working with dates and times._
 	conda install -c conda-forge moment
 	```
 </details>
-<details><summary><b><a href="https://github.com/KoffeinFlummi/Chronyk">Chronyk</a></b> (🥉16 ·  ⭐ 320 · 💀) - A Python 3 library for parsing human-written times and dates. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/KoffeinFlummi/Chronyk">Chronyk</a></b> (🥉16 ·  ⭐ 320 · 💀) - Python 3 的类库，用于解析手写格式的时间和日期。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/KoffeinFlummi/Chronyk) (👨‍💻 3 · 🔀 13 · 📦 20 · 📋 9 - 44% open · ⏱️ 02.08.2015):
 
@@ -2716,7 +2716,7 @@ _Libraries for working with dates and times._
 	conda install -c conda-forge Chronyk
 	```
 </details>
-<details><summary><b><a href="https://github.com/shinux/PyTime">PyTime</a></b> (🥉11 ·  ⭐ 140) - An easy-to-use Python module which aims to operate date/time/datetime by.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/shinux/PyTime">PyTime</a></b> (🥉11 ·  ⭐ 140) - 一个简单易用的 Python 模块，用于通过字符串来操作日期/时间。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/shinux/PyTime) (👨‍💻 5 · 🔀 16 · 📦 21 · ⏱️ 31.08.2021):
 
@@ -2732,7 +2732,7 @@ _Libraries for working with dates and times._
 	conda install -c conda-forge PyTime
 	```
 </details>
-<details><summary><b><a href="https://github.com/dirn/When.py">when.py</a></b> (🥉10 ·  ⭐ 190 · 💀) - Providing user-friendly functions to help perform common date.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/dirn/When.py">when.py</a></b> (🥉10 ·  ⭐ 190 · 💀) - 提供用户友好的函数来帮助用户进行常用的日期和时间操作。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/dirn/When.py) (👨‍💻 5 · 🔀 18 · 📦 22 · ⏱️ 14.10.2017):
 
@@ -2750,13 +2750,13 @@ _Libraries for working with dates and times._
 </details>
 <br>
 
-## Debugging Tools
+## 调试工具
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for debugging code._
+_用来进行代码调试的库。_
 
-<details><summary><b><a href="https://github.com/jazzband/django-debug-toolbar">django-debug-toolbar</a></b> (🥇31 ·  ⭐ 6.8K) - Display various debug information for Django. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jazzband/django-debug-toolbar">django-debug-toolbar</a></b> (🥇31 ·  ⭐ 6.8K) - 为 Django 显示各种调试信息。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/jazzband/django-debug-toolbar) (👨‍💻 250 · 🔀 830 · 📥 170 · 📦 46K · 📋 780 - 10% open · ⏱️ 20.12.2021):
 
@@ -2772,7 +2772,7 @@ _Libraries for debugging code._
 	conda install -c conda-forge django-debug-toolbar
 	```
 </details>
-<details><summary><b><a href="https://github.com/benfred/py-spy">py-spy</a></b> (🥇25 ·  ⭐ 7.7K) - A sampling profiler for Python programs. Written in Rust. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/benfred/py-spy">py-spy</a></b> (🥇25 ·  ⭐ 7.7K) - Python 程序采样分析器，使用 Rust 实现。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/benfred/py-spy) (👨‍💻 29 · 🔀 270 · 📥 7.2K · 📋 230 - 28% open · ⏱️ 22.12.2021):
 
@@ -2788,7 +2788,7 @@ _Libraries for debugging code._
 	conda install -c conda-forge py-spy
 	```
 </details>
-<details><summary><b><a href="https://github.com/flask-debugtoolbar/flask-debugtoolbar">flask-debugtoolbar</a></b> (🥇25 ·  ⭐ 820 · 💀) - A port of the django-debug-toolbar to flask. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/flask-debugtoolbar/flask-debugtoolbar">flask-debugtoolbar</a></b> (🥇25 ·  ⭐ 820 · 💀) - django-debug-toolbar 的 flask 版。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/flask-debugtoolbar/flask-debugtoolbar) (👨‍💻 38 · 🔀 120 · 📦 16K · 📋 90 - 30% open · ⏱️ 14.08.2020):
 
@@ -2804,7 +2804,7 @@ _Libraries for debugging code._
 	conda install -c conda-forge flask-debugtoolbar
 	```
 </details>
-<details><summary><b><a href="https://github.com/gotcha/ipdb">ipdb</a></b> (🥈23 ·  ⭐ 1.5K) - IPython-enabled [pdb](https://docs.python.org/3/library/pdb.html). <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/gotcha/ipdb">ipdb</a></b> (🥈23 ·  ⭐ 1.5K) - IPython 启用的 <a href="https://docs.python.org/2/library/pdb.html">pdb</a>。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/gotcha/ipdb) (👨‍💻 49 · 🔀 130 · 📦 30K · 📋 170 - 34% open · ⏱️ 09.09.2021):
 
@@ -2820,7 +2820,7 @@ _Libraries for debugging code._
 	conda install -c conda-forge ipdb
 	```
 </details>
-<details><summary><b><a href="https://github.com/eliben/pyelftools">pyelftools</a></b> (🥈23 ·  ⭐ 1.3K) - Parsing and analyzing ELF files and DWARF debugging.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/eliben/pyelftools">pyelftools</a></b> (🥈23 ·  ⭐ 1.3K) - 解析和分析 ELF 文件以及 DWARF 调试信息。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/eliben/pyelftools) (👨‍💻 80 · 🔀 410 · 📦 2.8K · 📋 170 - 32% open · ⏱️ 15.12.2021):
 
@@ -2836,7 +2836,7 @@ _Libraries for debugging code._
 	conda install -c conda-forge pyelftools
 	```
 </details>
-<details><summary><b><a href="https://github.com/pdbpp/pdbpp">pdb++</a></b> (🥈22 ·  ⭐ 840) - Another drop-in replacement for pdb. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/pdbpp/pdbpp">pdb++</a></b> (🥈22 ·  ⭐ 840) - 另一种 pdb 的替代。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/pdbpp/pdbpp) (👨‍💻 40 · 🔀 46 · 📦 2.5K · 📋 180 - 34% open · ⏱️ 27.11.2021):
 
@@ -2852,7 +2852,7 @@ _Libraries for debugging code._
 	conda install -c conda-forge pdb
 	```
 </details>
-<details><summary><b><a href="https://github.com/gruns/icecream">icecream</a></b> (🥈21 ·  ⭐ 5.6K) - Inspect variables, expressions, and program execution with a single,.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/gruns/icecream">icecream</a></b> (🥈21 ·  ⭐ 5.6K) - 通过一个简单的函数调用检查变量、表达式和程序执行情况。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/gruns/icecream) (👨‍💻 16 · 🔀 110 · 📋 80 - 28% open · ⏱️ 31.08.2021):
 
@@ -2868,7 +2868,7 @@ _Libraries for debugging code._
 	conda install -c conda-forge icecream
 	```
 </details>
-<details><summary><b><a href="https://github.com/nvdv/vprof">vprof</a></b> (🥈21 ·  ⭐ 3.8K · 💤) - Visual Python profiler. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/nvdv/vprof">vprof</a></b> (🥈21 ·  ⭐ 3.8K · 💤) - 视觉 Python 分析器。<code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
 - [GitHub](https://github.com/nvdv/vprof) (👨‍💻 17 · 🔀 150 · 📦 86 · 📋 81 - 30% open · ⏱️ 20.02.2021):
 
@@ -2884,7 +2884,7 @@ _Libraries for debugging code._
 	conda install -c conda-forge vprof
 	```
 </details>
-<details><summary><b><a href="https://github.com/inducer/pudb">pudb</a></b> (🥈21 ·  ⭐ 2.3K) - A full-screen, console-based Python debugger. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/inducer/pudb">pudb</a></b> (🥈21 ·  ⭐ 2.3K) - 全屏，基于控制台的 Python 调试器。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/inducer/pudb) (👨‍💻 80 · 🔀 180 · 📦 2.8K · 📋 270 - 45% open · ⏱️ 14.12.2021):
 
@@ -2900,7 +2900,7 @@ _Libraries for debugging code._
 	conda install -c conda-forge pudb
 	```
 </details>
-<details><summary><b><a href="https://github.com/Kozea/wdb">wdb</a></b> (🥉19 ·  ⭐ 1.5K · 💀) - An improbable web debugger through WebSockets. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/Kozea/wdb">wdb</a></b> (🥉19 ·  ⭐ 1.5K · 💀) - 一个奇异的 web 调试器，通过 WebSockets 工作。<code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/Kozea/wdb) (👨‍💻 22 · 🔀 100 · 📦 110 · 📋 110 - 26% open · ⏱️ 16.09.2019):
 
@@ -2916,7 +2916,7 @@ _Libraries for debugging code._
 	conda install -c conda-forge wdb
 	```
 </details>
-<details><summary><b><a href="https://github.com/dcramer/django-devserver">django-devserver</a></b> (🥉19 ·  ⭐ 1.3K · 💀) - A drop-in replacement for Django's runserver. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/dcramer/django-devserver">django-devserver</a></b> (🥉19 ·  ⭐ 1.3K · 💀) - 一个 Django 运行服务器的替代品。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/dcramer/django-devserver) (👨‍💻 39 · 🔀 140 · 📦 330 · 📋 67 - 58% open · ⏱️ 05.03.2016):
 
@@ -2948,7 +2948,7 @@ _Libraries for debugging code._
 	conda install -c conda-forge line_profiler
 	```
 </details>
-<details><summary><b><a href="https://github.com/ionelmc/python-hunter">python-hunter</a></b> (🥉18 ·  ⭐ 650) - A flexible code tracing toolkit. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/ionelmc/python-hunter">python-hunter</a></b> (🥉18 ·  ⭐ 650) - 一个灵活的代码追踪工具包。<code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
 - [GitHub](https://github.com/ionelmc/python-hunter) (👨‍💻 9 · 🔀 35 · 📦 73 · 📋 85 - 41% open · ⏱️ 15.12.2021):
 
@@ -2964,7 +2964,7 @@ _Libraries for debugging code._
 	conda install -c conda-forge python-hunter
 	```
 </details>
-<details><summary><b><a href="https://github.com/uber-archive/pyflame">pyflame</a></b> (🥉17 ·  ⭐ 2.9K · 💀) - A ptracing profiler For Python. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/uber-archive/pyflame">pyflame</a></b> (🥉17 ·  ⭐ 2.9K · 💀) - 用于 Python 的跟踪分析器。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/uber-archive/pyflame) (👨‍💻 22 · 🔀 220 · 📋 77 - 31% open · ⏱️ 03.12.2019):
 
@@ -2996,7 +2996,7 @@ _Libraries for debugging code._
 	conda install -c conda-forge memory_profiler
 	```
 </details>
-<details><summary><b><a href="https://github.com/ionelmc/python-manhole">manhole</a></b> (🥉15 ·  ⭐ 320) - Debugging UNIX socket connections and present the stacktraces for all.. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/ionelmc/python-manhole">manhole</a></b> (🥉15 ·  ⭐ 320) - 调试UNIX套接字连接，并显示所有线程的堆栈跟踪和交互式提示。<code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
 - [GitHub](https://github.com/ionelmc/python-manhole) (👨‍💻 11 · 🔀 17 · 📦 79 · 📋 20 - 25% open · ⏱️ 15.09.2021):
 
@@ -3012,7 +3012,7 @@ _Libraries for debugging code._
 	conda install -c conda-forge python-manhole
 	```
 </details>
-<details><summary><b><a href="https://github.com/google/pyringe">pyringe</a></b> (🥉14 ·  ⭐ 1.6K · 💀) - Debugger capable of attaching to and injecting code into Python.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/google/pyringe">pyringe</a></b> (🥉14 ·  ⭐ 1.6K · 💀) - 能够附加到 Python 进程并将代码注入Python进程的调试器。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/google/pyringe) (🔀 70 · 📦 3 · 📋 24 - 62% open · ⏱️ 10.05.2014):
 
@@ -3028,7 +3028,7 @@ _Libraries for debugging code._
 	conda install -c conda-forge pyringe
 	```
 </details>
-<details><summary><b><a href="https://github.com/khamidou/lptrace">lptrace</a></b> (🥉11 ·  ⭐ 680 · 💀) - [strace](http://man7.org/linux/man-pages/man1/strace.1.html) for.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/khamidou/lptrace">lptrace</a></b> (🥉11 ·  ⭐ 680 · 💀) - 为 Python 程序打造的 <a href="http://man7.org/linux/man-pages/man1/strace.1.html">strace</a>。<code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/khamidou/lptrace) (🔀 36 · 📦 2 · 📋 12 - 50% open · ⏱️ 24.02.2017):
 
@@ -3046,13 +3046,13 @@ _Libraries for debugging code._
 </details>
 <br>
 
-## Deep Learning
+## 深度学习
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Frameworks for Neural Networks and Deep Learning._
+_神经网络和深度学习相关框架。 也可以参考 [awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning)。_
 
-<details><summary><b><a href="https://github.com/tensorflow/tensorflow">tensorflow</a></b> (🥇44 ·  ⭐ 160K) - The most popular Deep Learning framework created by Google. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/tensorflow/tensorflow">tensorflow</a></b> (🥇44 ·  ⭐ 160K) - 谷歌开源的最受欢迎的深度学习框架。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/tensorflow/tensorflow) (👨‍💻 3.9K · 🔀 69K · 📦 170K · 📋 34K - 7% open · ⏱️ 23.12.2021):
 
@@ -3068,7 +3068,7 @@ _Frameworks for Neural Networks and Deep Learning._
 	conda install -c conda-forge tensorflow
 	```
 </details>
-<details><summary><b><a href="https://github.com/Theano/Theano">Theano</a></b> (🥈31 ·  ⭐ 9.5K) - A library for fast numerical computation. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/Theano/Theano">Theano</a></b> (🥈31 ·  ⭐ 9.5K) - 一个快速数值计算库。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/Theano/Theano) (👨‍💻 380 · 🔀 2.4K · 📦 12K · 📋 2.7K - 21% open · ⏱️ 23.11.2021):
 
@@ -3084,7 +3084,7 @@ _Frameworks for Neural Networks and Deep Learning._
 	conda install -c conda-forge Theano
 	```
 </details>
-<details><summary><b><a href="https://github.com/keras-team/keras">keras</a></b> (🥈29 ·  ⭐ 54K) - A high-level neural networks library and capable of running on top.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/keras-team/keras">keras</a></b> (🥈29 ·  ⭐ 54K) - 以 tensorflow/theano/CNTK 为后端的深度学习封装库，快速上手神经网络。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/keras-team/keras) (👨‍💻 1K · 🔀 18K · 📋 11K - 1% open · ⏱️ 22.12.2021):
 
@@ -3100,7 +3100,7 @@ _Frameworks for Neural Networks and Deep Learning._
 	conda install -c conda-forge keras
 	```
 </details>
-<details><summary><b><a href="https://github.com/pytorch/pytorch">pytorch</a></b> (🥈29 ·  ⭐ 53K) - Tensors and Dynamic neural networks in Python with strong GPU.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/pytorch/pytorch">pytorch</a></b> (🥈29 ·  ⭐ 53K) - 一个具有张量和动态神经网络，并有强大 GPU 加速能力的深度学习框架。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/pytorch/pytorch) (👨‍💻 3K · 🔀 14K · 📥 730 · 📋 24K - 31% open · ⏱️ 23.12.2021):
 
@@ -3116,7 +3116,7 @@ _Frameworks for Neural Networks and Deep Learning._
 	conda install -c conda-forge pytorch
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/incubator-mxnet">mxnet</a></b> (🥉28 ·  ⭐ 20K) - A deep learning framework designed for both efficiency and flexibility. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/apache/incubator-mxnet">mxnet</a></b> (🥉28 ·  ⭐ 20K) - 一个高效和灵活的深度学习框架。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/apache/incubator-mxnet) (👨‍💻 970 · 🔀 6.5K · 📥 24K · 📋 9.4K - 18% open · ⏱️ 23.12.2021):
 
@@ -3132,7 +3132,7 @@ _Frameworks for Neural Networks and Deep Learning._
 	conda install -c conda-forge mxnet
 	```
 </details>
-<details><summary><b><a href="https://github.com/BVLC/caffe">caffe</a></b> (🥉23 ·  ⭐ 32K · 💀) - A fast open framework for deep learning.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/BVLC/caffe">caffe</a></b> (🥉23 ·  ⭐ 32K · 💀) - 一个 <a href="https://github.com/BVLC/caffe">Caffe</a> 的 python 接口。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/BVLC/caffe) (👨‍💻 310 · 🔀 14K · 📋 4.8K - 18% open · ⏱️ 13.02.2020):
 
@@ -3148,7 +3148,7 @@ _Frameworks for Neural Networks and Deep Learning._
 	conda install -c conda-forge caffe
 	```
 </details>
-<details><summary><b><a href="https://github.com/SerpentAI/SerpentAI">SerpentAI</a></b> (🥉15 ·  ⭐ 6.1K · 💀) - Game agent framework. Use any video game as a deep learning sandbox. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/SerpentAI/SerpentAI">SerpentAI</a></b> (🥉15 ·  ⭐ 6.1K · 💀) - 游戏代理框架，可使用任意视频游戏作为深度学习沙箱。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/SerpentAI/SerpentAI) (👨‍💻 7 · 🔀 700 · 📥 150 · ⏱️ 22.05.2020):
 
@@ -3166,21 +3166,21 @@ _Frameworks for Neural Networks and Deep Learning._
 </details>
 <br>
 
-## DevOps Tools
+## DevOps 工具
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Software and libraries for DevOps._
+_用于 DevOps 的软件和库。_
 
-🔗&nbsp;<b><a href="https://cloudinit.readthedocs.io/en/latest/">cloudinit</a></b>  - A multi-distribution package that handles early initialization of a cloud instance.
+🔗&nbsp;<b><a href="https://cloudinit.readthedocs.io/en/latest/">cloudinit</a></b>  - 一个多分发包，用于处理云实例的早期初始化。
 
-🔗&nbsp;<b><a href="https://www.openstack.org/">OpenStack</a></b>  - Open source software for building private and public clouds.
+🔗&nbsp;<b><a href="https://www.openstack.org/">OpenStack</a></b>  - 用于构建私有和公有云的开源软件。
 
-🔗&nbsp;<b><a href="https://www.borgbackup.org/">BorgBackup</a></b>  - A deduplicating archiver with compression and encryption.
+🔗&nbsp;<b><a href="https://www.borgbackup.org/">BorgBackup</a></b>  - 具有压缩和加密功能的重复数据删除存档器。
 
-🔗&nbsp;<b><a href="https://docs.docker.com/compose/">docker-compose</a></b>  - Fast, isolated development environments using [Docker](https://www.docker.com/).
+🔗&nbsp;<b><a href="https://docs.docker.com/compose/">docker-compose</a></b>  -  使用 <a href="https://www.docker.com/">Docker</a> 的快速独立的开发环境。
 
-<details><summary><b><a href="https://github.com/giampaolo/psutil">psutil</a></b> (🥇36 ·  ⭐ 8K) - A cross-platform process and system utilities module. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/giampaolo/psutil">psutil</a></b> (🥇36 ·  ⭐ 8K) - 一个跨平台进程和系统工具模块。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/giampaolo/psutil) (👨‍💻 170 · 🔀 1.1K · 📦 130K · 📋 1.5K - 12% open · ⏱️ 14.12.2021):
 
@@ -3196,7 +3196,7 @@ _Software and libraries for DevOps._
 	conda install -c conda-forge psutil
 	```
 </details>
-<details><summary><b><a href="https://github.com/ansible/ansible">ansible</a></b> (🥈33 ·  ⭐ 51K) - A radically simple IT automation platform. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/ansible/ansible">ansible</a></b> (🥈33 ·  ⭐ 51K) - 一个非常简单的 IT 自动化平台。<code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/ansible/ansible) (👨‍💻 6.5K · 🔀 21K · 📦 19K · 📋 30K - 3% open · ⏱️ 22.12.2021):
 
@@ -3212,7 +3212,7 @@ _Software and libraries for DevOps._
 	conda install -c conda-forge ansible
 	```
 </details>
-<details><summary><b><a href="https://github.com/saltstack/salt">saltstack</a></b> (🥈30 ·  ⭐ 12K) - Infrastructure automation and management system. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/saltstack/salt">saltstack</a></b> (🥈30 ·  ⭐ 12K) - 基础设施自动化和管理系统。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/saltstack/salt) (👨‍💻 3.7K · 🔀 5K · 📥 16K · 📋 24K - 9% open · ⏱️ 22.12.2021):
 
@@ -3228,7 +3228,7 @@ _Software and libraries for DevOps._
 	conda install -c conda-forge salt
 	```
 </details>
-<details><summary><b><a href="https://github.com/Supervisor/supervisor">supervisor</a></b> (🥈29 ·  ⭐ 7.1K) - Supervisor process control system for UNIX. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/Supervisor/supervisor">supervisor</a></b> (🥈29 ·  ⭐ 7.1K) - UNIX 的进程控制系统。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/Supervisor/supervisor) (👨‍💻 160 · 🔀 1.1K · 📦 6.6K · 📋 1K - 10% open · ⏱️ 21.12.2021):
 
@@ -3244,7 +3244,7 @@ _Software and libraries for DevOps._
 	conda install -c conda-forge supervisor
 	```
 </details>
-<details><summary><b><a href="https://github.com/nickstenning/honcho">honcho</a></b> (🥉26 ·  ⭐ 1.4K) - A Python clone of [Foreman](https://github.com/ddollar/foreman), for.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/nickstenning/honcho">honcho</a></b> (🥉26 ·  ⭐ 1.4K) - <a href="https://github.com/ddollar/foreman">Foreman</a> 的 Python 克隆版，用于管理基于 Procfile 的应用。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/nickstenning/honcho) (👨‍💻 44 · 🔀 130 · 📦 3.2K · 📋 99 - 11% open · ⏱️ 31.10.2021):
 
@@ -3260,7 +3260,7 @@ _Software and libraries for DevOps._
 	conda install -c conda-forge honcho
 	```
 </details>
-<details><summary><b><a href="https://github.com/fabric/fabric">fabric</a></b> (🥉25 ·  ⭐ 13K) - A simple, Pythonic tool for remote execution and deployment. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/fabric/fabric">fabric</a></b> (🥉25 ·  ⭐ 13K) - 一个简单的，Python 风格的工具，用来进行远程执行和部署。<code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
 - [GitHub](https://github.com/fabric/fabric) (👨‍💻 18 · 🔀 1.7K · 📋 1.7K - 23% open · ⏱️ 15.10.2021):
 
@@ -3276,7 +3276,7 @@ _Software and libraries for DevOps._
 	conda install -c conda-forge fabric
 	```
 </details>
-<details><summary><b><a href="https://github.com/fabtools/fabtools">fabtools</a></b> (🥉22 ·  ⭐ 1.2K · 💀) - Tools for writing awesome Fabric files. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/fabtools/fabtools">fabtools</a></b> (🥉22 ·  ⭐ 1.2K · 💀) - 一个用来编写超赞的 Fabric 文件的工具。<code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
 - [GitHub](https://github.com/fabtools/fabtools) (👨‍💻 88 · 🔀 190 · 📦 280 · 📋 140 - 54% open · ⏱️ 16.09.2019):
 
@@ -3292,7 +3292,7 @@ _Software and libraries for DevOps._
 	conda install -c conda-forge fabtools
 	```
 </details>
-<details><summary><b><a href="https://github.com/Fizzadar/pyinfra">pyinfra</a></b> (🥉21 ·  ⭐ 1.4K) - A versatile CLI tools and python libraries to automate infrastructure. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/Fizzadar/pyinfra">pyinfra</a></b> (🥉21 ·  ⭐ 1.4K) - 一个通用的 CLI 工具包和 python 库，用于自动化的基础设施。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/Fizzadar/pyinfra) (👨‍💻 60 · 🔀 260 · 📦 37 · 📋 510 - 17% open · ⏱️ 19.12.2021):
 
@@ -3308,7 +3308,7 @@ _Software and libraries for DevOps._
 	conda install -c conda-forge pyinfra
 	```
 </details>
-<details><summary><b><a href="https://github.com/sebastien/cuisine">cuisine</a></b> (🥉20 ·  ⭐ 1.2K · 💀) - Chef-like functionality for Fabric. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/sebastien/cuisine">cuisine</a></b> (🥉20 ·  ⭐ 1.2K · 💀) - 为 Fabric 提供一系列高级函数。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/sebastien/cuisine) (👨‍💻 57 · 🔀 160 · 📦 140 · 📋 100 - 23% open · ⏱️ 27.02.2018):
 
@@ -3326,15 +3326,15 @@ _Software and libraries for DevOps._
 </details>
 <br>
 
-## Distributed Computing
+## 分布式计算
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Frameworks and libraries for Distributed Computing._
+_分布式计算相关的框架和库。_
 
-🔗&nbsp;<b><a href="https://pypi.org/project/pyspark/">PySpark</a></b>  - [Apache Spark](https://spark.apache.org/) Python API.
+🔗&nbsp;<b><a href="https://pypi.org/project/pyspark/">PySpark</a></b>  - Spark 的 Python API 。
 
-<details><summary><b><a href="https://github.com/spotify/luigi">luigi</a></b> (🥇33 ·  ⭐ 15K) - A module that helps you build complex pipelines of batch jobs. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/spotify/luigi">luigi</a></b> (🥇33 ·  ⭐ 15K) - 这个模块帮你构建批处理作业的复杂流水线。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/spotify/luigi) (👨‍💻 570 · 🔀 2.2K · 📦 1.6K · 📋 920 - 7% open · ⏱️ 27.11.2021):
 
@@ -3350,7 +3350,7 @@ _Frameworks and libraries for Distributed Computing._
 	conda install -c conda-forge luigi
 	```
 </details>
-<details><summary><b><a href="https://github.com/dask/dask">dask</a></b> (🥈32 ·  ⭐ 9.3K) - A flexible parallel computing library for analytic computing. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/dask/dask">dask</a></b> (🥈32 ·  ⭐ 9.3K) - 用于分析计算的灵活的并行计算库。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/dask/dask) (👨‍💻 490 · 🔀 1.4K · 📦 32K · 📋 4K - 16% open · ⏱️ 22.12.2021):
 
@@ -3366,7 +3366,7 @@ _Frameworks and libraries for Distributed Computing._
 	conda install -c conda-forge dask
 	```
 </details>
-<details><summary><b><a href="https://github.com/Yelp/mrjob">mrjob</a></b> (🥈27 ·  ⭐ 2.6K · 💀) - Run MapReduce jobs on Hadoop or Amazon Web Services. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/Yelp/mrjob">mrjob</a></b> (🥈27 ·  ⭐ 2.6K · 💀) - 在 Hadoop 或 Amazon Web Services 上运行 MapReduce 任务。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/Yelp/mrjob) (👨‍💻 140 · 🔀 570 · 📦 900 · 📋 1.3K - 15% open · ⏱️ 16.11.2020):
 
@@ -3382,7 +3382,7 @@ _Frameworks and libraries for Distributed Computing._
 	conda install -c conda-forge mrjob
 	```
 </details>
-<details><summary><b><a href="https://github.com/ray-project/ray">Ray</a></b> (🥉26 ·  ⭐ 19K) - A system for parallel and distributed Python that unifies the machine.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/ray-project/ray">Ray</a></b> (🥉26 ·  ⭐ 19K) - 一个用于并行和分布式 Python 的系统，它统一了机器学习生态系统。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/ray-project/ray) (🔀 3.1K · 📦 3.6K · 📋 8.7K - 21% open · ⏱️ 23.12.2021):
 
@@ -3394,7 +3394,7 @@ _Frameworks and libraries for Distributed Computing._
 	conda install -c conda-forge 
 	```
 </details>
-<details><summary><b><a href="https://github.com/robinhood/faust">faust</a></b> (🥉26 ·  ⭐ 5.9K · 💀) - A stream processing library, porting the ideas from [Kafka.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/robinhood/faust">faust</a></b> (🥉26 ·  ⭐ 5.9K · 💀) - 一个 Python 流处理库，核心思想来源 <a href="https://kafka.apache.org/documentation/streams/">Kafka Streams</a>。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/robinhood/faust) (👨‍💻 93 · 🔀 490 · 📦 900 · 📋 460 - 48% open · ⏱️ 09.10.2020):
 
@@ -3410,7 +3410,7 @@ _Frameworks and libraries for Distributed Computing._
 	conda install -c conda-forge faust
 	```
 </details>
-<details><summary><b><a href="https://github.com/Parsely/streamparse">streamparse</a></b> (🥉21 ·  ⭐ 1.4K · 💤) - Run Python code against real-time streams of data via.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/Parsely/streamparse">streamparse</a></b> (🥉21 ·  ⭐ 1.4K · 💤) - 运行针对事实数据流的 Python 代码。集成了 <a href="http://storm.apache.org/">Apache Storm</a>。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/Parsely/streamparse) (👨‍💻 41 · 🔀 210 · 📦 52 · 📋 320 - 19% open · ⏱️ 18.12.2020):
 
@@ -3428,21 +3428,21 @@ _Frameworks and libraries for Distributed Computing._
 </details>
 <br>
 
-## Distribution
+## 分发
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries to create packaged executables for release distribution._
+_打包为可执行文件以便分发。_
 
-🔗&nbsp;<b><a href="http://nuitka.net/">Nuitka</a></b>  - Compile scripts, modules, packages to an executable or extension module.
+🔗&nbsp;<b><a href="http://nuitka.net/">Nuitka</a></b>  - 将脚本、模块、包编译成可执行文件或扩展模块。
 
-🔗&nbsp;<b><a href="http://pythonhosted.org/py2app/">py2app</a></b>  - Freezes Python scripts (Mac OS X).
+🔗&nbsp;<b><a href="http://pythonhosted.org/py2app/">py2app</a></b>  - 将 Python 脚本变为独立软件包（Mac OS X）。
 
-🔗&nbsp;<b><a href="http://www.py2exe.org/">py2exe</a></b>  - Freezes Python scripts (Windows).
+🔗&nbsp;<b><a href="http://www.py2exe.org/">py2exe</a></b>  - 将 Python 脚本变为独立软件包（Windows）。
 
-🔗&nbsp;<b><a href="http://pynsist.readthedocs.io/en/latest/">pynsist</a></b>  - A tool to build Windows installers, installers bundle Python itself.
+🔗&nbsp;<b><a href="http://pynsist.readthedocs.io/en/latest/">pynsist</a></b>  - 一个用来创建 Windows 安装程序的工具，可以在安装程序中打包 Python 本身。
 
-<details><summary><b><a href="https://github.com/pyinstaller/pyinstaller">PyInstaller</a></b> (🥇26 ·  ⭐ 8.7K) - Converts Python programs into stand-alone executables.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/pyinstaller/pyinstaller">PyInstaller</a></b> (🥇26 ·  ⭐ 8.7K) - 将 Python 程序转换成独立的执行文件（跨平台）。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/pyinstaller/pyinstaller) (👨‍💻 420 · 🔀 1.6K · 📥 720K · 📋 4.4K - 6% open · ⏱️ 21.12.2021):
 
@@ -3458,7 +3458,7 @@ _Libraries to create packaged executables for release distribution._
 	conda install -c conda-forge pyinstaller
 	```
 </details>
-<details><summary><b><a href="https://github.com/dashingsoft/pyarmor">pyarmor</a></b> (🥇26 ·  ⭐ 1.3K) - A tool used to obfuscate python scripts, bind obfuscated scripts.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/dashingsoft/pyarmor">pyarmor</a></b> (🥇26 ·  ⭐ 1.3K) - 一个用于加密 python 脚本的工具，也可以将加密后的脚本绑定到固件上，或设置已加密脚本的有效期。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/dashingsoft/pyarmor) (👨‍💻 17 · 🔀 150 · 📥 18 · 📦 330 · 📋 630 - 1% open · ⏱️ 19.12.2021):
 
@@ -3474,7 +3474,7 @@ _Libraries to create packaged executables for release distribution._
 	conda install -c conda-forge pyarmor
 	```
 </details>
-<details><summary><b><a href="https://github.com/linkedin/shiv">shiv</a></b> (🥉19 ·  ⭐ 1.3K) - A command line utility for building fully self-contained zipapps (PEP 441),.. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/linkedin/shiv">shiv</a></b> (🥉19 ·  ⭐ 1.3K) - 一个命令行工具，可用于构建完全独立的 zip 应用（PEP 441 所描述的那种），同时包含了所有的依赖项。<code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
 - [GitHub](https://github.com/linkedin/shiv) (👨‍💻 34 · 🔀 72 · 📥 160 · 📋 93 - 24% open · ⏱️ 18.11.2021):
 
@@ -3490,7 +3490,7 @@ _Libraries to create packaged executables for release distribution._
 	conda install -c conda-forge shiv
 	```
 </details>
-<details><summary><b><a href="https://github.com/spotify/dh-virtualenv">dh-virtualenv</a></b> (🥉15 ·  ⭐ 1.5K) - Build and distribute a virtualenv as a Debian package. <code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
+<details><summary><b><a href="https://github.com/spotify/dh-virtualenv">dh-virtualenv</a></b> (🥉15 ·  ⭐ 1.5K) - 构建并将 virtualenv 虚拟环境作为一个 Debian 包来发布。<code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
 
 - [GitHub](https://github.com/spotify/dh-virtualenv) (👨‍💻 58 · 🔀 160 · 📋 190 - 12% open · ⏱️ 10.11.2021):
 
@@ -3508,15 +3508,15 @@ _Libraries to create packaged executables for release distribution._
 </details>
 <br>
 
-## Documentation
+## 文档
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for generating project documentation._
+_用以生成项目文档的库。_
 
 🔗&nbsp;<b><a href="https://github.com/yoloseem/awesome-sphinxdoc">awesome-sphinxdoc</a></b> ( ⭐ 780 · 💤)  - A curated list of awesome tools for Sphinx Python Documentation..
 
-<details><summary><b><a href="https://github.com/sphinx-doc/sphinx">sphinx</a></b> (🥇26 ·  ⭐ 4.3K) - Python Documentation generator. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/sphinx-doc/sphinx">sphinx</a></b> (🥇26 ·  ⭐ 4.3K) - Python 文档生成器。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/sphinx-doc/sphinx) (🔀 1.5K · 📦 170K · 📋 5.7K - 15% open · ⏱️ 22.12.2021):
 
@@ -3528,7 +3528,7 @@ _Libraries for generating project documentation._
 	conda install -c conda-forge 
 	```
 </details>
-<details><summary><b><a href="https://github.com/mitmproxy/pdoc">pdoc</a></b> (🥉22 ·  ⭐ 1.1K) - Epydoc replacement to auto generate API documentation for Python.. <code><a href="http://bit.ly/3rvuUlR">Unlicense</a></code></summary>
+<details><summary><b><a href="https://github.com/mitmproxy/pdoc">pdoc</a></b> (🥉22 ·  ⭐ 1.1K) - 一个可以替换 Epydoc 的库，可以自动生成 Python 库的 API 文档。<code><a href="http://bit.ly/3rvuUlR">Unlicense</a></code></summary>
 
 - [GitHub](https://github.com/mitmproxy/pdoc) (👨‍💻 32 · 🔀 110 · 📦 470 · 📋 200 - 4% open · ⏱️ 23.12.2021):
 
@@ -3544,7 +3544,7 @@ _Libraries for generating project documentation._
 	conda install -c conda-forge pdoc
 	```
 </details>
-<details><summary><b><a href="https://github.com/pycco-docs/pycco">pycco</a></b> (🥉20 ·  ⭐ 760 · 💀) - The literate-programming-style documentation generator. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/pycco-docs/pycco">pycco</a></b> (🥉20 ·  ⭐ 760 · 💀) - 文学编程（literate-programming）风格的文档生成器。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/pycco-docs/pycco) (👨‍💻 36 · 🔀 130 · 📦 240 · 📋 57 - 50% open · ⏱️ 20.12.2019):
 
@@ -3562,17 +3562,17 @@ _Libraries for generating project documentation._
 </details>
 <br>
 
-## Downloader
+## 下载器
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for downloading._
+_用来进行下载的库._
 
-🔗&nbsp;<b><a href="https://you-get.org/">you-get</a></b>  - A YouTube/Youku/Niconico video downloader written in Python 3.
+🔗&nbsp;<b><a href="https://you-get.org/">you-get</a></b>  - 一个 YouTube/Youku/Niconico 视频下载器，使用 Python3 编写。
 
-🔗&nbsp;<b><a href="https://rg3.github.io/youtube-dl/">youtube-dl</a></b>  - A small command-line program to download videos from YouTube.
+🔗&nbsp;<b><a href="https://rg3.github.io/youtube-dl/">youtube-dl</a></b>  - 一个小巧的命令行程序，用来下载 YouTube 视频。
 
-<details><summary><b><a href="https://github.com/akfamily/akshare">akshare</a></b> (🥇27 ·  ⭐ 4.4K · 📈) - A financial data interface library, built for human beings!. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/akfamily/akshare">akshare</a></b> (🥇27 ·  ⭐ 4.4K · 📈) - 为方便人使用而创建的金融数据接口库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/akfamily/akshare) (👨‍💻 21 · 🔀 920 · 📦 120 · ⏱️ 23.12.2021):
 
@@ -3588,7 +3588,7 @@ _Libraries for downloading._
 	conda install -c conda-forge akshare
 	```
 </details>
-<details><summary><b><a href="https://github.com/s3tools/s3cmd">s3cmd</a></b> (🥉26 ·  ⭐ 3.8K) - A command line tool for managing Amazon S3 and CloudFront. <code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
+<details><summary><b><a href="https://github.com/s3tools/s3cmd">s3cmd</a></b> (🥉26 ·  ⭐ 3.8K) - 一个用来管理 Amazon S3 和 CloudFront 的命令行工具。<code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
 
 - [GitHub](https://github.com/s3tools/s3cmd) (👨‍💻 200 · 🔀 790 · 📥 3M · 📋 790 - 29% open · ⏱️ 08.11.2021):
 
@@ -3604,7 +3604,7 @@ _Libraries for downloading._
 	conda install -c conda-forge s3cmd
 	```
 </details>
-<details><summary><b><a href="https://github.com/bloomreach/s4cmd">s4cmd</a></b> (🥉21 ·  ⭐ 1.2K) - Super S3 command line tool, good for higher performance. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/bloomreach/s4cmd">s4cmd</a></b> (🥉21 ·  ⭐ 1.2K) - 超级 S3 命令行工具，性能更加强劲。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/bloomreach/s4cmd) (👨‍💻 34 · 🔀 190 · 📦 26 · 📋 130 - 59% open · ⏱️ 09.07.2021):
 
@@ -3622,19 +3622,19 @@ _Libraries for downloading._
 </details>
 <br>
 
-## E-commerce
+## 电子商务
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Frameworks and libraries for e-commerce and payments._
+_用于电子商务以及支付的框架和库。_
 
-🔗&nbsp;<b><a href="http://oscarcommerce.com/">django-oscar</a></b>  - An open-source e-commerce framework for Django.
+🔗&nbsp;<b><a href="http://oscarcommerce.com/">django-oscar</a></b>  - 一个用于 Django 的开源的电子商务框架。
 
-🔗&nbsp;<b><a href="http://getsaleor.com/">saleor</a></b>  - An e-commerce storefront for Django.
+🔗&nbsp;<b><a href="http://getsaleor.com/">saleor</a></b>  - 一款兼容 Django 的电子商务平台。
 
-🔗&nbsp;<b><a href="https://www.shuup.com/en/">shoop</a></b>  - An open source E-Commerce platform based on Django.
+🔗&nbsp;<b><a href="https://www.shuup.com/en/">shoop</a></b>  - 一个基于 Django 的开源电子商务平台。
 
-<details><summary><b><a href="https://github.com/MicroPyramid/forex-python">forex-python</a></b> (🥇25 ·  ⭐ 450) - Foreign exchange rates, Bitcoin price index and currency conversion. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/MicroPyramid/forex-python">forex-python</a></b> (🥇25 ·  ⭐ 450) - 外汇汇率，比特币价格指数和货币换算。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/MicroPyramid/forex-python) (👨‍💻 24 · 🔀 140 · 📦 1K · 📋 57 - 24% open · ⏱️ 03.12.2021):
 
@@ -3650,7 +3650,7 @@ _Frameworks and libraries for e-commerce and payments._
 	conda install -c conda-forge forex-python
 	```
 </details>
-<details><summary><b><a href="https://github.com/awesto/django-shop">django-shop</a></b> (🥈24 ·  ⭐ 2.7K · 💤) - A Django based shop system. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/awesto/django-shop">django-shop</a></b> (🥈24 ·  ⭐ 2.7K · 💤) - 一个基于 Django 的店铺系统。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/awesto/django-shop) (👨‍💻 96 · 🔀 900 · 📦 200 · 📋 370 - 21% open · ⏱️ 28.02.2021):
 
@@ -3666,7 +3666,7 @@ _Frameworks and libraries for e-commerce and payments._
 	conda install -c conda-forge django-shop
 	```
 </details>
-<details><summary><b><a href="https://github.com/stephenmcd/cartridge">Cartridge</a></b> (🥈21 ·  ⭐ 640) - A shopping cart app built using the Mezzanine. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/stephenmcd/cartridge">Cartridge</a></b> (🥈21 ·  ⭐ 640) - 一个基于 Mezzanine 构建的购物车应用。<code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
 - [GitHub](https://github.com/stephenmcd/cartridge) (👨‍💻 74 · 🔀 280 · 📦 180 · 📋 150 - 15% open · ⏱️ 04.10.2021):
 
@@ -3682,7 +3682,7 @@ _Frameworks and libraries for e-commerce and payments._
 	conda install -c conda-forge cartridge
 	```
 </details>
-<details><summary><b><a href="https://github.com/carlospalol/money">money</a></b> (🥉20 ·  ⭐ 200 · 💀) - `Money` class with optional CLDR-backed locale-aware formatting and an.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/carlospalol/money">money</a></b> (🥉20 ·  ⭐ 200 · 💀) - 一个货币类库。带有可选的 CLDR 后端本地化格式，提供可扩展的货币兑换解决方案。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/carlospalol/money) (👨‍💻 4 · 🔀 25 · 📦 220 · 📋 23 - 30% open · ⏱️ 04.09.2016):
 
@@ -3698,7 +3698,7 @@ _Frameworks and libraries for e-commerce and payments._
 	conda install -c conda-forge money
 	```
 </details>
-<details><summary><b><a href="https://github.com/agiliq/merchant">merchant</a></b> (🥉18 ·  ⭐ 980 · 💀) - A Django app to accept payments from various payment processors. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/agiliq/merchant">merchant</a></b> (🥉18 ·  ⭐ 980 · 💀) - 一个可以接收来自多种支付平台支付的 Django 应用。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/agiliq/merchant) (👨‍💻 49 · 🔀 170 · 📦 20 · 📋 63 - 36% open · ⏱️ 08.07.2015):
 
@@ -3714,7 +3714,7 @@ _Frameworks and libraries for e-commerce and payments._
 	conda install -c conda-forge merchant
 	```
 </details>
-<details><summary><b><a href="https://github.com/lxneng/alipay">alipay</a></b> (🥉14 ·  ⭐ 320 · 💀) - Unofficial Alipay API for Python. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/lxneng/alipay">alipay</a></b> (🥉14 ·  ⭐ 320 · 💀) - 非官方的 Python 支付宝 API。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/lxneng/alipay) (👨‍💻 13 · 🔀 93 · 📦 98 · 📋 14 - 14% open · ⏱️ 22.11.2017):
 
@@ -3730,7 +3730,7 @@ _Frameworks and libraries for e-commerce and payments._
 	conda install -c conda-forge alipay
 	```
 </details>
-<details><summary><b><a href="https://github.com/Alir3z4/python-currencies">python-currencies</a></b> (🥉12 ·  ⭐ 57 · 💤) - Display money format and its filthy currencies. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/Alir3z4/python-currencies">python-currencies</a></b> (🥉12 ·  ⭐ 57 · 💤) - 显示货币格式以及它的数值。<code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/Alir3z4/python-currencies) (👨‍💻 5 · 🔀 12 · 📥 6 · 📦 25 · 📋 5 - 40% open · ⏱️ 22.12.2020):
 
@@ -3748,17 +3748,17 @@ _Frameworks and libraries for e-commerce and payments._
 </details>
 <br>
 
-## Editor Plugins and IDEs
+##  Emacs [elpy](https://github.com/jorgenschaefer/elpy)：Emacs Python 开发环境。
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Editor Plugins and IDEs_
+_ Emacs [elpy](https://github.com/jorgenschaefer/elpy)：Emacs Python 开发环境。_
 
-🔗&nbsp;<b><a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Python</a></b>  - The official VSCode extension with rich support for Python.
+🔗&nbsp;<b><a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Python</a></b>  - 对 Python 有丰富支持的官方 VSCode 扩展。
 
-🔗&nbsp;<b><a href="https://www.jetbrains.com/pycharm/">PyCharm</a></b>  - Commercial Python IDE by JetBrains. Has free community edition available.
+🔗&nbsp;<b><a href="https://www.jetbrains.com/pycharm/">PyCharm</a></b>  - JetBrains 提供的商业 Python IDE，也有免费的社区版。
 
-<details><summary><b><a href="https://github.com/spyder-ide/spyder">spyder</a></b> (🥇34 ·  ⭐ 6.7K) - Open Source Python IDE. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/spyder-ide/spyder">spyder</a></b> (🥇34 ·  ⭐ 6.7K) -  开源 Python IDE。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/spyder-ide/spyder) (👨‍💻 230 · 🔀 1.3K · 📥 1.2M · 📦 21K · 📋 14K - 8% open · ⏱️ 22.12.2021):
 
@@ -3790,7 +3790,7 @@ _Editor Plugins and IDEs_
 	conda install -c conda-forge elpy
 	```
 </details>
-<details><summary><b><a href="https://github.com/DamnWidget/anaconda">anaconda</a></b> (🥈21 ·  ⭐ 2.1K) - Anaconda turns your Sublime Text 3 in a full featured Python.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/DamnWidget/anaconda">anaconda</a></b> (🥈21 ·  ⭐ 2.1K) - Anaconda 可将功能齐全的 Python 开发 IDE 转换为 Sublime Text 3。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/DamnWidget/anaconda) (👨‍💻 89 · 🔀 250 · 📋 770 - 21% open · ⏱️ 28.11.2021):
 
@@ -3806,7 +3806,7 @@ _Editor Plugins and IDEs_
 	conda install -c conda-forge anaconda
 	```
 </details>
-<details><summary><b><a href="https://github.com/ycm-core/YouCompleteMe">YouCompleteMe</a></b> (🥉19 ·  ⭐ 24K) - Includes [Jedi](https://github.com/davidhalter/jedi)-based.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/ycm-core/YouCompleteMe">YouCompleteMe</a></b> (🥉19 ·  ⭐ 24K) - 包含 Jedi 补全的 Python 引擎。<code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/ycm-core/YouCompleteMe) (👨‍💻 170 · 🔀 2.6K · 📋 3.1K - 0% open · ⏱️ 13.12.2021):
 
@@ -3822,7 +3822,7 @@ _Editor Plugins and IDEs_
 	conda install -c conda-forge YouCompleteMe
 	```
 </details>
-<details><summary><b><a href="https://github.com/microsoft/PTVS">PTVS</a></b> (🥉18 ·  ⭐ 2.4K) - Python Tools for Visual Studio. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/microsoft/PTVS">PTVS</a></b> (🥉18 ·  ⭐ 2.4K) - Visual Studio Python 工具。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/microsoft/PTVS) (👨‍💻 73 · 🔀 650 · 📥 32K · 📋 4.1K - 2% open · ⏱️ 15.12.2021):
 
@@ -3838,7 +3838,7 @@ _Editor Plugins and IDEs_
 	conda install -c conda-forge PTVS
 	```
 </details>
-<details><summary><b><a href="https://github.com/davidhalter/jedi-vim">jedi-vim</a></b> (🥉16 ·  ⭐ 4.9K) - Vim bindings for the Jedi auto-completion library for Python. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/davidhalter/jedi-vim">jedi-vim</a></b> (🥉16 ·  ⭐ 4.9K) - 用于 Python 的 Jedi 自动补全库的 Vim 绑定。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/davidhalter/jedi-vim) (👨‍💻 93 · 🔀 360 · 📋 750 - 2% open · ⏱️ 17.11.2021):
 
@@ -3854,7 +3854,7 @@ _Editor Plugins and IDEs_
 	conda install -c conda-forge jedi-vim
 	```
 </details>
-<details><summary><b><a href="https://github.com/python-mode/python-mode">python-mode</a></b> (🥉15 ·  ⭐ 5.3K) - An all in one plugin for turning Vim into a Python IDE. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/python-mode/python-mode">python-mode</a></b> (🥉15 ·  ⭐ 5.3K) - 一个将Vim转换为Python IDE的多合一插件。<code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/python-mode/python-mode) (👨‍💻 130 · 🔀 770 · 📋 890 - 2% open · ⏱️ 14.11.2021):
 
@@ -3870,7 +3870,7 @@ _Editor Plugins and IDEs_
 	conda install -c conda-forge python-mode
 	```
 </details>
-<details><summary><b><a href="https://github.com/srusskih/SublimeJEDI">SublimeJEDI</a></b> (🥉15 ·  ⭐ 920 · 💤) - A Sublime Text plugin to the awesome auto-complete library Jedi. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/srusskih/SublimeJEDI">SublimeJEDI</a></b> (🥉15 ·  ⭐ 920 · 💤) - 一个很棒的自动补全库 Jedi 的Sublime Text 插件。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/srusskih/SublimeJEDI) (👨‍💻 46 · 🔀 110 · 📋 220 - 15% open · ⏱️ 23.02.2021):
 
@@ -3888,13 +3888,13 @@ _Editor Plugins and IDEs_
 </details>
 <br>
 
-## Email
+## 电子邮件
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for sending and parsing email._
+_用来发送和解析电子邮件的库。_
 
-<details><summary><b><a href="https://github.com/kootenpv/yagmail">yagmail</a></b> (🥇27 ·  ⭐ 2.2K) - Yet another Gmail/SMTP client. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/kootenpv/yagmail">yagmail</a></b> (🥇27 ·  ⭐ 2.2K) - yagmail是一个GMAIL / SMTP客户端，旨在使其尽可能简单地发送电子邮件。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/kootenpv/yagmail) (👨‍💻 27 · 🔀 240 · 📦 1.9K · 📋 180 - 43% open · ⏱️ 30.08.2021):
 
@@ -3910,7 +3910,7 @@ _Libraries for sending and parsing email._
 	conda install -c conda-forge yagmail
 	```
 </details>
-<details><summary><b><a href="https://github.com/mailgun/flanker">flanker</a></b> (🥈26 ·  ⭐ 1.5K · 💤) - An email address and Mime parsing library. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/mailgun/flanker">flanker</a></b> (🥈26 ·  ⭐ 1.5K · 💤) - 一个 email 地址和 Mime 解析库。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/mailgun/flanker) (👨‍💻 54 · 🔀 170 · 📦 210 · 📋 88 - 59% open · ⏱️ 29.03.2021):
 
@@ -3926,7 +3926,7 @@ _Libraries for sending and parsing email._
 	conda install -c conda-forge flanker
 	```
 </details>
-<details><summary><b><a href="https://github.com/modoboa/modoboa">modoboa</a></b> (🥈25 ·  ⭐ 2K) - A mail hosting and management platform including a modern Web UI. <code><a href="http://bit.ly/3hkKRql">ISC</a></code></summary>
+<details><summary><b><a href="https://github.com/modoboa/modoboa">modoboa</a></b> (🥈25 ·  ⭐ 2K) - 一个邮件托管和管理平台，具有现代的、简约的 Web UI。<code><a href="http://bit.ly/3hkKRql">ISC</a></code></summary>
 
 - [GitHub](https://github.com/modoboa/modoboa) (👨‍💻 100 · 🔀 280 · 📦 33 · 📋 1.6K - 4% open · ⏱️ 10.11.2021):
 
@@ -3942,7 +3942,7 @@ _Libraries for sending and parsing email._
 	conda install -c conda-forge modoboa
 	```
 </details>
-<details><summary><b><a href="https://github.com/martinrusev/imbox">imbox</a></b> (🥉24 ·  ⭐ 1K) - Python IMAP for Humans. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/martinrusev/imbox">imbox</a></b> (🥉24 ·  ⭐ 1K) - Python IMAP 库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/martinrusev/imbox) (👨‍💻 49 · 🔀 160 · 📦 120 · 📋 110 - 43% open · ⏱️ 06.12.2021):
 
@@ -3958,7 +3958,7 @@ _Libraries for sending and parsing email._
 	conda install -c conda-forge imbox
 	```
 </details>
-<details><summary><b><a href="https://github.com/marrow/mailer">mailer</a></b> (🥉18 ·  ⭐ 230 · 💤) - High-performance extensible mail delivery framework. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/marrow/mailer">mailer</a></b> (🥉18 ·  ⭐ 230 · 💤) - 一款高性能可扩展的邮件投递框架。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/marrow/mailer) (👨‍💻 20 · 🔀 51 · 📥 120 · 📋 72 - 36% open · ⏱️ 20.04.2021):
 
@@ -3974,7 +3974,7 @@ _Libraries for sending and parsing email._
 	conda install -c conda-forge mailer
 	```
 </details>
-<details><summary><b><a href="https://github.com/moggers87/salmon">salmon</a></b> (🥉14 ·  ⭐ 520) - A Python Mail Server. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/moggers87/salmon">salmon</a></b> (🥉14 ·  ⭐ 520) - 一个 Python 邮件服务器。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/moggers87/salmon) (👨‍💻 15 · 🔀 51 · 📥 50 · 📦 15 · 📋 90 - 18% open · ⏱️ 05.10.2021):
 
@@ -3992,23 +3992,23 @@ _Libraries for sending and parsing email._
 </details>
 <br>
 
-## Enterprise Application Integrations
+## 企业级应用集成
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Platforms and tools for systems integrations in enterprise environments_
+_企业级环境中用于集成的平台与工具。_
 
-🔗&nbsp;<b><a href="https://zato.io">Zato</a></b>  - ESB, SOA, REST, APIs and Cloud Integrations in Python.
+🔗&nbsp;<b><a href="https://zato.io">Zato</a></b>  - ESB, SOA, REST, APIs 以及云的 Python 整合。
 
 <br>
 
-## Environment Management
+## 环境管理
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for Python version and virtual environment management._
+_管理 Python 版本和环境的工具_
 
-<details><summary><b><a href="https://github.com/pyenv/pyenv">pyenv</a></b> (🥇26 ·  ⭐ 26K) - Simple Python version management. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/pyenv/pyenv">pyenv</a></b> (🥇26 ·  ⭐ 26K) - 简单的 Python 版本管理工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/pyenv/pyenv) (👨‍💻 350 · 🔀 2.2K · 📋 1.4K - 2% open · ⏱️ 22.12.2021):
 
@@ -4024,7 +4024,7 @@ _Libraries for Python version and virtual environment management._
 	conda install -c conda-forge pyenv
 	```
 </details>
-<details><summary><b><a href="https://github.com/pypa/virtualenv">virtualenv</a></b> (🥉24 ·  ⭐ 4K) - A tool to create isolated Python environments. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/pypa/virtualenv">virtualenv</a></b> (🥉24 ·  ⭐ 4K) - 创建独立 Python 环境的工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/pypa/virtualenv) (👨‍💻 62 · 🔀 860 · 📋 1.2K - 5% open · ⏱️ 04.12.2021):
 
@@ -4042,17 +4042,17 @@ _Libraries for Python version and virtual environment management._
 </details>
 <br>
 
-## Files
+## 文件
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for file manipulation and MIME type detection._
+_文件管理和 MIME（多用途的网际邮件扩充协议）类型检测。_
 
-🔗&nbsp;<b><a href="https://docs.python.org/3/library/mimetypes.html">mimetypes</a></b>  - (Python standard library) Map filenames to MIME types.
+🔗&nbsp;<b><a href="https://docs.python.org/3/library/mimetypes.html">mimetypes</a></b>  - （Python 标准库）将文件名映射为 MIME 类型。
 
-🔗&nbsp;<b><a href="https://docs.python.org/3/library/pathlib.html">pathlib</a></b>  - (Python standard library) An cross-platform, object-oriented path library.
+🔗&nbsp;<b><a href="https://docs.python.org/3/library/pathlib.html">pathlib</a></b>  - （Python 标准库）将文件名映射为 MIME 类型。
 
-<details><summary><b><a href="https://github.com/gorakhargosh/watchdog">watchdog</a></b> (🥇29 ·  ⭐ 5.1K) - API and shell utilities to monitor file system events. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/gorakhargosh/watchdog">watchdog</a></b> (🥇29 ·  ⭐ 5.1K) - 管理文件系统事件的 API 和 shell 工具。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/gorakhargosh/watchdog) (👨‍💻 120 · 🔀 590 · 📦 45K · 📋 550 - 27% open · ⏱️ 15.12.2021):
 
@@ -4068,7 +4068,7 @@ _Libraries for file manipulation and MIME type detection._
 	conda install -c conda-forge watchdog
 	```
 </details>
-<details><summary><b><a href="https://github.com/ahupp/python-magic">python-magic</a></b> (🥇29 ·  ⭐ 2K) - A Python interface to the libmagic file type identification.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/ahupp/python-magic">python-magic</a></b> (🥇29 ·  ⭐ 2K) - 文件类型检测的第三方库 libmagic 的 Python 接口。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/ahupp/python-magic) (👨‍💻 53 · 🔀 220 · 📦 21K · 📋 160 - 14% open · ⏱️ 23.10.2021):
 
@@ -4084,7 +4084,7 @@ _Libraries for file manipulation and MIME type detection._
 	conda install -c conda-forge python-magic
 	```
 </details>
-<details><summary><b><a href="https://github.com/mikeorr/Unipath">Unipath</a></b> (🥉20 ·  ⭐ 500 · 💀) - An object-oriented approach to file/directory operations. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/mikeorr/Unipath">Unipath</a></b> (🥉20 ·  ⭐ 500 · 💀) - 用面向对象的方式操作文件和目录。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/mikeorr/Unipath) (👨‍💻 6 · 🔀 37 · 📦 6.4K · 📋 17 - 41% open · ⏱️ 14.02.2015):
 
@@ -4100,7 +4100,7 @@ _Libraries for file manipulation and MIME type detection._
 	conda install -c conda-forge Unipath
 	```
 </details>
-<details><summary><b><a href="https://github.com/PyFilesystem/pyfilesystem2">PyFilesystem2</a></b> (🥉19 ·  ⭐ 1.6K) - Python's filesystem abstraction layer. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/PyFilesystem/pyfilesystem2">PyFilesystem2</a></b> (🥉19 ·  ⭐ 1.6K) - Python 的文件系统抽象层。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/PyFilesystem/pyfilesystem2) (👨‍💻 43 · 🔀 150 · 📋 310 - 18% open · ⏱️ 13.12.2021):
 
@@ -4134,29 +4134,29 @@ _Libraries for file manipulation and MIME type detection._
 </details>
 <br>
 
-## Foreign Function Interface
+## 外来函数接口
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for providing foreign function interface._
+_使用外来函数接口的库。_
 
-🔗&nbsp;<b><a href="https://pypi.org/project/cffi/">cffi</a></b>  - Foreign Function Interface for Python calling C code.
+🔗&nbsp;<b><a href="https://pypi.org/project/cffi/">cffi</a></b>  - 用来调用 C 代码的外来函数接口。
 
-🔗&nbsp;<b><a href="https://docs.python.org/3/library/ctypes.html">ctypes</a></b>  - (Python standard library) Foreign Function Interface for Python calling C code.
+🔗&nbsp;<b><a href="https://docs.python.org/3/library/ctypes.html">ctypes</a></b>  - （Python 标准库）将文件名映射为 MIME 类型。
 
-🔗&nbsp;<b><a href="https://mathema.tician.de/software/pycuda/">PyCUDA</a></b>  - A Python wrapper for Nvidia's CUDA API.
+🔗&nbsp;<b><a href="https://mathema.tician.de/software/pycuda/">PyCUDA</a></b>  - Nvidia CUDA API 的封装。
 
-🔗&nbsp;<b><a href="http://www.swig.org/Doc1.3/Python.html">SWIG</a></b>  - Simplified Wrapper and Interface Generator.
+🔗&nbsp;<b><a href="http://www.swig.org/Doc1.3/Python.html">SWIG</a></b>  - 简化的封装和接口生成器。
 
 <br>
 
-## Forms
+## 表单
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for working with forms._
+_进行表单操作的库。_
 
-<details><summary><b><a href="https://github.com/django-crispy-forms/django-crispy-forms">django-crispy-forms</a></b> (🥇32 ·  ⭐ 4.4K) - A Django app which lets you create beautiful forms in a.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/django-crispy-forms/django-crispy-forms">django-crispy-forms</a></b> (🥇32 ·  ⭐ 4.4K) - 一个 Django 应用，他可以让你以一种非常优雅且 DRY（Don't repeat yourself） 的方式来创建美观的表单。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/django-crispy-forms/django-crispy-forms) (👨‍💻 220 · 🔀 660 · 📦 79K · 📋 630 - 9% open · ⏱️ 02.11.2021):
 
@@ -4172,7 +4172,7 @@ _Libraries for working with forms._
 	conda install -c conda-forge django-crispy-forms
 	```
 </details>
-<details><summary><b><a href="https://github.com/wtforms/wtforms">WTForms</a></b> (🥈31 ·  ⭐ 1.3K) - A flexible forms validation and rendering library. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/wtforms/wtforms">WTForms</a></b> (🥈31 ·  ⭐ 1.3K) - 一个灵活的表单验证和呈现库。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/wtforms/wtforms) (👨‍💻 130 · 🔀 350 · 📦 110K · 📋 380 - 10% open · ⏱️ 23.12.2021):
 
@@ -4188,7 +4188,7 @@ _Libraries for working with forms._
 	conda install -c conda-forge wtforms
 	```
 </details>
-<details><summary><b><a href="https://github.com/zostera/django-bootstrap3">django-bootstrap3</a></b> (🥈26 ·  ⭐ 2.3K) - Bootstrap 3 integration with Django. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/zostera/django-bootstrap3">django-bootstrap3</a></b> (🥈26 ·  ⭐ 2.3K) - 集成了 Bootstrap 3 的 Django。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/zostera/django-bootstrap3) (👨‍💻 98 · 🔀 680 · 📦 16K · 📋 290 - 2% open · ⏱️ 23.12.2021):
 
@@ -4204,7 +4204,7 @@ _Libraries for working with forms._
 	conda install -c conda-forge django-bootstrap3
 	```
 </details>
-<details><summary><b><a href="https://github.com/zostera/django-bootstrap4">django-bootstrap4</a></b> (🥉24 ·  ⭐ 940) - Bootstrap 4 integration with Django. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/zostera/django-bootstrap4">django-bootstrap4</a></b> (🥉24 ·  ⭐ 940) - 集成了 Bootstrap 4 的 Django。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/zostera/django-bootstrap4) (👨‍💻 140 · 🔀 210 · 📦 54K · 📋 150 - 12% open · ⏱️ 12.12.2021):
 
@@ -4220,7 +4220,7 @@ _Libraries for working with forms._
 	conda install -c conda-forge django-bootstrap4
 	```
 </details>
-<details><summary><b><a href="https://github.com/Pylons/deform">Deform</a></b> (🥉17 ·  ⭐ 370) - Python HTML form generation library influenced by the formish form.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/Pylons/deform">Deform</a></b> (🥉17 ·  ⭐ 370) - Python HTML 表单生成库，受到了 formish 表单生成库的启发。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/Pylons/deform) (👨‍💻 100 · 🔀 150 · 📦 700 · 📋 180 - 24% open · ⏱️ 23.10.2021):
 
@@ -4236,7 +4236,7 @@ _Libraries for working with forms._
 	conda install -c conda-forge deform
 	```
 </details>
-<details><summary><b><a href="https://github.com/WiserTogether/django-remote-forms">django-remote-forms</a></b> (🥉14 ·  ⭐ 210 · 💀) - A platform independent Django form serializer. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/WiserTogether/django-remote-forms">django-remote-forms</a></b> (🥉14 ·  ⭐ 210 · 💀) - 一个平台独立的 Django 表单序列化工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/WiserTogether/django-remote-forms) (👨‍💻 9 · 🔀 83 · 📦 18 · 📋 16 - 75% open · ⏱️ 12.07.2017):
 
@@ -4254,13 +4254,13 @@ _Libraries for working with forms._
 </details>
 <br>
 
-## Functional Programming
+## 函数式编程
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Functional Programming with Python._
+_使用 Python 进行函数式编程。_
 
-<details><summary><b><a href="https://github.com/more-itertools/more-itertools">more-itertools</a></b> (🥇35 ·  ⭐ 2.2K) - More routines for operating on iterables, beyond `itertools`. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/more-itertools/more-itertools">more-itertools</a></b> (🥇35 ·  ⭐ 2.2K) - 比 `itertools` 拥有更多的可迭代对象的操作方式。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/more-itertools/more-itertools) (👨‍💻 86 · 🔀 180 · 📥 2.4K · 📦 120K · 📋 190 - 3% open · ⏱️ 06.12.2021):
 
@@ -4276,7 +4276,7 @@ _Functional Programming with Python._
 	conda install -c conda-forge more-itertools
 	```
 </details>
-<details><summary><b><a href="https://github.com/pytoolz/toolz">Toolz</a></b> (🥈32 ·  ⭐ 3.8K) - A collection of functional utilities for iterators, functions, and.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/pytoolz/toolz">Toolz</a></b> (🥈32 ·  ⭐ 3.8K) - 一组用于迭代器，函数和字典的函数式编程工具。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/pytoolz/toolz) (👨‍💻 70 · 🔀 210 · 📦 51K · 📋 210 - 34% open · ⏱️ 06.11.2021):
 
@@ -4292,7 +4292,7 @@ _Functional Programming with Python._
 	conda install -c conda-forge toolz
 	```
 </details>
-<details><summary><b><a href="https://github.com/Suor/funcy">funcy</a></b> (🥈28 ·  ⭐ 2.7K) - A fancy and practical functional tools. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/Suor/funcy">funcy</a></b> (🥈28 ·  ⭐ 2.7K) - 炫酷又实用的函数式工具。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/Suor/funcy) (👨‍💻 29 · 🔀 120 · 📦 4K · 📋 66 - 6% open · ⏱️ 20.12.2021):
 
@@ -4308,7 +4308,7 @@ _Functional Programming with Python._
 	conda install -c conda-forge funcy
 	```
 </details>
-<details><summary><b><a href="https://github.com/dry-python/returns">returns</a></b> (🥉23 ·  ⭐ 2K) - A set of type-safe monads, transformers, and composition utilities. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/dry-python/returns">returns</a></b> (🥉23 ·  ⭐ 2K) - 一个类型安全的单元、转换器与合成工具集合。<code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
 - [GitHub](https://github.com/dry-python/returns) (👨‍💻 38 · 🔀 86 · 📦 120 · 📋 370 - 14% open · ⏱️ 22.12.2021):
 
@@ -4324,7 +4324,7 @@ _Functional Programming with Python._
 	conda install -c conda-forge returns
 	```
 </details>
-<details><summary><b><a href="https://github.com/evhub/coconut">Coconut</a></b> (🥉22 ·  ⭐ 3.4K) - A variant of Python built for simple, elegant, Pythonic functional.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/evhub/coconut">Coconut</a></b> (🥉22 ·  ⭐ 3.4K) - 为了简单、优雅、更 Pythonic 的函数式编程而构建的 Python 变体。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/evhub/coconut) (👨‍💻 29 · 🔀 99 · 📋 540 - 11% open · ⏱️ 07.11.2021):
 
@@ -4340,7 +4340,7 @@ _Functional Programming with Python._
 	conda install -c conda-forge coconut
 	```
 </details>
-<details><summary><b><a href="https://github.com/pytoolz/cytoolz">CyToolz</a></b> (🥉20 ·  ⭐ 810) - Cython implementation of `Toolz`: High performance functional.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/pytoolz/cytoolz">CyToolz</a></b> (🥉20 ·  ⭐ 810) - Toolz 的 Cython 实现：高性能函数式工具。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/pytoolz/cytoolz) (🔀 60 · 📦 34K · 📋 62 - 35% open · ⏱️ 06.11.2021):
 
@@ -4352,7 +4352,7 @@ _Functional Programming with Python._
 	conda install -c conda-forge 
 	```
 </details>
-<details><summary><b><a href="https://github.com/kachayev/fn.py">fn.py</a></b> (🥉16 ·  ⭐ 3.2K · 💀) - Functional programming in Python: implementation of missing.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/kachayev/fn.py">fn.py</a></b> (🥉16 ·  ⭐ 3.2K · 💀) - 在 Python 中进行函数式编程：实现了一些享受函数式编程缺失的功能。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/kachayev/fn.py) (👨‍💻 18 · 🔀 180 · 📦 380 · 📋 45 - 44% open · ⏱️ 13.10.2014):
 
@@ -4370,27 +4370,27 @@ _Functional Programming with Python._
 </details>
 <br>
 
-## GUI Development
+## 图形用户界面
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for working with graphical user interface applications._
+_用来创建图形用户界面程序的库。_
 
-🔗&nbsp;<b><a href="https://docs.python.org/3/library/curses.html">curses</a></b>  - Built-in wrapper for [ncurses](http://www.gnu.org/software/ncurses/) used to create terminal..
+🔗&nbsp;<b><a href="https://docs.python.org/3/library/curses.html">curses</a></b>  - 内建的 <a href="http://www.gnu.org/software/ncurses/">ncurses</a> 封装，用来创建终端图形用户界面。
 
-🔗&nbsp;<b><a href="https://kivy.org/">kivy</a></b>  - A library for creating NUI applications, running on Windows, Linux, Mac OS X, Android and iOS.
+🔗&nbsp;<b><a href="https://kivy.org/">kivy</a></b>  - 一个用来创建自然用户交互（NUI）应用程序的库，可以运行在 Windows, Linux, Mac OS X, Android 以及 iOS 平台上。
 
-🔗&nbsp;<b><a href="https://wiki.gnome.org/Projects/PyGObject">PyGObject</a></b>  - Python Bindings for GLib/GObject/GIO/GTK+ (GTK+3).
+🔗&nbsp;<b><a href="https://wiki.gnome.org/Projects/PyGObject">PyGObject</a></b>  - GLib/GObject/GIO/GTK+ (GTK+3) 的 Python 绑定。
 
-🔗&nbsp;<b><a href="https://riverbankcomputing.com/software/pyqt/intro">PyQt</a></b>  - Python bindings for the [Qt](https://www.qt.io/) cross-platform application and UI framework.
+🔗&nbsp;<b><a href="https://riverbankcomputing.com/software/pyqt/intro">PyQt</a></b>  - 跨平台用户界面框架 <a href="http://www.qt.io/">Qt</a> 的 Python 绑定 ，支持 Qt v4 和 Qt v5。
 
-🔗&nbsp;<b><a href="https://wiki.python.org/moin/TkInter">Tkinter</a></b>  - Tkinter is Python's de-facto standard GUI package.
+🔗&nbsp;<b><a href="https://wiki.python.org/moin/TkInter">Tkinter</a></b>  - Tkinter 是 Python GUI 的一个事实标准库。
 
-🔗&nbsp;<b><a href="http://urwid.org/">urwid</a></b>  - A library for creating terminal GUI applications with strong support for widgets, events, rich..
+🔗&nbsp;<b><a href="http://urwid.org/">urwid</a></b>  - 一个用来创建终端 GUI 应用的库，支持组件，事件和丰富的色彩等。
 
-🔗&nbsp;<b><a href="https://wxpython.org/">wxPython</a></b>  - A blending of the wxWidgets C++ class library with the Python.
+🔗&nbsp;<b><a href="https://wxpython.org/">wxPython</a></b>  - wxPython 是 wxWidgets C++ 类库和 Python 语言混合的产物。
 
-<details><summary><b><a href="https://github.com/pyglet/pyglet">pyglet</a></b> (🥇28 ·  ⭐ 1K) - A cross-platform windowing and multimedia library for Python. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/pyglet/pyglet">pyglet</a></b> (🥇28 ·  ⭐ 1K) - 一个 Python 的跨平台窗口及多媒体库。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/pyglet/pyglet) (👨‍💻 130 · 🔀 200 · 📦 15K · 📋 300 - 20% open · ⏱️ 23.12.2021):
 
@@ -4406,7 +4406,7 @@ _Libraries for working with graphical user interface applications._
 	conda install -c conda-forge pyglet
 	```
 </details>
-<details><summary><b><a href="https://github.com/PySimpleGUI/PySimpleGUI">PySimpleGUI</a></b> (🥈27 ·  ⭐ 9K) - Wrapper for tkinter, Qt, WxPython and Remi. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/PySimpleGUI/PySimpleGUI">PySimpleGUI</a></b> (🥈27 ·  ⭐ 9K) - tkinter，Qt，WxPython 和 Remi 的封装。<code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/PySimpleGUI/PySimpleGUI) (👨‍💻 18 · 🔀 1.3K · 📦 4.1K · 📋 2.5K - 25% open · ⏱️ 21.12.2021):
 
@@ -4422,7 +4422,7 @@ _Libraries for working with graphical user interface applications._
 	conda install -c conda-forge PySimpleGUI
 	```
 </details>
-<details><summary><b><a href="https://github.com/ChrisKnott/Eel">Eel</a></b> (🥈27 ·  ⭐ 4.7K) - A library for making simple Electron-like offline HTML/JS GUI apps. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/ChrisKnott/Eel">Eel</a></b> (🥈27 ·  ⭐ 4.7K) - 用于制作简单离线 HTML/JS GUI 应用的库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/ChrisKnott/Eel) (👨‍💻 38 · 🔀 470 · 📦 2.9K · 📋 430 - 28% open · ⏱️ 19.10.2021):
 
@@ -4438,7 +4438,7 @@ _Libraries for working with graphical user interface applications._
 	conda install -c conda-forge Eel
 	```
 </details>
-<details><summary><b><a href="https://github.com/chriskiehl/Gooey">Gooey</a></b> (🥈25 ·  ⭐ 15K) - Turn command line programs into a full GUI application with one line. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/chriskiehl/Gooey">Gooey</a></b> (🥈25 ·  ⭐ 15K) - 一条命令，将命令行程序变成一个 GUI 程序。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/chriskiehl/Gooey) (👨‍💻 99 · 🔀 780 · 📥 160 · 📦 470 · 📋 500 - 17% open · ⏱️ 02.12.2021):
 
@@ -4454,7 +4454,7 @@ _Libraries for working with graphical user interface applications._
 	conda install -c conda-forge Gooey
 	```
 </details>
-<details><summary><b><a href="https://github.com/hoffstadt/DearPyGui">DearPyGui</a></b> (🥉23 ·  ⭐ 6.7K) - A Simple GPU accelerated Python GUI framework. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/hoffstadt/DearPyGui">DearPyGui</a></b> (🥉23 ·  ⭐ 6.7K) - 一个简单的可使用 GPU 加速的 Python GUI 框架。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/hoffstadt/DearPyGui) (🔀 310 · 📦 230 · 📋 840 - 13% open · ⏱️ 22.12.2021):
 
@@ -4466,7 +4466,7 @@ _Libraries for working with graphical user interface applications._
 	conda install -c conda-forge 
 	```
 </details>
-<details><summary><b><a href="https://github.com/flexxui/flexx">Flexx</a></b> (🥉23 ·  ⭐ 2.8K) - Flexx is a pure Python toolkit for creating GUI's, that uses web.. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/flexxui/flexx">Flexx</a></b> (🥉23 ·  ⭐ 2.8K) - Flexx 是一个纯 Python 语言编写的用来创建 GUI 程序的工具集，它使用 web 技术进行界面的展示。<code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
 - [GitHub](https://github.com/flexxui/flexx) (👨‍💻 37 · 🔀 250 · 📦 97 · 📋 430 - 19% open · ⏱️ 16.09.2021):
 
@@ -4482,7 +4482,7 @@ _Libraries for working with graphical user interface applications._
 	conda install -c conda-forge flexx
 	```
 </details>
-<details><summary><b><a href="https://github.com/r0x0r/pywebview">pywebview</a></b> (🥉22 ·  ⭐ 2.7K) - A lightweight cross-platform native wrapper around a webview.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/r0x0r/pywebview">pywebview</a></b> (🥉22 ·  ⭐ 2.7K) - 围绕网页视图组件的轻量级跨平台的原生包装。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/r0x0r/pywebview) (🔀 350 · 📦 560 · 📋 580 - 4% open · ⏱️ 22.11.2021):
 
@@ -4494,7 +4494,7 @@ _Libraries for working with graphical user interface applications._
 	conda install -c conda-forge 
 	```
 </details>
-<details><summary><b><a href="https://github.com/nucleic/enaml">enaml</a></b> (🥉21 ·  ⭐ 1.1K) - Creating beautiful user-interfaces with Declarative Syntax like QML. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/nucleic/enaml">enaml</a></b> (🥉21 ·  ⭐ 1.1K) - 使用类似 QML 的 Declaratic 语法来创建美观的用户界面。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/nucleic/enaml) (👨‍💻 34 · 🔀 110 · 📥 75 · 📦 200 · 📋 210 - 19% open · ⏱️ 10.12.2021):
 
@@ -4510,7 +4510,7 @@ _Libraries for working with graphical user interface applications._
 	conda install -c conda-forge enaml
 	```
 </details>
-<details><summary><b><a href="https://github.com/beeware/toga">Toga</a></b> (🥉19 ·  ⭐ 2.9K) - A Python native, OS native GUI toolkit. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/beeware/toga">Toga</a></b> (🥉19 ·  ⭐ 2.9K) - 一个 Python 原生的, 操作系统原生的 GUI 工具包。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/beeware/toga) (👨‍💻 200 · 🔀 500 · 📋 510 - 25% open · ⏱️ 21.12.2021):
 
@@ -4530,13 +4530,13 @@ _Libraries for working with graphical user interface applications._
 
 ## GraphQL
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for working with GraphQL._
+_GraphQL 相关库。_
 
-🔗&nbsp;<b><a href="https://tartiflette.io">tartiflette</a></b>  - SDL-first GraphQL engine implementation for Python 3.6+ and asyncio.
+🔗&nbsp;<b><a href="https://tartiflette.io">tartiflette</a></b>  - 支持 Python 3.6+ 和 asyncio 的 SDL 优先的 GraphQL 引擎实现。
 
-<details><summary><b><a href="https://github.com/graphql-python/graphene">graphene</a></b> (🥇25 ·  ⭐ 7K) - GraphQL framework for Python. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/graphql-python/graphene">graphene</a></b> (🥇25 ·  ⭐ 7K) - Python GraphQL 框架。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/graphql-python/graphene) (🔀 720 · 📦 11K · 📋 920 - 11% open · ⏱️ 13.12.2021):
 
@@ -4548,7 +4548,7 @@ _Libraries for working with GraphQL._
 	conda install -c conda-forge 
 	```
 </details>
-<details><summary><b><a href="https://github.com/tartiflette/tartiflette-aiohttp">tartiflette-aiohttp</a></b> (🥉16 ·  ⭐ 55) - An `aiohttp`-based wrapper for Tartiflette to expose.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/tartiflette/tartiflette-aiohttp">tartiflette-aiohttp</a></b> (🥉16 ·  ⭐ 55) - Tartiflette 的基于 aiohttp 的装饰器，用于通过 HTTP 公开 GraphQL API。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/tartiflette/tartiflette-aiohttp) (🔀 8 · 📦 34 · 📋 17 - 17% open · ⏱️ 15.11.2021):
 
@@ -4560,7 +4560,7 @@ _Libraries for working with GraphQL._
 	conda install -c conda-forge 
 	```
 </details>
-<details><summary><b><a href="https://github.com/tartiflette/tartiflette-asgi">tartiflette-asgi</a></b> (🥉12 ·  ⭐ 97) - ASGI support for the Tartiflette GraphQL engine. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/tartiflette/tartiflette-asgi">tartiflette-asgi</a></b> (🥉12 ·  ⭐ 97) - Tartiflette GraphQL 引擎的 ASGI 支持。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/tartiflette/tartiflette-asgi) (🔀 14 · 📦 7 · 📋 48 - 10% open · ⏱️ 22.11.2021):
 
@@ -4574,41 +4574,41 @@ _Libraries for working with GraphQL._
 </details>
 <br>
 
-## Game Development
+## 游戏开发
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Awesome game development libraries._
+_超赞的游戏开发库。_
 
-🔗&nbsp;<b><a href="https://arcade.academy/index.html">Arcade</a></b>  - Arcade is a modern Python framework for crafting games with compelling graphics and sound.
+🔗&nbsp;<b><a href="https://arcade.academy/index.html">Arcade</a></b>  - 一个现代 Python 框架，用于制作具有引人入胜的图形与声音的游戏。
 
-🔗&nbsp;<b><a href="http://cocos2d.org/">Cocos2d</a></b>  - cocos2d is a framework for building 2D games, demos, and other graphical/interactive..
+🔗&nbsp;<b><a href="http://cocos2d.org/">Cocos2d</a></b>  - cocos2d 是一个用来开发 2D 游戏， 示例和其他图形/交互应用的框架。基于 pyglet。
 
-🔗&nbsp;<b><a href="http://www.harfang3d.com">Harfang3D</a></b>  - Python framework for 3D, VR and game development.
+🔗&nbsp;<b><a href="http://www.harfang3d.com">Harfang3D</a></b>  - 支持3D，VR 与游戏开发的 Python 框架。
 
-🔗&nbsp;<b><a href="https://www.panda3d.org/">Panda3D</a></b>  - 3D game engine developed by Disney.
+🔗&nbsp;<b><a href="https://www.panda3d.org/">Panda3D</a></b>  - 由迪士尼开发的 3D 游戏引擎，并由卡内基梅陇娱乐技术中心负责维护。使用 C++ 编写, 针对 Python 进行了完全的封装。
 
-🔗&nbsp;<b><a href="http://www.pygame.org/news.html">Pygame</a></b>  - Pygame is a set of Python modules designed for writing games.
+🔗&nbsp;<b><a href="http://www.pygame.org/news.html">Pygame</a></b>  - Pygame 是一组 Python 模块，用来编写游戏。
 
-🔗&nbsp;<b><a href="http://www.ogre3d.org/tikiwiki/PyOgre">PyOgre</a></b>  - Python bindings for the Ogre 3D render engine, can be used for games, simulations, anything 3D.
+🔗&nbsp;<b><a href="http://www.ogre3d.org/tikiwiki/PyOgre">PyOgre</a></b>  - Ogre 3D 渲染引擎的 Python 绑定，可以用来开发游戏和仿真程序等任何 3D 应用。
 
-🔗&nbsp;<b><a href="http://pyopengl.sourceforge.net/">PyOpenGL</a></b>  - Python ctypes bindings for OpenGL and it's related APIs.
+🔗&nbsp;<b><a href="http://pyopengl.sourceforge.net/">PyOpenGL</a></b>  - OpenGL 的 Python 绑定及其相关 APIs。
 
-🔗&nbsp;<b><a href="https://pysdl2.readthedocs.io">PySDL2</a></b>  - A ctypes based wrapper for the SDL2 library.
+🔗&nbsp;<b><a href="https://pysdl2.readthedocs.io">PySDL2</a></b>  - SDL2 库的封装，基于 ctypes。
 
 🔗&nbsp;<b><a href="https://www.renpy.org/">RenPy</a></b>  - A Visual Novel engine.
 
 <br>
 
-## Geolocation
+## 地理位置
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for geocoding addresses and working with latitudes and longitudes._
+_地理编码地址以及用来处理经纬度的库。_
 
-🔗&nbsp;<b><a href="https://docs.djangoproject.com/en/dev/ref/contrib/gis/">GeoDjango</a></b>  - A world-class geographic web framework.
+🔗&nbsp;<b><a href="https://docs.djangoproject.com/en/dev/ref/contrib/gis/">GeoDjango</a></b>  - 世界级地理图形 web 框架。
 
-<details><summary><b><a href="https://github.com/geopy/geopy">geopy</a></b> (🥇33 ·  ⭐ 3.5K) - Python Geocoding Toolbox. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/geopy/geopy">geopy</a></b> (🥇33 ·  ⭐ 3.5K) - Python 地址编码工具箱。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/geopy/geopy) (👨‍💻 120 · 🔀 550 · 📦 31K · 📋 250 - 9% open · ⏱️ 26.09.2021):
 
@@ -4624,7 +4624,7 @@ _Libraries for geocoding addresses and working with latitudes and longitudes._
 	conda install -c conda-forge geopy
 	```
 </details>
-<details><summary><b><a href="https://github.com/jazzband/geojson">geojson</a></b> (🥈20 ·  ⭐ 680) - Python bindings and utilities for GeoJSON. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jazzband/geojson">geojson</a></b> (🥈20 ·  ⭐ 680) - GeoJSON 的 Python 绑定及工具。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/jazzband/geojson) (👨‍💻 45 · 🔀 85 · 📦 8.2K · 📋 77 - 24% open · ⏱️ 11.11.2021):
 
@@ -4640,7 +4640,7 @@ _Libraries for geocoding addresses and working with latitudes and longitudes._
 	conda install -c conda-forge python-geojson
 	```
 </details>
-<details><summary><b><a href="https://github.com/SmileyChris/django-countries">django-countries</a></b> (🥉19 ·  ⭐ 1.1K · 💤) - A Django app that provides a country field for models and.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/SmileyChris/django-countries">django-countries</a></b> (🥉19 ·  ⭐ 1.1K · 💤) - 一个 Django 应用程序，提供用于表格的国家选择功能，国旗图标静态文件以及模型中的国家字段。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/SmileyChris/django-countries) (👨‍💻 45 · 🔀 220 · 📋 230 - 4% open · ⏱️ 11.05.2021):
 
@@ -4656,7 +4656,7 @@ _Libraries for geocoding addresses and working with latitudes and longitudes._
 	conda install -c conda-forge django-countries
 	```
 </details>
-<details><summary><b><a href="https://github.com/maxmind/geoip-api-python">GeoIP</a></b> (🥉16 ·  ⭐ 220 · 💤) - Python API for MaxMind GeoIP Legacy Database. <code><a href="https://tldrlegal.com/search?q=LGPL-2.1">❗️LGPL-2.1</a></code></summary>
+<details><summary><b><a href="https://github.com/maxmind/geoip-api-python">GeoIP</a></b> (🥉16 ·  ⭐ 220 · 💤) - MaxMind GeoIP Legacy 数据库的 Python API。<code><a href="https://tldrlegal.com/search?q=LGPL-2.1">❗️LGPL-2.1</a></code></summary>
 
 - [GitHub](https://github.com/maxmind/geoip-api-python) (👨‍💻 13 · 🔀 53 · 📦 930 · ⏱️ 11.02.2021):
 
@@ -4674,23 +4674,23 @@ _Libraries for geocoding addresses and working with latitudes and longitudes._
 </details>
 <br>
 
-## HTML Manipulation
+## HTML 处理
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for working with HTML and XML._
+_处理 HTML 和 XML 的库。_
 
-🔗&nbsp;<b><a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a></b>  - Providing Pythonic idioms for iterating, searching, and modifying HTML or XML.
+🔗&nbsp;<b><a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a></b>  - 以 Python 风格的方式来对 HTML 或 XML 进行迭代，搜索和修改。
 
 🔗&nbsp;<b><a href="https://pypi.org/project/cssutils/">cssutils</a></b>  - A CSS library for Python.
 
-🔗&nbsp;<b><a href="http://lxml.de/">lxml</a></b>  - A very fast, easy-to-use and versatile library for handling HTML and XML.
+🔗&nbsp;<b><a href="http://lxml.de/">lxml</a></b>  - 一个非常快速，简单易用，功能齐全的库，用来处理 HTML 和 XML。
 
-🔗&nbsp;<b><a href="http://weasyprint.org">WeasyPrint</a></b>  - A visual rendering engine for HTML and CSS that can export to PDF.
+🔗&nbsp;<b><a href="http://weasyprint.org">WeasyPrint</a></b>  - 用于HTML和CSS的可视化呈现引擎，并可以导出为PDF。
 
 🔗&nbsp;<b><a href="https://xmldataset.readthedocs.io/en/latest/">xmldataset</a></b>  - Simple XML Parsing.
 
-<details><summary><b><a href="https://github.com/martinblech/xmltodict">xmltodict</a></b> (🥇31 ·  ⭐ 4.6K · 💀) - Working with XML feel like you are working with JSON. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/martinblech/xmltodict">xmltodict</a></b> (🥇31 ·  ⭐ 4.6K · 💀) - 像处理 JSON 一样处理 XML。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/martinblech/xmltodict) (👨‍💻 41 · 🔀 420 · 📦 34K · 📋 200 - 32% open · ⏱️ 26.04.2020):
 
@@ -4706,7 +4706,7 @@ _Libraries for working with HTML and XML._
 	conda install -c conda-forge xmltodict
 	```
 </details>
-<details><summary><b><a href="https://github.com/pallets/markupsafe">MarkupSafe</a></b> (🥇31 ·  ⭐ 440) - Implements a XML/HTML/XHTML Markup safe string for Python. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/pallets/markupsafe">MarkupSafe</a></b> (🥇31 ·  ⭐ 440) - 为 Python 实现 XML/HTML/XHTML 标记安全字符串。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/pallets/markupsafe) (👨‍💻 37 · 🔀 100 · 📦 730K · ⏱️ 05.11.2021):
 
@@ -4722,7 +4722,7 @@ _Libraries for working with HTML and XML._
 	conda install -c conda-forge markupsafe
 	```
 </details>
-<details><summary><b><a href="https://github.com/gawel/pyquery">pyquery</a></b> (🥈27 ·  ⭐ 2.1K) - A jQuery-like library for parsing HTML. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/gawel/pyquery">pyquery</a></b> (🥈27 ·  ⭐ 2.1K) - 一个解析 HTML 的库，类似 jQuery。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/gawel/pyquery) (👨‍💻 50 · 🔀 170 · 📦 13K · 📋 170 - 25% open · ⏱️ 04.10.2021):
 
@@ -4738,7 +4738,7 @@ _Libraries for working with HTML and XML._
 	conda install -c conda-forge pyquery
 	```
 </details>
-<details><summary><b><a href="https://github.com/mozilla/bleach">bleach</a></b> (🥉26 ·  ⭐ 2.3K) - A whitelist-based HTML sanitization and text linkification library. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/mozilla/bleach">bleach</a></b> (🥉26 ·  ⭐ 2.3K) - 一个基于白名单的 HTML 清理和文本链接库。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/mozilla/bleach) (👨‍💻 73 · 🔀 210 · 📦 150K · 📋 340 - 14% open · ⏱️ 05.10.2021):
 
@@ -4754,7 +4754,7 @@ _Libraries for working with HTML and XML._
 	conda install -c conda-forge bleach
 	```
 </details>
-<details><summary><b><a href="https://github.com/stchris/untangle">untangle</a></b> (🥉18 ·  ⭐ 540 · 💀) - Converts XML documents to Python objects for easy access. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/stchris/untangle">untangle</a></b> (🥉18 ·  ⭐ 540 · 💀) - 将 XML 文档转换为 Python 对象，使其可以方便的访问。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/stchris/untangle) (👨‍💻 13 · 🔀 79 · 📥 520 · 📦 750 · 📋 44 - 40% open · ⏱️ 07.08.2020):
 
@@ -4770,7 +4770,7 @@ _Libraries for working with HTML and XML._
 	conda install -c conda-forge untangle
 	```
 </details>
-<details><summary><b><a href="https://github.com/html5lib/html5lib-python">html5lib</a></b> (🥉15 ·  ⭐ 940 · 📉) - A standards-compliant library for parsing and serializing HTML.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/html5lib/html5lib-python">html5lib</a></b> (🥉15 ·  ⭐ 940 · 📉) - 一个兼容标准的 HTML 文档和片段解析及序列化库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/html5lib/html5lib-python) (👨‍💻 62 · 🔀 250 · 📋 240 - 34% open · ⏱️ 17.09.2021):
 
@@ -4788,13 +4788,13 @@ _Libraries for working with HTML and XML._
 </details>
 <br>
 
-## HTTP Clients
+## HTTP
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for working with HTTP._
+_使用 HTTP 的库。_
 
-<details><summary><b><a href="https://github.com/psf/requests">requests</a></b> (🥇39 ·  ⭐ 47K) - HTTP Requests for Humans. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/psf/requests">requests</a></b> (🥇39 ·  ⭐ 47K) - 人性化的 HTTP 请求库。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/psf/requests) (👨‍💻 700 · 🔀 8.3K · 📦 1.2M · 📋 3.5K - 4% open · ⏱️ 05.12.2021):
 
@@ -4810,7 +4810,7 @@ _Libraries for working with HTTP._
 	conda install -c conda-forge requests
 	```
 </details>
-<details><summary><b><a href="https://github.com/urllib3/urllib3">urllib3</a></b> (🥈36 ·  ⭐ 2.9K) - A HTTP library with thread-safe connection pooling, file post support,.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/urllib3/urllib3">urllib3</a></b> (🥈36 ·  ⭐ 2.9K) - 一个具有线程安全连接池，支持文件 post，清晰友好的 HTTP 库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/urllib3/urllib3) (👨‍💻 290 · 🔀 840 · 📥 1.1K · 📦 720K · 📋 970 - 12% open · ⏱️ 22.12.2021):
 
@@ -4826,7 +4826,7 @@ _Libraries for working with HTTP._
 	conda install -c conda-forge urllib3
 	```
 </details>
-<details><summary><b><a href="https://github.com/encode/httpx">httpx</a></b> (🥈28 ·  ⭐ 8.1K) - A next generation HTTP client for Python. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/encode/httpx">httpx</a></b> (🥈28 ·  ⭐ 8.1K) - 下一代 Python HTTP 客户端。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/encode/httpx) (👨‍💻 150 · 🔀 520 · 📦 14K · 📋 640 - 6% open · ⏱️ 21.12.2021):
 
@@ -4858,7 +4858,7 @@ _Libraries for working with HTTP._
 	conda install -c conda-forge grequests
 	```
 </details>
-<details><summary><b><a href="https://github.com/httplib2/httplib2">httplib2</a></b> (🥉26 ·  ⭐ 430) - Comprehensive HTTP client library. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/httplib2/httplib2">httplib2</a></b> (🥉26 ·  ⭐ 430) - 全面的 HTTP 客户端库。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/httplib2/httplib2) (👨‍💻 70 · 🔀 150 · 📦 92K · 📋 100 - 38% open · ⏱️ 21.12.2021):
 
@@ -4874,7 +4874,7 @@ _Libraries for working with HTTP._
 	conda install -c conda-forge httplib2
 	```
 </details>
-<details><summary><b><a href="https://github.com/twisted/treq">treq</a></b> (🥉19 ·  ⭐ 540) - Python requests like API built on top of Twisted's HTTP client. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/twisted/treq">treq</a></b> (🥉19 ·  ⭐ 540) - 类似 requests 的 Python API 构建于 Twisted HTTP 客户端之上。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/twisted/treq) (👨‍💻 45 · 🔀 130 · 📥 110 · 📦 890 · 📋 140 - 37% open · ⏱️ 11.07.2021):
 
@@ -4892,17 +4892,17 @@ _Libraries for working with HTTP._
 </details>
 <br>
 
-## Hardware
+## 硬件
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for programming with hardware._
+_用来对硬件进行编程的库。_
 
-🔗&nbsp;<b><a href="http://inotool.org/">ino</a></b>  - Command line toolkit for working with Arduino.
+🔗&nbsp;<b><a href="http://inotool.org/">ino</a></b>  - 操作 <a href="https://www.arduino.cc/">Arduino</a> 的命令行工具。
 
-🔗&nbsp;<b><a href="http://www.pingo.io/">Pingo</a></b>  - Pingo provides a uniform API to program devices like the Raspberry Pi, pcDuino, Intel Galileo,..
+🔗&nbsp;<b><a href="http://www.pingo.io/">Pingo</a></b>  - Pingo 为类似 Raspberry Pi，pcDuino， Intel Galileo 等设备提供统一的 API 用以编程。
 
-<details><summary><b><a href="https://github.com/secdev/scapy">scapy</a></b> (🥇28 ·  ⭐ 6.9K) - A brilliant packet manipulation library. <code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
+<details><summary><b><a href="https://github.com/secdev/scapy">scapy</a></b> (🥇28 ·  ⭐ 6.9K) - 一个非常棒的操作数据包的库。<code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
 
 - [GitHub](https://github.com/secdev/scapy) (👨‍💻 360 · 🔀 1.5K · 📦 6.8K · 📋 1.3K - 2% open · ⏱️ 21.12.2021):
 
@@ -4918,7 +4918,7 @@ _Libraries for programming with hardware._
 	conda install -c conda-forge scapy
 	```
 </details>
-<details><summary><b><a href="https://github.com/boppreh/keyboard">keyboard</a></b> (🥈26 ·  ⭐ 2.7K) - Hook and simulate global keyboard events on Windows and Linux. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/boppreh/keyboard">keyboard</a></b> (🥈26 ·  ⭐ 2.7K) - 在 Windows 和 Linux 上挂钩并模拟全局键盘事件。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/boppreh/keyboard) (👨‍💻 34 · 🔀 320 · 📦 5.2K · 📋 460 - 63% open · ⏱️ 09.11.2021):
 
@@ -4934,7 +4934,7 @@ _Libraries for programming with hardware._
 	conda install -c conda-forge keyboard
 	```
 </details>
-<details><summary><b><a href="https://github.com/boppreh/mouse">mouse</a></b> (🥉21 ·  ⭐ 550 · 💤) - Hook and simulate global mouse events on Windows and Linux. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/boppreh/mouse">mouse</a></b> (🥉21 ·  ⭐ 550 · 💤) - 在 Windows 和 Linux 上挂钩并模拟全局键盘事件。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/boppreh/mouse) (👨‍💻 8 · 🔀 83 · 📦 470 · 📋 92 - 71% open · ⏱️ 05.04.2021):
 
@@ -4950,7 +4950,7 @@ _Libraries for programming with hardware._
 	conda install -c conda-forge mouse
 	```
 </details>
-<details><summary><b><a href="https://github.com/SavinaRoja/PyUserInput">PyUserInput</a></b> (🥉17 ·  ⭐ 990 · 💤) - A module for cross-platform control of the mouse and.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/SavinaRoja/PyUserInput">PyUserInput</a></b> (🥉17 ·  ⭐ 990 · 💤) - 跨平台的，控制鼠标和键盘的模块。<code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/SavinaRoja/PyUserInput) (👨‍💻 21 · 🔀 170 · 📦 400 · 📋 96 - 68% open · ⏱️ 19.04.2021):
 
@@ -4966,7 +4966,7 @@ _Libraries for programming with hardware._
 	conda install -c conda-forge PyUserInput
 	```
 </details>
-<details><summary><b><a href="https://github.com/rockymeza/wifi">wifi</a></b> (🥉15 ·  ⭐ 280 · 💀) - A Python library and command line tool for working with WiFi on Linux. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/rockymeza/wifi">wifi</a></b> (🥉15 ·  ⭐ 280 · 💀) - 一个 Python 库和命令行工具用来在 Linux 平台上操作 WiFi。<code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
 - [GitHub](https://github.com/rockymeza/wifi) (👨‍💻 13 · 🔀 140 · 📦 350 · 📋 64 - 51% open · ⏱️ 20.03.2017):
 
@@ -4984,19 +4984,19 @@ _Libraries for programming with hardware._
 </details>
 <br>
 
-## Image Processing
+## 图像处理
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for manipulating images._
+_用来操作图像的库._
 
-🔗&nbsp;<b><a href="https://sourceforge.net/projects/imgseek/">imgSeek</a></b>  - A project for searching a collection of images using visual similarity.
+🔗&nbsp;<b><a href="https://sourceforge.net/projects/imgseek/">imgSeek</a></b>  - 一个使用视觉相似性搜索一组图片集合的项目。
 
-🔗&nbsp;<b><a href="http://github.com/pymatting/pymatting">PyMatting</a></b>  - A library for alpha matting.
+🔗&nbsp;<b><a href="http://github.com/pymatting/pymatting">PyMatting</a></b>  - 支持 alpha matting 的库。
 
-🔗&nbsp;<b><a href="http://scikit-image.org/">scikit-image</a></b>  - A Python library for (scientific) image processing.
+🔗&nbsp;<b><a href="http://scikit-image.org/">scikit-image</a></b>  - 一个用于（科学）图像处理的 Python 库。
 
-<details><summary><b><a href="https://github.com/thumbor/thumbor">thumbor</a></b> (🥇29 ·  ⭐ 8.7K) - A smart imaging service. It enables on-demand crop, re-sizing and.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/thumbor/thumbor">thumbor</a></b> (🥇29 ·  ⭐ 8.7K) - 一个小型图像服务，具有剪裁，尺寸重设和翻转功能。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/thumbor/thumbor) (👨‍💻 160 · 🔀 710 · 📦 290 · 📋 860 - 14% open · ⏱️ 26.11.2021):
 
@@ -5044,7 +5044,7 @@ _Libraries for manipulating images._
 	conda install -c conda-forge wand
 	```
 </details>
-<details><summary><b><a href="https://github.com/WhyNotHugo/python-barcode">python-barcode</a></b> (🥈25 ·  ⭐ 300) - Create barcodes in Python with no extra dependencies. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/WhyNotHugo/python-barcode">python-barcode</a></b> (🥈25 ·  ⭐ 300) - 不借助其他库在 Python 程序中生成条形码。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/WhyNotHugo/python-barcode) (👨‍💻 40 · 🔀 87 · 📥 180 · 📦 10K · 📋 81 - 37% open · ⏱️ 20.12.2021):
 
@@ -5060,7 +5060,7 @@ _Libraries for manipulating images._
 	conda install -c conda-forge python-barcode
 	```
 </details>
-<details><summary><b><a href="https://github.com/libvips/pyvips">pyvips</a></b> (🥈22 ·  ⭐ 380) - A fast image processing library with low memory needs. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/libvips/pyvips">pyvips</a></b> (🥈22 ·  ⭐ 380) - 低内存消耗且快速的图像处理库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/libvips/pyvips) (👨‍💻 12 · 🔀 32 · 📦 250 · 📋 260 - 36% open · ⏱️ 15.12.2021):
 
@@ -5076,7 +5076,7 @@ _Libraries for manipulating images._
 	conda install -c conda-forge pyvips
 	```
 </details>
-<details><summary><b><a href="https://github.com/dylanaraps/pywal">pywal</a></b> (🥉21 ·  ⭐ 5.9K) - A tool that generates color schemes from images. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/dylanaraps/pywal">pywal</a></b> (🥉21 ·  ⭐ 5.9K) - 由图像生成配色方案的工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/dylanaraps/pywal) (👨‍💻 60 · 🔀 240 · 📥 660 · 📦 160 · 📋 480 - 21% open · ⏱️ 09.09.2021):
 
@@ -5092,7 +5092,7 @@ _Libraries for manipulating images._
 	conda install -c conda-forge pywal
 	```
 </details>
-<details><summary><b><a href="https://github.com/hhatto/nude.py">nude.py</a></b> (🥉16 ·  ⭐ 830 · 💀) - Nudity detection. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/hhatto/nude.py">nude.py</a></b> (🥉16 ·  ⭐ 830 · 💀) - 裸体检测。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/hhatto/nude.py) (👨‍💻 12 · 🔀 130 · 📦 1.4K · 📋 10 - 70% open · ⏱️ 23.11.2020):
 
@@ -5108,7 +5108,7 @@ _Libraries for manipulating images._
 	conda install -c conda-forge nude.py
 	```
 </details>
-<details><summary><b><a href="https://github.com/daboth/pagan">pagan</a></b> (🥉15 ·  ⭐ 240) - Retro identicon (Avatar) generation based on input string and hash. <code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
+<details><summary><b><a href="https://github.com/daboth/pagan">pagan</a></b> (🥉15 ·  ⭐ 240) - 基于输入和哈希的复古风图标（头像）生成工具。<code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
 
 - [GitHub](https://github.com/daboth/pagan) (👨‍💻 9 · 🔀 34 · 📦 39 · 📋 7 - 57% open · ⏱️ 02.12.2021):
 
@@ -5124,7 +5124,7 @@ _Libraries for manipulating images._
 	conda install -c conda-forge pagan
 	```
 </details>
-<details><summary><b><a href="https://github.com/lincolnloop/python-qrcode">python-qrcode</a></b> (🥉14 ·  ⭐ 2.8K) - A pure Python QR Code generator. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/lincolnloop/python-qrcode">python-qrcode</a></b> (🥉14 ·  ⭐ 2.8K) - 一个纯 Python 实现的二维码生成器。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/lincolnloop/python-qrcode) (👨‍💻 48 · 🔀 460 · 📋 150 - 15% open · ⏱️ 01.10.2021):
 
@@ -5140,7 +5140,7 @@ _Libraries for manipulating images._
 	conda install -c conda-forge python-qrcode
 	```
 </details>
-<details><summary><b><a href="https://github.com/fogleman/Quads">Quads</a></b> (🥉10 ·  ⭐ 1K · 💀) - Computer art based on quadtrees. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/fogleman/Quads">Quads</a></b> (🥉10 ·  ⭐ 1K · 💀) - 基于四叉树的计算机艺术。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/fogleman/Quads) (🔀 120 · ⏱️ 20.05.2014):
 
@@ -5156,7 +5156,7 @@ _Libraries for manipulating images._
 	conda install -c conda-forge Quads
 	```
 </details>
-<details><summary><b><a href="https://github.com/rossgoodwin/hmap">hmap</a></b> (🥉10 ·  ⭐ 190 · 💀) - Image histogram remapping. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/rossgoodwin/hmap">hmap</a></b> (🥉10 ·  ⭐ 190 · 💀) - 图像直方图映射。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/rossgoodwin/hmap) (👨‍💻 3 · 🔀 19 · ⏱️ 04.11.2019):
 
@@ -5172,7 +5172,7 @@ _Libraries for manipulating images._
 	conda install -c conda-forge hmap
 	```
 </details>
-<details><summary><b><a href="https://github.com/ajknzhol/pygram">pygram</a></b> (🥉6 ·  ⭐ 100 · 💀) - Instagram-like image filters. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/ajknzhol/pygram">pygram</a></b> (🥉6 ·  ⭐ 100 · 💀) - 类似 Instagram 的图像滤镜。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/ajknzhol/pygram) (🔀 12 · ⏱️ 22.02.2014):
 
@@ -5190,21 +5190,21 @@ _Libraries for manipulating images._
 </details>
 <br>
 
-## Implementations
+## 高性能
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Implementations of Python._
+_让 Python 更快的库。_
 
-🔗&nbsp;<b><a href="http://cython.org/">Cython</a></b>  - Optimizing Static Compiler for Python.
+🔗&nbsp;<b><a href="http://cython.org/">Cython</a></b>  - 优化的 Python 静态编译器。使用类型混合使 Python 编译成 C 或 C++ 模块来获得性能的极大提升。
 
-🔗&nbsp;<b><a href="https://hg.python.org/jython">Jython</a></b>  - Implementation of Python programming language written in Java for the JVM.
+🔗&nbsp;<b><a href="https://hg.python.org/jython">Jython</a></b>  - 为 JVM 用 Java 编写的 Python 编程语言的实现。
 
-🔗&nbsp;<b><a href="http://numba.pydata.org/">Numba</a></b>  - Python JIT compiler to LLVM aimed at scientific Python.
+🔗&nbsp;<b><a href="http://numba.pydata.org/">Numba</a></b>  - Python JIT (just in time) 编译器，针对科学用的 Python ，由 Cython 和 NumPy 的开发者开发。
 
-🔗&nbsp;<b><a href="https://foss.heptapod.net/pypy/pypy">PyPy</a></b>  - A very fast and compliant implementation of the Python language.
+🔗&nbsp;<b><a href="https://foss.heptapod.net/pypy/pypy">PyPy</a></b>  - 使用 Python 实现的 Python。解释器使用黑魔法加快 Python 运行速度且不需要加入额外的类型信息。
 
-<details><summary><b><a href="https://github.com/micropython/micropython">MicroPython</a></b> (🥇23 ·  ⭐ 13K) - A lean and efficient Python programming language.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/micropython/micropython">MicroPython</a></b> (🥇23 ·  ⭐ 13K) - 精简高效的 Python 编程语言实现。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/micropython/micropython) (👨‍💻 460 · 🔀 3.7K · 📥 30K · 📋 3.9K - 27% open · ⏱️ 22.12.2021):
 
@@ -5220,7 +5220,7 @@ _Implementations of Python._
 	conda install -c conda-forge micropython
 	```
 </details>
-<details><summary><b><a href="https://github.com/IronLanguages/ironpython3">IronPython</a></b> (🥈19 ·  ⭐ 1.6K) - Implementation of the Python programming language written in C#. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/IronLanguages/ironpython3">IronPython</a></b> (🥈19 ·  ⭐ 1.6K) - 用 Common Lisp 编写的 Python 编程语言的实现。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/IronLanguages/ironpython3) (👨‍💻 29 · 🔀 190 · 📥 15K · 📋 420 - 45% open · ⏱️ 20.11.2021):
 
@@ -5252,7 +5252,7 @@ _Implementations of Python._
 	conda install -c conda-forge cpython
 	```
 </details>
-<details><summary><b><a href="https://github.com/google/grumpy">Grumpy</a></b> (🥈16 ·  ⭐ 10K · 💀) - More compiler than interpreter as more powerful CPython2.7.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/google/grumpy">Grumpy</a></b> (🥈16 ·  ⭐ 10K · 💀) - 编译器比解释器更强大的 cpython2.7 替代品（alpha）。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/google/grumpy) (👨‍💻 30 · 🔀 630 · 📋 140 - 44% open · ⏱️ 22.11.2017):
 
@@ -5268,7 +5268,7 @@ _Implementations of Python._
 	conda install -c conda-forge grumpy
 	```
 </details>
-<details><summary><b><a href="https://github.com/Maratyszcza/PeachPy">PeachPy</a></b> (🥉14 ·  ⭐ 1.6K) - x86-64 assembler embedded in Python. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/Maratyszcza/PeachPy">PeachPy</a></b> (🥉14 ·  ⭐ 1.6K) - 嵌入 Python 的 x86-64 汇编器。可以被用作 Python 内联的汇编器或者是独立的汇编器，用于 Windows, Linux, OS X, Native Client 或者 Go 。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/Maratyszcza/PeachPy) (👨‍💻 21 · 🔀 130 · 📦 9 · 📋 82 - 25% open · ⏱️ 13.10.2021):
 
@@ -5284,7 +5284,7 @@ _Implementations of Python._
 	conda install -c conda-forge PeachPy
 	```
 </details>
-<details><summary><b><a href="https://github.com/microsoft/Pyjion">Pyjion</a></b> (🥉13 ·  ⭐ 1.5K · 💀) - A JIT for Python based upon CoreCLR. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/microsoft/Pyjion">Pyjion</a></b> (🥉13 ·  ⭐ 1.5K · 💀) - 基于 CoreCLR 的 Python JIT。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/microsoft/Pyjion) (👨‍💻 17 · 🔀 67 · 📋 110 - 33% open · ⏱️ 16.11.2020):
 
@@ -5300,7 +5300,7 @@ _Implementations of Python._
 	conda install -c conda-forge Pyjion
 	```
 </details>
-<details><summary><b><a href="https://github.com/pyston/pyston_v1">Pyston</a></b> (🥉12 ·  ⭐ 5K · 💤) - A Python implementation using JIT techniques. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/pyston/pyston_v1">Pyston</a></b> (🥉12 ·  ⭐ 5K · 💤) - 使用 LLVM 和现代 JIT 技术构建的 Python 实现，目标是为了获得很好的性能。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/pyston/pyston_v1) (🔀 300 · 📥 5.1K · 📋 280 - 3% open · ⏱️ 06.05.2021):
 
@@ -5316,7 +5316,7 @@ _Implementations of Python._
 	conda install -c conda-forge pyston
 	```
 </details>
-<details><summary><b><a href="https://github.com/stackless-dev/stackless">Stackless Python</a></b> (🥉11 ·  ⭐ 780) - An enhanced version of the Python programming language. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/stackless-dev/stackless">Stackless Python</a></b> (🥉11 ·  ⭐ 780) - 一个强化版的 Python。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/stackless-dev/stackless) (👨‍💻 1K · 🔀 53 · 📋 270 - 4% open · ⏱️ 11.08.2021):
 
@@ -5332,7 +5332,7 @@ _Implementations of Python._
 	conda install -c conda-forge stackless
 	```
 </details>
-<details><summary><b><a href="https://github.com/metawilm/cl-python">CLPython</a></b> (🥉11 ·  ⭐ 330 · 💀) - Implementation of the Python programming language written in.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/metawilm/cl-python">CLPython</a></b> (🥉11 ·  ⭐ 330 · 💀) - 用 Common Lisp 编写的 Python 编程语言的实现。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/metawilm/cl-python) (👨‍💻 12 · 🔀 31 · 📋 16 - 18% open · ⏱️ 15.04.2020):
 
@@ -5350,17 +5350,17 @@ _Implementations of Python._
 </details>
 <br>
 
-## Interactive Interpreter
+## 交互式解析器
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Interactive Python interpreters (REPL)._
+_交互式 Python 解析器。_
 
-🔗&nbsp;<b><a href="https://jupyter.org">Jupyter Notebook (IPython)</a></b>  - A rich toolkit to help you make the most out of using Python..
+🔗&nbsp;<b><a href="https://jupyter.org">Jupyter Notebook (IPython)</a></b>  - 一个能够让你最大限度地以交互式方式使用 Python 的丰富工具包。
 
 🔗&nbsp;<b><a href="https://github.com/markusschanta/awesome-jupyter">awesome-jupyter</a></b> ( ⭐ 2.5K)  - A curated list of awesome Jupyter projects, libraries and resources.
 
-<details><summary><b><a href="https://github.com/prompt-toolkit/ptpython">ptpython</a></b> (🥇27 ·  ⭐ 4.4K) - Advanced Python REPL built on top of the [python-prompt-.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/prompt-toolkit/ptpython">ptpython</a></b> (🥇27 ·  ⭐ 4.4K) - 高级交互式 Python 解析器， 构建于 <a href="https://github.com/jonathanslenders/python-prompt-toolkit">python-prompt-toolkit</a> 之上。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/prompt-toolkit/ptpython) (👨‍💻 50 · 🔀 250 · 📦 1.6K · 📋 330 - 55% open · ⏱️ 14.09.2021):
 
@@ -5376,7 +5376,7 @@ _Interactive Python interpreters (REPL)._
 	conda install -c conda-forge ptpython
 	```
 </details>
-<details><summary><b><a href="https://github.com/bpython/bpython">bpython</a></b> (🥉20 ·  ⭐ 2K) - A fancy interface to the Python interpreter. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/bpython/bpython">bpython</a></b> (🥉20 ·  ⭐ 2K) - 界面丰富的 Python 解析器。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/bpython/bpython) (👨‍💻 120 · 🔀 200 · 📋 750 - 17% open · ⏱️ 08.12.2021):
 
@@ -5394,15 +5394,15 @@ _Interactive Python interpreters (REPL)._
 </details>
 <br>
 
-## Internationalization
+## 国际化
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for working with i18n._
+_用来进行国际化的库。_
 
-🔗&nbsp;<b><a href="http://babel.pocoo.org/en/latest/">Babel</a></b>  - An internationalization library for Python.
+🔗&nbsp;<b><a href="http://babel.pocoo.org/en/latest/">Babel</a></b>  - 一个 Python 的国际化库。
 
-<details><summary><b><a href="https://github.com/ovalhub/pyicu">PyICU</a></b> (🥇21 ·  ⭐ 130 · 💤) - A wrapper of International Components for Unicode C++ library.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/ovalhub/pyicu">PyICU</a></b> (🥇21 ·  ⭐ 130 · 💤) - 一个封装了 <a href="http://site.icu-project.org/">ICU</a> C++ 库的 Python 扩展。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/ovalhub/pyicu) (👨‍💻 18 · 🔀 58 · 📦 2.1K · ⏱️ 08.04.2021):
 
@@ -5420,23 +5420,23 @@ _Libraries for working with i18n._
 </details>
 <br>
 
-## Job Scheduler
+## 任务调度
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for scheduling jobs._
+_任务调度库。_
 
-🔗&nbsp;<b><a href="https://airflow.apache.org/">Airflow</a></b>  - Airflow is a platform to programmatically author, schedule and monitor workflows.
+🔗&nbsp;<b><a href="https://airflow.apache.org/">Airflow</a></b>  - 是一个工作流分配管理系统，通过有向非循环图的方式管理任务流程，设置任务依赖关系和时间调度。
 
-🔗&nbsp;<b><a href="http://apscheduler.readthedocs.io/en/latest/">APScheduler</a></b>  - A light but powerful in-process task scheduler that lets you schedule functions.
+🔗&nbsp;<b><a href="http://apscheduler.readthedocs.io/en/latest/">APScheduler</a></b>  - 轻巧但强大的进程内任务调度，使你可以调度函数。
 
-🔗&nbsp;<b><a href="http://pydoit.org/">doit</a></b>  - A task runner and build tool.
+🔗&nbsp;<b><a href="http://pydoit.org/">doit</a></b>  - 一个任务执行和构建工具。
 
-🔗&nbsp;<b><a href="https://joblib.readthedocs.io/">Joblib</a></b>  - A set of tools to provide lightweight pipelining in Python.
+🔗&nbsp;<b><a href="https://joblib.readthedocs.io/">Joblib</a></b>  - 一组为 Python 提供轻量级作业流水线的工具。
 
-🔗&nbsp;<b><a href="https://docs.openstack.org/developer/taskflow/">TaskFlow</a></b>  - A Python library that helps to make task execution easy, consistent and reliable.
+🔗&nbsp;<b><a href="https://docs.openstack.org/developer/taskflow/">TaskFlow</a></b>  - 一个可以让你方便执行任务的 Python 库，一致并且可靠。
 
-<details><summary><b><a href="https://github.com/PrefectHQ/prefect">Prefect</a></b> (🥇29 ·  ⭐ 8K) - A modern workflow orchestration framework that makes it easy to build,.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/PrefectHQ/prefect">Prefect</a></b> (🥇29 ·  ⭐ 8K) - 一个现代的工作流程编排框架，使构建、计划和监视健壮的数据管道变得容易。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/PrefectHQ/prefect) (👨‍💻 280 · 🔀 740 · 📦 530 · 📋 2K - 18% open · ⏱️ 22.12.2021):
 
@@ -5452,7 +5452,7 @@ _Libraries for scheduling jobs._
 	conda install -c conda-forge prefect
 	```
 </details>
-<details><summary><b><a href="https://github.com/dbader/schedule">schedule</a></b> (🥈26 ·  ⭐ 9.3K) - Python job scheduling for humans. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/dbader/schedule">schedule</a></b> (🥈26 ·  ⭐ 9.3K) - 人性化的 Python 任务调度库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/dbader/schedule) (👨‍💻 45 · 🔀 760 · 📦 15K · 📋 350 - 30% open · ⏱️ 26.06.2021):
 
@@ -5468,7 +5468,7 @@ _Libraries for scheduling jobs._
 	conda install -c conda-forge schedule
 	```
 </details>
-<details><summary><b><a href="https://github.com/sartography/SpiffWorkflow">Spiff</a></b> (🥈22 ·  ⭐ 1.1K) - A powerful workflow engine implemented in pure Python. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/sartography/SpiffWorkflow">Spiff</a></b> (🥈22 ·  ⭐ 1.1K) - 使用纯 Python 实现的强大的工作流引擎。<code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/sartography/SpiffWorkflow) (👨‍💻 43 · 🔀 240 · 📦 28 · 📋 73 - 2% open · ⏱️ 21.12.2021):
 
@@ -5484,7 +5484,7 @@ _Libraries for scheduling jobs._
 	conda install -c conda-forge SpiffWorkflow
 	```
 </details>
-<details><summary><b><a href="https://github.com/fengsp/plan">Plan</a></b> (🥉13 ·  ⭐ 1.1K · 💀) - Writing crontab file in Python like a charm. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/fengsp/plan">Plan</a></b> (🥉13 ·  ⭐ 1.1K · 💀) - 如有神助地编写 crontab 文件。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/fengsp/plan) (👨‍💻 7 · 🔀 89 · 📦 66 · 📋 9 - 11% open · ⏱️ 14.05.2020):
 
@@ -5500,7 +5500,7 @@ _Libraries for scheduling jobs._
 	conda install -c conda-forge plan
 	```
 </details>
-<details><summary><b><a href="https://github.com/gunnery/gunnery">gunnery</a></b> (🥉13 ·  ⭐ 730 · 💀) - Multipurpose task execution tool for distributed systems with.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/gunnery/gunnery">gunnery</a></b> (🥉13 ·  ⭐ 730 · 💀) - 分布式系统使用的多用途任务执行工具 ，具有 web 交互界面。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/gunnery/gunnery) (👨‍💻 7 · 🔀 75 · 📋 37 - 27% open · ⏱️ 29.10.2015):
 
@@ -5516,7 +5516,7 @@ _Libraries for scheduling jobs._
 	conda install -c conda-forge gunnery
 	```
 </details>
-<details><summary><b><a href="https://github.com/thauber/django-schedule">django-schedule</a></b> (🥉11 ·  ⭐ 800 · 💀) - A calendaring app for Django. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/thauber/django-schedule">django-schedule</a></b> (🥉11 ·  ⭐ 800 · 💀) - 一个 Django 排程应用。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/thauber/django-schedule) (👨‍💻 17 · 🔀 190 · 📋 58 - 34% open · ⏱️ 16.04.2016):
 
@@ -5534,19 +5534,19 @@ _Libraries for scheduling jobs._
 </details>
 <br>
 
-## Logging
+## 日志
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for generating and working with logs._
+_用来生成和操作日志的库。_
 
-🔗&nbsp;<b><a href="http://logbook.readthedocs.io/en/stable/">logbook</a></b>  - Logging replacement for Python.
+🔗&nbsp;<b><a href="http://logbook.readthedocs.io/en/stable/">logbook</a></b>  - Logging 库的替代品。
 
-🔗&nbsp;<b><a href="https://docs.python.org/3/library/logging.html">logging</a></b>  - (Python standard library) Logging facility for Python.
+🔗&nbsp;<b><a href="https://docs.python.org/3/library/logging.html">logging</a></b>  - （Python 标准库）将文件名映射为 MIME 类型。
 
-🔗&nbsp;<b><a href="https://www.structlog.org/en/stable/">structlog</a></b>  - Structured logging made easy.
+🔗&nbsp;<b><a href="https://www.structlog.org/en/stable/">structlog</a></b>  - 结构化日志，让日志变得简单。
 
-<details><summary><b><a href="https://github.com/Delgan/loguru">loguru</a></b> (🥇31 ·  ⭐ 11K) - Library which aims to bring enjoyable logging in Python. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/Delgan/loguru">loguru</a></b> (🥇31 ·  ⭐ 11K) - 旨在带来愉悦体验的 Python 日志库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/Delgan/loguru) (👨‍💻 30 · 🔀 460 · 📦 13K · 📋 500 - 17% open · ⏱️ 09.09.2021):
 
@@ -5562,7 +5562,7 @@ _Libraries for generating and working with logs._
 	conda install -c conda-forge loguru
 	```
 </details>
-<details><summary><b><a href="https://github.com/getsentry/sentry-python">sentry-python</a></b> (🥉27 ·  ⭐ 1.1K) - Sentry SDK for Python. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/getsentry/sentry-python">sentry-python</a></b> (🥉27 ·  ⭐ 1.1K) - Python 版 Sentry SDK。<code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
 - [GitHub](https://github.com/getsentry/sentry-python) (👨‍💻 110 · 🔀 240 · 📥 4.5K · 📦 16K · 📋 580 - 26% open · ⏱️ 23.12.2021):
 
@@ -5580,17 +5580,17 @@ _Libraries for generating and working with logs._
 </details>
 <br>
 
-## Machine Learning
+## 机器学习
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for Machine Learning._
+_机器学习相关库，也可以参考 [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning#python)。_
 
-🔗&nbsp;<b><a href="http://scikit-learn.org/">scikit-learn</a></b>  - The most popular Python library for Machine Learning.
+🔗&nbsp;<b><a href="http://scikit-learn.org/">scikit-learn</a></b>  - 基于 SciPy 构建的机器学习 Python 模块。
 
 🔗&nbsp;<b><a href="http://spark.apache.org/docs/latest/ml-guide.html">Spark ML</a></b>  - [Apache Spark](http://spark.apache.org/)'s scalable Machine Learning library.
 
-<details><summary><b><a href="https://github.com/dmlc/xgboost">xgboost</a></b> (🥇37 ·  ⭐ 22K) - A scalable, portable, and distributed gradient boosting library. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/dmlc/xgboost">xgboost</a></b> (🥇37 ·  ⭐ 22K) - 可扩展，便携式和分布式梯度提升库。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/dmlc/xgboost) (👨‍💻 540 · 🔀 7.7K · 📥 3.5K · 📦 25K · 📋 4.2K - 6% open · ⏱️ 22.12.2021):
 
@@ -5606,7 +5606,7 @@ _Libraries for Machine Learning._
 	conda install -c conda-forge xgboost
 	```
 </details>
-<details><summary><b><a href="https://github.com/openai/gym">gym</a></b> (🥈34 ·  ⭐ 26K) - A toolkit for developing and comparing reinforcement learning.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/openai/gym">gym</a></b> (🥈34 ·  ⭐ 26K) - 在 AWS Lambda 开发和部署 Python 代码的工具包。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/openai/gym) (👨‍💻 330 · 🔀 7K · 📦 25K · 📋 1.4K - 6% open · ⏱️ 22.12.2021):
 
@@ -5622,7 +5622,7 @@ _Libraries for Machine Learning._
 	conda install -c conda-forge gym
 	```
 </details>
-<details><summary><b><a href="https://github.com/numenta/nupic">NuPIC</a></b> (🥈24 ·  ⭐ 6.3K · 💀) - Numenta Platform for Intelligent Computing. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/numenta/nupic">NuPIC</a></b> (🥈24 ·  ⭐ 6.3K · 💀) - 智能计算 Numenta 平台。<code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/numenta/nupic) (👨‍💻 120 · 🔀 1.6K · 📦 110 · 📋 1.8K - 25% open · ⏱️ 23.10.2019):
 
@@ -5638,7 +5638,7 @@ _Libraries for Machine Learning._
 	conda install -c conda-forge nupic
 	```
 </details>
-<details><summary><b><a href="https://github.com/h2oai/h2o-3">H2O</a></b> (🥉20 ·  ⭐ 5.7K) - Open Source Fast Scalable Machine Learning Platform. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/h2oai/h2o-3">H2O</a></b> (🥉20 ·  ⭐ 5.7K) - 开源快速可扩展的机器学习平台。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/h2oai/h2o-3) (👨‍💻 220 · 🔀 1.8K · ⏱️ 23.12.2021):
 
@@ -5654,7 +5654,7 @@ _Libraries for Machine Learning._
 	conda install -c conda-forge h2o-3
 	```
 </details>
-<details><summary><b><a href="https://github.com/mindsdb/mindsdb">MindsDB</a></b> (🥉19 ·  ⭐ 4.2K) - MindsDB is an open source AI layer for existing databases that.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/mindsdb/mindsdb">MindsDB</a></b> (🥉19 ·  ⭐ 4.2K) - MindsDB是现有数据库的开源AI层，可让使用标准查询轻松地进行开发，训练和部署最新的机器学习模型。<code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/mindsdb/mindsdb) (👨‍💻 89 · 🔀 550 · 📋 780 - 9% open · ⏱️ 23.12.2021):
 
@@ -5670,7 +5670,7 @@ _Libraries for Machine Learning._
 	conda install -c conda-forge mindsdb
 	```
 </details>
-<details><summary><b><a href="https://github.com/benhamner/Metrics">Metrics</a></b> (🥉15 ·  ⭐ 1.5K · 💀) - Machine learning evaluation metrics. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/benhamner/Metrics">Metrics</a></b> (🥉15 ·  ⭐ 1.5K · 💀) - 机器学习的评估指标。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/benhamner/Metrics) (👨‍💻 7 · 🔀 400 · 📋 17 - 58% open · ⏱️ 09.09.2015):
 
@@ -5686,7 +5686,7 @@ _Libraries for Machine Learning._
 	conda install -c conda-forge Metrics
 	```
 </details>
-<details><summary><b><a href="https://github.com/josephreisinger/vowpal_porpoise">vowpal_porpoise</a></b> (🥉9 ·  ⭐ 160 · 💀) - A lightweight Python wrapper for [Vowpal.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/josephreisinger/vowpal_porpoise">vowpal_porpoise</a></b> (🥉9 ·  ⭐ 160 · 💀) - 支持 <a href="https://lucene.apache.org/solr/">Apache Solr</a> 的轻量级 Python 装饰器。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/josephreisinger/vowpal_porpoise) (👨‍💻 14 · 🔀 28 · 📋 9 - 66% open · ⏱️ 07.01.2020):
 
@@ -5704,19 +5704,19 @@ _Libraries for Machine Learning._
 </details>
 <br>
 
-## Microsoft Windows
+## 微软的 Windows 平台
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Python programming on Microsoft Windows._
+_在 Windows 平台上进行 Python 编程。_
 
-🔗&nbsp;<b><a href="http://python-xy.github.io/">Python(x,y)</a></b>  - Scientific-applications-oriented Python Distribution based on Qt and Spyder.
+🔗&nbsp;<b><a href="http://python-xy.github.io/">Python(x,y)</a></b>  - 面向科学应用的 Python 发行版，基于 Qt 和 Spyder。
 
-🔗&nbsp;<b><a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/">pythonlibs</a></b>  - Unofficial Windows binaries for Python extension packages.
+🔗&nbsp;<b><a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/">pythonlibs</a></b>  - 非官方的 Windows 平台 Python 扩展二进制包。
 
-🔗&nbsp;<b><a href="https://winpython.github.io/">WinPython</a></b>  - Portable development environment for Windows 7/8.
+🔗&nbsp;<b><a href="https://winpython.github.io/">WinPython</a></b>  - Windows 7/8 系统下便携式开发环境。
 
-<details><summary><b><a href="https://github.com/mhammond/pywin32">PyWin32</a></b> (🥇27 ·  ⭐ 3.5K) - Python Extensions for Windows. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/mhammond/pywin32">PyWin32</a></b> (🥇27 ·  ⭐ 3.5K) - 针对 Windows 的 Python 扩展。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/mhammond/pywin32) (👨‍💻 70 · 🔀 640 · 📥 510K · 📦 63K · 📋 1.6K - 26% open · ⏱️ 20.12.2021):
 
@@ -5732,7 +5732,7 @@ _Python programming on Microsoft Windows._
 	conda install -c conda-forge pywin32
 	```
 </details>
-<details><summary><b><a href="https://github.com/pythonnet/pythonnet">PythonNet</a></b> (🥇27 ·  ⭐ 2.9K) - Python Integration with the .NET Common Language Runtime (CLR). <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/pythonnet/pythonnet">PythonNet</a></b> (🥇27 ·  ⭐ 2.9K) - Python 与 .NET 公共语言运行库 (CLR)的集成。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/pythonnet/pythonnet) (👨‍💻 95 · 🔀 470 · 📦 58 · 📋 1.1K - 15% open · ⏱️ 21.12.2021):
 
@@ -5750,15 +5750,15 @@ _Python programming on Microsoft Windows._
 </details>
 <br>
 
-## Miscellaneous
+## 杂项
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Useful libraries or tools that don't fit in the categories above._
+_不属于上面任何一个类别，但是非常有用的库。_
 
-🔗&nbsp;<b><a href="http://www.tryton.org/">tryton</a></b>  - A general purpose business framework.
+🔗&nbsp;<b><a href="http://www.tryton.org/">tryton</a></b>  - 一个通用业务框架。
 
-<details><summary><b><a href="https://github.com/pallets/itsdangerous">itsdangerous</a></b> (🥇29 ·  ⭐ 2.4K) - Various helpers to pass trusted data to untrusted environments. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/pallets/itsdangerous">itsdangerous</a></b> (🥇29 ·  ⭐ 2.4K) - 将受信任的数据传递到不受信任的环境的帮助工具。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/pallets/itsdangerous) (👨‍💻 38 · 🔀 180 · 📦 530K · ⏱️ 05.11.2021):
 
@@ -5774,7 +5774,7 @@ _Useful libraries or tools that don't fit in the categories above._
 	conda install -c conda-forge itsdangerous
 	```
 </details>
-<details><summary><b><a href="https://github.com/jek/blinker">blinker</a></b> (🥇29 ·  ⭐ 1.3K · 💤) - A fast Python in-process signal/event dispatching system. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/jek/blinker">blinker</a></b> (🥇29 ·  ⭐ 1.3K · 💤) - 快速的 Python 运行时信号/事件分配系统。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/jek/blinker) (👨‍💻 11 · 🔀 160 · 📦 89K · 📋 34 - 52% open · ⏱️ 29.01.2021):
 
@@ -5790,7 +5790,7 @@ _Useful libraries or tools that don't fit in the categories above._
 	conda install -c conda-forge blinker
 	```
 </details>
-<details><summary><b><a href="https://github.com/mahmoud/boltons">boltons</a></b> (🥉28 ·  ⭐ 5.7K) - A set of pure-Python utilities. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/mahmoud/boltons">boltons</a></b> (🥉28 ·  ⭐ 5.7K) - 一组纯 Python 实用工具。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/mahmoud/boltons) (👨‍💻 72 · 🔀 310 · 📥 23 · 📦 1.9K · 📋 130 - 29% open · ⏱️ 11.10.2021):
 
@@ -5806,7 +5806,7 @@ _Useful libraries or tools that don't fit in the categories above._
 	conda install -c conda-forge boltons
 	```
 </details>
-<details><summary><b><a href="https://github.com/magenta/magenta">magenta</a></b> (🥉26 ·  ⭐ 17K) - A tool to generate music and art using artificial intelligence. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/magenta/magenta">magenta</a></b> (🥉26 ·  ⭐ 17K) - 使用人工智能生成音乐与艺术的工具。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/magenta/magenta) (👨‍💻 150 · 🔀 3.5K · 📦 330 · 📋 860 - 33% open · ⏱️ 30.06.2021):
 
@@ -5822,7 +5822,7 @@ _Useful libraries or tools that don't fit in the categories above._
 	conda install -c conda-forge magenta
 	```
 </details>
-<details><summary><b><a href="https://github.com/mitsuhiko/pluginbase">pluginbase</a></b> (🥉21 ·  ⭐ 990 · 💤) - A simple but flexible plugin system for Python. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/mitsuhiko/pluginbase">pluginbase</a></b> (🥉21 ·  ⭐ 990 · 💤) - 一个简单但灵活的Python插件系统。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/mitsuhiko/pluginbase) (👨‍💻 9 · 🔀 140 · 📦 1.1K · ⏱️ 16.05.2021):
 
@@ -5840,17 +5840,17 @@ _Useful libraries or tools that don't fit in the categories above._
 </details>
 <br>
 
-## Natural Language Processing
+## 自然语言处理
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for working with human languages._
+_用来处理人类语言的库。_
 
-🔗&nbsp;<b><a href="http://www.nltk.org/">nltk</a></b>  - A leading platform for building Python programs to work with human language data.
+🔗&nbsp;<b><a href="http://www.nltk.org/">nltk</a></b>  - 一个先进的平台，用以构建处理人类语言数据的 Python 程序。
 
-🔗&nbsp;<b><a href="https://spacy.io/">spacy</a></b>  - A library for industrial-strength natural language processing in Python and Cython.
+🔗&nbsp;<b><a href="https://spacy.io/">spacy</a></b>  - Python 和 Cython 中用于工业级自然语言处理的库。
 
-<details><summary><b><a href="https://github.com/RaRe-Technologies/gensim">gensim</a></b> (🥇36 ·  ⭐ 13K) - Topic Modeling for Humans. <code><a href="https://tldrlegal.com/search?q=LGPL-2.1">❗️LGPL-2.1</a></code></summary>
+<details><summary><b><a href="https://github.com/RaRe-Technologies/gensim">gensim</a></b> (🥇36 ·  ⭐ 13K) - 人性化的话题建模库。<code><a href="https://tldrlegal.com/search?q=LGPL-2.1">❗️LGPL-2.1</a></code></summary>
 
 - [GitHub](https://github.com/RaRe-Technologies/gensim) (👨‍💻 420 · 🔀 3.9K · 📥 3.5K · 📦 29K · 📋 1.7K - 20% open · ⏱️ 13.12.2021):
 
@@ -5866,7 +5866,7 @@ _Libraries for working with human languages._
 	conda install -c conda-forge gensim
 	```
 </details>
-<details><summary><b><a href="https://github.com/fxsjy/jieba">jieba</a></b> (🥇28 ·  ⭐ 28K · 💀) - The most popular Chinese text segmentation library. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/fxsjy/jieba">jieba</a></b> (🥇28 ·  ⭐ 28K · 💀) - 中文分词工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/fxsjy/jieba) (👨‍💻 48 · 🔀 6.2K · 📦 12K · 📋 790 - 73% open · ⏱️ 15.02.2020):
 
@@ -5882,7 +5882,7 @@ _Libraries for working with human languages._
 	conda install -c conda-forge jieba
 	```
 </details>
-<details><summary><b><a href="https://github.com/clips/pattern">pattern</a></b> (🥇28 ·  ⭐ 8.1K · 💀) - A web mining module. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/clips/pattern">pattern</a></b> (🥇28 ·  ⭐ 8.1K · 💀) - Python 网络挖掘模块。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/clips/pattern) (👨‍💻 30 · 🔀 1.5K · 📦 1.2K · 📋 200 - 62% open · ⏱️ 25.04.2020):
 
@@ -5898,7 +5898,7 @@ _Libraries for working with human languages._
 	conda install -c conda-forge pattern
 	```
 </details>
-<details><summary><b><a href="https://github.com/stanfordnlp/stanza">Stanza</a></b> (🥈24 ·  ⭐ 5.9K) - The Stanford NLP Group's official Python library, supporting 60+.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/stanfordnlp/stanza">Stanza</a></b> (🥈24 ·  ⭐ 5.9K) - 斯坦福 NLP 集团的官方 Python 库，支持60多种语言。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/stanfordnlp/stanza) (👨‍💻 41 · 🔀 740 · 📦 790 · 📋 620 - 11% open · ⏱️ 18.11.2021):
 
@@ -5914,7 +5914,7 @@ _Libraries for working with human languages._
 	conda install -c conda-forge stanza
 	```
 </details>
-<details><summary><b><a href="https://github.com/aboSamoor/polyglot">polyglot</a></b> (🥈23 ·  ⭐ 1.9K · 💀) - Natural language pipeline supporting hundreds of languages. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/aboSamoor/polyglot">polyglot</a></b> (🥈23 ·  ⭐ 1.9K · 💀) - 支持数百种语言的自然语言处理管道。<code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/aboSamoor/polyglot) (👨‍💻 26 · 🔀 300 · 📦 620 · 📋 200 - 68% open · ⏱️ 22.09.2020):
 
@@ -5930,7 +5930,7 @@ _Libraries for working with human languages._
 	conda install -c conda-forge polyglot
 	```
 </details>
-<details><summary><b><a href="https://github.com/lancopku/pkuseg-python">pkuseg-python</a></b> (🥉22 ·  ⭐ 5.7K · 💀) - A toolkit for Chinese word segmentation in various domains. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/lancopku/pkuseg-python">pkuseg-python</a></b> (🥉22 ·  ⭐ 5.7K · 💀) - 一个支持对不同领域进行中文分词的工具箱。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/lancopku/pkuseg-python) (👨‍💻 6 · 🔀 900 · 📥 72K · 📦 160 · 📋 150 - 72% open · ⏱️ 21.06.2020):
 
@@ -5946,7 +5946,7 @@ _Libraries for working with human languages._
 	conda install -c conda-forge pkuseg-python
 	```
 </details>
-<details><summary><b><a href="https://github.com/PetrochukM/PyTorch-NLP">PyTorch-NLP</a></b> (🥉20 ·  ⭐ 2K) - A toolkit enabling rapid deep learning NLP prototyping for research. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/PetrochukM/PyTorch-NLP">PyTorch-NLP</a></b> (🥉20 ·  ⭐ 2K) - 一个支持快速深度学习 NLP 原型研究的工具包。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/PetrochukM/PyTorch-NLP) (👨‍💻 18 · 🔀 240 · 📦 310 · 📋 66 - 25% open · ⏱️ 10.07.2021):
 
@@ -5962,7 +5962,7 @@ _Libraries for working with human languages._
 	conda install -c conda-forge PyTorch-NLP
 	```
 </details>
-<details><summary><b><a href="https://github.com/isnowfy/snownlp">snownlp</a></b> (🥉19 ·  ⭐ 5.7K · 💀) - A library for processing Chinese text. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/isnowfy/snownlp">snownlp</a></b> (🥉19 ·  ⭐ 5.7K · 💀) - 一个用来处理中文文本的库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/isnowfy/snownlp) (👨‍💻 8 · 🔀 1.3K · 📦 760 · 📋 100 - 37% open · ⏱️ 19.01.2020):
 
@@ -5978,7 +5978,7 @@ _Libraries for working with human languages._
 	conda install -c conda-forge snownlp
 	```
 </details>
-<details><summary><b><a href="https://github.com/facebookresearch/pytext">pytext</a></b> (🥉18 ·  ⭐ 6.3K) - A natural language modeling framework based on PyTorch. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/facebookresearch/pytext">pytext</a></b> (🥉18 ·  ⭐ 6.3K) - 基于 PyTouch 的自然语言模型框架。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/facebookresearch/pytext) (👨‍💻 220 · 🔀 790 · 📥 280 · 📦 100 · 📋 130 - 44% open · ⏱️ 15.12.2021):
 
@@ -5994,7 +5994,7 @@ _Libraries for working with human languages._
 	conda install -c conda-forge pytext
 	```
 </details>
-<details><summary><b><a href="https://github.com/saffsd/langid.py">langid.py</a></b> (🥉17 ·  ⭐ 1.9K · 💀) - Stand-alone language identification system. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/saffsd/langid.py">langid.py</a></b> (🥉17 ·  ⭐ 1.9K · 💀) - 独立的语言识别系统。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/saffsd/langid.py) (👨‍💻 9 · 🔀 280 · 📦 870 · 📋 71 - 36% open · ⏱️ 15.07.2017):
 
@@ -6010,7 +6010,7 @@ _Libraries for working with human languages._
 	conda install -c conda-forge langid.py
 	```
 </details>
-<details><summary><b><a href="https://github.com/fighting41love/funNLP">funNLP</a></b> (🥉14 ·  ⭐ 36K) - A collection of tools and datasets for Chinese NLP. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/fighting41love/funNLP">funNLP</a></b> (🥉14 ·  ⭐ 36K) - 中文自然语言处理的工具和数据集。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/fighting41love/funNLP) (👨‍💻 10 · 🔀 9.8K · 📋 44 - 36% open · ⏱️ 20.08.2021):
 
@@ -6028,13 +6028,13 @@ _Libraries for working with human languages._
 </details>
 <br>
 
-## Network Virtualization
+## 网络可视化和 SDN
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Tools and libraries for Virtual Networking and SDN (Software Defined Networking)._
+_用来进行网络可视化和 SDN(软件定义网络)的工具和库。_
 
-<details><summary><b><a href="https://github.com/mininet/mininet">mininet</a></b> (🥇24 ·  ⭐ 4.2K) - A popular network emulator and API written in Python. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/mininet/mininet">mininet</a></b> (🥇24 ·  ⭐ 4.2K) - 一款流行的网络模拟器以及用 Python 编写的 API。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/mininet/mininet) (👨‍💻 78 · 🔀 1.5K · 📥 410K · 📦 120 · 📋 650 - 40% open · ⏱️ 09.11.2021):
 
@@ -6050,7 +6050,7 @@ _Tools and libraries for Virtual Networking and SDN (Software Defined Networking
 	conda install -c conda-forge mininet
 	```
 </details>
-<details><summary><b><a href="https://github.com/napalm-automation/napalm">napalm</a></b> (🥇24 ·  ⭐ 1.8K) - Cross-vendor API to manipulate network devices. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/napalm-automation/napalm">napalm</a></b> (🥇24 ·  ⭐ 1.8K) - 可跨供应商 API 来操纵网络设备。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/napalm-automation/napalm) (👨‍💻 170 · 🔀 470 · 📦 740 · 📋 530 - 22% open · ⏱️ 29.11.2021):
 
@@ -6066,7 +6066,7 @@ _Tools and libraries for Virtual Networking and SDN (Software Defined Networking
 	conda install -c conda-forge napalm
 	```
 </details>
-<details><summary><b><a href="https://github.com/noxrepo/pox">pox</a></b> (🥉16 ·  ⭐ 550 · 💀) - A Python-based SDN control applications, such as OpenFlow SDN.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/noxrepo/pox">pox</a></b> (🥉16 ·  ⭐ 550 · 💀) - 一个针对基于 Python 的软件定义网络应用（例如 OpenFlow SDN 控制器）的开源开发平台。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/noxrepo/pox) (👨‍💻 26 · 🔀 420 · 📋 180 - 24% open · ⏱️ 20.05.2020):
 
@@ -6084,13 +6084,13 @@ _Tools and libraries for Virtual Networking and SDN (Software Defined Networking
 </details>
 <br>
 
-## News Feed
+## 动态消息
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for building user's activities._
+_用来创建用户活动的库。_
 
-<details><summary><b><a href="https://github.com/justquick/django-activity-stream">django-activity-stream</a></b> (🥇23 ·  ⭐ 2K) - Generating generic activity streams from the actions.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/justquick/django-activity-stream">django-activity-stream</a></b> (🥇23 ·  ⭐ 2K) - 从你的站点行为中生成通用活动信息流。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/justquick/django-activity-stream) (👨‍💻 110 · 🔀 440 · 📦 740 · 📋 290 - 19% open · ⏱️ 19.11.2021):
 
@@ -6126,17 +6126,17 @@ _Libraries for building user's activities._
 
 ## ORM
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries that implement Object-Relational Mapping or data mapping techniques._
+_实现对象关系映射或数据映射技术的库。_
 
 🔗&nbsp;<b><a href="https://docs.djangoproject.com/en/dev/topics/db/models/">Django Models</a></b>  - The Django ORM.
 
-🔗&nbsp;<b><a href="https://www.sqlalchemy.org/">SQLAlchemy</a></b>  - The Python SQL Toolkit and Object Relational Mapper.
+🔗&nbsp;<b><a href="https://www.sqlalchemy.org/">SQLAlchemy</a></b>  - Python SQL 工具以及对象关系映射工具。
 
 🔗&nbsp;<b><a href="https://github.com/dahlia/awesome-sqlalchemy">awesome-sqlalchemy</a></b> ( ⭐ 2.3K · 💀)  - A curated list of awesome tools for SQLAlchemy.
 
-<details><summary><b><a href="https://github.com/coleifer/peewee">peewee</a></b> (🥇34 ·  ⭐ 8.8K) - A small, expressive ORM. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/coleifer/peewee">peewee</a></b> (🥇34 ·  ⭐ 8.8K) - 一个小但是很有表现力的 ORM。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/coleifer/peewee) (👨‍💻 150 · 🔀 1.3K · 📦 15K · 📋 2.1K - 0% open · ⏱️ 09.12.2021):
 
@@ -6152,7 +6152,7 @@ _Libraries that implement Object-Relational Mapping or data mapping techniques._
 	conda install -c conda-forge peewee
 	```
 </details>
-<details><summary><b><a href="https://github.com/MongoEngine/mongoengine">mongoengine</a></b> (🥈33 ·  ⭐ 3.6K) - A Python Object-Document-Mapper for working with MongoDB. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/MongoEngine/mongoengine">mongoengine</a></b> (🥈33 ·  ⭐ 3.6K) - 一个 Python 对象文档映射工具，用于 MongoDB。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/MongoEngine/mongoengine) (👨‍💻 370 · 🔀 1.1K · 📦 15K · 📋 1.6K - 21% open · ⏱️ 30.11.2021):
 
@@ -6168,7 +6168,7 @@ _Libraries that implement Object-Relational Mapping or data mapping techniques._
 	conda install -c conda-forge mongoengine
 	```
 </details>
-<details><summary><b><a href="https://github.com/pynamodb/PynamoDB">PynamoDB</a></b> (🥈29 ·  ⭐ 1.8K) - A Pythonic interface for [Amazon.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/pynamodb/PynamoDB">PynamoDB</a></b> (🥈29 ·  ⭐ 1.8K) - <a href="https://aws.amazon.com/dynamodb/">Amazon DynamoDB</a> 的一个 Python 风格接口。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/pynamodb/PynamoDB) (👨‍💻 92 · 🔀 380 · 📦 870 · 📋 470 - 39% open · ⏱️ 01.12.2021):
 
@@ -6184,7 +6184,7 @@ _Libraries that implement Object-Relational Mapping or data mapping techniques._
 	conda install -c conda-forge PynamoDB
 	```
 </details>
-<details><summary><b><a href="https://github.com/pudo/dataset">dataset</a></b> (🥈23 ·  ⭐ 4.1K) - Store Python dicts in a database - works with SQLite, MySQL, and.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/pudo/dataset">dataset</a></b> (🥈23 ·  ⭐ 4.1K) - 在数据库中存储字典，支持 SQLite，MySQL 和 PostgreSQL。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/pudo/dataset) (👨‍💻 76 · 🔀 270 · 📦 2.2K · 📋 260 - 3% open · ⏱️ 16.12.2021):
 
@@ -6200,7 +6200,7 @@ _Libraries that implement Object-Relational Mapping or data mapping techniques._
 	conda install -c conda-forge dataset
 	```
 </details>
-<details><summary><b><a href="https://github.com/ponyorm/pony">pony</a></b> (🥉20 ·  ⭐ 2.8K) - ORM that provides a generator-oriented interface to SQL. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/ponyorm/pony">pony</a></b> (🥉20 ·  ⭐ 2.8K) - 提供面向生成器的SQL接口的ORM。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/ponyorm/pony) (🔀 200 · 📦 2.2K · 📋 560 - 43% open · ⏱️ 29.11.2021):
 
@@ -6212,7 +6212,7 @@ _Libraries that implement Object-Relational Mapping or data mapping techniques._
 	conda install -c conda-forge 
 	```
 </details>
-<details><summary><b><a href="https://github.com/encode/orm">orm</a></b> (🥉19 ·  ⭐ 1.5K) - An async ORM. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/encode/orm">orm</a></b> (🥉19 ·  ⭐ 1.5K) - 一个异步的 ORM。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/encode/orm) (👨‍💻 15 · 🔀 83 · 📋 69 - 15% open · ⏱️ 22.12.2021):
 
@@ -6228,7 +6228,7 @@ _Libraries that implement Object-Relational Mapping or data mapping techniques._
 	conda install -c conda-forge orm
 	```
 </details>
-<details><summary><b><a href="https://github.com/web2py/pydal">pydal</a></b> (🥉19 ·  ⭐ 400) - A pure Python Database Abstraction Layer. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/web2py/pydal">pydal</a></b> (🥉19 ·  ⭐ 400) - 纯 Python 数据库抽象接口层。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/web2py/pydal) (🔀 120 · 📦 200 · 📋 300 - 48% open · ⏱️ 28.11.2021):
 
@@ -6240,7 +6240,7 @@ _Libraries that implement Object-Relational Mapping or data mapping techniques._
 	conda install -c conda-forge 
 	```
 </details>
-<details><summary><b><a href="https://github.com/sdispater/orator">orator</a></b> (🥉18 ·  ⭐ 1.3K · 💀) - The Orator ORM provides a simple yet beautiful ActiveRecord.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/sdispater/orator">orator</a></b> (🥉18 ·  ⭐ 1.3K · 💀) - Orator ORM，提供了一个简单而美观的 ActiveRecord 实现。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/sdispater/orator) (👨‍💻 31 · 🔀 150 · 📋 310 - 41% open · ⏱️ 06.01.2020):
 
@@ -6256,7 +6256,7 @@ _Libraries that implement Object-Relational Mapping or data mapping techniques._
 	conda install -c conda-forge orator
 	```
 </details>
-<details><summary><b><a href="https://github.com/stephenmcd/hot-redis">hot-redis</a></b> (🥉16 ·  ⭐ 280 · 💀) - Rich Python data types for Redis. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/stephenmcd/hot-redis">hot-redis</a></b> (🥉16 ·  ⭐ 280 · 💀) - 为 Redis 提供 Python 丰富的数据类型。<code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
 - [GitHub](https://github.com/stephenmcd/hot-redis) (👨‍💻 6 · 🔀 28 · 📦 24 · 📋 10 - 50% open · ⏱️ 16.10.2018):
 
@@ -6272,7 +6272,7 @@ _Libraries that implement Object-Relational Mapping or data mapping techniques._
 	conda install -c conda-forge hot-redis
 	```
 </details>
-<details><summary><b><a href="https://github.com/kiddouk/redisco">redisco</a></b> (🥉14 ·  ⭐ 430 · 💀) - A Python Library for Simple Models and Containers Persisted in Redis. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/kiddouk/redisco">redisco</a></b> (🥉14 ·  ⭐ 430 · 💀) - 一个 Python 库，提供可以持续存在在 Redis 中的简单模型和容器。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/kiddouk/redisco) (👨‍💻 20 · 🔀 85 · 📋 51 - 70% open · ⏱️ 06.06.2016):
 
@@ -6290,17 +6290,17 @@ _Libraries that implement Object-Relational Mapping or data mapping techniques._
 </details>
 <br>
 
-## Package Management
+## 包管理
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for package and dependency management._
+_管理包和依赖的工具。_
 
-🔗&nbsp;<b><a href="https://pip.pypa.io/en/stable/">pip</a></b>  - The package installer for Python.
+🔗&nbsp;<b><a href="https://pip.pypa.io/en/stable/">pip</a></b>  - Python 包和依赖关系管理工具。
 
 🔗&nbsp;<b><a href="https://pypi.org/">PyPI</a></b>  
 
-<details><summary><b><a href="https://github.com/python-poetry/poetry">poetry</a></b> (🥇30 ·  ⭐ 18K) - Python dependency management and packaging made easy. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/python-poetry/poetry">poetry</a></b> (🥇30 ·  ⭐ 18K) - 可完全取代 setup.py 的包管理工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/python-poetry/poetry) (👨‍💻 320 · 🔀 1.4K · 📥 9.9M · 📋 3.4K - 33% open · ⏱️ 07.12.2021):
 
@@ -6316,7 +6316,7 @@ _Libraries for package and dependency management._
 	conda install -c conda-forge poetry
 	```
 </details>
-<details><summary><b><a href="https://github.com/jazzband/pip-tools">pip-tools</a></b> (🥉28 ·  ⭐ 5.4K) - A set of tools to keep your pinned Python dependencies fresh. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jazzband/pip-tools">pip-tools</a></b> (🥉28 ·  ⭐ 5.4K) - 保证 Python 包依赖关系更新的一组工具。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/jazzband/pip-tools) (👨‍💻 160 · 🔀 410 · 📋 780 - 15% open · ⏱️ 12.11.2021):
 
@@ -6332,7 +6332,7 @@ _Libraries for package and dependency management._
 	conda install -c conda-forge pip-tools
 	```
 </details>
-<details><summary><b><a href="https://github.com/conda/conda">conda</a></b> (🥉18 ·  ⭐ 4.4K) - Cross-platform, Python-agnostic binary package manager. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/conda/conda">conda</a></b> (🥉18 ·  ⭐ 4.4K) - 跨平台的 Python 二进制包管理工具。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/conda/conda) (🔀 1.1K · 📋 8.2K - 21% open · ⏱️ 06.12.2021):
 
@@ -6346,13 +6346,13 @@ _Libraries for package and dependency management._
 </details>
 <br>
 
-## Package Repositories
+## 包仓库
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Local PyPI repository server and proxies._
+_本地 PyPI 仓库服务和代理。_
 
-<details><summary><b><a href="https://github.com/devpi/devpi">devpi</a></b> (🥇19 ·  ⭐ 520) - PyPI server and packaging/testing/release tool. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/devpi/devpi">devpi</a></b> (🥇19 ·  ⭐ 520) - PyPI 服务和打包/测试/分发工具。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/devpi/devpi) (👨‍💻 81 · 🔀 92 · 📦 160 · 📋 670 - 14% open · ⏱️ 07.12.2021):
 
@@ -6368,7 +6368,7 @@ _Local PyPI repository server and proxies._
 	conda install -c conda-forge devpi
 	```
 </details>
-<details><summary><b><a href="https://github.com/pypa/warehouse">warehouse</a></b> (🥈15 ·  ⭐ 2.9K) - Next generation Python Package Repository (PyPI). <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/pypa/warehouse">warehouse</a></b> (🥈15 ·  ⭐ 2.9K) - 下一代 PyPI。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/pypa/warehouse) (👨‍💻 310 · 🔀 720 · 📋 2.4K - 13% open · ⏱️ 20.12.2021):
 
@@ -6384,7 +6384,7 @@ _Local PyPI repository server and proxies._
 	conda install -c conda-forge warehouse
 	```
 </details>
-<details><summary><b><a href="https://github.com/mvantellingen/localshop">localshop</a></b> (🥈15 ·  ⭐ 380 · 💀) - Local PyPI server (custom packages and auto-mirroring of pypi). <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/mvantellingen/localshop">localshop</a></b> (🥈15 ·  ⭐ 380 · 💀) - 本地 PyPI 服务（自定义包并且自动对 PyPI 镜像）。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/mvantellingen/localshop) (👨‍💻 46 · 🔀 110 · 📦 3 · 📋 110 - 30% open · ⏱️ 08.07.2020):
 
@@ -6400,7 +6400,7 @@ _Local PyPI repository server and proxies._
 	conda install -c conda-forge localshop
 	```
 </details>
-<details><summary><b><a href="https://github.com/pypa/bandersnatch">bandersnatch</a></b> (🥉13 ·  ⭐ 270) - PyPI mirroring tool provided by Python Packaging Authority.. <code><a href="https://tldrlegal.com/search?q=AFL-3.0">❗️AFL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/pypa/bandersnatch">bandersnatch</a></b> (🥉13 ·  ⭐ 270) - PyPA 提供的 PyPI 镜像工具。<code><a href="https://tldrlegal.com/search?q=AFL-3.0">❗️AFL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/pypa/bandersnatch) (🔀 88 · 📋 180 - 12% open · ⏱️ 23.12.2021):
 
@@ -6414,13 +6414,13 @@ _Local PyPI repository server and proxies._
 </details>
 <br>
 
-## Penetration Testing
+## 渗透测试
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Frameworks and tools for penetration testing._
+_渗透测试相关框架和工具。_
 
-<details><summary><b><a href="https://github.com/sqlmapproject/sqlmap">sqlmap</a></b> (🥇22 ·  ⭐ 22K) - Automatic SQL injection and database takeover tool. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/sqlmapproject/sqlmap">sqlmap</a></b> (🥇22 ·  ⭐ 22K) - 自动 SQL 注入和数据库接管工具。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/sqlmapproject/sqlmap) (👨‍💻 110 · 🔀 4.4K · 📋 4.5K - 1% open · ⏱️ 13.12.2021):
 
@@ -6436,7 +6436,7 @@ _Frameworks and tools for penetration testing._
 	conda install -c conda-forge sqlmap
 	```
 </details>
-<details><summary><b><a href="https://github.com/Manisso/fsociety">fsociety</a></b> (🥉17 ·  ⭐ 7.2K · 💀) - A Penetration testing framework. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/Manisso/fsociety">fsociety</a></b> (🥉17 ·  ⭐ 7.2K · 💀) - 一款渗透测试框架。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/Manisso/fsociety) (👨‍💻 21 · 🔀 1.5K · 📋 110 - 14% open · ⏱️ 16.10.2020):
 
@@ -6452,7 +6452,7 @@ _Frameworks and tools for penetration testing._
 	conda install -c conda-forge fsociety
 	```
 </details>
-<details><summary><b><a href="https://github.com/trustedsec/social-engineer-toolkit">setoolkit</a></b> (🥉17 ·  ⭐ 7.1K) - A toolkit for social engineering. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/trustedsec/social-engineer-toolkit">setoolkit</a></b> (🥉17 ·  ⭐ 7.1K) - 社会工程工具包。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/trustedsec/social-engineer-toolkit) (👨‍💻 81 · 🔀 2K · 📋 770 - 22% open · ⏱️ 20.07.2021):
 
@@ -6470,13 +6470,13 @@ _Frameworks and tools for penetration testing._
 </details>
 <br>
 
-## Permissions
+## 权限
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries that allow or deny users access to data or functionality._
+_允许或拒绝用户访问数据或功能的库。_
 
-<details><summary><b><a href="https://github.com/django-guardian/django-guardian">django-guardian</a></b> (🥇27 ·  ⭐ 3.1K) - Implementation of per object permissions for Django.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/django-guardian/django-guardian">django-guardian</a></b> (🥇27 ·  ⭐ 3.1K) - Django 1.2+ ，实现了单个对象权限。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/django-guardian/django-guardian) (👨‍💻 160 · 🔀 510 · 📦 4.4K · 📋 430 - 25% open · ⏱️ 14.11.2021):
 
@@ -6492,7 +6492,7 @@ _Libraries that allow or deny users access to data or functionality._
 	conda install -c conda-forge django-guardian
 	```
 </details>
-<details><summary><b><a href="https://github.com/dfunckt/django-rules">django-rules</a></b> (🥉24 ·  ⭐ 1.4K) - A tiny but powerful app providing object-level permissions to.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/dfunckt/django-rules">django-rules</a></b> (🥉24 ·  ⭐ 1.4K) - 一个小巧但是强大的应用，提供对象级别的权限管理，且不需要使用数据库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/dfunckt/django-rules) (👨‍💻 25 · 🔀 120 · 📦 720 · 📋 100 - 19% open · ⏱️ 22.12.2021):
 
@@ -6510,15 +6510,15 @@ _Libraries that allow or deny users access to data or functionality._
 </details>
 <br>
 
-## Processes
+## 进程
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for starting and communicating with OS processes._
+_操作系统进程启动及通信库。_
 
-🔗&nbsp;<b><a href="https://sarge.readthedocs.io/en/latest/">sarge</a></b>  - Yet another wrapper for subprocess.
+🔗&nbsp;<b><a href="https://sarge.readthedocs.io/en/latest/">sarge</a></b>  - 另一 种 subprocess 模块的封装。
 
-<details><summary><b><a href="https://github.com/amoffat/sh">sh</a></b> (🥇27 ·  ⭐ 6K) - A full-fledged subprocess replacement for Python. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/amoffat/sh">sh</a></b> (🥇27 ·  ⭐ 6K) - 一个完备的 subprocess 替代库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/amoffat/sh) (👨‍💻 82 · 🔀 430 · 📦 8.2K · 📋 400 - 2% open · ⏱️ 12.11.2021):
 
@@ -6552,13 +6552,13 @@ _Libraries for starting and communicating with OS processes._
 </details>
 <br>
 
-## Recommender Systems
+## 推荐系统
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for building recommender systems._
+_用于构建推荐系统的相关库。_
 
-<details><summary><b><a href="https://github.com/spotify/annoy">annoy</a></b> (🥇24 ·  ⭐ 9.3K) - Approximate Nearest Neighbors in C++/Python optimized for memory usage. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/spotify/annoy">annoy</a></b> (🥇24 ·  ⭐ 9.3K) - 对 C++/Python 实现的近似近邻算法进行了内存优化。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/spotify/annoy) (👨‍💻 75 · 🔀 950 · 📦 1.9K · 📋 340 - 11% open · ⏱️ 18.10.2021):
 
@@ -6574,7 +6574,7 @@ _Libraries for building recommender systems._
 	conda install -c conda-forge annoy
 	```
 </details>
-<details><summary><b><a href="https://github.com/lyst/lightfm">lightfm</a></b> (🥇24 ·  ⭐ 3.9K · 💤) - A Python implementation of a number of popular recommendation.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/lyst/lightfm">lightfm</a></b> (🥇24 ·  ⭐ 3.9K · 💤) - John Gruber’s Markdown 的 Python 版实现。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/lyst/lightfm) (👨‍💻 44 · 🔀 610 · 📦 610 · 📋 430 - 20% open · ⏱️ 07.02.2021):
 
@@ -6590,7 +6590,7 @@ _Libraries for building recommender systems._
 	conda install -c conda-forge lightfm
 	```
 </details>
-<details><summary><b><a href="https://github.com/benfred/implicit">implicit</a></b> (🥈22 ·  ⭐ 2.6K) - A fast Python implementation of collaborative filtering for implicit.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/benfred/implicit">implicit</a></b> (🥈22 ·  ⭐ 2.6K) - 对隐式数据集进行协作过滤的快速 Python 实现。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/benfred/implicit) (👨‍💻 30 · 🔀 510 · 📦 520 · 📋 370 - 22% open · ⏱️ 02.10.2021):
 
@@ -6606,7 +6606,7 @@ _Libraries for building recommender systems._
 	conda install -c conda-forge implicit
 	```
 </details>
-<details><summary><b><a href="https://github.com/ibayer/fastFM">fastFM</a></b> (🥉17 ·  ⭐ 960 · 💤) - A library for Factorization Machines. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/ibayer/fastFM">fastFM</a></b> (🥉17 ·  ⭐ 960 · 💤) - Factorization Machine 相关库。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/ibayer/fastFM) (👨‍💻 20 · 🔀 190 · 📥 420 · 📦 92 · 📋 110 - 43% open · ⏱️ 24.03.2021):
 
@@ -6622,7 +6622,7 @@ _Libraries for building recommender systems._
 	conda install -c conda-forge fastFM
 	```
 </details>
-<details><summary><b><a href="https://github.com/maciejkula/spotlight">spotlight</a></b> (🥉16 ·  ⭐ 2.6K · 💀) - Deep recommender models using PyTorch. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/maciejkula/spotlight">spotlight</a></b> (🥉16 ·  ⭐ 2.6K · 💀) - 使用 PyTorch 实现的深度推荐模型。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/maciejkula/spotlight) (👨‍💻 11 · 🔀 390 · 📋 110 - 55% open · ⏱️ 09.02.2020):
 
@@ -6638,7 +6638,7 @@ _Libraries for building recommender systems._
 	conda install -c conda-forge spotlight
 	```
 </details>
-<details><summary><b><a href="https://github.com/jfkirk/tensorrec">tensorrec</a></b> (🥉16 ·  ⭐ 1.2K · 💀) - A Recommendation Engine Framework in TensorFlow. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/jfkirk/tensorrec">tensorrec</a></b> (🥉16 ·  ⭐ 1.2K · 💀) - TensorFlow 的推荐引擎框架。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/jfkirk/tensorrec) (👨‍💻 9 · 🔀 220 · 📦 26 · 📋 120 - 28% open · ⏱️ 04.02.2020):
 
@@ -6654,7 +6654,7 @@ _Libraries for building recommender systems._
 	conda install -c conda-forge tensorrec
 	```
 </details>
-<details><summary><b><a href="https://github.com/NicolasHug/Surprise">Surprise</a></b> (🥉15 ·  ⭐ 5.2K · 💀) - A scikit for building and analyzing recommender systems. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/NicolasHug/Surprise">Surprise</a></b> (🥉15 ·  ⭐ 5.2K · 💀) - 用于构建和分析推荐系统的科学工具。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/NicolasHug/Surprise) (👨‍💻 38 · 🔀 890 · 📋 330 - 12% open · ⏱️ 05.08.2020):
 
@@ -6670,7 +6670,7 @@ _Libraries for building recommender systems._
 	conda install -c conda-forge Surprise
 	```
 </details>
-<details><summary><b><a href="https://github.com/ycjuan/libffm">libffm</a></b> (🥉11 ·  ⭐ 1.5K · 💀) - A library for Field-aware Factorization Machine (FFM). <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/ycjuan/libffm">libffm</a></b> (🥉11 ·  ⭐ 1.5K · 💀) - Field-aware Factorization Machine (FFM) 相关库。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/ycjuan/libffm) (👨‍💻 5 · 🔀 420 · 📋 36 - 58% open · ⏱️ 22.02.2019):
 
@@ -6688,17 +6688,17 @@ _Libraries for building recommender systems._
 </details>
 <br>
 
-## Refactoring
+## 重构
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Refactoring tools and libraries for Python_
+_Python 重构相关库和工具。_
 
-🔗&nbsp;<b><a href="http://bicyclerepair.sourceforge.net/">Bicycle Repair Man</a></b>  - Bicycle Repair Man, a refactoring tool for Python.
+🔗&nbsp;<b><a href="http://bicyclerepair.sourceforge.net/">Bicycle Repair Man</a></b>  - Python 的重构工具。
 
-🔗&nbsp;<b><a href="https://pybowler.io/">Bowler</a></b>  - Safe code refactoring for modern Python.
+🔗&nbsp;<b><a href="https://pybowler.io/">Bowler</a></b>  - 适用于现代Python的安全代码重构。
 
-<details><summary><b><a href="https://github.com/python-rope/rope">Rope</a></b> (🥇29 ·  ⭐ 1.2K) - Rope is a python refactoring library. <code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/python-rope/rope">Rope</a></b> (🥇29 ·  ⭐ 1.2K) - 一个 Python 的重构库。<code><a href="http://bit.ly/37RvQcA">❗️LGPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/python-rope/rope) (👨‍💻 68 · 🔀 130 · 📦 34K · 📋 230 - 30% open · ⏱️ 20.12.2021):
 
@@ -6718,17 +6718,17 @@ _Refactoring tools and libraries for Python_
 
 ## RESTful API
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for building RESTful APIs._
+_用来开发 RESTful APIs 的库_
 
-🔗&nbsp;<b><a href="http://www.django-rest-framework.org/">django-rest-framework</a></b>  - A powerful and flexible toolkit to build web APIs.
+🔗&nbsp;<b><a href="http://www.django-rest-framework.org/">django-rest-framework</a></b>  - 一个强大灵活的工具，用来构建 web API。
 
-🔗&nbsp;<b><a href="http://tastypieapi.org/">django-tastypie</a></b>  - Creating delicious APIs for Django apps.
+🔗&nbsp;<b><a href="http://tastypieapi.org/">django-tastypie</a></b>  - 为 Django 应用开发 API。
 
-🔗&nbsp;<b><a href="https://vibora.io/">vibora</a></b>  - Fast, efficient and asynchronous Web framework inspired by Flask.
+🔗&nbsp;<b><a href="https://vibora.io/">vibora</a></b>  - 快速高效且支持异步的 Web 框架，灵感来源于 Flask。
 
-<details><summary><b><a href="https://github.com/falconry/falcon">falcon</a></b> (🥇33 ·  ⭐ 8.7K) - A high-performance framework for building cloud APIs and web app.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/falconry/falcon">falcon</a></b> (🥇33 ·  ⭐ 8.7K) - 一个用来建立云 API 和 web app 后端的高性能框架。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/falconry/falcon) (👨‍💻 180 · 🔀 840 · 📥 1.5K · 📦 6.1K · 📋 930 - 19% open · ⏱️ 20.12.2021):
 
@@ -6760,7 +6760,7 @@ _Libraries for building RESTful APIs._
 	conda install -c conda-forge sanic
 	```
 </details>
-<details><summary><b><a href="https://github.com/tiangolo/fastapi">fastapi</a></b> (🥈30 ·  ⭐ 40K) - A modern, fast, web framework for building APIs with Python 3.6+ based on.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/tiangolo/fastapi">fastapi</a></b> (🥈30 ·  ⭐ 40K) - 一个现代，快速，基于标准 Python 类型注解的的 web框架，可使用 Python3.6+ 版本构建 API。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/tiangolo/fastapi) (👨‍💻 280 · 🔀 2.9K · 📋 2.6K - 32% open · ⏱️ 12.12.2021):
 
@@ -6776,7 +6776,7 @@ _Libraries for building RESTful APIs._
 	conda install -c conda-forge fastapi
 	```
 </details>
-<details><summary><b><a href="https://github.com/flask-restful/flask-restful">flask-restful</a></b> (🥈29 ·  ⭐ 6.2K) - Quickly building REST APIs for Flask. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/flask-restful/flask-restful">flask-restful</a></b> (🥈29 ·  ⭐ 6.2K) - 为 flask 快速创建 REST APIs 。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/flask-restful/flask-restful) (👨‍💻 160 · 🔀 940 · 📦 68K · 📋 530 - 15% open · ⏱️ 07.07.2021):
 
@@ -6792,7 +6792,7 @@ _Libraries for building RESTful APIs._
 	conda install -c conda-forge flask-restful
 	```
 </details>
-<details><summary><b><a href="https://github.com/hugapi/hug">hug</a></b> (🥉27 ·  ⭐ 6.6K · 💀) - A Python 3 framework for cleanly exposing APIs. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/hugapi/hug">hug</a></b> (🥉27 ·  ⭐ 6.6K · 💀) - 一个为纯净公开的 API 打造的 Python 3 框架。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/hugapi/hug) (👨‍💻 120 · 🔀 370 · 📦 1.2K · 📋 450 - 34% open · ⏱️ 10.08.2020):
 
@@ -6808,7 +6808,7 @@ _Libraries for building RESTful APIs._
 	conda install -c conda-forge hug
 	```
 </details>
-<details><summary><b><a href="https://github.com/pyeve/eve">eve</a></b> (🥉25 ·  ⭐ 6.4K) - REST API framework powered by Flask, MongoDB and good intentions. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/pyeve/eve">eve</a></b> (🥉25 ·  ⭐ 6.4K) - REST API 框架，由 Flask, MongoDB 等驱动。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/pyeve/eve) (👨‍💻 200 · 🔀 720 · 📦 990 · 📋 950 - 3% open · ⏱️ 10.12.2021):
 
@@ -6824,7 +6824,7 @@ _Libraries for building RESTful APIs._
 	conda install -c conda-forge eve
 	```
 </details>
-<details><summary><b><a href="https://github.com/flask-api/flask-api">flask-api</a></b> (🥉25 ·  ⭐ 1.3K) - Browsable Web APIs for Flask. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/flask-api/flask-api">flask-api</a></b> (🥉25 ·  ⭐ 1.3K) - 为 flask 开发的，可浏览 Web APIs 。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/flask-api/flask-api) (👨‍💻 32 · 🔀 160 · 📦 4.8K · 📋 63 - 19% open · ⏱️ 01.09.2021):
 
@@ -6840,7 +6840,7 @@ _Libraries for building RESTful APIs._
 	conda install -c conda-forge flask-api
 	```
 </details>
-<details><summary><b><a href="https://github.com/encode/apistar">apistar</a></b> (🥉23 ·  ⭐ 5.6K) - A smart Web API framework, designed for Python 3. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/encode/apistar">apistar</a></b> (🥉23 ·  ⭐ 5.6K) - 专为Python 3设计的智能 Web API 框架。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/encode/apistar) (👨‍💻 89 · 🔀 420 · 📦 660 · 📋 310 - 7% open · ⏱️ 31.08.2021):
 
@@ -6856,7 +6856,7 @@ _Libraries for building RESTful APIs._
 	conda install -c conda-forge apistar
 	```
 </details>
-<details><summary><b><a href="https://github.com/jeffknupp/sandman2">sandman2</a></b> (🥉20 ·  ⭐ 1.8K · 💤) - Automated REST APIs for existing database-driven systems. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/jeffknupp/sandman2">sandman2</a></b> (🥉20 ·  ⭐ 1.8K · 💤) - 为数据库驱动的系统自动生成 REST API。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/jeffknupp/sandman2) (👨‍💻 23 · 🔀 180 · 📦 17 · 📋 79 - 34% open · ⏱️ 21.12.2020):
 
@@ -6872,7 +6872,7 @@ _Libraries for building RESTful APIs._
 	conda install -c conda-forge sandman2
 	```
 </details>
-<details><summary><b><a href="https://github.com/Cornices/cornice">cornice</a></b> (🥉20 ·  ⭐ 370) - A RESTful framework for Pyramid. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/Cornices/cornice">cornice</a></b> (🥉20 ·  ⭐ 370) - 一个 Pyramid 的 REST 框架 。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/Cornices/cornice) (👨‍💻 120 · 🔀 140 · 📦 680 · 📋 230 - 18% open · ⏱️ 18.11.2021):
 
@@ -6890,15 +6890,15 @@ _Libraries for building RESTful APIs._
 </details>
 <br>
 
-## Robotics
+## 机器人
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for robotics._
+_机器人相关库。_
 
-🔗&nbsp;<b><a href="http://wiki.ros.org/rospy">rospy</a></b>  - This is a library for ROS (Robot Operating System).
+🔗&nbsp;<b><a href="http://wiki.ros.org/rospy">rospy</a></b>  - ROS (Robot Operating System) 库。
 
-<details><summary><b><a href="https://github.com/AtsushiSakai/PythonRobotics">PythonRobotics</a></b> (🥇19 ·  ⭐ 14K) - This is a compilation of various robotics algorithms with.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/AtsushiSakai/PythonRobotics">PythonRobotics</a></b> (🥇19 ·  ⭐ 14K) - 各种具有可视化效果的机器人算法的汇总。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/AtsushiSakai/PythonRobotics) (👨‍💻 94 · 🔀 4.3K · 📋 260 - 4% open · ⏱️ 13.12.2021):
 
@@ -6916,13 +6916,13 @@ _Libraries for robotics._
 </details>
 <br>
 
-## RPC Servers
+## RPC 服务器
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_RPC-compatible servers._
+_兼容 RPC 的服务器。_
 
-<details><summary><b><a href="https://github.com/0rpc/zerorpc-python">zeroRPC</a></b> (🥇13 ·  ⭐ 2.9K · 💀) - zerorpc is a flexible RPC implementation based on.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/0rpc/zerorpc-python">zeroRPC</a></b> (🥇13 ·  ⭐ 2.9K · 💀) - zerorpc 是一个灵活的 RPC 实现，基于 <a href="http://zeromq.org/">ZeroMQ</a> 和 <a href="http://msgpack.org/">MessagePack</a>。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/0rpc/zerorpc-python) (👨‍💻 36 · 🔀 360 · 📋 160 - 31% open · ⏱️ 27.05.2020):
 
@@ -6940,39 +6940,39 @@ _RPC-compatible servers._
 </details>
 <br>
 
-## Science
+## 科学计算和数据分析
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for scientific computing._
+_用来进行科学计算和数据分析的库。_
 
-🔗&nbsp;<b><a href="http://www.astropy.org/">astropy</a></b>  - A community Python library for Astronomy.
+🔗&nbsp;<b><a href="http://www.astropy.org/">astropy</a></b>  - 一个天文学 Python 库。
 
-🔗&nbsp;<b><a href="http://biopython.org/wiki/Main_Page">Biopython</a></b>  - Biopython is a set of freely available tools for biological computation.
+🔗&nbsp;<b><a href="http://biopython.org/wiki/Main_Page">Biopython</a></b>  - Biopython 是一组可以免费使用的用来进行生物计算的工具。
 
-🔗&nbsp;<b><a href="http://cclib.github.io/">cclib</a></b>  - A library for parsing and interpreting the results of computational chemistry packages.
+🔗&nbsp;<b><a href="http://cclib.github.io/">cclib</a></b>  - 一个用来解析和解释计算化学软件包输出结果的库。
 
-🔗&nbsp;<b><a href="http://colour-science.org/">Colour</a></b>  - Implementing a comprehensive number of colour theory transformations and algorithms.
+🔗&nbsp;<b><a href="http://colour-science.org/">Colour</a></b>  - 大量色彩理论转换和算法的实现。
 
-🔗&nbsp;<b><a href="https://networkx.github.io/">NetworkX</a></b>  - A high-productivity software for complex networks.
+🔗&nbsp;<b><a href="https://networkx.github.io/">NetworkX</a></b>  - 一个为复杂网络设计的高性能软件。
 
-🔗&nbsp;<b><a href="http://nipy.org">NIPY</a></b>  - A collection of neuroimaging toolkits.
+🔗&nbsp;<b><a href="http://nipy.org">NIPY</a></b>  - 神经影响学工具箱集合。
 
-🔗&nbsp;<b><a href="http://www.numpy.org/">NumPy</a></b>  - A fundamental package for scientific computing with Python.
+🔗&nbsp;<b><a href="http://www.numpy.org/">NumPy</a></b>  - 使用 Python 进行科学计算的基础包。
 
-🔗&nbsp;<b><a href="http://openbabel.org/wiki/Main_Page">Open Babel</a></b>  - A chemical toolbox designed to speak the many languages of chemical data.
+🔗&nbsp;<b><a href="http://openbabel.org/wiki/Main_Page">Open Babel</a></b>  - 一个化学工具箱，用来描述多种化学数据。
 
-🔗&nbsp;<b><a href="http://www.pydy.org/">PyDy</a></b>  - Short for Python Dynamics, used to assist with workflow in the modeling of dynamic motion.
+🔗&nbsp;<b><a href="http://www.pydy.org/">PyDy</a></b>  - PyDy 是 Python Dynamics 的缩写，用来为动力学运动建模工作流程提供帮助， 基于 NumPy, SciPy, IPython 和 matplotlib。
 
-🔗&nbsp;<b><a href="http://qutip.org/">QuTiP</a></b>  - Quantum Toolbox in Python.
+🔗&nbsp;<b><a href="http://qutip.org/">QuTiP</a></b>  - Python 版 Quantum 工具箱。
 
-🔗&nbsp;<b><a href="http://www.rdkit.org/">RDKit</a></b>  - Cheminformatics and Machine Learning Software.
+🔗&nbsp;<b><a href="http://www.rdkit.org/">RDKit</a></b>  - 化学信息学和机器学习软件。
 
-🔗&nbsp;<b><a href="https://www.scipy.org/">SciPy</a></b>  - A Python-based ecosystem of open-source software for mathematics, science, and engineering.
+🔗&nbsp;<b><a href="https://www.scipy.org/">SciPy</a></b>  - 由一些基于 Python ，用于数学，科学和工程的开源软件构成的生态系统。
 
-🔗&nbsp;<b><a href="https://gitlab.com/team-simpy/simpy">SimPy</a></b>  - A process-based discrete-event simulation framework.
+🔗&nbsp;<b><a href="https://gitlab.com/team-simpy/simpy">SimPy</a></b>  - 一个基于过程的离散事件模拟框架。
 
-<details><summary><b><a href="https://github.com/sympy/sympy">SymPy</a></b> (🥇35 ·  ⭐ 8.7K) - A Python library for symbolic mathematics. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/sympy/sympy">SymPy</a></b> (🥇35 ·  ⭐ 8.7K) - 一个用于符号数学的 Python 库。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/sympy/sympy) (👨‍💻 1.1K · 🔀 3.5K · 📥 440K · 📦 38K · 📋 11K - 32% open · ⏱️ 22.12.2021):
 
@@ -6988,7 +6988,7 @@ _Libraries for scientific computing._
 	conda install -c conda-forge sympy
 	```
 </details>
-<details><summary><b><a href="https://github.com/statsmodels/statsmodels">statsmodels</a></b> (🥈33 ·  ⭐ 6.9K) - Statistical modeling and econometrics in Python. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/statsmodels/statsmodels">statsmodels</a></b> (🥈33 ·  ⭐ 6.9K) - 统计建模和计量经济学。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/statsmodels/statsmodels) (👨‍💻 350 · 🔀 2.2K · 📥 26 · 📦 55K · 📋 4.6K - 46% open · ⏱️ 21.12.2021):
 
@@ -7004,7 +7004,7 @@ _Libraries for scientific computing._
 	conda install -c conda-forge statsmodels
 	```
 </details>
-<details><summary><b><a href="https://github.com/quantopian/zipline">Zipline</a></b> (🥈29 ·  ⭐ 15K · 💀) - A Pythonic algorithmic trading library. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/quantopian/zipline">Zipline</a></b> (🥈29 ·  ⭐ 15K · 💀) - 一个 Python 算法交易库。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/quantopian/zipline) (👨‍💻 150 · 🔀 3.9K · 📦 800 · 📋 960 - 32% open · ⏱️ 14.10.2020):
 
@@ -7020,7 +7020,7 @@ _Libraries for scientific computing._
 	conda install -c conda-forge zipline
 	```
 </details>
-<details><summary><b><a href="https://github.com/pymc-devs/pymc">PyMC</a></b> (🥉26 ·  ⭐ 6.2K) - Markov Chain Monte Carlo sampling toolkit. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/pymc-devs/pymc">PyMC</a></b> (🥉26 ·  ⭐ 6.2K) - 马尔科夫链蒙特卡洛采样工具。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/pymc-devs/pymc) (👨‍💻 350 · 🔀 1.4K · 📥 1.3K · 📦 570 · 📋 2.5K - 7% open · ⏱️ 20.12.2021):
 
@@ -7036,7 +7036,7 @@ _Libraries for scientific computing._
 	conda install -c conda-forge pymc3
 	```
 </details>
-<details><summary><b><a href="https://github.com/benedekrozemberczki/karateclub">Karate Club</a></b> (🥉23 ·  ⭐ 1.5K) - Unsupervised machine learning toolbox for graph structured data. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/benedekrozemberczki/karateclub">Karate Club</a></b> (🥉23 ·  ⭐ 1.5K) - 用于图形结构化数据的无监督机器学习工具箱。<code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/benedekrozemberczki/karateclub) (👨‍💻 13 · 🔀 170 · 📦 65 · 📋 65 - 1% open · ⏱️ 19.12.2021):
 
@@ -7052,7 +7052,7 @@ _Libraries for scientific computing._
 	conda install -c conda-forge karateclub
 	```
 </details>
-<details><summary><b><a href="https://github.com/bcbio/bcbio-nextgen">bcbio-nextgen</a></b> (🥉21 ·  ⭐ 850) - Providing best-practice pipelines for fully automated high.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/bcbio/bcbio-nextgen">bcbio-nextgen</a></b> (🥉21 ·  ⭐ 850) - 这个工具箱为全自动高通量测序分析提供符合最佳实践的处理流程。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/bcbio/bcbio-nextgen) (👨‍💻 93 · 🔀 330 · 📋 2.9K - 2% open · ⏱️ 18.12.2021):
 
@@ -7068,7 +7068,7 @@ _Libraries for scientific computing._
 	conda install -c conda-forge bcbio-nextgen
 	```
 </details>
-<details><summary><b><a href="https://github.com/chapmanb/bcbb">bccb</a></b> (🥉18 ·  ⭐ 530) - Collection of useful code related to biological analysis. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/chapmanb/bcbb">bccb</a></b> (🥉18 ·  ⭐ 530) - 生物分析相关代码集合。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/chapmanb/bcbb) (👨‍💻 32 · 🔀 210 · 📦 190 · 📋 73 - 19% open · ⏱️ 18.11.2021):
 
@@ -7084,7 +7084,7 @@ _Libraries for scientific computing._
 	conda install -c conda-forge bcbb
 	```
 </details>
-<details><summary><b><a href="https://github.com/obspy/obspy">ObsPy</a></b> (🥉17 ·  ⭐ 850) - A Python toolbox for seismology. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/obspy/obspy">ObsPy</a></b> (🥉17 ·  ⭐ 850) - 地震学 Python 工具箱。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/obspy/obspy) (🔀 460 · 📥 6.7K · 📋 1.5K - 19% open · ⏱️ 08.12.2021):
 
@@ -7098,17 +7098,17 @@ _Libraries for scientific computing._
 </details>
 <br>
 
-## Search
+## 搜索
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries and software for indexing and performing search queries on data._
+_对数据进行索引和执行搜索查询的库和软件。_
 
-🔗&nbsp;<b><a href="https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/index.html">elasticsearch-py</a></b>  - The official low-level Python client for..
+🔗&nbsp;<b><a href="https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/index.html">elasticsearch-py</a></b>  - Elasticsearch 的官方底层 Python 客户端。
 
-🔗&nbsp;<b><a href="http://whoosh.readthedocs.io/en/latest/">whoosh</a></b>  - A fast, pure Python search engine library.
+🔗&nbsp;<b><a href="http://whoosh.readthedocs.io/en/latest/">whoosh</a></b>  - 一个快速的纯 Python 搜索引擎库。
 
-<details><summary><b><a href="https://github.com/django-haystack/django-haystack">django-haystack</a></b> (🥇27 ·  ⭐ 3.2K) - Modular search for Django. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/django-haystack/django-haystack">django-haystack</a></b> (🥇27 ·  ⭐ 3.2K) - Django 模块化搜索。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/django-haystack/django-haystack) (👨‍💻 200 · 🔀 1.2K · 📦 7.5K · 📋 1.2K - 36% open · ⏱️ 02.11.2021):
 
@@ -7124,7 +7124,7 @@ _Libraries and software for indexing and performing search queries on data._
 	conda install -c conda-forge django-haystack
 	```
 </details>
-<details><summary><b><a href="https://github.com/django-haystack/pysolr">pysolr</a></b> (🥇27 ·  ⭐ 610) - A lightweight Python wrapper for [Apache.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/django-haystack/pysolr">pysolr</a></b> (🥇27 ·  ⭐ 610) - 支持 <a href="https://lucene.apache.org/solr/">Apache Solr</a> 的轻量级 Python 装饰器。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/django-haystack/pysolr) (👨‍💻 65 · 🔀 300 · 📦 2.5K · 📋 140 - 13% open · ⏱️ 02.11.2021):
 
@@ -7140,7 +7140,7 @@ _Libraries and software for indexing and performing search queries on data._
 	conda install -c conda-forge pysolr
 	```
 </details>
-<details><summary><b><a href="https://github.com/elastic/elasticsearch-dsl-py">elasticsearch-dsl-py</a></b> (🥉25 ·  ⭐ 3.4K) - The official high-level Python client for.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/elastic/elasticsearch-dsl-py">elasticsearch-dsl-py</a></b> (🥉25 ·  ⭐ 3.4K) - Elasticsearch 的官方高级 Python 客户端。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/elastic/elasticsearch-dsl-py) (👨‍💻 120 · 🔀 690 · 📥 100 · 📦 5.4K · 📋 1.2K - 7% open · ⏱️ 12.08.2021):
 
@@ -7158,13 +7158,13 @@ _Libraries and software for indexing and performing search queries on data._
 </details>
 <br>
 
-## Serialization
+## 序列化
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for serializing complex data types_
+_复杂数据类型序列化相关库。_
 
-<details><summary><b><a href="https://github.com/marshmallow-code/marshmallow">marshmallow</a></b> (🥇27 ·  ⭐ 5.9K) - A lightweight library for converting complex objects to and from.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/marshmallow-code/marshmallow">marshmallow</a></b> (🥇27 ·  ⭐ 5.9K) - 一个轻量级的库，用于将复杂对象与简单 Python 数据类型相互转换。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/marshmallow-code/marshmallow) (👨‍💻 200 · 🔀 560 · 📦 38K · 📋 1.1K - 9% open · ⏱️ 21.12.2021):
 
@@ -7212,7 +7212,7 @@ _Libraries for serializing complex data types_
 	conda install -c conda-forge pysimdjson
 	```
 </details>
-<details><summary><b><a href="https://github.com/ultrajson/ultrajson">ultrajson</a></b> (🥉15 ·  ⭐ 3.5K) - A fast JSON decoder and encoder written in C with Python.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/ultrajson/ultrajson">ultrajson</a></b> (🥉15 ·  ⭐ 3.5K) - 使用 Python 绑定的，用 C 编写的快速 JSON 解码器和编码器。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/ultrajson/ultrajson) (👨‍💻 76 · 🔀 310 · 📋 310 - 13% open · ⏱️ 17.12.2021):
 
@@ -7230,13 +7230,13 @@ _Libraries for serializing complex data types_
 </details>
 <br>
 
-## Serverless Frameworks
+## Serverless 框架
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Frameworks for developing serverless Python code._
+_使用 Python 开发 Serverless 模型相关的库。_
 
-<details><summary><b><a href="https://github.com/Miserlou/Zappa">Zappa</a></b> (🥇22 ·  ⭐ 12K · 💤) - A tool for deploying WSGI applications on AWS Lambda and API Gateway. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/Miserlou/Zappa">Zappa</a></b> (🥇22 ·  ⭐ 12K · 💤) - 在 AWS Lambda 和 API Gateway 部署 WSGI 应用的工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/Miserlou/Zappa) (👨‍💻 260 · 🔀 1.2K · 📥 260 · 📋 1.3K - 47% open · ⏱️ 20.02.2021):
 
@@ -7252,7 +7252,7 @@ _Frameworks for developing serverless Python code._
 	conda install -c conda-forge Zappa
 	```
 </details>
-<details><summary><b><a href="https://github.com/nficano/python-lambda">python-lambda</a></b> (🥉19 ·  ⭐ 1.3K) - A toolkit for developing and deploying Python code in AWS Lambda. <code><a href="http://bit.ly/3hkKRql">ISC</a></code></summary>
+<details><summary><b><a href="https://github.com/nficano/python-lambda">python-lambda</a></b> (🥉19 ·  ⭐ 1.3K) - 在 AWS Lambda 开发和部署 Python 代码的工具包。<code><a href="http://bit.ly/3hkKRql">ISC</a></code></summary>
 
 - [GitHub](https://github.com/nficano/python-lambda) (👨‍💻 47 · 🔀 220 · 📦 140 · 📋 88 - 39% open · ⏱️ 14.07.2021):
 
@@ -7270,13 +7270,13 @@ _Frameworks for developing serverless Python code._
 </details>
 <br>
 
-## Shell
+## 命令行工具
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Shells based on Python._
+_用于创建命令行程序的库。_
 
-<details><summary><b><a href="https://github.com/xonsh/xonsh">xonsh</a></b> (🥇19 ·  ⭐ 5.3K) - A Python-powered, cross-platform, Unix-gazing shell language and.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/xonsh/xonsh">xonsh</a></b> (🥇19 ·  ⭐ 5.3K) - 一种基于 python 的跨平台，面向 unix 的 shell 语言和命令提示符。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/xonsh/xonsh) (🔀 500 · 📥 5.9K · 📦 280 · 📋 2.2K - 13% open · ⏱️ 23.12.2021):
 
@@ -7290,19 +7290,19 @@ _Shells based on Python._
 </details>
 <br>
 
-## Specific Formats Processing
+## 特殊文本格式处理
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for parsing and manipulating specific text formats._
+_一些用来解析和操作特殊文本格式的库。_
 
-🔗&nbsp;<b><a href="https://openpyxl.readthedocs.io/en/stable/">openpyxl</a></b>  - A library for reading and writing Excel 2010 xlsx/xlsm/xltx/xltm files.
+🔗&nbsp;<b><a href="https://openpyxl.readthedocs.io/en/stable/">openpyxl</a></b>  - 一个用来读写 Excel 2010 xlsx/xlsm/xltx/xltm 文件的库。
 
-🔗&nbsp;<b><a href="https://www.reportlab.com/opensource/">ReportLab</a></b>  - Allowing Rapid creation of rich PDF documents.
+🔗&nbsp;<b><a href="https://www.reportlab.com/opensource/">ReportLab</a></b>  - 快速创建富文本 PDF 文档。
 
-🔗&nbsp;<b><a href="http://pyyaml.org/">PyYAML</a></b>  - YAML implementations for Python.
+🔗&nbsp;<b><a href="http://pyyaml.org/">PyYAML</a></b>  - Python 版本的 YAML 解析器。
 
-<details><summary><b><a href="https://github.com/jazzband/tablib">tablib</a></b> (🥇32 ·  ⭐ 4.1K) - A module for Tabular Datasets in XLS, CSV, JSON, YAML. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/jazzband/tablib">tablib</a></b> (🥇32 ·  ⭐ 4.1K) - 一个用来处理中表格数据的模块。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/jazzband/tablib) (👨‍💻 120 · 🔀 550 · 📦 13K · 📋 240 - 11% open · ⏱️ 04.11.2021):
 
@@ -7318,7 +7318,7 @@ _Libraries for parsing and manipulating specific text formats._
 	conda install -c conda-forge tablib
 	```
 </details>
-<details><summary><b><a href="https://github.com/jmcnamara/XlsxWriter">XlsxWriter</a></b> (🥇32 ·  ⭐ 2.8K · 📈) - A Python module for creating Excel .xlsx files. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/jmcnamara/XlsxWriter">XlsxWriter</a></b> (🥇32 ·  ⭐ 2.8K · 📈) - 一个用于创建 Excel .xlsx 文件的 Python 模块。<code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
 - [GitHub](https://github.com/jmcnamara/XlsxWriter) (👨‍💻 46 · 🔀 550 · 📦 42K · 📋 740 - 1% open · ⏱️ 26.11.2021):
 
@@ -7334,7 +7334,7 @@ _Libraries for parsing and manipulating specific text formats._
 	conda install -c conda-forge XlsxWriter
 	```
 </details>
-<details><summary><b><a href="https://github.com/xlwings/xlwings">xlwings</a></b> (🥈28 ·  ⭐ 2.2K) - A BSD-licensed library that makes it easy to call Python from.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/xlwings/xlwings">xlwings</a></b> (🥈28 ·  ⭐ 2.2K) - 一个使得在 Excel 中方便调用 Python 的库（反之亦然），基于 BSD 协议。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/xlwings/xlwings) (👨‍💻 56 · 🔀 380 · 📥 28K · 📦 20K · 📋 1.4K - 22% open · ⏱️ 21.12.2021):
 
@@ -7350,7 +7350,7 @@ _Libraries for parsing and manipulating specific text formats._
 	conda install -c conda-forge xlwings
 	```
 </details>
-<details><summary><b><a href="https://github.com/euske/pdfminer">PDFMiner</a></b> (🥈26 ·  ⭐ 4.7K · 💀) - A tool for extracting information from PDF documents. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/euske/pdfminer">PDFMiner</a></b> (🥈26 ·  ⭐ 4.7K · 💀) - 一个用于从 PDF 文档中抽取信息的工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/euske/pdfminer) (👨‍💻 28 · 🔀 960 · 📦 2.7K · 📋 230 - 82% open · ⏱️ 18.01.2020):
 
@@ -7366,7 +7366,7 @@ _Libraries for parsing and manipulating specific text formats._
 	conda install -c conda-forge pdfminer
 	```
 </details>
-<details><summary><b><a href="https://github.com/mstamy2/PyPDF2">PyPDF2</a></b> (🥈26 ·  ⭐ 3.9K · 💀) - A library capable of splitting, merging and transforming PDF.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/mstamy2/PyPDF2">PyPDF2</a></b> (🥈26 ·  ⭐ 3.9K · 💀) - 一个可以分割，合并和转换 PDF 页面的库。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/mstamy2/PyPDF2) (👨‍💻 83 · 🔀 880 · 📦 26K · 📋 420 - 74% open · ⏱️ 25.06.2018):
 
@@ -7382,7 +7382,7 @@ _Libraries for parsing and manipulating specific text formats._
 	conda install -c conda-forge PyPDF2
 	```
 </details>
-<details><summary><b><a href="https://github.com/wireservice/csvkit">csvkit</a></b> (🥈25 ·  ⭐ 4.8K) - Utilities for converting to and working with CSV. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/wireservice/csvkit">csvkit</a></b> (🥈25 ·  ⭐ 4.8K) - 用于转换和操作 CSV 的工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/wireservice/csvkit) (👨‍💻 100 · 🔀 540 · 📦 970 · 📋 840 - 7% open · ⏱️ 08.10.2021):
 
@@ -7398,7 +7398,7 @@ _Libraries for parsing and manipulating specific text formats._
 	conda install -c conda-forge csvkit
 	```
 </details>
-<details><summary><b><a href="https://github.com/Python-Markdown/markdown">Python-Markdown</a></b> (🥉24 ·  ⭐ 2.7K) - A Python implementation of John Grubers Markdown. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/Python-Markdown/markdown">Python-Markdown</a></b> (🥉24 ·  ⭐ 2.7K) - John Gruber’s Markdown 的 Python 版实现。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/Python-Markdown/markdown) (👨‍💻 150 · 🔀 680 · 📦 170K · 📋 740 - 3% open · ⏱️ 17.11.2021):
 
@@ -7414,7 +7414,7 @@ _Libraries for parsing and manipulating specific text formats._
 	conda install -c conda-forge Python-Markdown
 	```
 </details>
-<details><summary><b><a href="https://github.com/lepture/mistune">Mistune</a></b> (🥉24 ·  ⭐ 2K · 📉) - Fastest and full featured pure Python parsers of Markdown. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/lepture/mistune">Mistune</a></b> (🥉24 ·  ⭐ 2K · 📉) - 快速并且功能齐全的纯 Python 实现的 Markdown 解析器。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/lepture/mistune) (👨‍💻 32 · 🔀 200 · 📋 220 - 9% open · ⏱️ 05.12.2021):
 
@@ -7430,7 +7430,7 @@ _Libraries for parsing and manipulating specific text formats._
 	conda install -c conda-forge mistune
 	```
 </details>
-<details><summary><b><a href="https://github.com/unoconv/unoconv">unoconv</a></b> (🥉23 ·  ⭐ 2.2K) - Convert between any document format supported by.. <code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
+<details><summary><b><a href="https://github.com/unoconv/unoconv">unoconv</a></b> (🥉23 ·  ⭐ 2.2K) - 在 LibreOffice/OpenOffice 支持的任意文件格式之间进行转换。<code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
 
 - [GitHub](https://github.com/unoconv/unoconv) (👨‍💻 52 · 🔀 360 · 📦 84 · 📋 470 - 15% open · ⏱️ 12.11.2021):
 
@@ -7446,7 +7446,7 @@ _Libraries for parsing and manipulating specific text formats._
 	conda install -c conda-forge unoconv
 	```
 </details>
-<details><summary><b><a href="https://github.com/pyexcel/pyexcel">pyexcel</a></b> (🥉23 ·  ⭐ 980) - Providing one API for reading, manipulating and writing csv, ods,.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/pyexcel/pyexcel">pyexcel</a></b> (🥉23 ·  ⭐ 980) - 一个提供统一 API，用来读写，操作 Excel 文件的库。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/pyexcel/pyexcel) (👨‍💻 21 · 🔀 150 · 📥 160 · 📦 2.3K · 📋 190 - 5% open · ⏱️ 20.10.2021):
 
@@ -7462,7 +7462,7 @@ _Libraries for parsing and manipulating specific text formats._
 	conda install -c conda-forge pyexcel
 	```
 </details>
-<details><summary><b><a href="https://github.com/python-openxml/python-docx">python-docx</a></b> (🥉22 ·  ⭐ 2.9K · 💤) - Reads, queries and modifies Microsoft Word 2007/2008 docx files. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/python-openxml/python-docx">python-docx</a></b> (🥉22 ·  ⭐ 2.9K · 💤) - 读取，查询以及修改 Microsoft Word 2007/2008 docx 文件。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/python-openxml/python-docx) (👨‍💻 14 · 🔀 740 · 📋 880 - 44% open · ⏱️ 15.05.2021):
 
@@ -7478,7 +7478,7 @@ _Libraries for parsing and manipulating specific text formats._
 	conda install -c conda-forge python-docx
 	```
 </details>
-<details><summary><b><a href="https://github.com/scanny/python-pptx">python-pptx</a></b> (🥉20 ·  ⭐ 1.4K) - Python library for creating and updating PowerPoint (.pptx) files. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/scanny/python-pptx">python-pptx</a></b> (🥉20 ·  ⭐ 1.4K) - 可用于创建和修改 ppt 文件的 Python 库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/scanny/python-pptx) (👨‍💻 12 · 🔀 330 · 📋 670 - 41% open · ⏱️ 20.09.2021):
 
@@ -7494,7 +7494,7 @@ _Libraries for parsing and manipulating specific text formats._
 	conda install -c conda-forge python-pptx
 	```
 </details>
-<details><summary><b><a href="https://github.com/elapouya/python-docx-template">docxtpl</a></b> (🥉20 ·  ⭐ 1.2K) - Editing a docx document by jinja2 template. <code><a href="https://tldrlegal.com/search?q=LGPL-2.1">❗️LGPL-2.1</a></code></summary>
+<details><summary><b><a href="https://github.com/elapouya/python-docx-template">docxtpl</a></b> (🥉20 ·  ⭐ 1.2K) - 通过 jinja2 模版编辑 docx 文档。<code><a href="https://tldrlegal.com/search?q=LGPL-2.1">❗️LGPL-2.1</a></code></summary>
 
 - [GitHub](https://github.com/elapouya/python-docx-template) (👨‍💻 43 · 🔀 280 · 📦 960 · 📋 320 - 21% open · ⏱️ 20.12.2021):
 
@@ -7510,7 +7510,7 @@ _Libraries for parsing and manipulating specific text formats._
 	conda install -c conda-forge python-docx-template
 	```
 </details>
-<details><summary><b><a href="https://github.com/mitsuhiko/unp">unp</a></b> (🥉9 ·  ⭐ 400 · 💀) - A command line tool that can unpack archives easily. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/mitsuhiko/unp">unp</a></b> (🥉9 ·  ⭐ 400 · 💀) - 一个用来方便解包归档文件的命令行工具。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/mitsuhiko/unp) (👨‍💻 2 · 🔀 58 · 📦 9 · 📋 7 - 85% open · ⏱️ 26.08.2014):
 
@@ -7528,13 +7528,13 @@ _Libraries for parsing and manipulating specific text formats._
 </details>
 <br>
 
-## Static Site Generator
+## 静态站点生成器
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Static site generator is a software that takes some text + templates as input and produces HTML files on the output._
+_静态站点生成器是一个软件，它把文本和模板作为输入，然后输出 HTML 文件。_
 
-<details><summary><b><a href="https://github.com/getpelican/pelican">pelican</a></b> (🥇32 ·  ⭐ 11K) - Static site generator that supports Markdown and reST syntax. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/getpelican/pelican">pelican</a></b> (🥇32 ·  ⭐ 11K) - 使用 Markdown 或 ReST 来处理内容， Jinja 2 来制作主题。支持 DVCS, Disqus.。AGPL 许可。<code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/getpelican/pelican) (👨‍💻 420 · 🔀 1.7K · 📥 460 · 📦 5.5K · 📋 1.5K - 2% open · ⏱️ 27.11.2021):
 
@@ -7550,7 +7550,7 @@ _Static site generator is a software that takes some text + templates as input a
 	conda install -c conda-forge pelican
 	```
 </details>
-<details><summary><b><a href="https://github.com/mkdocs/mkdocs">mkdocs</a></b> (🥈27 ·  ⭐ 13K) - Markdown friendly documentation generator. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/mkdocs/mkdocs">mkdocs</a></b> (🥈27 ·  ⭐ 13K) - 对 Markdown 友好的文档生成器。<code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
 - [GitHub](https://github.com/mkdocs/mkdocs) (🔀 1.8K · 📦 17K · 📋 1.6K - 6% open · ⏱️ 13.12.2021):
 
@@ -7562,7 +7562,7 @@ _Static site generator is a software that takes some text + templates as input a
 	conda install -c conda-forge 
 	```
 </details>
-<details><summary><b><a href="https://github.com/getnikola/nikola">nikola</a></b> (🥈27 ·  ⭐ 2.2K) - A static website and blog generator. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/getnikola/nikola">nikola</a></b> (🥈27 ·  ⭐ 2.2K) - 一个静态网站和博客生成器。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/getnikola/nikola) (👨‍💻 220 · 🔀 330 · 📦 400 · 📋 2.1K - 1% open · ⏱️ 11.12.2021):
 
@@ -7578,7 +7578,7 @@ _Static site generator is a software that takes some text + templates as input a
 	conda install -c conda-forge nikola
 	```
 </details>
-<details><summary><b><a href="https://github.com/lektor/lektor">lektor</a></b> (🥉21 ·  ⭐ 3.5K) - An easy to use static CMS and blog engine. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/lektor/lektor">lektor</a></b> (🥉21 ·  ⭐ 3.5K) - 一个简单易用的静态 CMS 和博客引擎。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/lektor/lektor) (👨‍💻 89 · 🔀 270 · 📥 6.9K · 📋 560 - 38% open · ⏱️ 21.12.2021):
 
@@ -7594,7 +7594,7 @@ _Static site generator is a software that takes some text + templates as input a
 	conda install -c conda-forge lektor
 	```
 </details>
-<details><summary><b><a href="https://github.com/sunainapai/makesite">makesite</a></b> (🥉13 ·  ⭐ 1.6K · 💤) - Simple, lightweight, and magic-free static site/blog generator ( 130.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/sunainapai/makesite">makesite</a></b> (🥉13 ·  ⭐ 1.6K · 💤) - 简单轻量的站点/博客生成器 (小于 130 行代码)。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/sunainapai/makesite) (👨‍💻 8 · 🔀 250 · 📋 13 - 38% open · ⏱️ 03.01.2021):
 
@@ -7612,13 +7612,13 @@ _Static site generator is a software that takes some text + templates as input a
 </details>
 <br>
 
-## Tagging
+## 标记
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for tagging items._
+_用来进行标记的库。_
 
-<details><summary><b><a href="https://github.com/jazzband/django-taggit">django-taggit</a></b> (🥇22 ·  ⭐ 2.8K) - Simple tagging for Django. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jazzband/django-taggit">django-taggit</a></b> (🥇22 ·  ⭐ 2.8K) - 简单的 Django 标记工具。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/jazzband/django-taggit) (👨‍💻 140 · 🔀 540 · 📋 370 - 17% open · ⏱️ 21.12.2021):
 
@@ -7636,15 +7636,15 @@ _Libraries for tagging items._
 </details>
 <br>
 
-## Task Queues
+## 队列
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for working with task queues._
+_处理事件以及任务队列的库。_
 
-🔗&nbsp;<b><a href="https://docs.celeryproject.org/en/stable/">celery</a></b>  - An asynchronous task queue/job queue based on distributed message passing.
+🔗&nbsp;<b><a href="https://docs.celeryproject.org/en/stable/">celery</a></b>  - 一个异步任务队列/作业队列，基于分布式消息传递
 
-<details><summary><b><a href="https://github.com/rq/rq">rq</a></b> (🥇28 ·  ⭐ 8.1K) - Simple job queues for Python. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/rq/rq">rq</a></b> (🥇28 ·  ⭐ 8.1K) - 简单的 Python 作业队列。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/rq/rq) (👨‍💻 250 · 🔀 1.2K · 📦 9.3K · 📋 930 - 16% open · ⏱️ 11.12.2021):
 
@@ -7660,7 +7660,7 @@ _Libraries for working with task queues._
 	conda install -c conda-forge rq
 	```
 </details>
-<details><summary><b><a href="https://github.com/coleifer/huey">huey</a></b> (🥈27 ·  ⭐ 3.8K) - Little multi-threaded task queue. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/coleifer/huey">huey</a></b> (🥈27 ·  ⭐ 3.8K) - 小型多线程任务队列。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/coleifer/huey) (👨‍💻 66 · 🔀 320 · 📦 840 · ⏱️ 03.12.2021):
 
@@ -7692,7 +7692,7 @@ _Libraries for working with task queues._
 	conda install -c conda-forge dramatiq
 	```
 </details>
-<details><summary><b><a href="https://github.com/pricingassistant/mrq">mrq</a></b> (🥉20 ·  ⭐ 860 · 💤) - A distributed worker task queue in Python using Redis & gevent. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/pricingassistant/mrq">mrq</a></b> (🥉20 ·  ⭐ 860 · 💤) - 一个 Python 的分布式 worker 任务队列， 使用 Redis 和 gevent。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/pricingassistant/mrq) (👨‍💻 37 · 🔀 110 · 📦 27 · 📋 170 - 30% open · ⏱️ 13.12.2020):
 
@@ -7710,17 +7710,17 @@ _Libraries for working with task queues._
 </details>
 <br>
 
-## Template Engine
+## 模板引擎
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries and tools for templating and lexing._
+_模板生成和词法解析的库和工具。_
 
-🔗&nbsp;<b><a href="https://genshi.edgewall.org/">Genshi</a></b>  - Python templating toolkit for generation of web-aware output.
+🔗&nbsp;<b><a href="https://genshi.edgewall.org/">Genshi</a></b>  - Python 模板工具，用以生成 web 感知的结果。
 
-🔗&nbsp;<b><a href="http://www.makotemplates.org/">Mako</a></b>  - Hyperfast and lightweight templating for the Python platform.
+🔗&nbsp;<b><a href="http://www.makotemplates.org/">Mako</a></b>  - Python 平台的超高速轻量级模板。
 
-<details><summary><b><a href="https://github.com/pallets/jinja">Jinja2</a></b> (🥇22 ·  ⭐ 8.2K) - A modern and designer friendly templating language. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/pallets/jinja">Jinja2</a></b> (🥇22 ·  ⭐ 8.2K) - 一个现代的，对设计师友好的模板引擎。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/pallets/jinja) (👨‍💻 290 · 🔀 1.4K · 📥 52K · 📋 810 - 3% open · ⏱️ 10.11.2021):
 
@@ -7738,31 +7738,31 @@ _Libraries and tools for templating and lexing._
 </details>
 <br>
 
-## Testing
+## 测试
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for testing codebases and generating test data._
+_进行代码库测试和生成测试数据的库。_
 
-🔗&nbsp;<b><a href="https://docs.pytest.org/en/latest/">pytest</a></b>  - A mature full-featured Python testing tool.
+🔗&nbsp;<b><a href="https://docs.pytest.org/en/latest/">pytest</a></b>  - 一个成熟的全功能 Python 测试工具。
 
-🔗&nbsp;<b><a href="https://docs.python.org/3/library/unittest.html">unittest</a></b>  - (Python standard library) Unit testing framework.
+🔗&nbsp;<b><a href="https://docs.python.org/3/library/unittest.html">unittest</a></b>  - （Python 标准库）将文件名映射为 MIME 类型。
 
-🔗&nbsp;<b><a href="http://nestorsalceda.github.io/mamba/">mamba</a></b>  - The definitive testing tool for Python. Born under the banner of BDD.
+🔗&nbsp;<b><a href="http://nestorsalceda.github.io/mamba/">mamba</a></b>  - Python 的终极测试工具， 拥护 BDD。
 
-🔗&nbsp;<b><a href="https://tox.readthedocs.io/en/latest/">tox</a></b>  - Auto builds and tests distributions in multiple Python versions.
+🔗&nbsp;<b><a href="https://tox.readthedocs.io/en/latest/">tox</a></b>  - 自动化测试与发布的工具，支持多个 Python 版本。
 
-🔗&nbsp;<b><a href="https://pypi.org/project/selenium/">Selenium</a></b>  - Python bindings for [Selenium](http://www.seleniumhq.org/) WebDriver.
+🔗&nbsp;<b><a href="https://pypi.org/project/selenium/">Selenium</a></b>  - <a href="http://www.seleniumhq.org/">Selenium</a> WebDriver 的 Python 绑定。
 
-🔗&nbsp;<b><a href="https://pypi.org/project/doublex/">doublex</a></b>  - Powerful test doubles framework for Python.
+🔗&nbsp;<b><a href="https://pypi.org/project/doublex/">doublex</a></b>  - Python 的一个功能强大的 doubles  测试框架。
 
-🔗&nbsp;<b><a href="https://docs.python.org/3/library/unittest.mock.html">mock</a></b>  - (Python standard library) A mocking and patching library.
+🔗&nbsp;<b><a href="https://docs.python.org/3/library/unittest.mock.html">mock</a></b>  - （Python 标准库）将文件名映射为 MIME 类型。
 
-🔗&nbsp;<b><a href="https://pypi.org/project/coverage/">coverage</a></b>  - Code coverage measurement.
+🔗&nbsp;<b><a href="https://pypi.org/project/coverage/">coverage</a></b>  - 代码覆盖率测量。
 
-🔗&nbsp;<b><a href="https://pypi.org/project/radar/">radar</a></b>  - Generate random datetime / time.
+🔗&nbsp;<b><a href="https://pypi.org/project/radar/">radar</a></b>  - 生成随机的日期/时间。
 
-<details><summary><b><a href="https://github.com/joke2k/faker">faker</a></b> (🥇37 ·  ⭐ 13K) - A Python package that generates fake data. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/joke2k/faker">faker</a></b> (🥇37 ·  ⭐ 13K) - 一个 Python 库，用来生成伪数据。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/joke2k/faker) (👨‍💻 430 · 🔀 1.5K · 📦 45K · 📋 530 - 24% open · ⏱️ 07.12.2021):
 
@@ -7778,7 +7778,7 @@ _Libraries for testing codebases and generating test data._
 	conda install -c conda-forge faker
 	```
 </details>
-<details><summary><b><a href="https://github.com/getsentry/responses">responses</a></b> (🥇32 ·  ⭐ 3.4K) - A utility library for mocking out the requests Python library. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/getsentry/responses">responses</a></b> (🥇32 ·  ⭐ 3.4K) - 伪造 Python 中的 requests 库的一个通用库。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/getsentry/responses) (👨‍💻 100 · 🔀 270 · 📥 23 · 📦 11K · 📋 200 - 16% open · ⏱️ 06.12.2021):
 
@@ -7794,7 +7794,7 @@ _Libraries for testing codebases and generating test data._
 	conda install -c conda-forge responses
 	```
 </details>
-<details><summary><b><a href="https://github.com/HypothesisWorks/hypothesis">hypothesis</a></b> (🥇31 ·  ⭐ 5.6K) - Hypothesis is an advanced Quickcheck style property based.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/HypothesisWorks/hypothesis">hypothesis</a></b> (🥇31 ·  ⭐ 5.6K) - Hypothesis 是一个基于先进的 Quickcheck 风格特性的测试库。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/HypothesisWorks/hypothesis) (👨‍💻 260 · 🔀 450 · 📦 11K · 📋 1.2K - 4% open · ⏱️ 23.12.2021):
 
@@ -7810,7 +7810,7 @@ _Libraries for testing codebases and generating test data._
 	conda install -c conda-forge hypothesis
 	```
 </details>
-<details><summary><b><a href="https://github.com/locustio/locust">locust</a></b> (🥈30 ·  ⭐ 18K) - Scalable user load testing tool written in Python. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/locustio/locust">locust</a></b> (🥈30 ·  ⭐ 18K) - 使用 Python 编写的，可扩展的用户加载测试工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/locustio/locust) (👨‍💻 220 · 🔀 2.2K · 📦 2.1K · 📋 1.2K - 1% open · ⏱️ 20.12.2021):
 
@@ -7826,7 +7826,7 @@ _Libraries for testing codebases and generating test data._
 	conda install -c conda-forge locust
 	```
 </details>
-<details><summary><b><a href="https://github.com/robotframework/robotframework">Robot Framework</a></b> (🥈30 ·  ⭐ 6.5K) - A generic test automation framework. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/robotframework/robotframework">Robot Framework</a></b> (🥈30 ·  ⭐ 6.5K) - 一个通用的自动化测试框架。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/robotframework/robotframework) (👨‍💻 150 · 🔀 1.8K · 📥 510 · 📦 4.7K · 📋 3.7K - 4% open · ⏱️ 22.12.2021):
 
@@ -7842,7 +7842,7 @@ _Libraries for testing codebases and generating test data._
 	conda install -c conda-forge robotframework
 	```
 </details>
-<details><summary><b><a href="https://github.com/kevin1024/vcrpy">VCR.py</a></b> (🥈29 ·  ⭐ 2.1K) - Record and replay HTTP interactions on your tests. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/kevin1024/vcrpy">VCR.py</a></b> (🥈29 ·  ⭐ 2.1K) - 在你的测试中记录和重放 HTTP 交互。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/kevin1024/vcrpy) (👨‍💻 110 · 🔀 280 · 📦 3.4K · 📋 320 - 22% open · ⏱️ 03.11.2021):
 
@@ -7858,7 +7858,7 @@ _Libraries for testing codebases and generating test data._
 	conda install -c conda-forge vcrpy
 	```
 </details>
-<details><summary><b><a href="https://github.com/gabrielfalcao/HTTPretty">httpretty</a></b> (🥈28 ·  ⭐ 1.9K) - HTTP request mock tool for Python. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/gabrielfalcao/HTTPretty">httpretty</a></b> (🥈28 ·  ⭐ 1.9K) - Python 的 HTTP 请求 mock 工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/gabrielfalcao/HTTPretty) (👨‍💻 100 · 🔀 240 · 📦 5.4K · 📋 230 - 38% open · ⏱️ 05.11.2021):
 
@@ -7874,7 +7874,7 @@ _Libraries for testing codebases and generating test data._
 	conda install -c conda-forge HTTPretty
 	```
 </details>
-<details><summary><b><a href="https://github.com/cobrateam/splinter">splinter</a></b> (🥈27 ·  ⭐ 2.5K) - Open source tool for testing web applications. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/cobrateam/splinter">splinter</a></b> (🥈27 ·  ⭐ 2.5K) - 开源的 web 应用测试工具。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/cobrateam/splinter) (👨‍💻 170 · 🔀 490 · 📦 5.2K · 📋 490 - 9% open · ⏱️ 22.12.2021):
 
@@ -7890,7 +7890,7 @@ _Libraries for testing codebases and generating test data._
 	conda install -c conda-forge splinter
 	```
 </details>
-<details><summary><b><a href="https://github.com/asweigart/pyautogui">PyAutoGUI</a></b> (🥈26 ·  ⭐ 6K) - PyAutoGUI is a cross-platform GUI automation Python module for human.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/asweigart/pyautogui">PyAutoGUI</a></b> (🥈26 ·  ⭐ 6K) - PyAutoGUI 是一个人性化的跨平台 GUI 自动测试模块。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/asweigart/pyautogui) (👨‍💻 51 · 🔀 790 · 📦 12K · 📋 520 - 62% open · ⏱️ 14.09.2021):
 
@@ -7906,7 +7906,7 @@ _Libraries for testing codebases and generating test data._
 	conda install -c conda-forge pyautogui
 	```
 </details>
-<details><summary><b><a href="https://github.com/lk-geimfari/mimesis">mimesis</a></b> (🥉25 ·  ⭐ 3.4K) - is a Python library that help you generate fake data. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/lk-geimfari/mimesis">mimesis</a></b> (🥉25 ·  ⭐ 3.4K) - 一个帮助你生成伪数据的 Python 库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/lk-geimfari/mimesis) (👨‍💻 110 · 🔀 270 · 📥 190 · 📋 300 - 0% open · ⏱️ 22.12.2021):
 
@@ -7922,7 +7922,7 @@ _Libraries for testing codebases and generating test data._
 	conda install -c conda-forge mimesis
 	```
 </details>
-<details><summary><b><a href="https://github.com/spulec/freezegun">freezegun</a></b> (🥉24 ·  ⭐ 3.1K) - Travel through time by mocking the datetime module. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/spulec/freezegun">freezegun</a></b> (🥉24 ·  ⭐ 3.1K) - 通过伪造日期模块来生成不同的时间。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/spulec/freezegun) (👨‍💻 97 · 🔀 210 · 📋 240 - 29% open · ⏱️ 25.08.2021):
 
@@ -7970,7 +7970,7 @@ _Libraries for testing codebases and generating test data._
 	conda install -c conda-forge factory_boy
 	```
 </details>
-<details><summary><b><a href="https://github.com/CleanCut/green">green</a></b> (🥉22 ·  ⭐ 720) - A clean, colorful test runner. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/CleanCut/green">green</a></b> (🥉22 ·  ⭐ 720) - 干净，多彩的测试工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/CleanCut/green) (👨‍💻 37 · 🔀 69 · 📦 630 · 📋 170 - 1% open · ⏱️ 16.07.2021):
 
@@ -7986,7 +7986,7 @@ _Libraries for testing codebases and generating test data._
 	conda install -c conda-forge green
 	```
 </details>
-<details><summary><b><a href="https://github.com/patrys/httmock">httmock</a></b> (🥉20 ·  ⭐ 430 · 💀) - A mocking library for requests for Python 2.6+ and 3.2+. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/patrys/httmock">httmock</a></b> (🥉20 ·  ⭐ 430 · 💀) - 针对 Python 2.6+ 和 3.2+ 生成 伪造请求的库。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/patrys/httmock) (👨‍💻 29 · 🔀 47 · 📦 1.5K · 📋 26 - 42% open · ⏱️ 28.10.2020):
 
@@ -8002,7 +8002,7 @@ _Libraries for testing codebases and generating test data._
 	conda install -c conda-forge httmock
 	```
 </details>
-<details><summary><b><a href="https://github.com/mindflayer/python-mocket">mocket</a></b> (🥉20 ·  ⭐ 220) - A socket mock framework with gevent/asyncio/SSL support. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/mindflayer/python-mocket">mocket</a></b> (🥉20 ·  ⭐ 220) - gevent/asyncio/SSL 支持的 socket mock 框架。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/mindflayer/python-mocket) (👨‍💻 22 · 🔀 36 · 📦 62 · 📋 54 - 3% open · ⏱️ 10.12.2021):
 
@@ -8018,7 +8018,7 @@ _Libraries for testing codebases and generating test data._
 	conda install -c conda-forge python-mocket
 	```
 </details>
-<details><summary><b><a href="https://github.com/emirozer/fake2db">fake2db</a></b> (🥉18 ·  ⭐ 2.1K · 💀) - Fake database generator. <code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
+<details><summary><b><a href="https://github.com/emirozer/fake2db">fake2db</a></b> (🥉18 ·  ⭐ 2.1K · 💀) - 伪数据库生成器。<code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
 
 - [GitHub](https://github.com/emirozer/fake2db) (👨‍💻 18 · 🔀 110 · 📦 17 · 📋 22 - 31% open · ⏱️ 25.11.2019):
 
@@ -8034,7 +8034,7 @@ _Libraries for testing codebases and generating test data._
 	conda install -c conda-forge fake2db
 	```
 </details>
-<details><summary><b><a href="https://github.com/sixpack/sixpack">sixpack</a></b> (🥉18 ·  ⭐ 1.7K · 💀) - A language-agnostic A/B Testing framework. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/sixpack/sixpack">sixpack</a></b> (🥉18 ·  ⭐ 1.7K · 💀) - 一个和语言无关的 A/B 测试框架。<code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
 - [GitHub](https://github.com/sixpack/sixpack) (👨‍💻 56 · 🔀 180 · 📦 9 · 📋 190 - 35% open · ⏱️ 26.08.2020):
 
@@ -8050,7 +8050,7 @@ _Libraries for testing codebases and generating test data._
 	conda install -c conda-forge sixpack
 	```
 </details>
-<details><summary><b><a href="https://github.com/schemathesis/schemathesis">Schemathesis</a></b> (🥉18 ·  ⭐ 1.1K) - A tool for automatic property-based testing of web applications.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/schemathesis/schemathesis">Schemathesis</a></b> (🥉18 ·  ⭐ 1.1K) - 基于属性的自动测试工具，用于测试使用 Open API / Swagger 规范构建的 Web 应用程序。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/schemathesis/schemathesis) (👨‍💻 36 · 🔀 76 · 📋 600 - 16% open · ⏱️ 23.12.2021):
 
@@ -8082,7 +8082,7 @@ _Libraries for testing codebases and generating test data._
 	conda install -c conda-forge model_mommy
 	```
 </details>
-<details><summary><b><a href="https://github.com/klen/mixer">mixer</a></b> (🥉17 ·  ⭐ 790) - Another fixtures replacement. Supports Django, Flask, SQLAlchemy,.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/klen/mixer">mixer</a></b> (🥉17 ·  ⭐ 790) - 另外一个测试固件 (test fixtures) 替代库，支持 Django, Flask, SQLAlchemy, Peewee 等。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/klen/mixer) (👨‍💻 41 · 🔀 86 · 📋 77 - 38% open · ⏱️ 13.10.2021):
 
@@ -8100,19 +8100,19 @@ _Libraries for testing codebases and generating test data._
 </details>
 <br>
 
-## Text Processing
+## 文本处理
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for parsing and manipulating plain texts._
+_用于解析和操作文本的库。_
 
-🔗&nbsp;<b><a href="https://docs.python.org/3/library/difflib.html">difflib</a></b>  - (Python standard library) Helpers for computing deltas.
+🔗&nbsp;<b><a href="https://docs.python.org/3/library/difflib.html">difflib</a></b>  - （Python 标准库）将文件名映射为 MIME 类型。
 
-🔗&nbsp;<b><a href="https://pypi.org/project/Unidecode/">unidecode</a></b>  - ASCII transliterations of Unicode text.
+🔗&nbsp;<b><a href="https://pypi.org/project/Unidecode/">unidecode</a></b>  - Unicode 文本的 ASCII 转换形式 。
 
-🔗&nbsp;<b><a href="http://pygments.org/">pygments</a></b>  - A generic syntax highlighter.
+🔗&nbsp;<b><a href="http://pygments.org/">pygments</a></b>  - 通用语法高亮工具。
 
-<details><summary><b><a href="https://github.com/pyparsing/pyparsing">pyparsing</a></b> (🥇32 ·  ⭐ 1.3K) - A general purpose framework for generating parsers. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/pyparsing/pyparsing">pyparsing</a></b> (🥇32 ·  ⭐ 1.3K) - 生成通用解析器的框架。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/pyparsing/pyparsing) (👨‍💻 40 · 🔀 200 · 📥 6.2K · 📦 420K · 📋 210 - 8% open · ⏱️ 18.12.2021):
 
@@ -8128,7 +8128,7 @@ _Libraries for parsing and manipulating plain texts._
 	conda install -c conda-forge pyparsing
 	```
 </details>
-<details><summary><b><a href="https://github.com/seatgeek/fuzzywuzzy">fuzzywuzzy</a></b> (🥇31 ·  ⭐ 8.6K) - Fuzzy String Matching. <code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
+<details><summary><b><a href="https://github.com/seatgeek/fuzzywuzzy">fuzzywuzzy</a></b> (🥇31 ·  ⭐ 8.6K) - 模糊字符串匹配。<code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
 
 - [GitHub](https://github.com/seatgeek/fuzzywuzzy) (👨‍💻 70 · 🔀 860 · 📦 11K · 📋 180 - 43% open · ⏱️ 09.09.2021):
 
@@ -8144,7 +8144,7 @@ _Libraries for parsing and manipulating plain texts._
 	conda install -c conda-forge fuzzywuzzy
 	```
 </details>
-<details><summary><b><a href="https://github.com/un33k/python-slugify">python-slugify</a></b> (🥈29 ·  ⭐ 1.1K · 💤) - A Python slugify library that translates unicode to ASCII. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/un33k/python-slugify">python-slugify</a></b> (🥈29 ·  ⭐ 1.1K · 💤) - 一个 Python slug 化库，可以保持 Unicode。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/un33k/python-slugify) (👨‍💻 29 · 🔀 88 · 📦 23K · 📋 51 - 1% open · ⏱️ 12.05.2021):
 
@@ -8160,7 +8160,7 @@ _Libraries for parsing and manipulating plain texts._
 	conda install -c conda-forge python-slugify
 	```
 </details>
-<details><summary><b><a href="https://github.com/life4/textdistance">textdistance</a></b> (🥈26 ·  ⭐ 2.6K) - Compute distance between sequences with 30+ algorithms. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/life4/textdistance">textdistance</a></b> (🥈26 ·  ⭐ 2.6K) - 支持 30 多种算法来计算序列之间的距离。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/life4/textdistance) (👨‍💻 11 · 🔀 200 · 📥 420 · 📦 1.4K · ⏱️ 29.11.2021):
 
@@ -8176,7 +8176,7 @@ _Libraries for parsing and manipulating plain texts._
 	conda install -c conda-forge textdistance
 	```
 </details>
-<details><summary><b><a href="https://github.com/andialbrecht/sqlparse">sqlparse</a></b> (🥈25 ·  ⭐ 2.7K) - A non-validating SQL parser. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/andialbrecht/sqlparse">sqlparse</a></b> (🥈25 ·  ⭐ 2.7K) - 一个无验证的 SQL 解析器。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/andialbrecht/sqlparse) (👨‍💻 91 · 🔀 510 · 📋 460 - 41% open · ⏱️ 10.09.2021):
 
@@ -8192,7 +8192,7 @@ _Libraries for parsing and manipulating plain texts._
 	conda install -c conda-forge sqlparse
 	```
 </details>
-<details><summary><b><a href="https://github.com/chardet/chardet">chardet</a></b> (🥈25 ·  ⭐ 1.6K) - Python 2/3 compatible character encoding detector. <code><a href="https://tldrlegal.com/search?q=LGPL-2.1">❗️LGPL-2.1</a></code></summary>
+<details><summary><b><a href="https://github.com/chardet/chardet">chardet</a></b> (🥈25 ·  ⭐ 1.6K) - 字符编码检测器，兼容 Python2 和 Python3。<code><a href="https://tldrlegal.com/search?q=LGPL-2.1">❗️LGPL-2.1</a></code></summary>
 
 - [GitHub](https://github.com/chardet/chardet) (👨‍💻 44 · 🔀 220 · 📋 120 - 48% open · ⏱️ 22.10.2021):
 
@@ -8208,7 +8208,7 @@ _Libraries for parsing and manipulating plain texts._
 	conda install -c conda-forge chardet
 	```
 </details>
-<details><summary><b><a href="https://github.com/pwaller/pyfiglet">pyfiglet</a></b> (🥈25 ·  ⭐ 930) - An implementation of figlet written in Python. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/pwaller/pyfiglet">pyfiglet</a></b> (🥈25 ·  ⭐ 930) - figlet 的 Python 实现。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/pwaller/pyfiglet) (👨‍💻 20 · 🔀 89 · 📦 15K · 📋 41 - 21% open · ⏱️ 04.09.2021):
 
@@ -8224,7 +8224,7 @@ _Libraries for parsing and manipulating plain texts._
 	conda install -c conda-forge pyfiglet
 	```
 </details>
-<details><summary><b><a href="https://github.com/rspeer/python-ftfy">ftfy</a></b> (🥈22 ·  ⭐ 3.1K · 💤) - Makes Unicode text less broken and more consistent automagically. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/rspeer/python-ftfy">ftfy</a></b> (🥈22 ·  ⭐ 3.1K · 💤) - 让 Unicode 文本更完整更连贯。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/rspeer/python-ftfy) (👨‍💻 18 · 🔀 100 · 📦 4.5K · 📋 120 - 9% open · ⏱️ 17.05.2021):
 
@@ -8240,7 +8240,7 @@ _Libraries for parsing and manipulating plain texts._
 	conda install -c conda-forge python-ftfy
 	```
 </details>
-<details><summary><b><a href="https://github.com/selwin/python-user-agents">python-user-agents</a></b> (🥉21 ·  ⭐ 1.2K) - Browser user agent parser. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/selwin/python-user-agents">python-user-agents</a></b> (🥉21 ·  ⭐ 1.2K) - 浏览器 user agent 解析器。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/selwin/python-user-agents) (👨‍💻 31 · 🔀 180 · 📦 3.5K · 📋 65 - 52% open · ⏱️ 14.12.2021):
 
@@ -8256,7 +8256,7 @@ _Libraries for parsing and manipulating plain texts._
 	conda install -c conda-forge python-user-agents
 	```
 </details>
-<details><summary><b><a href="https://github.com/mozilla/unicode-slugify">unicode-slugify</a></b> (🥉20 ·  ⭐ 300) - A slugifier that generates unicode slugs with Django.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/mozilla/unicode-slugify">unicode-slugify</a></b> (🥉20 ·  ⭐ 300) - 一个 slug 工具，可以生成 unicode slugs ,需要依赖 Django 。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/mozilla/unicode-slugify) (👨‍💻 14 · 🔀 48 · 📦 1.9K · 📋 18 - 55% open · ⏱️ 22.10.2021):
 
@@ -8272,7 +8272,7 @@ _Libraries for parsing and manipulating plain texts._
 	conda install -c conda-forge unicode-slugify
 	```
 </details>
-<details><summary><b><a href="https://github.com/dabeaz/ply">ply</a></b> (🥉19 ·  ⭐ 2.1K · 💀) - Implementation of lex and yacc parsing tools for Python. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/dabeaz/ply">ply</a></b> (🥉19 ·  ⭐ 2.1K · 💀) - lex 和 yacc 解析工具的 Python 实现。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/dabeaz/ply) (👨‍💻 32 · 🔀 350 · 📋 170 - 16% open · ⏱️ 18.06.2020):
 
@@ -8288,7 +8288,7 @@ _Libraries for parsing and manipulating plain texts._
 	conda install -c conda-forge ply
 	```
 </details>
-<details><summary><b><a href="https://github.com/skorokithakis/shortuuid">shortuuid</a></b> (🥉19 ·  ⭐ 1.6K · 📉) - A generator library for concise, unambiguous and URL-safe UUIDs. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/skorokithakis/shortuuid">shortuuid</a></b> (🥉19 ·  ⭐ 1.6K · 📉) - 一个生成器库，用以生成简洁的，明白的，URL 安全的 UUID。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/skorokithakis/shortuuid) (👨‍💻 23 · 🔀 93 · ⏱️ 11.11.2021):
 
@@ -8304,7 +8304,7 @@ _Libraries for parsing and manipulating plain texts._
 	conda install -c conda-forge shortuuid
 	```
 </details>
-<details><summary><b><a href="https://github.com/voronind/awesome-slugify">awesome-slugify</a></b> (🥉19 ·  ⭐ 460 · 💀) - A Python slugify library that can preserve unicode. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/voronind/awesome-slugify">awesome-slugify</a></b> (🥉19 ·  ⭐ 460 · 💀) - 一个 Python slug 化库，可以保持 Unicode。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/voronind/awesome-slugify) (👨‍💻 11 · 🔀 39 · 📦 2.9K · 📋 24 - 54% open · ⏱️ 20.01.2017):
 
@@ -8336,7 +8336,7 @@ _Libraries for parsing and manipulating plain texts._
 	conda install -c conda-forge python-pinyin
 	```
 </details>
-<details><summary><b><a href="https://github.com/derek73/python-nameparser">python-nameparser</a></b> (🥉17 ·  ⭐ 510 · 💀) - Parsing human names into their individual components. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/derek73/python-nameparser">python-nameparser</a></b> (🥉17 ·  ⭐ 510 · 💀) - 把一个人名分解为几个独立的部分。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/derek73/python-nameparser) (👨‍💻 15 · 🔀 84 · 📦 760 · 📋 94 - 25% open · ⏱️ 09.08.2020):
 
@@ -8352,7 +8352,7 @@ _Libraries for parsing and manipulating plain texts._
 	conda install -c conda-forge python-nameparser
 	```
 </details>
-<details><summary><b><a href="https://github.com/ztane/python-Levenshtein">Levenshtein</a></b> (🥉16 ·  ⭐ 1.1K · 💤) - Fast computation of Levenshtein distance and string.. <code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
+<details><summary><b><a href="https://github.com/ztane/python-Levenshtein">Levenshtein</a></b> (🥉16 ·  ⭐ 1.1K · 💤) - 快速计算编辑距离以及字符串的相似度。<code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
 
 - [GitHub](https://github.com/ztane/python-Levenshtein) (🔀 140 · 📦 10K · 📋 55 - 74% open · ⏱️ 01.02.2021):
 
@@ -8364,7 +8364,7 @@ _Libraries for parsing and manipulating plain texts._
 	conda install -c conda-forge 
 	```
 </details>
-<details><summary><b><a href="https://github.com/daviddrysdale/python-phonenumbers">python-phonenumbers</a></b> (🥉14 ·  ⭐ 2.9K) - Parsing, formatting, storing and validating.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/daviddrysdale/python-phonenumbers">python-phonenumbers</a></b> (🥉14 ·  ⭐ 2.9K) - 解析，格式化，存储，校验国际电话号码。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/daviddrysdale/python-phonenumbers) (👨‍💻 25 · 🔀 350 · 📋 130 - 2% open · ⏱️ 14.12.2021):
 
@@ -8380,7 +8380,7 @@ _Libraries for parsing and manipulating plain texts._
 	conda install -c conda-forge python-phonenumbers
 	```
 </details>
-<details><summary><b><a href="https://github.com/vinta/pangu.py">pangu.py</a></b> (🥉14 ·  ⭐ 180 · 💀) - Paranoid text spacing. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/vinta/pangu.py">pangu.py</a></b> (🥉14 ·  ⭐ 180 · 💀) - 在中日韩语字符和数字字母之间添加空格。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/vinta/pangu.py) (👨‍💻 7 · 🔀 22 · 📦 59 · 📋 8 - 37% open · ⏱️ 09.02.2019):
 
@@ -8414,15 +8414,15 @@ _Libraries for parsing and manipulating plain texts._
 </details>
 <br>
 
-## Third-party APIs
+## 第三方 API
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for accessing third party services APIs._
+_用来访问第三方 API 的库。 参见： [List of Python API Wrappers and Libraries](https://github.com/realpython/list-of-python-api-wrappers)。_
 
-🔗&nbsp;<b><a href="https://libcloud.apache.org/">apache-libcloud</a></b>  - One Python library for all clouds.
+🔗&nbsp;<b><a href="https://libcloud.apache.org/">apache-libcloud</a></b>  - 一个为各种云设计的 Python 库。
 
-<details><summary><b><a href="https://github.com/boto/boto3">boto3</a></b> (🥇33 ·  ⭐ 6.9K) - Python interface to Amazon Web Services. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/boto/boto3">boto3</a></b> (🥇33 ·  ⭐ 6.9K) - Amazon Web Services 的 Python 接口。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/boto/boto3) (👨‍💻 130 · 🔀 1.4K · 📦 150K · 📋 2.5K - 10% open · ⏱️ 21.12.2021):
 
@@ -8438,7 +8438,7 @@ _Libraries for accessing third party services APIs._
 	conda install -c conda-forge boto3
 	```
 </details>
-<details><summary><b><a href="https://github.com/burnash/gspread">gspread</a></b> (🥈32 ·  ⭐ 5.7K) - Google Spreadsheets Python API. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/burnash/gspread">gspread</a></b> (🥈32 ·  ⭐ 5.7K) - Google 电子表格的 Python API。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/burnash/gspread) (👨‍💻 140 · 🔀 820 · 📥 56 · 📦 13K · 📋 670 - 10% open · ⏱️ 22.12.2021):
 
@@ -8454,7 +8454,7 @@ _Libraries for accessing third party services APIs._
 	conda install -c conda-forge gspread
 	```
 </details>
-<details><summary><b><a href="https://github.com/googleapis/google-api-python-client">google-api-python-client</a></b> (🥈31 ·  ⭐ 5.3K) - Google APIs Client Library for Python. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/googleapis/google-api-python-client">google-api-python-client</a></b> (🥈31 ·  ⭐ 5.3K) - Python 用的 Google APIs 客户端库。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/googleapis/google-api-python-client) (👨‍💻 180 · 🔀 2K · 📥 93 · 📦 83K · 📋 860 - 4% open · ⏱️ 14.12.2021):
 
@@ -8470,7 +8470,7 @@ _Libraries for accessing third party services APIs._
 	conda install -c conda-forge google-api-python-client
 	```
 </details>
-<details><summary><b><a href="https://github.com/ryanmcgrath/twython">twython</a></b> (🥉29 ·  ⭐ 1.8K) - A Python wrapper for the Twitter API. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/ryanmcgrath/twython">twython</a></b> (🥉29 ·  ⭐ 1.8K) - Twitter API 的封装。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/ryanmcgrath/twython) (👨‍💻 100 · 🔀 380 · 📦 4.8K · 📋 320 - 5% open · ⏱️ 16.07.2021):
 
@@ -8486,7 +8486,7 @@ _Libraries for accessing third party services APIs._
 	conda install -c conda-forge twython
 	```
 </details>
-<details><summary><b><a href="https://github.com/mobolic/facebook-sdk">facebook-sdk</a></b> (🥉27 ·  ⭐ 2.6K · 💤) - Facebook Platform Python SDK. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/mobolic/facebook-sdk">facebook-sdk</a></b> (🥉27 ·  ⭐ 2.6K · 💤) - Facebook 平台的 Python SDK。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/mobolic/facebook-sdk) (👨‍💻 99 · 🔀 910 · 📦 3.3K · 📋 240 - 8% open · ⏱️ 27.12.2020):
 
@@ -8502,7 +8502,7 @@ _Libraries for accessing third party services APIs._
 	conda install -c conda-forge facebook-sdk
 	```
 </details>
-<details><summary><b><a href="https://github.com/jcarbaugh/django-wordpress">django-wordpress</a></b> (🥉12 ·  ⭐ 320 · 💀) - WordPress models and views for Django. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jcarbaugh/django-wordpress">django-wordpress</a></b> (🥉12 ·  ⭐ 320 · 💀) - Django 的 WordPress 模型与视图。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/jcarbaugh/django-wordpress) (👨‍💻 10 · 🔀 79 · 📦 5 · 📋 11 - 18% open · ⏱️ 24.01.2018):
 
@@ -8520,13 +8520,13 @@ _Libraries for accessing third party services APIs._
 </details>
 <br>
 
-## URL Manipulation
+## URL 处理
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for parsing URLs._
+_解析 URLs 的库_
 
-<details><summary><b><a href="https://github.com/marshmallow-code/webargs">webargs</a></b> (🥇22 ·  ⭐ 1.2K) - A friendly library for parsing HTTP request arguments with built-in.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/marshmallow-code/webargs">webargs</a></b> (🥇22 ·  ⭐ 1.2K) - 一个解析 HTTP 请求参数的库，内置对流行 web 框架的支持，包括 Flask, Django, Bottle, Tornado 和 Pyramid。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/marshmallow-code/webargs) (👨‍💻 58 · 🔀 140 · 📦 3.4K · 📋 260 - 2% open · ⏱️ 20.12.2021):
 
@@ -8542,7 +8542,7 @@ _Libraries for parsing URLs._
 	conda install -c conda-forge webargs
 	```
 </details>
-<details><summary><b><a href="https://github.com/ellisonleao/pyshorteners">pyshorteners</a></b> (🥈18 ·  ⭐ 320 · 💀) - A pure Python URL shortening lib. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/ellisonleao/pyshorteners">pyshorteners</a></b> (🥈18 ·  ⭐ 320 · 💀) - 一个纯 Python URL 缩短库。<code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/ellisonleao/pyshorteners) (👨‍💻 24 · 🔀 55 · 📦 3.3K · 📋 74 - 4% open · ⏱️ 29.07.2020):
 
@@ -8558,7 +8558,7 @@ _Libraries for parsing URLs._
 	conda install -c conda-forge pyshorteners
 	```
 </details>
-<details><summary><b><a href="https://github.com/codeinthehole/purl">purl</a></b> (🥈18 ·  ⭐ 260 · 💤) - A simple, immutable URL class with a clean API for interrogation and.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/codeinthehole/purl">purl</a></b> (🥈18 ·  ⭐ 260 · 💤) - 一个简单的，不可变的 URL 类，具有简洁的 API 来进行询问和处理。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/codeinthehole/purl) (👨‍💻 18 · 🔀 34 · 📦 1.8K · 📋 20 - 25% open · ⏱️ 15.05.2021):
 
@@ -8574,7 +8574,7 @@ _Libraries for parsing URLs._
 	conda install -c conda-forge purl
 	```
 </details>
-<details><summary><b><a href="https://github.com/gruns/furl">furl</a></b> (🥉16 ·  ⭐ 2.2K) - A small Python library that makes parsing and manipulating URLs easy. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/gruns/furl">furl</a></b> (🥉16 ·  ⭐ 2.2K) - 一个让处理 URL 更简单小型 Python 库。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/gruns/furl) (👨‍💻 14 · 🔀 120 · 📋 100 - 20% open · ⏱️ 27.09.2021):
 
@@ -8594,13 +8594,13 @@ _Libraries for parsing URLs._
 
 ## Video
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for manipulating video and GIFs._
+_用来操作视频和 GIF 的库。_
 
-🔗&nbsp;<b><a href="https://zulko.github.io/moviepy/">moviepy</a></b>  - A module for script-based movie editing with many formats, including animated GIFs.
+🔗&nbsp;<b><a href="https://zulko.github.io/moviepy/">moviepy</a></b>  - 一个用来进行基于脚本的视频编辑模块，适用于多种格式，包括动图 GIFs。
 
-<details><summary><b><a href="https://github.com/abhiTronix/vidgear">vidgear</a></b> (🥇20 ·  ⭐ 2.1K) - Most Powerful multi-threaded Video Processing framework. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/abhiTronix/vidgear">vidgear</a></b> (🥇20 ·  ⭐ 2.1K) -  强大的多线程视频处理框架。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/abhiTronix/vidgear) (👨‍💻 9 · 🔀 160 · 📥 500 · 📦 160 · 📋 190 - 1% open · ⏱️ 05.12.2021):
 
@@ -8616,7 +8616,7 @@ _Libraries for manipulating video and GIFs._
 	conda install -c conda-forge vidgear
 	```
 </details>
-<details><summary><b><a href="https://github.com/aizvorski/scikit-video">scikit-video</a></b> (🥉9 ·  ⭐ 110 · 💀) - Video processing routines for SciPy. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/aizvorski/scikit-video">scikit-video</a></b> (🥉9 ·  ⭐ 110 · 💀) - SciPy 视频处理常用程序。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/aizvorski/scikit-video) (👨‍💻 2 · 🔀 23 · 📋 7 - 57% open · ⏱️ 28.05.2016):
 
@@ -8634,17 +8634,17 @@ _Libraries for manipulating video and GIFs._
 </details>
 <br>
 
-## Web Asset Management
+## Web 资源管理
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Tools for managing, compressing and minifying website assets._
+_管理、压缩、缩小网站资源的工具。_
 
-🔗&nbsp;<b><a href="http://www.fanstatic.org/en/latest/">fanstatic</a></b>  - Packages, optimizes, and serves static file dependencies as Python packages.
+🔗&nbsp;<b><a href="http://www.fanstatic.org/en/latest/">fanstatic</a></b>  - 打包、优化，并且把静态文件依赖作为 Python 的包来提供。
 
 🔗&nbsp;<b><a href="http://wimleers.com/fileconveyor">fileconveyor</a></b>  - A daemon to detect and sync files to CDNs, S3 and FTP.
 
-<details><summary><b><a href="https://github.com/jazzband/django-pipeline">django-pipeline</a></b> (🥇31 ·  ⭐ 1.4K) - An asset packaging library for Django. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/jazzband/django-pipeline">django-pipeline</a></b> (🥇31 ·  ⭐ 1.4K) - Django 的资源包装库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/jazzband/django-pipeline) (👨‍💻 170 · 🔀 350 · 📦 1.9K · 📋 430 - 27% open · ⏱️ 25.11.2021):
 
@@ -8660,7 +8660,7 @@ _Tools for managing, compressing and minifying website assets._
 	conda install -c conda-forge django-pipeline
 	```
 </details>
-<details><summary><b><a href="https://github.com/miracle2k/webassets">webassets</a></b> (🥈23 ·  ⭐ 900 · 💤) - Bundles, optimizes, and manages unique cache-busting URLs.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/miracle2k/webassets">webassets</a></b> (🥈23 ·  ⭐ 900 · 💤) - 为你的静态资源打包、优化和管理生成独一无二的缓存 URL。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/miracle2k/webassets) (👨‍💻 160 · 🔀 250 · 📦 5.3K · 📋 290 - 19% open · ⏱️ 01.05.2021):
 
@@ -8676,7 +8676,7 @@ _Tools for managing, compressing and minifying website assets._
 	conda install -c conda-forge webassets
 	```
 </details>
-<details><summary><b><a href="https://github.com/miracle2k/flask-assets">flask-assets</a></b> (🥉22 ·  ⭐ 420 · 💀) - Helps you integrate webassets into your Flask app. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/miracle2k/flask-assets">flask-assets</a></b> (🥉22 ·  ⭐ 420 · 💀) - 帮你将 web 资源整合到你的 Flask app 中。<code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
 - [GitHub](https://github.com/miracle2k/flask-assets) (👨‍💻 38 · 🔀 83 · 📦 6K · 📋 94 - 21% open · ⏱️ 29.02.2020):
 
@@ -8692,7 +8692,7 @@ _Tools for managing, compressing and minifying website assets._
 	conda install -c conda-forge flask-assets
 	```
 </details>
-<details><summary><b><a href="https://github.com/django-compressor/django-compressor">django-compressor</a></b> (🥉21 ·  ⭐ 2.5K) - Compresses linked and inline JavaScript or CSS into a.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/django-compressor/django-compressor">django-compressor</a></b> (🥉21 ·  ⭐ 2.5K) - 将链接和内联的 JavaScript 或 CSS 压缩到一个单独的缓存文件中。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/django-compressor/django-compressor) (👨‍💻 200 · 🔀 540 · 📋 610 - 16% open · ⏱️ 18.12.2021):
 
@@ -8708,7 +8708,7 @@ _Tools for managing, compressing and minifying website assets._
 	conda install -c conda-forge django-compressor
 	```
 </details>
-<details><summary><b><a href="https://github.com/jschneier/django-storages">django-storages</a></b> (🥉20 ·  ⭐ 2.1K) - A collection of custom storage back ends for Django. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jschneier/django-storages">django-storages</a></b> (🥉20 ·  ⭐ 2.1K) - 一个针对 Django 的自定义存储后端的工具集合。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/jschneier/django-storages) (👨‍💻 220 · 🔀 700 · 📋 550 - 25% open · ⏱️ 06.11.2021):
 
@@ -8726,13 +8726,13 @@ _Tools for managing, compressing and minifying website assets._
 </details>
 <br>
 
-## Web Content Extracting
+## 网络
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for extracting web contents._
+_用于网络编程的库。_
 
-<details><summary><b><a href="https://github.com/psf/requests-html">requests-html</a></b> (🥇25 ·  ⭐ 12K · 💀) - Pythonic HTML Parsing for Humans. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/psf/requests-html">requests-html</a></b> (🥇25 ·  ⭐ 12K · 💀) - 人性化的，Pythonic 的 HTML 解析库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/psf/requests-html) (👨‍💻 62 · 🔀 820 · 📦 6.5K · 📋 340 - 42% open · ⏱️ 10.05.2020):
 
@@ -8748,7 +8748,7 @@ _Libraries for extracting web contents._
 	conda install -c conda-forge requests-html
 	```
 </details>
-<details><summary><b><a href="https://github.com/deanmalmgren/textract">textract</a></b> (🥈24 ·  ⭐ 3.2K) - Extract text from any document, Word, PowerPoint, PDFs, etc. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/deanmalmgren/textract">textract</a></b> (🥈24 ·  ⭐ 3.2K) - 从任何格式的文档中提取文本，Word，PowerPoint，PDFs 等等。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/deanmalmgren/textract) (👨‍💻 39 · 🔀 440 · 📋 200 - 37% open · ⏱️ 21.08.2021):
 
@@ -8764,7 +8764,7 @@ _Libraries for extracting web contents._
 	conda install -c conda-forge textract
 	```
 </details>
-<details><summary><b><a href="https://github.com/miso-belica/sumy">sumy</a></b> (🥈23 ·  ⭐ 2.7K) - A module for automatic summarization of text documents and HTML pages. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/miso-belica/sumy">sumy</a></b> (🥈23 ·  ⭐ 2.7K) - 一个为文本文件和 HTML 页面进行自动摘要的模块。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/miso-belica/sumy) (👨‍💻 21 · 🔀 450 · 📦 1K · 📋 93 - 13% open · ⏱️ 23.11.2021):
 
@@ -8780,7 +8780,7 @@ _Libraries for extracting web contents._
 	conda install -c conda-forge sumy
 	```
 </details>
-<details><summary><b><a href="https://github.com/Alir3z4/html2text">html2text</a></b> (🥈23 ·  ⭐ 1.2K) - Convert HTML to Markdown-formatted text. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/Alir3z4/html2text">html2text</a></b> (🥈23 ·  ⭐ 1.2K) - 将 HTML 转换为 Markdown 格式文本。<code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
 
 - [GitHub](https://github.com/Alir3z4/html2text) (👨‍💻 76 · 🔀 200 · 📋 190 - 35% open · ⏱️ 13.06.2021):
 
@@ -8796,7 +8796,7 @@ _Libraries for extracting web contents._
 	conda install -c conda-forge html2text
 	```
 </details>
-<details><summary><b><a href="https://github.com/codelucas/newspaper">newspaper</a></b> (🥉22 ·  ⭐ 12K · 💀) - News extraction, article extraction and content curation.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/codelucas/newspaper">newspaper</a></b> (🥉22 ·  ⭐ 12K · 💀) - 使用 Python 进行新闻提取，文章提取以及内容策展。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/codelucas/newspaper) (👨‍💻 100 · 🔀 1.8K · 📋 630 - 59% open · ⏱️ 02.09.2020):
 
@@ -8812,7 +8812,7 @@ _Libraries for extracting web contents._
 	conda install -c conda-forge newspaper
 	```
 </details>
-<details><summary><b><a href="https://github.com/coleifer/micawber">micawber</a></b> (🥉22 ·  ⭐ 560) - A small library for extracting rich content from URLs. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/coleifer/micawber">micawber</a></b> (🥉22 ·  ⭐ 560) - 一个小型网页内容提取库，用来从 URLs 提取富内容。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/coleifer/micawber) (👨‍💻 27 · 🔀 82 · 📦 640 · ⏱️ 12.07.2021):
 
@@ -8828,7 +8828,7 @@ _Libraries for extracting web contents._
 	conda install -c conda-forge micawber
 	```
 </details>
-<details><summary><b><a href="https://github.com/buriy/python-readability">python-readability</a></b> (🥉18 ·  ⭐ 2.1K) - Fast Python port of arc90's readability tool. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/buriy/python-readability">python-readability</a></b> (🥉18 ·  ⭐ 2.1K) - arc90 公司 readability 工具的 Python 高速端口。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/buriy/python-readability) (👨‍💻 37 · 🔀 330 · 📋 92 - 31% open · ⏱️ 24.09.2021):
 
@@ -8844,7 +8844,7 @@ _Libraries for extracting web contents._
 	conda install -c conda-forge python-readability
 	```
 </details>
-<details><summary><b><a href="https://github.com/gaojiuli/toapi">toapi</a></b> (🥉16 ·  ⭐ 3.2K) - Every web site provides APIs. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/gaojiuli/toapi">toapi</a></b> (🥉16 ·  ⭐ 3.2K) - 一个轻巧，简单，快速的 Flask 库，致力于为所有网站提供 API 服务。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/gaojiuli/toapi) (👨‍💻 12 · 🔀 220 · 📋 53 - 9% open · ⏱️ 28.06.2021):
 
@@ -8860,7 +8860,7 @@ _Libraries for extracting web contents._
 	conda install -c conda-forge toapi
 	```
 </details>
-<details><summary><b><a href="https://github.com/michaelhelmick/lassie">lassie</a></b> (🥉15 ·  ⭐ 540) - Web Content Retrieval for Humans. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/michaelhelmick/lassie">lassie</a></b> (🥉15 ·  ⭐ 540) - 人性化的网页内容检索库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/michaelhelmick/lassie) (👨‍💻 15 · 🔀 42 · 📦 27 · 📋 38 - 23% open · ⏱️ 20.08.2021):
 
@@ -8878,17 +8878,17 @@ _Libraries for extracting web contents._
 </details>
 <br>
 
-## Web Crawling
+## HTML 处理
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries to automate web scraping._
+_处理 HTML 和 XML 的库。_
 
 🔗&nbsp;<b><a href="https://pythonhosted.org/feedparser/">feedparser</a></b>  - Universal feed parser.
 
-🔗&nbsp;<b><a href="https://scrapy.org/">scrapy</a></b>  - A fast high-level screen scraping and web crawling framework.
+🔗&nbsp;<b><a href="https://scrapy.org/">scrapy</a></b>  - 一个快速高级的屏幕爬取及网页采集框架。
 
-<details><summary><b><a href="https://github.com/lorien/grab">grab</a></b> (🥇25 ·  ⭐ 2.1K · 💤) - Site scraping framework. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/lorien/grab">grab</a></b> (🥇25 ·  ⭐ 2.1K · 💤) - 站点爬取框架。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/lorien/grab) (👨‍💻 65 · 🔀 250 · 📦 330 · 📋 220 - 12% open · ⏱️ 08.12.2020):
 
@@ -8904,7 +8904,7 @@ _Libraries to automate web scraping._
 	conda install -c conda-forge grab
 	```
 </details>
-<details><summary><b><a href="https://github.com/binux/pyspider">pyspider</a></b> (🥈24 ·  ⭐ 15K · 💀) - A powerful spider system. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/binux/pyspider">pyspider</a></b> (🥈24 ·  ⭐ 15K · 💀) - 一个强大的爬虫系统。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/binux/pyspider) (👨‍💻 62 · 🔀 3.5K · 📦 300 · 📋 810 - 33% open · ⏱️ 02.08.2020):
 
@@ -8920,7 +8920,7 @@ _Libraries to automate web scraping._
 	conda install -c conda-forge pyspider
 	```
 </details>
-<details><summary><b><a href="https://github.com/MechanicalSoup/MechanicalSoup">MechanicalSoup</a></b> (🥈21 ·  ⭐ 3.9K) - A Python library for automating interaction with websites. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/MechanicalSoup/MechanicalSoup">MechanicalSoup</a></b> (🥈21 ·  ⭐ 3.9K) - 用于自动和网络站点交互的 Python 库。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/MechanicalSoup/MechanicalSoup) (👨‍💻 46 · 🔀 330 · 📥 42 · 📋 160 - 15% open · ⏱️ 15.10.2021):
 
@@ -8936,7 +8936,7 @@ _Libraries to automate web scraping._
 	conda install -c conda-forge MechanicalSoup
 	```
 </details>
-<details><summary><b><a href="https://github.com/jmcarp/robobrowser">robobrowser</a></b> (🥉20 ·  ⭐ 3.6K · 💀) - A simple, Pythonic library for browsing the web without a.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jmcarp/robobrowser">robobrowser</a></b> (🥉20 ·  ⭐ 3.6K · 💀) - 一个简单的，Python 风格的库，用来浏览网站，而不需要一个独立安装的浏览器。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/jmcarp/robobrowser) (👨‍💻 10 · 🔀 330 · 📦 800 · 📋 74 - 59% open · ⏱️ 07.06.2015):
 
@@ -8952,7 +8952,7 @@ _Libraries to automate web scraping._
 	conda install -c conda-forge robobrowser
 	```
 </details>
-<details><summary><b><a href="https://github.com/scrapinghub/portia">portia</a></b> (🥉17 ·  ⭐ 8.3K · 💀) - Visual scraping for Scrapy. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/scrapinghub/portia">portia</a></b> (🥉17 ·  ⭐ 8.3K · 💀) - Scrapy 可视化爬取。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/scrapinghub/portia) (👨‍💻 49 · 🔀 1.3K · 📥 140 · 📦 41 · 📋 450 - 25% open · ⏱️ 10.07.2019):
 
@@ -8968,7 +8968,7 @@ _Libraries to automate web scraping._
 	conda install -c conda-forge portia
 	```
 </details>
-<details><summary><b><a href="https://github.com/qinxuye/cola">cola</a></b> (🥉14 ·  ⭐ 1.4K · 💀) - A distributed crawling framework. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/qinxuye/cola">cola</a></b> (🥉14 ·  ⭐ 1.4K · 💀) - 一个分布式爬虫框架。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/qinxuye/cola) (👨‍💻 3 · 🔀 530 · 📦 4 · 📋 65 - 20% open · ⏱️ 01.03.2020):
 
@@ -8986,27 +8986,27 @@ _Libraries to automate web scraping._
 </details>
 <br>
 
-## Web Frameworks
+## Web 框架
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Traditional full stack web frameworks._
+_全栈 Web 框架。_
 
-🔗&nbsp;<b><a href="https://www.djangoproject.com/">Django</a></b>  - The most popular web framework in Python.
+🔗&nbsp;<b><a href="https://www.djangoproject.com/">Django</a></b>  - Python 界最流行的 web 框架。
 
 🔗&nbsp;<b><a href="https://github.com/shahraizali/awesome-django">awesome-django</a></b> ( ⭐ 700 · 💀)  - The Best Django Resource, Awesome Django for mature packages.
 
-🔗&nbsp;<b><a href="http://flask.pocoo.org/">Flask</a></b>  - A microframework for Python.
+🔗&nbsp;<b><a href="http://flask.pocoo.org/">Flask</a></b>  - 一个 Python 微型框架。
 
 🔗&nbsp;<b><a href="https://github.com/humiaozuzu/awesome-flask">awesome-flask</a></b> ( ⭐ 10K · 💀)  - A curated list of awesome Flask resources and plugins.
 
-🔗&nbsp;<b><a href="https://pylonsproject.org/">Pyramid</a></b>  - A small, fast, down-to-earth, open source Python web framework.
+🔗&nbsp;<b><a href="https://pylonsproject.org/">Pyramid</a></b>  - 一个小巧，快速，接地气的开源 Python web 框架。
 
 🔗&nbsp;<b><a href="https://github.com/uralbash/awesome-pyramid">awesome-pyramid</a></b> ( ⭐ 520)  - A curated list of awesome Pyramid apps, projects and resources.
 
-🔗&nbsp;<b><a href="http://www.tornadoweb.org/en/latest/">Tornado</a></b>  - A web framework and asynchronous networking library.
+🔗&nbsp;<b><a href="http://www.tornadoweb.org/en/latest/">Tornado</a></b>  - 一个 web 框架和异步网络库。
 
-<details><summary><b><a href="https://github.com/MasoniteFramework/masonite">Masonite</a></b> (🥇19 ·  ⭐ 1.7K) - The modern and developer centric Python web framework. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/MasoniteFramework/masonite">Masonite</a></b> (🥇19 ·  ⭐ 1.7K) - 以开发者为中心的现代 Python Web 框架。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/MasoniteFramework/masonite) (👨‍💻 74 · 🔀 98 · 📥 8 · 📋 260 - 1% open · ⏱️ 12.12.2021):
 
@@ -9026,11 +9026,11 @@ _Traditional full stack web frameworks._
 
 ## WebSocket
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Libraries for working with WebSocket._
+_Web socket 相关库。_
 
-<details><summary><b><a href="https://github.com/aaugustin/websockets">websockets</a></b> (🥇29 ·  ⭐ 3.7K) - A library for building WebSocket servers and clients with a focus.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/aaugustin/websockets">websockets</a></b> (🥇29 ·  ⭐ 3.7K) - 一个用于构建 WebSocket 服务器和客户端的库，着重于正确性和简单性。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/aaugustin/websockets) (👨‍💻 53 · 🔀 390 · 📦 45K · 📋 820 - 2% open · ⏱️ 22.12.2021):
 
@@ -9046,7 +9046,7 @@ _Libraries for working with WebSocket._
 	conda install -c conda-forge websockets
 	```
 </details>
-<details><summary><b><a href="https://github.com/django/channels">channels</a></b> (🥉27 ·  ⭐ 5.1K) - Developer-friendly asynchrony for Django. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/django/channels">channels</a></b> (🥉27 ·  ⭐ 5.1K) - 开发者友好的 Django 异步工具。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/django/channels) (👨‍💻 230 · 🔀 680 · 📦 15K · 📋 1.1K - 9% open · ⏱️ 13.12.2021):
 
@@ -9062,7 +9062,7 @@ _Libraries for working with WebSocket._
 	conda install -c conda-forge channels
 	```
 </details>
-<details><summary><b><a href="https://github.com/crossbario/autobahn-python">autobahn-python</a></b> (🥉23 ·  ⭐ 2.3K) - WebSocket & WAMP for Python on Twisted and.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/crossbario/autobahn-python">autobahn-python</a></b> (🥉23 ·  ⭐ 2.3K) - 适用于 Twisted 和 asyncio 的 Python WebSocket 和 WAMP。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/crossbario/autobahn-python) (👨‍💻 120 · 🔀 720 · 📦 16K · 📋 830 - 21% open · ⏱️ 21.11.2021):
 
@@ -9080,15 +9080,15 @@ _Libraries for working with WebSocket._
 </details>
 <br>
 
-## WSGI Servers
+## WSGI 服务器
 
-<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_WSGI-compatible web servers._
+_兼容 WSGI 的 web 服务器_
 
-🔗&nbsp;<b><a href="https://uwsgi-docs.readthedocs.io/en/latest/">uWSGI</a></b>  - A project aims at developing a full stack for building hosting services, written in C.
+🔗&nbsp;<b><a href="https://uwsgi-docs.readthedocs.io/en/latest/">uWSGI</a></b>  - uwsgi 项目的目的是开发一组全栈工具，用来建立托管服务， 由 C 语言编写。
 
-<details><summary><b><a href="https://github.com/pallets/werkzeug">werkzeug</a></b> (🥇36 ·  ⭐ 5.9K) - A WSGI utility library for Python that powers Flask and can easily be.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/pallets/werkzeug">werkzeug</a></b> (🥇36 ·  ⭐ 5.9K) - 一个 WSGI 工具库，驱动着 Flask ，而且可以很方便大嵌入到你的项目中去。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/pallets/werkzeug) (👨‍💻 440 · 🔀 1.6K · 📥 250 · 📦 640K · 📋 910 - 2% open · ⏱️ 23.12.2021):
 
@@ -9104,7 +9104,7 @@ _WSGI-compatible web servers._
 	conda install -c conda-forge werkzeug
 	```
 </details>
-<details><summary><b><a href="https://github.com/benoitc/gunicorn">gunicorn</a></b> (🥈32 ·  ⭐ 8K) - Pre-forked, ported from Ruby's Unicorn project. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/benoitc/gunicorn">gunicorn</a></b> (🥈32 ·  ⭐ 8K) - Pre-forked, 部分是由 C 语言编写的。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/benoitc/gunicorn) (👨‍💻 360 · 🔀 1.5K · 📥 99 · 📦 570K · 📋 1.7K - 17% open · ⏱️ 17.12.2021):
 
@@ -9120,7 +9120,7 @@ _WSGI-compatible web servers._
 	conda install -c conda-forge gunicorn
 	```
 </details>
-<details><summary><b><a href="https://github.com/jonashaag/bjoern">bjoern</a></b> (🥉23 ·  ⭐ 2.7K) - Asynchronous, very fast and written in C. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/jonashaag/bjoern">bjoern</a></b> (🥉23 ·  ⭐ 2.7K) - 异步，非常快速，由 C 语言编写。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/jonashaag/bjoern) (👨‍💻 41 · 🔀 180 · 📦 380 · 📋 140 - 17% open · ⏱️ 13.08.2021):
 
@@ -9136,7 +9136,7 @@ _WSGI-compatible web servers._
 	conda install -c conda-forge bjoern
 	```
 </details>
-<details><summary><b><a href="https://github.com/Pylons/waitress">waitress</a></b> (🥉19 ·  ⭐ 1K) - Multi-threaded, powers Pyramid. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/Pylons/waitress">waitress</a></b> (🥉19 ·  ⭐ 1K) - 多线程, 是它驱动着 Pyramid 框架。<code>❗Unlicensed</code></summary>
 
 - [GitHub](https://github.com/Pylons/waitress) (👨‍💻 44 · 🔀 130 · 📋 190 - 9% open · ⏱️ 09.09.2021):
 
